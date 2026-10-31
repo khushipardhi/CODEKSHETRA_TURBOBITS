@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nagpur Connect — Civic Incident Status Update</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f1f5f9;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #0f172a;
+      -webkit-font-smoothing: antialiased;
+    }
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 0;
+    }
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #f1f5f9;
+      padding: 40px 0;
+    }
+    .main {
+      background-color: #ffffff;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+      border: 1px solid #e2e8f0;
+    }
+    .btn-primary {
+      background-color: #2563eb;
+      color: #ffffff !important;
+      text-decoration: none;
+      padding: 14px 30px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 10px;
+      display: inline-block;
+      letter-spacing: 0.2px;
+    }
+    .nav-link {
+      color: #475569 !important;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 12px;
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 3px 2px;
+    }
+    @media only screen and (max-width: 620px) {
+      .main {
+        width: 94% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center class="wrapper">
+    <table class="main" width="100%">
+      
+      <!-- ─── HEADER: CRISP LIGHT CIVIC BRANDING ─── -->
+      <tr>
+        <td style="background-color: #ffffff; padding: 28px 32px; border-bottom: 1px solid #e2e8f0;">
+          <table width="100%">
+            <tr>
+              <td valign="middle">
+                <div style="font-size: 11px; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 4px;">
+                  Nagpur Municipal Corporation
+                </div>
+                <div style="font-size: 22px; font-weight: 800; color: #0f172a; letter-spacing: -0.5px;">
+                  🏛️ Nagpur Connect
+                </div>
+                <div style="font-size: 13px; color: #64748b; margin-top: 2px;">
+                  AI-Powered Civic Incident Response Platform
+                </div>
+              </td>
+              <td align="right" valign="middle">
+                <a href="https://nagpur-connect.vercel.app/dashboard/{{report_id}}" style="text-decoration: none;" target="_blank">
+                  <span style="background-color: #f8fafc; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 8px; font-family: monospace; font-size: 12px; font-weight: 700; color: #1e293b; display: inline-block;">
+                    #{{report_id}}
+                  </span>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- ─── BODY CONTENT ─── -->
+      <tr>
+        <td style="padding: 32px;">
+
+          <!-- Personalized Greeting -->
+          <div style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 8px;">
+            Hello {{to_name}},
+          </div>
+
+          <div style="font-size: 14px; line-height: 1.6; color: #475569; margin-bottom: 24px;">
+            Here is the latest live status update regarding your civic incident report submitted to the Nagpur Municipal Corporation dispatch system.
+          </div>
+
+          <!-- Dynamic Status Highlight Card -->
+          <table width="100%" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 5px solid {{status_color}}; border-radius: 12px; margin-bottom: 26px;">
+            <tr>
+              <td style="padding: 18px 20px;">
+                <span style="background-color: {{status_color}}; color: #ffffff; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.6px; padding: 4px 10px; border-radius: 20px; display: inline-block; margin-bottom: 8px;">
+                  {{status_badge}}
+                </span>
+                <div style="font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 6px;">
+                  {{status_title}}
+                </div>
+                <div style="font-size: 13px; color: #475569; line-height: 1.5;">
+                  {{status_message}}
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- 4-Stage Visual Progress Timeline -->
+          <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 12px;">
+            Resolution Timeline (Stage {{timeline_step}} of 4)
+          </div>
+
+          <table width="100%" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 14px 10px; margin-bottom: 26px;">
+            <tr>
+              <!-- Stage 1 -->
+              <td align="center" style="font-size: 11px; font-weight: 700; color: {{step1_color}}; width: 25%;">
+                <div style="width: 24px; height: 24px; border-radius: 50%; background-color: {{step1_bg}}; color: #ffffff; line-height: 24px; margin: 0 auto 4px auto; font-size: 11px; font-weight: 800;">
+                  {{step1_icon}}
+                </div>
+                1. Submitted
+              </td>
+
+              <!-- Stage 2 -->
+              <td align="center" style="font-size: 11px; font-weight: 700; color: {{step2_color}}; width: 25%;">
+                <div style="width: 24px; height: 24px; border-radius: 50%; background-color: {{step2_bg}}; color: #ffffff; line-height: 24px; margin: 0 auto 4px auto; font-size: 11px; font-weight: 800;">
+                  {{step2_icon}}
+                </div>
+                2. Routed
+              </td>
+
+              <!-- Stage 3 -->
+              <td align="center" style="font-size: 11px; font-weight: 700; color: {{step3_color}}; width: 25%;">
+                <div style="width: 24px; height: 24px; border-radius: 50%; background-color: {{step3_bg}}; color: #ffffff; line-height: 24px; margin: 0 auto 4px auto; font-size: 11px; font-weight: 800;">
+                  {{step3_icon}}
+                </div>
+                3. In Progress
+              </td>
+
+              <!-- Stage 4 -->
+              <td align="center" style="font-size: 11px; font-weight: 700; color: {{step4_color}}; width: 25%;">
+                <div style="width: 24px; height: 24px; border-radius: 50%; background-color: {{step4_bg}}; color: #ffffff; line-height: 24px; margin: 0 auto 4px auto; font-size: 11px; font-weight: 800;">
+                  {{step4_icon}}
+                </div>
+                4. Resolved
+              </td>
+            </tr>
+          </table>
+
+          <!-- Incident Details Summary Table -->
+          <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 10px;">
+            Incident Details
+          </div>
+
+          <table width="100%" style="border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden; margin-bottom: 24px;">
+            <tr style="background-color: #f8fafc;">
+              <td style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #64748b; width: 32%; border-bottom: 1px solid #e2e8f0;">Title:</td>
+              <td style="padding: 10px 14px; font-size: 13px; font-weight: 700; color: #0f172a; border-bottom: 1px solid #e2e8f0;">{{report_title}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #64748b; border-bottom: 1px solid #e2e8f0;">Department:</td>
+              <td style="padding: 10px 14px; font-size: 13px; font-weight: 700; color: #2563eb; border-bottom: 1px solid #e2e8f0;">🏛️ {{department_name}}</td>
+            </tr>
+            <tr style="background-color: #f8fafc;">
+              <td style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #64748b; border-bottom: 1px solid #e2e8f0;">Location:</td>
+              <td style="padding: 10px 14px; font-size: 13px; color: #334155; border-bottom: 1px solid #e2e8f0;">📍 {{location_text}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #64748b;">Last Updated:</td>
+              <td style="padding: 10px 14px; font-size: 13px; color: #334155;">🕒 {{updated_at}}</td>
+            </tr>
+          </table>
+
+          <!-- Officer / Field Crew Action Notes -->
+          <div style="background-color: #f0f9ff; border: 1px solid #bae6fd; border-radius: 10px; padding: 14px 16px; margin-bottom: 28px;">
+            <div style="font-size: 11px; font-weight: 800; color: #0369a1; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 4px;">
+              👷 Official Action & Field Notes:
+            </div>
+            <div style="font-size: 13px; color: #0c4a6e; line-height: 1.5; font-style: italic;">
+              "{{action_notes}}"
+            </div>
+          </div>
+
+          <!-- Primary CTA Button (Track Live Status) -->
+          <div style="text-align: center; margin: 30px 0 16px 0;">
+            <a href="https://nagpur-connect.vercel.app/dashboard/{{report_id}}" class="btn-primary" target="_blank">
+              🚀 Track Live Incident Status & GPS ↗
+            </a>
+          </div>
+
+          <!-- Direct Link Fallback -->
+          <div style="text-align: center; font-size: 11px; color: #94a3b8; margin-bottom: 30px;">
+            Direct Report URL: <a href="https://nagpur-connect.vercel.app/dashboard/{{report_id}}" style="color: #2563eb; text-decoration: underline; word-break: break-all;" target="_blank">https://nagpur-connect.vercel.app/dashboard/{{report_id}}</a>
+          </div>
+
+          <!-- Quick Navigation Bar for Website Redirection -->
+          <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; text-align: center; margin-bottom: 30px;">
+            <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 10px;">
+              Quick Portal Navigation
+            </div>
+            <a href="https://nagpur-connect.vercel.app" class="nav-link" target="_blank">🏠 Citizen Portal Home</a>
+            <a href="https://nagpur-connect.vercel.app/my-reports" class="nav-link" target="_blank">📋 My Reports List</a>
+            <a href="https://nagpur-connect.vercel.app/track?ref={{report_id}}" class="nav-link" target="_blank">🗺️ Live Incident Map</a>
+            <a href="https://nagpur-connect.vercel.app/emergency" class="nav-link" target="_blank" style="color: #dc2626 !important; border-color: #fecaca; background-color: #fef2f2;">🚨 Emergency Helpline</a>
+          </div>
+
+          <!-- Official Sign-off -->
+          <div style="padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 13px; color: #475569; line-height: 1.6;">
+            With regards,<br>
+            <strong style="color: #0f172a; font-size: 14px;">{{regards_team}}</strong><br>
+            <span style="font-size: 12px; color: #64748b;">Nagpur Municipal Corporation (NMC) Civic Response Command</span>
+          </div>
+
+        </td>
+      </tr>
+
+      <!-- ─── FOOTER ─── -->
+      <tr>
+        <td style="background-color: #f8fafc; padding: 22px 32px; text-align: center; border-top: 1px solid #e2e8f0; font-size: 11px; color: #64748b; line-height: 1.6;">
+          You received this automated notification for report <strong>#{{report_id}}</strong> registered on the Nagpur Connect platform.<br>
+          For queries or assistance, contact: <a href="mailto:{{support_email}}" style="color: #2563eb; text-decoration: underline;">{{support_email}}</a> or dial 112 / NMC Helpline.<br>
+          © 2026 Nagpur Municipal Corporation. All rights reserved.
+        </td>
+      </tr>
+
+    </table>
+  </center>
+</body>
+</html>

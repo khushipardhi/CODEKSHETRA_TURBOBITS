@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-10-20T12:22:40.091Z",
+  "environment": {
+    "browser": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "baseUrl": "http://localhost:3000",
+    "nodeVersion": "v24.19.0"
+  },
+  "pageLoads": {
+    "/admin/mumbai/simulation": {
+      "totalLoadMs": 10775,
+      "mapReadyMs": 32,
+      "status": "OK"
+    },
+    "/admin/mumbai/map": {
+      "totalLoadMs": 16403,
+      "status": "OK"
+    },
+    "/admin/mumbai/telemetry-lab": {
+      "totalLoadMs": 7468,
+      "status": "OK"
+    },
+    "/mumbai/sentinel": {
+      "totalLoadMs": 7908,
+      "status": "OK"
+    }
+  },
+  "simulationMetrics": {
+    "toolbarStability": {
+      "initialBox": {
+        "width": 0,
+        "height": 0,
+        "top": 0
+      },
+      "playingBox": {
+        "width": 0,
+        "height": 0,
+        "top": 0
+      },
+      "widthDeltaPx": 0,
+      "heightDeltaPx": 0,
+      "stable": true
+    }
+  },
+  "gisMetrics": {
+    "wardSelectMs": 549
+  },
+  "pdfMetrics": {
+    "simulationPdf": {
+      "latencyMs": 9884,
+      "sizeBytes": 630111,
+      "status": "OK"
+    },
+    "telemetryPdf": {
+      "latencyMs": 7106,
+      "sizeBytes": 250621,
+      "status": "OK"
+    }
+  },
+  "networkMetrics": {
+    "totalRequests": 423,
+    "failedRequests": 9,
+    "errorUrls": [
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://localhost:3000/api/hazards/simulation",
+        "failure": "net::ERR_ABORTED"
+      }
+    ]
+  },
+  "consoleErrors": [],
+  "screenshotsCaptured": [
+    "01_spatial_simulation_lab_at_rest.png",
+    "07_hazard_map_osm_individual_facilities.png",
+    "10_telemetry_overview_with_report_action.png",
+    "12_citizen_dashboard_and_sentinel_ai.png",
+    "02_simulation_actively_playing.png",
+    "04_stable_simulation_toolbar.png",
+    "03_simulation_paused_at_later_step.png",
+    "05_ward_selected_and_fitted.png",
+    "06_filled_ward_polygons_with_legend.png",
+    "08_readable_simulation_report.png",
+    "09_opened_simulation_pdf.png",
+    "11_opened_telemetry_pdf_with_graphs.png",
+    "13_representative_mobile_views.png",
+    "14_error_or_unavailable_data_state.png"
+  ]
+}

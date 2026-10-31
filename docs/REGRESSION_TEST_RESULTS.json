@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-10-18T23:59:14.593Z",
+  "urbanLinkCore": [
+    {
+      "name": "Admin stats for mumbai",
+      "passed": true,
+      "details": "Status 200, 951ms"
+    },
+    {
+      "name": "Admin incidents query for mumbai",
+      "passed": true,
+      "details": "Status 200"
+    },
+    {
+      "name": "Admin map data for mumbai",
+      "passed": true,
+      "details": "Facilities: 219"
+    },
+    {
+      "name": "Admin stats for pune",
+      "passed": true,
+      "details": "Status 200, 194ms"
+    },
+    {
+      "name": "Admin incidents query for pune",
+      "passed": true,
+      "details": "Status 200"
+    },
+    {
+      "name": "Admin map data for pune",
+      "passed": true,
+      "details": "Facilities: 428"
+    },
+    {
+      "name": "Admin stats for nagpur",
+      "passed": true,
+      "details": "Status 200, 198ms"
+    },
+    {
+      "name": "Admin incidents query for nagpur",
+      "passed": true,
+      "details": "Status 200"
+    },
+    {
+      "name": "Admin map data for nagpur",
+      "passed": true,
+      "details": "Facilities: 200"
+    }
+  ],
+  "sentinelEndpoints": [
+    {
+      "name": "Live Hazard Feed for mumbai",
+      "passed": true,
+      "details": "Temp: 27.8°C, Rain: 0.3mm/h, Risk: MODERATE"
+    },
+    {
+      "name": "Connector Health Monitor for mumbai",
+      "passed": true,
+      "details": "7 connectors active"
+    },
+    {
+      "name": "Alert Review & Approval for mumbai",
+      "passed": true,
+      "details": "Pending: 0"
+    },
+    {
+      "name": "Live Hazard Feed for pune",
+      "passed": true,
+      "details": "Temp: 24.4°C, Rain: 0.3mm/h, Risk: LOW"
+    },
+    {
+      "name": "Connector Health Monitor for pune",
+      "passed": true,
+      "details": "7 connectors active"
+    },
+    {
+      "name": "Alert Review & Approval for pune",
+      "passed": true,
+      "details": "Pending: 0"
+    },
+    {
+      "name": "Live Hazard Feed for nagpur",
+      "passed": true,
+      "details": "Temp: 25.3°C, Rain: 0mm/h, Risk: LOW"
+    },
+    {
+      "name": "Connector Health Monitor for nagpur",
+      "passed": true,
+      "details": "7 connectors active"
+    },
+    {
+      "name": "Alert Review & Approval for nagpur",
+      "passed": true,
+      "details": "Pending: 0"
+    },
+    {
+      "name": "Real-Time Explainable Assessment (Mumbai)",
+      "passed": true,
+      "details": "Score: 24/100, Level: LOW"
+    },
+    {
+      "name": "Monsoon Stress-Test Simulation (Mumbai 50 mm/h)",
+      "passed": true,
+      "details": "Scenario Score: 49/100, Watermarked: true"
+    }
+  ],
+  "cityIsolation": [
+    {
+      "name": "Mumbai Map Layers Ingestion",
+      "passed": true,
+      "details": "Hotspots: 35, Sinks: 15"
+    },
+    {
+      "name": "Pune Boundary Isolation (Zero Mumbai Flood Data Leakage)",
+      "passed": true,
+      "details": "Pune Hotspots: 0, Sinks: 0"
+    },
+    {
+      "name": "Nagpur Boundary Isolation (Zero Mumbai Flood Data Leakage)",
+      "passed": true,
+      "details": "Nagpur Hotspots: 0, Sinks: 0"
+    },
+    {
+      "name": "Unsupported City Rejection",
+      "passed": true,
+      "details": "Rejected with HTTP 400"
+    }
+  ],
+  "dataIntegrity": [
+    {
+      "name": "Mumbai 10 GIS Spatial Layers in data/mumbai/flood_spatial",
+      "passed": true,
+      "details": "10 files verified"
+    },
+    {
+      "name": "Pune Civic Facilities & Boundaries in data/pune",
+      "passed": true,
+      "details": "28 files verified"
+    },
+    {
+      "name": "Nagpur Civic Facilities & Zones in data/geodata",
+      "passed": true,
+      "details": "14 files verified"
+    }
+  ],
+  "securityAudit": [
+    {
+      "name": "Client-Side Code Secret Leak Scan",
+      "passed": true,
+      "details": "0 sensitive environment tokens found in client components"
+    }
+  ],
+  "aiSafetyAudit": [
+    {
+      "name": "Conversational AI Grounded Response",
+      "passed": true,
+      "details": "Length: 1526 chars, Refers to official BMC status"
+    }
+  ]
+}

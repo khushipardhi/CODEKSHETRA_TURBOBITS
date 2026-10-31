@@ -1,0 +1,2914 @@
+{
+  "01_phase7_citizen_dashboard_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "scripts/capture-phase7-final.mjs"
+  ],
+  "public/screenshots/phase7_final/01_phase7_citizen_dashboard_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md"
+  ],
+  "02_phase7_citizen_dashboard_mobile.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "scripts/capture-phase7-final.mjs"
+  ],
+  "public/screenshots/phase7_final/02_phase7_citizen_dashboard_mobile.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md"
+  ],
+  "03_phase7_citizen_alerts_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "scripts/capture-phase7-final.mjs"
+  ],
+  "public/screenshots/phase7_final/03_phase7_citizen_alerts_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md"
+  ],
+  "04_phase7_citizen_alerts_mobile.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "scripts/capture-phase7-final.mjs"
+  ],
+  "public/screenshots/phase7_final/04_phase7_citizen_alerts_mobile.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md"
+  ],
+  "05_phase7_pune_dashboard_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "scripts/capture-phase7-final.mjs"
+  ],
+  "public/screenshots/phase7_final/05_phase7_pune_dashboard_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md"
+  ],
+  "06_phase7_nagpur_dashboard_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md",
+    "scripts/capture-phase7-final.mjs"
+  ],
+  "public/screenshots/phase7_final/06_phase7_nagpur_dashboard_desktop.png": [
+    "docs/CITIZEN_EXPERIENCE_PHASE7.md"
+  ],
+  "01_citizen_dashboard_desktop.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "02_citizen_dashboard_mobile.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "03_citizen_sentinel_hub_desktop.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "04_citizen_sentinel_hub_mobile.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "05_admin_overview_desktop.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "06_admin_overview_mobile.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "07_admin_hazard_map_mumbai.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "08_department_drainage_desktop.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "09_pune_sentinel_hub.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "10_pune_admin_hazard_map.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "11_nagpur_sentinel_hub.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "12_citizen_reporting_intact.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-all-screenshots.mjs"
+  ],
+  "13_admin_alert_review_modal.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-modals.mjs"
+  ],
+  "14_admin_monsoon_simulation_modal.png": [
+    "docs/FINAL_ACCEPTANCE_REPORT_PHASE6.md",
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md",
+    "scripts/capture-modals.mjs"
+  ],
+  "01_initial_map_osm_basemap.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/01_initial_map_osm_basemap.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "02_individual_facilities_city_zoom.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/02_individual_facilities_city_zoom.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "03_individual_facilities_neighborhood_zoom.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/03_individual_facilities_neighborhood_zoom.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "04_ward_polygon_click.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/04_ward_polygon_click.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "05_ward_selection_from_ranked_report.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/05_ward_selection_from_ranked_report.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "06_ward_selection_from_dropdown.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/06_ward_selection_from_dropdown.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "07_correctly_fitted_ward_boundary.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/07_correctly_fitted_ward_boundary.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "08_multipolygon_complex_geometry.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/08_multipolygon_complex_geometry.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "09_city_change_isolation.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/09_city_change_isolation.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "10_ward_missing_invalid_geometry.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/10_ward_missing_invalid_geometry.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "11_layer_toggles_and_legends.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/11_layer_toggles_and_legends.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "12_map_simulation_playback_update.png": [
+    "docs/GIS_INTERACTION_PHASE2.md",
+    "scripts/capture-phase2-gis-interaction.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_gis_interaction/12_map_simulation_playback_update.png": [
+    "docs/GIS_INTERACTION_PHASE2.md"
+  ],
+  "01_mumbai_default_basemap.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/01_mumbai_default_basemap.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "02_ward_polygons_filled_values.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/02_ward_polygons_filled_values.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "03_low_moderate_high_values.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/03_low_moderate_high_values.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "04_no_data_wards.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/04_no_data_wards.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "05_selected_ward_boundary.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/05_selected_ward_boundary.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "06_facilities_incident_markers_above_fill.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/06_facilities_incident_markers_above_fill.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "07_legend_layer_controls.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/07_legend_layer_controls.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "08_map_simulation_playback.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/08_map_simulation_playback.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "09_map_different_scenario.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/09_map_different_scenario.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "10_light_and_dark_themes.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/10_light_and_dark_themes.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "11_desktop_and_mobile_layouts.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md",
+    "scripts/capture-phase3-map-visualisation.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase3_map_visualisation/11_desktop_and_mobile_layouts.png": [
+    "docs/MAP_VISUALISATION_PHASE3.md"
+  ],
+  "01_simulation_report_studio.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/01_simulation_report_studio.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "02_report_generation_state.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/02_report_generation_state.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "03_successful_pdf_download.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/03_successful_pdf_download.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "04_opened_pdf_cover.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/04_opened_pdf_cover.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "05_complete_simulation_summary_page.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/05_complete_simulation_summary_page.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "06_ward_results_page.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/06_ward_results_page.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "07_methodology_and_limitations.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/07_methodology_and_limitations.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "08_telemetry_report_controls.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/08_telemetry_report_controls.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "09_telemetry_pdf_charts_page.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/09_telemetry_pdf_charts_page.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "10_report_missing_data.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/10_report_missing_data.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "11_narrow_viewport_report_controls.png": [
+    "docs/PDF_REPORTING_PHASE4.md",
+    "scripts/capture-phase4-pdf-reporting.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase4_pdf_reporting/11_narrow_viewport_report_controls.png": [
+    "docs/PDF_REPORTING_PHASE4.md"
+  ],
+  "phase10_01_admin_operational_decision_center_desktop.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase10_02_admin_operational_decision_center_mobile.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase10_03_mumbai_drainage_tasks_desk_desktop.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase10_04_mumbai_drainage_tasks_desk_mobile.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase10_05_pune_roads_tasks_desk_desktop.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase10_06_nagpur_electrical_tasks_desk_desktop.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase10_07_citizen_tracking_and_briefing_desktop.png": [
+    "docs/PHASE10_OPERATIONAL_ROUTING_REPORT.md",
+    "scripts/capture-phase10-screenshots.mjs"
+  ],
+  "phase11_01_admin_settings_data_quality_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_02_admin_settings_data_quality_mobile.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_03_admin_command_centre_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_04_admin_hazard_map_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_05_admin_hazard_map_mobile.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_06_citizen_mumbai_home_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_07_citizen_mumbai_home_mobile.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_08_citizen_sentinel_ai_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_09_citizen_alert_centre_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_10_department_mumbai_swd_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_11_department_pune_roads_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_12_department_nagpur_electricity_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_13_citizen_my_reports_desktop.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase11_14_citizen_my_reports_mobile.png": [
+    "docs/PHASE11_CROSS_DASHBOARD_QA_REPORT.md",
+    "scripts/capture-phase11-screenshots.mjs"
+  ],
+  "phase12_01_citizen_home_my_area_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_01_citizen_home_my_area_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_01_citizen_home_my_area_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_02_citizen_sentinel_ai_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_02_citizen_sentinel_ai_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_02_citizen_sentinel_ai_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_03_citizen_alert_centre_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_03_citizen_alert_centre_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_03_citizen_alert_centre_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_04_citizen_report_submission_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_04_citizen_report_submission_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_04_citizen_report_submission_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_05_citizen_report_tracking_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_05_citizen_report_tracking_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_05_citizen_report_tracking_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_06_admin_command_center_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_06_admin_command_center_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_06_admin_command_center_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_07_admin_map_polished_layers_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_07_admin_map_polished_layers_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_07_admin_map_polished_layers_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_08_admin_incidents_decision_desk_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_08_admin_incidents_decision_desk_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_08_admin_incidents_decision_desk_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_09_department_mumbai_swd_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_09_department_mumbai_swd_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_09_department_mumbai_swd_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_10_department_pune_fire_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_10_department_pune_fire_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_10_department_pune_fire_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_11_department_nagpur_health_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_11_department_nagpur_health_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_11_department_nagpur_health_tasks_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_12_pune_city_dashboard_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_12_pune_city_dashboard_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_12_pune_city_dashboard_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_13_nagpur_city_dashboard_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_13_nagpur_city_dashboard_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_13_nagpur_city_dashboard_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_14_admin_data_quality_health_monitor_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_14_admin_data_quality_health_monitor_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_14_admin_data_quality_health_monitor_desktop.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_15_mobile_citizen_dashboard.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_15_mobile_citizen_dashboard.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_15_mobile_citizen_dashboard.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase12_16_mobile_department_tasks.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "public/screenshots/phase12/phase12_16_mobile_department_tasks.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase12/phase12_16_mobile_department_tasks.png": [
+    "docs/PHASE12_FINAL_HANDOVER_REPORT.md"
+  ],
+  "phase1_01_citizen_dashboard_desktop.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_02_citizen_dashboard_mobile.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_03_area_location_selection.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_04_citizen_hazard_detail_and_outlook.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_05_sentinel_ai_source_backed_briefing.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_06_contextual_report_form_before_confirmation.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md",
+    "scripts/capture-screen6.mjs"
+  ],
+  "phase1_07_citizen_my_reports_lifecycle.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_08_admin_command_and_incident_record.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_09_assigned_department_view.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "phase1_10_source_health_and_staleness_monitor.png": [
+    "docs/PHASE1_CITIZEN_INTELLIGENCE_REPORT.md"
+  ],
+  "media_1792314110534.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/8087085b-5ab5-4129-8b64-884dc08d2745/.user_uploaded/media_1792314110534.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "gis_repair_01_full_mumbai_osm_basemap.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "gis_repair_02_island_city_coastal_alignment.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "gis_repair_03_kurla_mithi_basin_infrastructure.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "gis_repair_04_western_suburbs_andheri.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "gis_repair_05_eastern_suburbs_chembur.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "gis_repair_06_bmc_zones_hierarchy.png": [
+    "docs/PHASE1_MUMBAI_GIS_REPAIR_REPORT.md"
+  ],
+  "01_full_mumbai_basemap_wards.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/01_full_mumbai_basemap_wards.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "02_rainfall_scenario_initial_t0.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/02_rainfall_scenario_initial_t0.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "03_rainfall_scenario_advanced_t3.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/03_rainfall_scenario_advanced_t3.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "04_rainfall_intensity_updated_90mm.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/04_rainfall_intensity_updated_90mm.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "05_selected_ward_calculation_details.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/05_selected_ward_calculation_details.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "06_baseline_historical_comparison.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/06_baseline_historical_comparison.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "07_hazard_overlay_readable_legend.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/07_hazard_overlay_readable_legend.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "08_scenario_missing_inputs_partial.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/08_scenario_missing_inputs_partial.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "09_generated_structured_report.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/09_generated_structured_report.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "10_responsive_mobile_simulation.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_sim/10_responsive_mobile_simulation.png": [
+    "docs/PHASE2_SPATIAL_SIMULATION_VALIDATION.md"
+  ],
+  "phase2_01_telemetry_lab_overview.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_02_parameter_explorer_catalogue.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_03_weather_atmosphere_timeseries.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_04_rainfall_accumulations_hydrology.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_05_air_quality_standards_comparison.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_06_mumbai_coastal_marine_analysis.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_07_zone_microclimate_comparison.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_08_historical_era5_reanalysis.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_09_data_quality_provider_health.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_10_stale_unavailable_isolation_state.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase2_11_mobile_telemetry_lab.png": [
+    "docs/PHASE2_TELEMETRY_LAB_REPORT.md"
+  ],
+  "phase3_01_citizen_hazard_dashboard_with_map.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_01_citizen_hazard_dashboard_with_map.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_02_citizen_selected_location_ward_details.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_02_citizen_selected_location_ward_details.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_03_hazard_information_and_source_context.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_03_hazard_information_and_source_context.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_04_citizen_civic_reports_page.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_04_citizen_civic_reports_page.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_05_sentinel_ai_rendered_markdown.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_05_sentinel_ai_rendered_markdown.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_06_contextual_report_form_and_status.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_06_contextual_report_form_and_status.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_07_telemetry_lab_active_tab_styling.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_07_telemetry_lab_active_tab_styling.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_08_populated_parameter_chart.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_08_populated_parameter_chart.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_09_chart_valid_no_data_state.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_09_chart_valid_no_data_state.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_10_admin_map_to_impact_incident_workflow.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "/urbanhazards/urban_link-master/docs/screenshots/phase3/phase3_10_admin_map_to_impact_incident_workflow.png": [
+    "docs/PHASE3_CITIZEN_TELEMETRY_INTEGRATION_REPORT.md"
+  ],
+  "phase3_01_full_mumbai_ward_boundary_map.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_02_environmental_overlays_drainage.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_03_continuous_hazard_isobands_legend.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_04_geometry_cleaned_coastal_alignment.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_05_rainfall_scenario_before_playback.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_06_rainfall_scenario_timestep_progression.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_07_baseline_versus_scenario_comparison.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_08_selected_ward_details_calculations.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_09_coastal_rainfall_sluice_lockout.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_10_extreme_heat_stress_screening.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_11_historical_playback_july2005.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_12_degraded_model_limitations_panel.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "phase3_13_mobile_responsive_simulation.png": [
+    "docs/PHASE3_SPATIAL_SIMULATION_REPORT.md"
+  ],
+  "01_spatial_simulation_lab_at_rest.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "07_hazard_map_osm_individual_facilities.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "10_telemetry_overview_with_report_action.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "12_citizen_dashboard_and_sentinel_ai.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "02_simulation_actively_playing.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "04_stable_simulation_toolbar.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "03_simulation_paused_at_later_step.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "05_ward_selected_and_fitted.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "06_filled_ward_polygons_with_legend.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "08_readable_simulation_report.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "09_opened_simulation_pdf.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "11_opened_telemetry_pdf_with_graphs.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "13_representative_mobile_views.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "14_error_or_unavailable_data_state.png": [
+    "docs/PHASE5_BENCHMARK_RESULTS.json",
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md",
+    "scripts/run-phase5-audit-and-benchmarks.mjs"
+  ],
+  "01_phase8_admin_map_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-final.mjs"
+  ],
+  "public/screenshots/phase8_final/01_phase8_admin_map_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "02_phase8_admin_map_mobile.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-final.mjs"
+  ],
+  "public/screenshots/phase8_final/02_phase8_admin_map_mobile.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "03_phase8_admin_overview_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-final.mjs"
+  ],
+  "public/screenshots/phase8_final/03_phase8_admin_overview_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "04_phase8_dept_swm_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-final.mjs"
+  ],
+  "public/screenshots/phase8_final/04_phase8_dept_swm_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "05_phase8_citizen_sentinel_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-final.mjs"
+  ],
+  "public/screenshots/phase8_final/05_phase8_citizen_sentinel_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "06_phase8_citizen_dashboard_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-final.mjs"
+  ],
+  "public/screenshots/phase8_final/06_phase8_citizen_dashboard_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "07_phase8_admin_map_pune_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-cities.mjs"
+  ],
+  "public/screenshots/phase8_final/07_phase8_admin_map_pune_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "08_phase8_admin_map_nagpur_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md",
+    "scripts/capture-phase8-cities.mjs"
+  ],
+  "public/screenshots/phase8_final/08_phase8_admin_map_nagpur_desktop.png": [
+    "docs/PHASE9_INDEPENDENT_AUDIT_REPORT.md",
+    "docs/UI_REFINEMENT_PHASE8.md"
+  ],
+  "prompt1_01_telemetry_parameter_modal_light.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_02_telemetry_parameter_modal_dark.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_03_spatial_simulation_report_light.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_04_spatial_simulation_report_dark.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_05_citizen_dashboard_light.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_06_citizen_assistant_drawer_backdrop_light.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_07_citizen_sentinel_hub_light.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_08_citizen_sentinel_hub_dark.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_09_admin_command_dashboard_light.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_10_mobile_citizen_dashboard_390.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt1_11_mobile_simulation_lab_390.png": [
+    "docs/PROMPT1_DESIGN_SYSTEM_AUDIT.md",
+    "scripts/capture-prompt1-verification.mjs"
+  ],
+  "prompt2_01_entire_mumbai_extent.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_02_island_city_suburban_zoom.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_03_ward_boundaries_basemap.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_04_layer_manager_open.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_05_layer_rivers_drainage.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_06_output_state_low.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_07_output_state_medium.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_08_output_state_high_alert.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_09_continuous_surface_legend.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_10_drawer_ward_inspection_open.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_11_drawer_ranked_list.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_12_executive_dossier_modal.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_13_mobile_map_controls.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_14_unsupported_city_pune.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt2_15_unsupported_city_nagpur.png": [
+    "docs/PROMPT2_SPATIAL_MAP_AUDIT.md",
+    "scripts/capture-prompt2-spatial-screenshots.mjs"
+  ],
+  "prompt3_01_initial_scenario.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_01_initial_scenario.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt3_02_changed_rainfall_intensity.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_02_changed_rainfall_intensity.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt3_03_time_steps.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_03_time_steps.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt3_04_terrain_related_output.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_04_terrain_related_output.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt3_05_baseline_comparison.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_05_baseline_comparison.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt3_06_missing_elevation_drainage_input.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_06_missing_elevation_drainage_input.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt3_07_same_selected_ward_map_and_stats.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md",
+    "scripts/capture-prompt3-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/prompt3/prompt3_07_same_selected_ward_map_and_stats.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/dd909e61-f00a-4f16-91e8-d68571aeba71/.tempmediaStorage/prompt3_01_initial_scenario.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/dd909e61-f00a-4f16-91e8-d68571aeba71/.tempmediaStorage/prompt3_03_time_steps.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/dd909e61-f00a-4f16-91e8-d68571aeba71/.tempmediaStorage/prompt3_04_terrain_related_output.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/dd909e61-f00a-4f16-91e8-d68571aeba71/.tempmediaStorage/prompt3_05_baseline_comparison.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/dd909e61-f00a-4f16-91e8-d68571aeba71/.tempmediaStorage/prompt3_06_missing_elevation_drainage_input.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/dd909e61-f00a-4f16-91e8-d68571aeba71/.tempmediaStorage/prompt3_07_same_selected_ward_map_and_stats.png": [
+    "docs/PROMPT3_SIMULATION_DATA_AND_TERRAIN.md"
+  ],
+  "prompt4_01_citywide_overview.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_02_ward_level_dossier.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_03_report_navigation.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_04_population_asset_sections.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_05_formula_source_references.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_06_recommended_municipal_actions.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_07_export_print_view.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_08_incomplete_data_warning.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs"
+  ],
+  "prompt4_09_mobile_viewport.png": [
+    "docs/PROMPT4_REPORT_STUDIO.md",
+    "scripts/capture-prompt4-screenshots.mjs",
+    "scripts/capture-shot9.mjs"
+  ],
+  "prompt5_01_running_role_status.png": [
+    "docs/PROMPT5_GROQ_AI_ORCHESTRATION.md",
+    "scripts/capture-prompt5-screenshots.mjs"
+  ],
+  "prompt5_02_full_successful_report.png": [
+    "docs/PROMPT5_GROQ_AI_ORCHESTRATION.md",
+    "scripts/capture-prompt5-screenshots.mjs"
+  ],
+  "prompt5_03_unsupported_claim_warning.png": [
+    "docs/PROMPT5_GROQ_AI_ORCHESTRATION.md",
+    "scripts/capture-prompt5-screenshots.mjs"
+  ],
+  "prompt5_04_partial_result_role_failure.png": [
+    "docs/PROMPT5_GROQ_AI_ORCHESTRATION.md",
+    "scripts/capture-prompt5-screenshots.mjs"
+  ],
+  "prompt5_05_report_regenerated_changed_scenario.png": [
+    "docs/PROMPT5_GROQ_AI_ORCHESTRATION.md",
+    "scripts/capture-prompt5-screenshots.mjs"
+  ],
+  "prompt5_06_sentinel_ai_evidence_response.png": [
+    "docs/PROMPT5_GROQ_AI_ORCHESTRATION.md",
+    "scripts/capture-prompt5-screenshots.mjs"
+  ],
+  "prompt6_01_citizen_dashboard_desktop.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_02_citizen_dashboard_mobile.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_03_selected_area_resolved_ward.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_04_manual_area_selection.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_05_relevant_hazard_layer_legend.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_06_sentinel_ai_headings_lists_table.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_07_source_grounded_answer.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_08_contextual_draft_report.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_09_separate_civic_reports_page.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_10_facility_details_directions.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_11_missing_stale_data.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt6_12_unsupported_city_simulation_state.png": [
+    "docs/PROMPT6_CITIZEN_INTELLIGENCE.md",
+    "scripts/capture-prompt6-screenshots.mjs"
+  ],
+  "prompt7_01_telemetry_overview.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_01_telemetry_overview.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_02_parameter_explorer.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_02_parameter_explorer.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_03_weather_atmosphere_category.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_03_weather_atmosphere_category.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_04_rainfall_hydrology_category.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_04_rainfall_hydrology_category.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_05_coastal_marine_category.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_05_coastal_marine_category.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_06_valid_graph_source_time.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_06_valid_graph_source_time.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_07_empty_unavailable_data.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_07_empty_unavailable_data.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_08_zone_comparison_view.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_08_zone_comparison_view.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_09_historical_versus_current.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_09_historical_versus_current.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_10_parameter_to_spatial_analysis.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_10_parameter_to_spatial_analysis.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_11_source_health_view.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_11_source_health_view.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_12_dark_theme_active_tabs.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_12_dark_theme_active_tabs.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt7_13_responsive_mobile_layout.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md",
+    "scripts/capture-prompt7-screenshots.mjs"
+  ],
+  "public/screenshots/prompt7/prompt7_13_responsive_mobile_layout.png": [
+    "docs/PROMPT7_TELEMETRY_INTELLIGENCE.md"
+  ],
+  "prompt8_01_selected_hazard_ward_linked_evidence.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_02_draft_precautionary_advisory.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_03_citizen_report_before_confirmation.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_04_submitted_report_and_status.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_05_admin_incident_record.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_06_department_task_view.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_07_routing_decision_and_fallback.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_08_report_source_references.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_09_unauthorized_action_blocked.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt8_10_city_mismatch_unsupported_state.png": [
+    "docs/PROMPT8_HAZARD_TO_OPERATIONS.md",
+    "scripts/capture-prompt8-screenshots.mjs"
+  ],
+  "prompt9_01_admin_dashboard_desktop_light.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_01_admin_dashboard_desktop_light.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_02_admin_dashboard_desktop_dark.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_02_admin_dashboard_desktop_dark.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_03_admin_hazard_map_desktop.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_03_admin_hazard_map_desktop.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_04_telemetry_lab_overview.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_04_telemetry_lab_overview.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_05_telemetry_parameter_modal.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_05_telemetry_parameter_modal.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_06_spatial_simulation_lab.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_06_spatial_simulation_lab.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_07_fullwidth_city_report.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_07_fullwidth_city_report.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_08_ward_level_dossier.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_08_ward_level_dossier.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_09_citizen_dashboard_desktop.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_09_citizen_dashboard_desktop.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_10_citizen_dashboard_mobile_390.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_10_citizen_dashboard_mobile_390.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_11_citizen_accessible_table_view.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_11_citizen_accessible_table_view.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_12_sentinel_ai_sticky_chat.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_12_sentinel_ai_sticky_chat.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_13_civic_reports_form_mobile_390.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_13_civic_reports_form_mobile_390.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_14_my_reports.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_14_my_reports.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_15_department_workflow_tasks.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_15_department_workflow_tasks.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_16_responsive_320_check.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_16_responsive_320_check.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "prompt9_17_dark_mode_simulation_dossier.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md",
+    "scripts/capture-prompt9-final-qa.mjs"
+  ],
+  "/public/screenshots/prompt9/prompt9_17_dark_mode_simulation_dossier.png": [
+    "docs/PROMPT9_UX_PERFORMANCE_ACCESSIBILITY.md"
+  ],
+  "phase10_01_branding_command_centre.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_02_hazard_map_default_osm.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_03_spatial_simulation_idle.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_04_spatial_simulation_playing.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_05_simulation_timestep_progression.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_06_selected_ward_polygon_details.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_07_spatial_hazard_fill_legend.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_08_telemetry_overview.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_09_telemetry_parameter_detail.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_10_dedicated_report_studio.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_11_opened_simulation_pdf.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_12_opened_telemetry_pdf_graphs.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs",
+    "scripts/recapture-telemetry-screenshot.mjs"
+  ],
+  "phase10_13_sentinel_ai_desktop.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_14_sentinel_ai_mobile.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_15_citizen_hazard_dashboard_mobile.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_16_civic_reports_workflow.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_17_department_operations.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "public/screenshots/prompt9/prompt9_16_responsive_320_check.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md"
+  ],
+  "phase10_18_missing_stale_data_state.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "phase10_19_failed_ai_report_recoverable_ui.png": [
+    "docs/SENTINEL_CITY_INTELLIGENCE_FINAL_MASTER_AUDIT.md",
+    "scripts/capture-phase10-final-master.mjs"
+  ],
+  "before_desktop.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-before.mjs"
+  ],
+  "before_desktop_fullpage.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-before.mjs"
+  ],
+  "before_mobile.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-before.mjs"
+  ],
+  "before_mobile_fullpage.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-before.mjs"
+  ],
+  "after_01_desktop_hero.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_02_full_desktop_page.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_03_platform_overview.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_04_interactive_canvas.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_05_simulation_preview.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_06_telemetry_section.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_07_sentinel_ai_section.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_08_workspaces_directory.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_09_dark_theme_desktop.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_10_mobile_hero.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_11_full_mobile_page.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_12_mobile_menu_open.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "after_13_responsive_320_check.png": [
+    "docs/SENTINEL_HOMEPAGE_REDESIGN.md",
+    "scripts/capture-homepage-after.mjs"
+  ],
+  "apple-icon.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md"
+  ],
+  "/apple-icon.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md"
+  ],
+  "icon.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md"
+  ],
+  "/icon.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md"
+  ],
+  "02_spatial_simulation_pune_defect.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "01_spatial_simulation_mumbai.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "03_telemetry_lab_overview.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "04_telemetry_lab_parameters.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "05_admin_overview.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "06_citizen_dashboard.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "07_citizen_reporting.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "08_spatial_simulation_pune_unsupported.png": [
+    "docs/SENTINEL_PHASE1_BASELINE_AUDIT.md",
+    "scripts/capture-baseline-phase1.mjs"
+  ],
+  "01_admin_command_centre.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "02_hazard_and_incident_map.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "04_spatial_simulation_lab.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "05_simulation_ward_detail.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "06_simulation_report_studio.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "07_citizen_hazard_dashboard.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "08_sentinel_ai.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "09_civic_reports_and_my_reports.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs",
+    "scripts/capture-phase1-initial-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/01_admin_command_centre.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/01_admin_command_centre.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/02_hazard_and_incident_map.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/02_hazard_and_incident_map.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/03_telemetry_lab_overview.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/03_telemetry_lab_overview.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/04_spatial_simulation_lab.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/04_spatial_simulation_lab.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/05_simulation_ward_detail.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/05_simulation_ward_detail.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/06_simulation_report_studio.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/06_simulation_report_studio.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/07_citizen_hazard_dashboard.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/07_citizen_hazard_dashboard.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/08_sentinel_ai.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/08_sentinel_ai.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/initial/09_civic_reports_and_my_reports.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/09_civic_reports_and_my_reports.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "mobile_01_citizen_dashboard.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/mobile_01_citizen_dashboard.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "mobile_02_sentinel_ai.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/mobile_02_sentinel_ai.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "mobile_03_admin_command.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md",
+    "scripts/capture-phase1-after-screenshots.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_brand_and_design/after/mobile_03_admin_command.png": [
+    "docs/SENTINEL_PHASE1_BRAND_AND_DESIGN_AUDIT.md"
+  ],
+  "01_initial_city_extent.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/01_initial_city_extent.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "02_city_extent_no_optional_overlays.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/02_city_extent_no_optional_overlays.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "03_facilities_enabled.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/03_facilities_enabled.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "04_incidents_enabled.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/04_incidents_enabled.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "05_hazard_layers_enabled.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/05_hazard_layers_enabled.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "06_neighbourhood_zoom.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/06_neighbourhood_zoom.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "07_dense_central_area.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/07_dense_central_area.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "08_selected_facility_popup.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/08_selected_facility_popup.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "09_reset_to_city_action.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/09_reset_to_city_action.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "10_mobile_narrow_layout.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md",
+    "scripts/capture-phase2-map-verification.mjs",
+    "scripts/test-phase2-incident-map.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase2_incident_map/10_mobile_narrow_layout.png": [
+    "docs/SENTINEL_PHASE2_INCIDENT_MAP.md"
+  ],
+  "01_phase2_spatial_simulation_mumbai.png": [
+    "docs/SENTINEL_PHASE2_MAP_REFINEMENT.md",
+    "scripts/capture-phase2-sim.mjs"
+  ],
+  "02_phase2_ward_l_kurla_focus.png": [
+    "docs/SENTINEL_PHASE2_MAP_REFINEMENT.md",
+    "scripts/capture-phase2-sim.mjs"
+  ],
+  "03_phase2_ward_fs_dadar_focus.png": [
+    "docs/SENTINEL_PHASE2_MAP_REFINEMENT.md",
+    "scripts/capture-phase2-sim.mjs"
+  ],
+  "04_phase2_rainfall_accumulation_t3h.png": [
+    "docs/SENTINEL_PHASE2_MAP_REFINEMENT.md",
+    "scripts/capture-phase2-sim.mjs"
+  ],
+  "01_full_mumbai_geography.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "02_low_intensity_scenario.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "03_medium_intensity_scenario.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "04_high_intensity_scenario.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "05_timeline_t0h.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "05_timeline_t2h.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "05_timeline_t5h.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "06_ward_detail_complete.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "07_ranking_selection_highlight.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "08_continuous_isoband_surface.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "09_ward_choropleth_surface.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "10_desktop_layout_studio.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "10_mobile_viewport_layout.png": [
+    "docs/SENTINEL_PHASE2_SPATIAL_IMPACT_REPORT.md",
+    "scripts/capture-phase2-loop.mjs"
+  ],
+  "01_initial_simulation_state.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "02_actively_playing_playback.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "03_paused_playback_state.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "04_later_time_step_evolution.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "05_different_inputs_recalculated.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "06_selected_ward_focused.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "07_stable_header_inspection.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "08_mobile_responsive_layout.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "09_ranked_ward_selection.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "10_report_staleness_sync.png": [
+    "docs/SENTINEL_PHASE3_SIMULATION_RELIABILITY.md",
+    "scripts/capture-phase3-simulation-verification.mjs"
+  ],
+  "phase4_01_city_extent_continuous_surface.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md",
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase4_01_city_extent_continuous_surface.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md"
+  ],
+  "phase4_02_ward_zoom_saucer_depression.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md",
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase4_02_ward_zoom_saucer_depression.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md"
+  ],
+  "phase4_03_low_vs_high_input_variance.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md",
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase4_03_low_vs_high_input_variance.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md"
+  ],
+  "phase4_04_selected_ward_terrain_exposure.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md",
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase4_04_selected_ward_terrain_exposure.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md"
+  ],
+  "phase4_05_legend_sources_dem_disclaimer.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md",
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase4_05_legend_sources_dem_disclaimer.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md"
+  ],
+  "phase4_06_hybrid_mode_continuous_and_choropleth.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md",
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase4_06_hybrid_mode_continuous_and_choropleth.png": [
+    "docs/SENTINEL_PHASE4_SPATIAL_IMPACT.md"
+  ],
+  "phase4_01_telemetry_lab_overview.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_02_telemetry_rainfall_hydrology.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_03_telemetry_weather_atmosphere.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_04_telemetry_coastal_marine_mumbai.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_05_telemetry_unavailable_inland_pune.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_06_telemetry_parameter_detail.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_07_admin_command_dashboard.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_08_citizen_hazard_dashboard_resolved.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_09_citizen_hazard_dashboard_manual.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_10_citizen_civic_reports_dedicated.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_11_sentinel_ai_markdown_rendering.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_12_citizen_map_legend_and_ward.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase4_13_mobile_navigation_and_reporting.png": [
+    "docs/SENTINEL_PHASE4_UX_TELEMETRY_REPORT.md"
+  ],
+  "phase5_01_simulation_mumbai_full_extent.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_03_simulation_high_intensity_deluge.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_04_simulation_timeline_evolution_t3.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_05_simulation_ward_detail_trace.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_07_simulation_full_dossier.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_08_telemetry_overview.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_10_chart_valid_vs_empty_state.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_11_admin_incidents_departments.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_12_citizen_hazard_dashboard.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_13_citizen_civic_reports.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_15_mobile_citizen_nav.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_16_mobile_map_and_reporting.png": [
+    "docs/SENTINEL_PHASE5_FINAL_AUDIT.md"
+  ],
+  "phase5_01_telemetry_overview_cards_charts.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_01_telemetry_overview_cards_charts.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_02_parameter_explorer_8_categories.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_02_parameter_explorer_8_categories.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_03_parameter_detail_drawer_plain_language.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-fix-shots.mjs",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_03_parameter_detail_drawer_plain_language.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_04_weather_atmosphere_tab.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_04_weather_atmosphere_tab.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_05_rainfall_accumulation_mode.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_05_rainfall_accumulation_mode.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_06_air_quality_tab.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_06_air_quality_tab.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_07_coastal_marine_tab.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_07_coastal_marine_tab.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_08_zone_comparison_shared_grid.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_08_zone_comparison_shared_grid.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_09_historical_era5_reanalysis.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_09_historical_era5_reanalysis.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_10_empty_unavailable_data_state.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_10_empty_unavailable_data_state.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_11_dark_theme_contrast.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_11_dark_theme_contrast.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase5_12_mobile_responsive_layout.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase5_12_mobile_responsive_layout.png": [
+    "docs/SENTINEL_PHASE5_TELEMETRY.md"
+  ],
+  "phase6_01_mumbai_spatial_simulation_lab.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_02_simulation_scenario_inputs_freshness.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_03_simulation_timeline_advance.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_04_ward_selection_calculation_trace.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_05_ward_dossier_modal.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_06_telemetry_lab_overview.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_07_telemetry_lab_parameter_explorer.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_08_telemetry_lab_data_quality_health.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_09_citizen_hazard_dashboard_desktop.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_10_citizen_sentinel_ai_hub.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_11_citizen_reporting_destination.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_12_admin_incidents_management.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_13_citizen_hazard_dashboard_mobile.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_14_citizen_sentinel_ai_mobile.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_15_pune_unsupported_scope_handling.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_16_admin_settings_source_health.png": [
+    "docs/SENTINEL_PHASE6_OPERATIONAL_READINESS.md"
+  ],
+  "phase6_01_report_studio_full_width.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_01_report_studio_full_width.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_02_report_studio_after_refresh.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_02_report_studio_after_refresh.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_03_return_to_simulation_map.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_03_return_to_simulation_map.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_04_citywide_report_overview.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_04_citywide_report_overview.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_05_ward_detail_dossier.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_05_ward_detail_dossier.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_06_dossier_archive_modal.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_06_dossier_archive_modal.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_07_pdf_export_in_progress.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_07_pdf_export_in_progress.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_08_opened_simulation_pdf.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_08_opened_simulation_pdf.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_09_opened_simulation_pdf_page2_map.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_09_opened_simulation_pdf_page2_map.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_10_telemetry_report_modal.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_10_telemetry_report_modal.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_11_opened_telemetry_pdf.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_11_opened_telemetry_pdf.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_12_error_retry_state.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_12_error_retry_state.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_13_mobile_report_studio.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_13_mobile_report_studio.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase6_14_ward_drawer_with_report_button.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md",
+    "scripts/capture-phase6-report-studio-screenshots.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase6_14_ward_drawer_with_report_button.png": [
+    "docs/SENTINEL_PHASE6_REPORT_STUDIO.md"
+  ],
+  "phase7_01_desktop_ai_conversation.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_01_desktop_ai_conversation.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_02_mobile_ai_conversation.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_02_mobile_ai_conversation.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_03_rendered_headings_lists_tables.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_03_rendered_headings_lists_tables.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_04_long_answer_no_overflow.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_04_long_answer_no_overflow.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_05_report_aware_qa.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_05_report_aware_qa.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_06_source_linked_answer.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_06_source_linked_answer.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_07_dynamic_civic_action_links.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_07_dynamic_civic_action_links.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_08_invalid_action_rejection.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_08_invalid_action_rejection.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_09_ai_role_failure_safe_fallback.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_09_ai_role_failure_safe_fallback.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase7_10_missing_key_state.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md",
+    "scripts/test-and-capture-phase7.mjs"
+  ],
+  "/Users/omsat/.gemini/antigravity-ide/brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase7_10_missing_key_state.png": [
+    "docs/SENTINEL_PHASE7_AI_EXPERIENCE.md"
+  ],
+  "phase8_01_citizen_hazard_dashboard.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_01_citizen_hazard_dashboard.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_02_citizen_map_and_layers.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_02_citizen_map_and_layers.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_03_ward_location_detail.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_03_ward_location_detail.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_04_my_area_dedicated_destination.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_04_my_area_dedicated_destination.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_05_civic_reporting_prefill.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_05_civic_reporting_prefill.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_06_real_report_submission_success.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_06_real_report_submission_success.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_07_my_reports_tracking.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_07_my_reports_tracking.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_08_sentinel_ai_navigation.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_08_sentinel_ai_navigation.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_09_gps_denial_manual_selection.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_09_gps_denial_manual_selection.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase8_10_mobile_360px_narrow_layout.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md",
+    "scripts/test-and-capture-phase8.mjs"
+  ],
+  "brain/e0b45031-f0f8-4066-8567-28eef54a4f96/phase8_10_mobile_360px_narrow_layout.png": [
+    "docs/SENTINEL_PHASE8_CITIZEN_EXPERIENCE.md"
+  ],
+  "phase9_01_command_centre_overview.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_02_source_data_health_panel.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_03_selected_ward_dossier_modal.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_04_full_report_navigation_studio.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_05_department_task_view.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_06_routing_decision_fallback.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_07_draft_advisory_approval.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_08_mobile_admin_view.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "phase9_09_error_unsupported_data_state.png": [
+    "docs/SENTINEL_PHASE9_COMMAND_CENTRE.md",
+    "scripts/test-and-capture-phase9.mjs"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/01_spatial_simulation_lab_at_rest.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/02_simulation_actively_playing.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/03_simulation_paused_at_later_step.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/04_stable_simulation_toolbar.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/05_ward_selected_and_fitted.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/06_filled_ward_polygons_with_legend.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/07_hazard_map_osm_individual_facilities.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/08_readable_simulation_report.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/09_opened_simulation_pdf.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/10_telemetry_overview_with_report_action.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/11_opened_telemetry_pdf_with_graphs.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/12_citizen_dashboard_and_sentinel_ai.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/13_representative_mobile_views.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase5_final_audit/14_error_or_unavailable_data_state.png": [
+    "docs/SIMULATION_MAPS_REPORTING_FINAL_AUDIT.md"
+  ],
+  "01_simulation_idle.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/01_simulation_idle.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "02_simulation_playing.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/02_simulation_playing.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "03_timeline_later_step.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/03_timeline_later_step.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "04_simulation_paused.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/04_simulation_paused.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "05_step_interaction.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/05_step_interaction.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "06_simulation_reset.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/06_simulation_reset.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "07_timeline_scrubbing.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/07_timeline_scrubbing.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "08_parameter_change.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/08_parameter_change.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "09_scenario_switch.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/09_scenario_switch.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "10_stable_toolbar_playback.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/10_stable_toolbar_playback.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "11_narrow_viewport.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/11_narrow_viewport.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "12_recoverable_notice.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "/urbanhazards/urban_link-master/public/screenshots/phase1_sim_reliability/12_recoverable_notice.png": [
+    "docs/SIMULATION_RELIABILITY_PHASE1.md"
+  ],
+  "public/screenshots/01_citizen_dashboard_desktop.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/02_citizen_dashboard_mobile.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/03_citizen_sentinel_hub_desktop.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/04_citizen_sentinel_hub_mobile.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/05_admin_overview_desktop.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/06_admin_overview_mobile.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/07_admin_hazard_map_mumbai.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/08_department_drainage_desktop.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/09_pune_sentinel_hub.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/10_pune_admin_hazard_map.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/11_nagpur_sentinel_hub.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/12_citizen_reporting_intact.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/13_admin_alert_review_modal.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "public/screenshots/14_admin_monsoon_simulation_modal.png": [
+    "docs/UI_SCREENSHOT_INDEX_PHASE5.md"
+  ],
+  "icon-192.png": [
+    "public/sw.js",
+    "src/lib/browser-notifications.ts"
+  ],
+  "/icons/icon-192.png": [
+    "public/sw.js",
+    "src/lib/browser-notifications.ts"
+  ],
+  "03_parameter_detail_drawer_plain_language.png": [
+    "scripts/capture-fix-shots.mjs",
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "homepage_before_desktop.png": [
+    "scripts/capture-homepage-before.mjs"
+  ],
+  "homepage_before_mobile.png": [
+    "scripts/capture-homepage-before.mjs"
+  ],
+  "01_city_extent_continuous_surface.png": [
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "02_ward_zoom_saucer_depression.png": [
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "04_selected_ward_terrain_exposure.png": [
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "03_low_vs_high_input_variance.png": [
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "05_legend_sources_dem_disclaimer.png": [
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "06_hybrid_mode_continuous_and_choropleth.png": [
+    "scripts/capture-phase4-spatial-impact-screenshots.mjs"
+  ],
+  "01_telemetry_overview_cards_charts.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "02_parameter_explorer_8_categories.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "04_weather_atmosphere_tab.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "05_rainfall_accumulation_mode.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "06_air_quality_tab.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "07_coastal_marine_tab.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "08_zone_comparison_shared_grid.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "09_historical_era5_reanalysis.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "10_empty_unavailable_data_state.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "11_dark_theme_contrast.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "12_mobile_responsive_layout.png": [
+    "scripts/capture-phase5-telemetry-screenshots.mjs"
+  ],
+  "baseline_citizen_dashboard_desktop.png": [
+    "scripts/capture-phase7-baseline.mjs",
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_citizen_dashboard_mobile.png": [
+    "scripts/capture-phase7-baseline.mjs"
+  ],
+  "baseline_citizen_report_desktop.png": [
+    "scripts/capture-phase7-baseline.mjs"
+  ],
+  "baseline_citizen_myreports_desktop.png": [
+    "scripts/capture-phase7-baseline.mjs"
+  ],
+  "baseline_citizen_sentinel_desktop.png": [
+    "scripts/capture-phase7-baseline.mjs",
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_citizen_sentinel_mobile.png": [
+    "scripts/capture-phase7-baseline.mjs"
+  ],
+  "baseline_admin_overview_desktop.png": [
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_admin_map_desktop.png": [
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_admin_map_mobile.png": [
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_citizen_alerts_desktop.png": [
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_dept_swm_desktop.png": [
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "baseline_dept_tasks_desktop.png": [
+    "scripts/capture-phase8-baseline.mjs"
+  ],
+  "audit_01_admin_dashboard_desktop_light.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_02_admin_dashboard_desktop_dark.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_03_admin_map_desktop.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_04_telemetry_lab_overview.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_05_telemetry_parameter_modal.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_06_spatial_simulation_lab.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_07_simulation_controls_legend.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_08_fullwidth_city_report.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_09_ward_dossier.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_10_citizen_dashboard_desktop.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_11_citizen_dashboard_mobile_390.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_12_citizen_map_mobile_390.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_13_sentinel_ai_chat.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_14_civic_reports_form_mobile_390.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_15_my_reports.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_16_department_workflow.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "audit_17_responsive_320_check.png": [
+    "scripts/capture-prompt9-audit-screenshots.mjs"
+  ],
+  "cleared_tree.jpg": [
+    "scripts/run-phase10-tests.mjs"
+  ],
+  "//photos.example.gov.in/cleared_tree.jpg": [
+    "scripts/run-phase10-tests.mjs"
+  ],
+  "1779.png": [
+    "scripts/test-mumbai-gis-repair.mjs"
+  ],
+  "//tile.openstreetmap.org/12/2877/1779.png": [
+    "scripts/test-mumbai-gis-repair.mjs"
+  ],
+  "pump-deployment-gandhi-market.jpg": [
+    "scripts/test-prompt8-workflow.ts"
+  ],
+  "//sentinel.urbanlink.gov.in/evidence/pump-deployment-gandhi-market.jpg": [
+    "scripts/test-prompt8-workflow.ts"
+  ],
+  "favicon.png": [
+    "src/app/(department)/department/layout.tsx",
+    "src/config/branding.ts"
+  ],
+  "/favicon.png": [
+    "src/app/(department)/department/layout.tsx",
+    "src/config/branding.ts"
+  ],
+  "attachment.jpg": [
+    "src/app/api/incidents/create/route.ts"
+  ],
+  "resolution_proof.jpg": [
+    "src/app/api/worker/tasks/route.ts"
+  ],
+  "apple-touch-icon.png": [
+    "src/app/layout.tsx"
+  ],
+  "/apple-touch-icon.png": [
+    "src/app/layout.tsx"
+  ],
+  "marker-icon-2x.png": [
+    "src/components/admin/osm-incident-map.tsx",
+    "src/components/citizen/citizen-hazard-map-inner.tsx"
+  ],
+  "1.9.4/dist/images/marker-icon-2x.png": [
+    "src/components/admin/osm-incident-map.tsx",
+    "src/components/citizen/citizen-hazard-map-inner.tsx"
+  ],
+  "marker-icon.png": [
+    "src/components/admin/osm-incident-map.tsx",
+    "src/components/citizen/citizen-hazard-map-inner.tsx"
+  ],
+  "1.9.4/dist/images/marker-icon.png": [
+    "src/components/admin/osm-incident-map.tsx",
+    "src/components/citizen/citizen-hazard-map-inner.tsx"
+  ],
+  "marker-shadow.png": [
+    "src/components/admin/osm-incident-map.tsx",
+    "src/components/citizen/citizen-hazard-map-inner.tsx"
+  ],
+  "1.9.4/dist/images/marker-shadow.png": [
+    "src/components/admin/osm-incident-map.tsx",
+    "src/components/citizen/citizen-hazard-map-inner.tsx"
+  ],
+  "drain-pump-cleared.jpg": [
+    "src/components/admin/ward-action-hub-modal.tsx"
+  ],
+  "//sentinel.urbanlink.gov.in/evidence/drain-pump-cleared.jpg": [
+    "src/components/admin/ward-action-hub-modal.tsx"
+  ],
+  "chart.svg": [
+    "src/modules/reports/telemetry-pdf-template.ts"
+  ]
+}
