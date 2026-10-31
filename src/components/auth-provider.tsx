@@ -1,0 +1,12 @@
+/* ════════════════════════════════════════════════════════
+   Session Provider — Client-side wrapper for NextAuth
+   Wraps children with SessionProvider for useSession() hook
+   ════════════════════════════════════════════════════════ */
+
+"use client";
+
+import { SessionProvider } from "next-auth/react";
+
+export function AuthProvider({ children }: { children: React.ReactNode }) {
+  return <SessionProvider>{children}</SessionProvider>;
+}

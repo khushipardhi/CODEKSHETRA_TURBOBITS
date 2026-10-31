@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "name": "nagpur_emergency_hospitals",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "nagpur_hosp_gmch",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.098,
+          21.135
+        ]
+      },
+      "properties": {
+        "name": "Government Medical College & Hospital (GMCH Nagpur)",
+        "amenity": "hospital",
+        "healthcare": "tertiary_trauma",
+        "emergency": "yes",
+        "beds": 1400,
+        "phone": "0712-2744671",
+        "address": "Medical Chowk, Ajni, Nagpur 440003",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0) & Govt of Maharashtra Health Dept"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_hosp_mayo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.092,
+          21.155
+        ]
+      },
+      "properties": {
+        "name": "Indira Gandhi Govt Medical College (Mayo Hospital)",
+        "amenity": "hospital",
+        "healthcare": "tertiary_trauma",
+        "emergency": "yes",
+        "beds": 800,
+        "phone": "0712-2725274",
+        "address": "Central Avenue, Near Railway Station, Nagpur 440018",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_hosp_aiims",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.028,
+          21.055
+        ]
+      },
+      "properties": {
+        "name": "All India Institute of Medical Sciences (AIIMS Nagpur)",
+        "amenity": "hospital",
+        "healthcare": "apex_tertiary",
+        "emergency": "yes",
+        "beds": 960,
+        "phone": "0712-2352000",
+        "address": "Sector 20, MIHAN, Nagpur 441108",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0) & AIIMS Nagpur"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_hosp_orange_city",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.062,
+          21.118
+        ]
+      },
+      "properties": {
+        "name": "Orange City Hospital & Research Institute",
+        "amenity": "hospital",
+        "healthcare": "multispeciality_trauma",
+        "emergency": "yes",
+        "beds": 200,
+        "phone": "0712-6634800",
+        "address": "Khamla Square, Nagpur 440015",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_hosp_kingsway",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.088,
+          21.151
+        ]
+      },
+      "properties": {
+        "name": "Kingsway Hospitals (SPARSH)",
+        "amenity": "hospital",
+        "healthcare": "multispeciality_trauma",
+        "emergency": "yes",
+        "beds": 350,
+        "phone": "0712-6789100",
+        "address": "Station Road, Kasturchand Park, Nagpur 440001",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    }
+  ]
+}

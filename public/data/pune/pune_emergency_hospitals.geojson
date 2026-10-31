@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "name": "pune_emergency_hospitals",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pune_hosp_sassoon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8732,
+          18.5255
+        ]
+      },
+      "properties": {
+        "name": "Sassoon General Hospital & BJ Medical College",
+        "amenity": "hospital",
+        "healthcare": "tertiary_trauma",
+        "emergency": "yes",
+        "beds": 1296,
+        "phone": "020-26128000",
+        "address": "Station Road, Pune 411001",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0) & Govt of Maharashtra Health Dept"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_hosp_deenanath",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.829,
+          18.502
+        ]
+      },
+      "properties": {
+        "name": "Deenanath Mangeshkar Hospital & Research Center",
+        "amenity": "hospital",
+        "healthcare": "multispeciality",
+        "emergency": "yes",
+        "beds": 800,
+        "phone": "020-40151000",
+        "address": "Erandwane, Pune 411004",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_hosp_ruby_hall",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.879,
+          18.533
+        ]
+      },
+      "properties": {
+        "name": "Ruby Hall Clinic",
+        "amenity": "hospital",
+        "healthcare": "multispeciality_trauma",
+        "emergency": "yes",
+        "beds": 600,
+        "phone": "020-66455100",
+        "address": "Sassoon Road, Pune 411001",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_hosp_kem",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.869,
+          18.521
+        ]
+      },
+      "properties": {
+        "name": "KEM Hospital",
+        "amenity": "hospital",
+        "healthcare": "general_trauma",
+        "emergency": "yes",
+        "beds": 550,
+        "phone": "020-66037300",
+        "address": "Rasta Peth, Pune 411011",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_hosp_bharati",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.856,
+          18.459
+        ]
+      },
+      "properties": {
+        "name": "Bharati Vidyapeeth Medical College & Hospital",
+        "amenity": "hospital",
+        "healthcare": "medical_college_trauma",
+        "emergency": "yes",
+        "beds": 850,
+        "phone": "020-40555555",
+        "address": "Katraj-Dhankawadi, Pune 411043",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0)"
+      }
+    }
+  ]
+}
