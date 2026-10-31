@@ -1,0 +1,449 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_Metropolitan_Electrical_Depots_and_Receiving_Substations",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8525,
+          18.9712
+        ]
+      },
+      "properties": {
+        "name": "BEST Kussara Central Electrical Stores & Construction Depot",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Central Electrical Stores, Workshop & High-Voltage Testing Depot",
+        "voltage_class": "110kV / 33kV / 11kV Central Depot",
+        "jurisdiction": "Island City (Central Construction & Stores Hub)",
+        "address": "Bijlee Bhavan, Kussara Bunder Road, Opposite Alcock Dock, Mazgaon, Mumbai, Maharashtra 400010",
+        "officer": "Deputy Chief Engineer (Works / Stores), Kussara",
+        "designation": "Dy. Chief Engineer",
+        "phone": "+91-22-23782388",
+        "email": "dcew@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8195,
+          18.9185
+        ]
+      },
+      "properties": {
+        "name": "BEST Backbay 110/33kV Receiving Substation & Depot",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Major Receiving Substation (RSS) & South Mumbai Maintenance Depot",
+        "voltage_class": "110kV / 33kV",
+        "jurisdiction": "Cuffe Parade, Nariman Point & Marine Drive",
+        "address": "G.D. Somani Marg, Near Backbay Bus Depot, Cuffe Parade, Mumbai, Maharashtra 400005",
+        "officer": "Divisional Engineer (Backbay RSS)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-22181234",
+        "email": "rss.backbay@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8288,
+          18.9435
+        ]
+      },
+      "properties": {
+        "name": "BEST Pathakwadi Receiving Substation & Fault Repair Depot",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Receiving Substation & 24x7 Fault Clearing Operations Depot",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Marine Lines, Kalbadevi, Lohar Chawl & Girgaon",
+        "address": "L.T. Marg, Marine Lines East, Lohar Chawl, Kalbadevi, Mumbai, Maharashtra 400002",
+        "officer": "Divisional Engineer (Pathakwadi Depot)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-22086261",
+        "email": "dist.south@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8184,
+          19.0062
+        ]
+      },
+      "properties": {
+        "name": "BEST Worli 110/33kV Receiving Substation & Depot",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Major Receiving Substation & High-Rise Power Node",
+        "voltage_class": "110kV / 33kV",
+        "jurisdiction": "Worli, Lower Parel, Prabhadevi Commercial Districts",
+        "address": "Dr. Annie Besant Road / Dr. E. Moses Road, Worli Naka, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Divisional Engineer (Worli RSS)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-24931234",
+        "email": "rss.worli@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.0182
+        ]
+      },
+      "properties": {
+        "name": "BEST Dadar Receiving Substation & Maintenance Depot",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Receiving Substation & Central Substation Maintenance Depot",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Dadar East/West, Parel, Wadala & Hindu Colony",
+        "address": "Khodadad Circle, Dr. B.A. Road, Dadar East, Mumbai, Maharashtra 400014",
+        "officer": "Divisional Engineer (Dadar Depot)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-24146261",
+        "email": "rss.dadar@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8552,
+          19.0285
+        ]
+      },
+      "properties": {
+        "name": "BEST Kingsway Receiving Substation & Depot",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Receiving Substation & Northern Island City Distribution Hub",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Matunga, King's Circle & Sion South",
+        "address": "Kingsway Road, Near Maheshwari Udyan, Matunga East, Mumbai, Maharashtra 400019",
+        "officer": "Divisional Engineer (Kingsway RSS)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-24011234",
+        "email": "rss.kingsway@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8532,
+          19.0435
+        ]
+      },
+      "properties": {
+        "name": "BEST Dharavi 110/33kV Receiving Substation",
+        "operator": "BEST Undertaking (Civic Electric Supply of BMC)",
+        "facility_type": "Major Interconnecting Receiving Station",
+        "voltage_class": "110kV / 33kV",
+        "jurisdiction": "Dharavi, Mahim & Northern Island City Boundary",
+        "address": "Sion-Bandra Link Road, Dharavi, Mumbai, Maharashtra 400017",
+        "officer": "Divisional Engineer (Dharavi RSS)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-24072345",
+        "email": "rss.dharavi@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8542,
+          19.0435
+        ]
+      },
+      "properties": {
+        "name": "Tata Power Dharavi 220kV Receiving Station & Operations Hub",
+        "operator": "Tata Power Company Limited (TPCL)",
+        "facility_type": "Extra-High Voltage (EHV) Grid Substation & Central Operations Center",
+        "voltage_class": "220kV / 110kV / 33kV",
+        "jurisdiction": "Mumbai Metropolitan Bulk Power Injection & Transmission",
+        "address": "Near Shalimar Industrial Estate, Matunga East / Dharavi, Mumbai, Maharashtra 400019",
+        "officer": "Chief of Transmission & Bulk Grid Supply",
+        "designation": "Chief Engineer (Transmission)",
+        "phone": "+91-22-66658282",
+        "email": "transmission.mumbai@tatapower.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8415,
+          18.9485
+        ]
+      },
+      "properties": {
+        "name": "Tata Power Carnac Bunder 110kV Receiving Substation",
+        "operator": "Tata Power Company Limited (TPCL)",
+        "facility_type": "Bulk Receiving Substation for South Mumbai",
+        "voltage_class": "110kV / 33kV",
+        "jurisdiction": "South Mumbai Port Trust, Docklands & Fort Infeed",
+        "address": "P. D'Mello Road, Carnac Bunder, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Station Superintendent (Carnac RSS)",
+        "designation": "Station Superintendent",
+        "phone": "+91-22-67171000",
+        "email": "rss.carnac@tatapower.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9055,
+          19.0065
+        ]
+      },
+      "properties": {
+        "name": "Tata Power Trombay Generating & 220kV Switchyard Depot",
+        "operator": "Tata Power Company Limited (TPCL)",
+        "facility_type": "Thermal / Gas Generating Station & 220kV EHV Switchyard Depot",
+        "voltage_class": "220kV / 110kV",
+        "jurisdiction": "Mumbai Island & Suburban Power Generation & Transmission",
+        "address": "Mahul Road, Chembur / Trombay, Mumbai, Maharashtra 400074",
+        "officer": "Station Director, Trombay Generating Station",
+        "designation": "Station Director",
+        "phone": "+91-22-67172000",
+        "email": "trombay.ops@tatapower.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8685,
+          19.2245
+        ]
+      },
+      "properties": {
+        "name": "Tata Power Borivali 220kV Receiving Station",
+        "operator": "Tata Power Company Limited (TPCL)",
+        "facility_type": "Extra-High Voltage Substation & North Mumbai Infeed Hub",
+        "voltage_class": "220kV / 33kV",
+        "jurisdiction": "North Mumbai & Western Suburbs Transmission Infeed",
+        "address": "Western Express Highway, Magathane, Borivali East, Mumbai, Maharashtra 400066",
+        "officer": "Station Superintendent (Borivali RSS)",
+        "designation": "Station Superintendent",
+        "phone": "+91-22-67173000",
+        "email": "rss.borivali@tatapower.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9365,
+          19.1085
+        ]
+      },
+      "properties": {
+        "name": "Tata Power Vikhroli 220kV Receiving Station",
+        "operator": "Tata Power Company Limited (TPCL)",
+        "facility_type": "Extra-High Voltage (EHV) 220kV Infeed Substation",
+        "voltage_class": "220kV / 33kV",
+        "jurisdiction": "Eastern Suburbs Industrial Corridor & Metro Grid Infeed",
+        "address": "Off Eastern Express Highway, Godrej Colony, Vikhroli East, Mumbai, Maharashtra 400079",
+        "officer": "Station Superintendent (Vikhroli RSS)",
+        "designation": "Station Superintendent",
+        "phone": "+91-22-67174000",
+        "email": "rss.vikhroli@tatapower.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8615,
+          19.1625
+        ]
+      },
+      "properties": {
+        "name": "Adani Electricity Aarey 220kV EHV Receiving Station & Operations Hub",
+        "operator": "Adani Electricity Mumbai Limited (AEML)",
+        "facility_type": "220kV Extra-High Voltage Grid Infeed & Substation Maintenance Depot",
+        "voltage_class": "220kV / 33kV",
+        "jurisdiction": "Western Suburbs Major Bulk Infeed Hub (Goregaon, Malad, Andheri)",
+        "address": "Western Express Highway, Aarey Colony Entrance, Goregaon East, Mumbai, Maharashtra 400063",
+        "officer": "Head of Transmission Operations (AEML)",
+        "designation": "Head (Grid Ops)",
+        "phone": "+91-22-50745000",
+        "email": "gridops.aarey@adani.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8252,
+          19.1315
+        ]
+      },
+      "properties": {
+        "name": "Adani Electricity Versova 33kV Receiving Substation & Depot",
+        "operator": "Adani Electricity Mumbai Limited (AEML)",
+        "facility_type": "Receiving Substation & Western Coastal Maintenance Depot",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Versova, Lokhandwala, Four Bungalows & Juhu",
+        "address": "J.P. Road, Four Bungalows, Andheri West, Mumbai, Maharashtra 400053",
+        "officer": "Divisional Engineer (Versova Depot)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-50745100",
+        "email": "substation.versova@adani.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8812,
+          19.1085
+        ]
+      },
+      "properties": {
+        "name": "Adani Electricity Saki Naka Receiving Substation & Depot",
+        "operator": "Adani Electricity Mumbai Limited (AEML)",
+        "facility_type": "Receiving Substation & Central Suburban Maintenance Depot",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Andheri East, Saki Naka, Marol & Airport Cargo Area",
+        "address": "Andheri-Kurla Road, Saki Naka, Andheri East, Mumbai, Maharashtra 400072",
+        "officer": "Divisional Engineer (Saki Naka Depot)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-50745200",
+        "email": "substation.sakinaka@adani.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8988,
+          19.0552
+        ]
+      },
+      "properties": {
+        "name": "Adani Electricity Chembur Substation & Central Stores Depot",
+        "operator": "Adani Electricity Mumbai Limited (AEML)",
+        "facility_type": "Eastern Suburbs Substation Depot & Central Equipment Store",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Chembur, Tilak Nagar, Govandi & Eastern Suburbs Operations",
+        "address": "AEML Substation Complex, Postal Colony Road, Chembur, Mumbai, Maharashtra 400071",
+        "officer": "Divisional Engineer (Chembur Depot)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-50745300",
+        "email": "stores.chembur@adani.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8465,
+          19.2312
+        ]
+      },
+      "properties": {
+        "name": "Adani Electricity Gorai Receiving Substation & Depot",
+        "operator": "Adani Electricity Mumbai Limited (AEML)",
+        "facility_type": "Receiving Substation & North Western Suburbs Maintenance Depot",
+        "voltage_class": "33kV / 11kV",
+        "jurisdiction": "Borivali West, Gorai, Dahisar & Shimpoli",
+        "address": "Gorai Road, Near Gorai Bus Depot, Borivali West, Mumbai, Maharashtra 400092",
+        "officer": "Divisional Engineer (Gorai Depot)",
+        "designation": "Divisional Engineer",
+        "phone": "+91-22-50745400",
+        "email": "substation.gorai@adani.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8184,
+          19.0062
+        ]
+      },
+      "properties": {
+        "name": "BMC Central Mechanical & Electrical Workshop and Stores Depot",
+        "operator": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Central Electrical Workshop, Transformer & Lighting Stores Depot",
+        "voltage_class": "Municipal LT/HT Infrastructure Depot",
+        "jurisdiction": "Greater Mumbai (Streetlight Poles, High Masts, Hospital Generators & Pumps)",
+        "address": "Worli Garage Complex, Dr. E. Moses Road, Worli Naka, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Executive Engineer (M&E Workshop)",
+        "designation": "Executive Engineer",
+        "phone": "+91-22-24958150",
+        "email": "ee.meworkshop@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ELDEP-MUM-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9984,
+          19.0768
+        ]
+      },
+      "properties": {
+        "name": "MSEDCL Vashi 132/33kV Substation & Central Maintenance Depot",
+        "operator": "Maharashtra State Electricity Distribution Co. Ltd. (MSEDCL)",
+        "facility_type": "Major Extra-High Voltage Substation & Divisional Depot",
+        "voltage_class": "132kV / 33kV",
+        "jurisdiction": "Navi Mumbai (Vashi, Koparkhairane, Nerul & Turbhe Infeed)",
+        "address": "Sector 17, Near APMC Market, Vashi, Navi Mumbai, Maharashtra 400703",
+        "officer": "Executive Engineer (EHV Division Vashi)",
+        "designation": "Executive Engineer",
+        "phone": "+91-22-27892555",
+        "email": "ee.vashi@mahadiscom.in"
+      }
+    }
+  ]
+}

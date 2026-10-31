@@ -1,0 +1,579 @@
+{
+  "type": "FeatureCollection",
+  "name": "pune_pmc_all_zonal_offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-HQ-01",
+        "name": "Pune Municipal Corporation (PMC) Main Administrative Headquarters",
+        "name_mr": "पुणे महानगरपालिका मुख्य प्रशासकीय इमारत",
+        "office_type": "PMC Central Headquarters",
+        "zone_id": 2,
+        "zone_code": "ZONE-2",
+        "ward_office_name": "Shivajinagar - Ghole Road Ward (Co-located)",
+        "ward_number": "Central/Zonal HQ",
+        "address": "Main Building, Pune Municipal Corporation, Near Mangala Theatre, Shivajinagar",
+        "locality": "Shivajinagar",
+        "pincode": "411005",
+        "phone": "+91-20-25501000",
+        "emergency_helpline": "1800-1030-222",
+        "email": "info@punecorporation.org",
+        "jurisdiction_areas": "Apex Municipal Headquarters for entire Pune Municipal Corporation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8533,
+          18.5284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-DMC-Z1",
+        "name": "Office of Deputy Municipal Commissioner (Zone 1)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ क्र. १)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 1,
+        "zone_code": "ZONE-1",
+        "ward_office_name": "Dhole Patil Road Ward (Co-located)",
+        "ward_number": "Central/Zonal HQ",
+        "address": "Late B.S. Dhole Patil Market Building, 2nd Floor, Rajarshi Shahu Maharaj Path, Dhole Patil Road",
+        "locality": "Dhole Patil Road",
+        "pincode": "411001",
+        "phone": "+91-20-25501250",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dmc.zone1@punecorporation.org",
+        "jurisdiction_areas": "Supervision over Yerawada-Kalas-Dhanori, Nagar Road-Vadgaonsheri, and Dhole Patil Road Wards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8762,
+          18.5312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-DMC-Z2",
+        "name": "Office of Deputy Municipal Commissioner (Zone 2)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ क्र. २)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 2,
+        "zone_code": "ZONE-2",
+        "ward_office_name": "Shivajinagar - Ghole Road Ward (Co-located)",
+        "ward_number": "Central/Zonal HQ",
+        "address": "Ghole Road Ward Office Building, Off Fergusson College Road, Shivajinagar",
+        "locality": "Shivajinagar",
+        "pincode": "411005",
+        "phone": "+91-20-25501260",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dmc.zone2@punecorporation.org",
+        "jurisdiction_areas": "Supervision over Shivajinagar-Ghole Road, Aundh-Baner, and Kothrud-Bavdhan Wards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.5286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-DMC-Z3",
+        "name": "Office of Deputy Municipal Commissioner (Zone 3)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ क्र. ३)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 3,
+        "zone_code": "ZONE-3",
+        "ward_office_name": "Sinhgad Road Ward (Co-located)",
+        "ward_number": "Central/Zonal HQ",
+        "address": "Sinhgad Road Ward Office Building, Dandekar Bridge, Hingne Khurd, Sinhgad Road",
+        "locality": "Sinhgad Road",
+        "pincode": "411030",
+        "phone": "+91-20-25501270",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dmc.zone3@punecorporation.org",
+        "jurisdiction_areas": "Supervision over Warje-Karvenagar, Sinhgad Road, and Dhankawadi-Sahakar Nagar Wards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8348,
+          18.4984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-DMC-Z4",
+        "name": "Office of Deputy Municipal Commissioner (Zone 4)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ क्र. ४)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 4,
+        "zone_code": "ZONE-4",
+        "ward_office_name": "Hadapsar - Mundhwa Ward (Co-located)",
+        "ward_number": "Central/Zonal HQ",
+        "address": "Hadapsar Ward Office Building, Pandit Jawaharlal Nehru Udyan, Gadital, Pune-Solapur Road, Hadapsar",
+        "locality": "Hadapsar",
+        "pincode": "411028",
+        "phone": "+91-20-25501280",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dmc.zone4@punecorporation.org",
+        "jurisdiction_areas": "Supervision over Hadapsar-Mundhwa, Wanawadi-Ramtekdi, and Kondhwa-Yewalewadi Wards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9312,
+          18.5025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-DMC-Z5",
+        "name": "Office of Deputy Municipal Commissioner (Zone 5)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ क्र. ५)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 5,
+        "zone_code": "ZONE-5",
+        "ward_office_name": "Bhavani Peth Ward (Co-located)",
+        "ward_number": "Central/Zonal HQ",
+        "address": "Bhavani Peth Ward Office Building, General Arunkumar Vaidya Stadium Complex, Bhavani Peth",
+        "locality": "Bhavani Peth",
+        "pincode": "411042",
+        "phone": "+91-20-25501290",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dmc.zone5@punecorporation.org",
+        "jurisdiction_areas": "Supervision over Kasba-Vishrambaugwada, Bhavani Peth, and Bibwewadi Wards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8682,
+          18.5115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-01",
+        "name": "Yerawada - Kalas - Dhanori Ward Office",
+        "name_mr": "येरवडा - कळस - धानोरी क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-1",
+        "ward_office_name": "Yerawada - Kalas - Dhanori Ward Office",
+        "ward_number": "1",
+        "address": "Gunjan Chowk, Pune-Nagar Road, Opp. Indian Oil Petrol Pump, Yerawada",
+        "locality": "Yerawada",
+        "pincode": "411006",
+        "phone": "+91-20-25509100",
+        "emergency_helpline": "1800-1030-222",
+        "email": "yerawada.ward@punecorporation.org",
+        "jurisdiction_areas": "Yerawada, Kalas, Dhanori, Vishrantwadi, Tingre Nagar, Nagpur Chawl, Shastrinagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8824,
+          18.5521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-02",
+        "name": "Nagar Road - Vadgaonsheri Ward Office",
+        "name_mr": "नगर रोड - वडगावशेरी / वाघोली क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-1",
+        "ward_office_name": "Nagar Road - Vadgaonsheri Ward Office",
+        "ward_number": "2",
+        "address": "Survey No. 30/7, Pune-Nagar Road, Near Ramwadi Octroi Post, Wadgaon Sheri",
+        "locality": "Wadgaon Sheri / Ramwadi",
+        "pincode": "411014",
+        "phone": "+91-20-25509000",
+        "emergency_helpline": "1800-1030-222",
+        "email": "nagarroad.ward@punecorporation.org",
+        "jurisdiction_areas": "Vadgaonsheri, Kharadi, Viman Nagar, Ramwadi, Lohegaon, Wagholi, Somnath Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9142,
+          18.5512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-03",
+        "name": "Dhole Patil Road Ward Office",
+        "name_mr": "ढोले पाटील रोड क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-1",
+        "ward_office_name": "Dhole Patil Road Ward Office",
+        "ward_number": "3",
+        "address": "Late B.S. Dhole Patil Market Building, 2nd Floor, Rajarshi Shahu Maharaj Path, Dhole Patil Road",
+        "locality": "Dhole Patil Road",
+        "pincode": "411001",
+        "phone": "+91-20-25509300",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dholepatil.ward@punecorporation.org",
+        "jurisdiction_areas": "Dhole Patil Road, Koregaon Park, Bund Garden, Sangamwadi, Naidu Hospital, Pune Station North"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8762,
+          18.5312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-04",
+        "name": "Shivajinagar - Ghole Road Ward Office",
+        "name_mr": "शिवाजीनगर - घोले रोड क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-2",
+        "ward_office_name": "Shivajinagar - Ghole Road Ward Office",
+        "ward_number": "4",
+        "address": "Ghole Road, Off Fergusson College (FC) Road, Shivajinagar",
+        "locality": "Shivajinagar",
+        "pincode": "411005",
+        "phone": "+91-20-25501650",
+        "emergency_helpline": "1800-1030-222",
+        "email": "gholeroad.ward@punecorporation.org",
+        "jurisdiction_areas": "Shivajinagar, Ghole Road, Model Colony, Fergusson College Road, BMCC, Deccan Gymkhana North, Wakdewadi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.5286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-05",
+        "name": "Aundh - Baner Ward Office",
+        "name_mr": "औंध - बाणेर क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-2",
+        "ward_office_name": "Aundh - Baner Ward Office",
+        "ward_number": "5",
+        "address": "Survey No. 127/2B, Opp. Westend Mall, Near Parihar Chowk, Aundh",
+        "locality": "Aundh",
+        "pincode": "411007",
+        "phone": "+91-20-25509200",
+        "emergency_helpline": "1800-1030-222",
+        "email": "aundh.ward@punecorporation.org",
+        "jurisdiction_areas": "Aundh, Baner, Balewadi, Mahalunge, Pashan, Sutarwadi, Bopodi, Someshwarwadi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8075,
+          18.5604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-06",
+        "name": "Kothrud - Bavdhan Ward Office",
+        "name_mr": "कोथरूड - बावधन क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-2",
+        "ward_office_name": "Kothrud - Bavdhan Ward Office",
+        "ward_number": "6",
+        "address": "Golden Hind Building, Behind Paranjape School, Bhelkenagar Chowk, D.P. Road, Kothrud",
+        "locality": "Kothrud",
+        "pincode": "411038",
+        "phone": "+91-20-25501600",
+        "emergency_helpline": "1800-1030-222",
+        "email": "kothrud.ward@punecorporation.org",
+        "jurisdiction_areas": "Kothrud, Bavdhan Khurd & Budruk, Paud Road, Mayur Colony, Ideal Colony, Rambaug Colony, Gujrat Colony"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8052,
+          18.5074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-07",
+        "name": "Warje - Karvenagar Ward Office",
+        "name_mr": "वारजे - कर्वेनगर क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 3,
+        "zone_code": "ZONE-3",
+        "ward_office_name": "Warje - Karvenagar Ward Office",
+        "ward_number": "7",
+        "address": "Swapnashilp Commercial Building, Near Tara Residency, Karvenagar",
+        "locality": "Karvenagar",
+        "pincode": "411052",
+        "phone": "+91-20-25432192",
+        "emergency_helpline": "1800-1030-222",
+        "email": "warje.ward@punecorporation.org",
+        "jurisdiction_areas": "Warje, Malwadi, Karvenagar, Dahanukar Colony south, Popular Nagar, Rahul Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8185,
+          18.4892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-08",
+        "name": "Sinhgad Road Ward Office",
+        "name_mr": "सिंहगड रोड क्षेत्रीय कार्यालय (वडगाव बुद्रुक)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 3,
+        "zone_code": "ZONE-3",
+        "ward_office_name": "Sinhgad Road Ward Office",
+        "ward_number": "8",
+        "address": "Dandekar Bridge, Opp. Pu.La. Deshpande Garden, Sinhgad Road, Hingne Khurd",
+        "locality": "Sinhgad Road",
+        "pincode": "411030",
+        "phone": "+91-20-24350123",
+        "emergency_helpline": "1800-1030-222",
+        "email": "sinhgadroad.ward@punecorporation.org",
+        "jurisdiction_areas": "Hingne Khurd & Budruk, Anand Nagar, Sun City, Vadgaon Khurd & Budruk, Dhayari, Manikbaug, Nanded City border"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8348,
+          18.4984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-09",
+        "name": "Dhankawadi - Sahakar Nagar Ward Office",
+        "name_mr": "धनकवडी - सहकारनगर क्षेत्रीय कार्यालय (कात्रज)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 3,
+        "zone_code": "ZONE-3",
+        "ward_office_name": "Dhankawadi - Sahakar Nagar Ward Office",
+        "ward_number": "9",
+        "address": "Near Shankar Maharaj Math, Pune-Satara Road, Dhankawadi",
+        "locality": "Dhankawadi",
+        "pincode": "411043",
+        "phone": "+91-20-24220033",
+        "emergency_helpline": "1800-1030-222",
+        "email": "dhankawadi.ward@punecorporation.org",
+        "jurisdiction_areas": "Dhankawadi, Sahakar Nagar, Padmavati, Ambegaon Pathar, Katraj, Bharati Vidyapeeth, Katraj Lake, Sukhsagar Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8562,
+          18.4682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-10",
+        "name": "Hadapsar - Mundhwa Ward Office",
+        "name_mr": "हडपसर - मुंढवा क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 4,
+        "zone_code": "ZONE-4",
+        "ward_office_name": "Hadapsar - Mundhwa Ward Office",
+        "ward_number": "10",
+        "address": "Pandit Jawaharlal Nehru Udyan, Gadital, Pune-Solapur Road, Hadapsar",
+        "locality": "Hadapsar",
+        "pincode": "411028",
+        "phone": "+91-20-26871234",
+        "emergency_helpline": "1800-1030-222",
+        "email": "hadapsar.ward@punecorporation.org",
+        "jurisdiction_areas": "Hadapsar, Mundhwa, Magarpatta City, Amanora Park Town, Keshav Nagar, Sadesatranali, Manjari Budruk, Shewalewadi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9312,
+          18.5025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-11",
+        "name": "Wanawadi - Ramtekdi Ward Office",
+        "name_mr": "वानवडी - रामटेकडी क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 4,
+        "zone_code": "ZONE-4",
+        "ward_office_name": "Wanawadi - Ramtekdi Ward Office",
+        "ward_number": "11",
+        "address": "Near Kedari Petrol Pump, Salunke Vihar Road, Wanawadi",
+        "locality": "Wanawadi",
+        "pincode": "411040",
+        "phone": "+91-20-26804567",
+        "emergency_helpline": "1800-1030-222",
+        "email": "wanawadi.ward@punecorporation.org",
+        "jurisdiction_areas": "Wanawadi, Ramtekdi, Fatima Nagar, Kedari Nagar, Lullanagar, Salunke Vihar, Vikas Nagar, SRPF Camp boundary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9015,
+          18.4925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-12",
+        "name": "Kondhwa - Yewalewadi Ward Office",
+        "name_mr": "कोंढवा - येवलेवाडी क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 4,
+        "zone_code": "ZONE-4",
+        "ward_office_name": "Kondhwa - Yewalewadi Ward Office",
+        "ward_number": "12",
+        "address": "Near Talab Kunj, Kausar Baug Road, Kondhwa Khurd",
+        "locality": "Kondhwa Khurd",
+        "pincode": "411048",
+        "phone": "+91-20-26830123",
+        "emergency_helpline": "1800-1030-222",
+        "email": "kondhwa.ward@punecorporation.org",
+        "jurisdiction_areas": "Kondhwa Khurd, Kondhwa Budruk, Mohamadwadi, NIBM Road, Undri, Yewalewadi, Tilekar Nagar, Bopdev Ghat area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8924,
+          18.4721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-13",
+        "name": "Bibwewadi Ward Office",
+        "name_mr": "बिबवेवाडी क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 5,
+        "zone_code": "ZONE-5",
+        "ward_office_name": "Bibwewadi Ward Office",
+        "ward_number": "13",
+        "address": "Utsav Hall Building, Near Vitthal Rao Shivarkar Garden, Bibwewadi",
+        "locality": "Bibwewadi",
+        "pincode": "411037",
+        "phone": "+91-20-24215678",
+        "emergency_helpline": "1800-1030-222",
+        "email": "bibwewadi.ward@punecorporation.org",
+        "jurisdiction_areas": "Bibwewadi, Upper Indira Nagar, Chintamani Nagar, Lake Town, Salisbury Park, Market Yard, Gultekdi, Maharshi Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8645,
+          18.4754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-14",
+        "name": "Bhavani Peth Ward Office",
+        "name_mr": "भवानी पेठ क्षेत्रीय कार्यालय",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 5,
+        "zone_code": "ZONE-5",
+        "ward_office_name": "Bhavani Peth Ward Office",
+        "ward_number": "14",
+        "address": "General Arunkumar Vaidya Stadium Complex, Bhavani Peth",
+        "locality": "Bhavani Peth",
+        "pincode": "411042",
+        "phone": "+91-20-26385678",
+        "emergency_helpline": "1800-1030-222",
+        "email": "bhavanipeth.ward@punecorporation.org",
+        "jurisdiction_areas": "Bhavani Peth, Nana Peth, Rasta Peth, Ghorpade Peth, Guruwar Peth, Timber Market, Lohiyanagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8682,
+          18.5115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMC-WARD-15",
+        "name": "Kasba - Vishrambaugwada Ward Office",
+        "name_mr": "कसबा - विश्रामबागवाडा क्षेत्रीय कार्यालय (मध्यवर्ती पेठा)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 5,
+        "zone_code": "ZONE-5",
+        "ward_office_name": "Kasba - Vishrambaugwada Ward Office",
+        "ward_number": "15",
+        "address": "Historic Vishrambaug Wada Building, Thorale Bajirao Road, Sadashiv Peth",
+        "locality": "Sadashiv Peth / Kasba Peth",
+        "pincode": "411030",
+        "phone": "+91-20-24451234",
+        "emergency_helpline": "1800-1030-222",
+        "email": "kasba.ward@punecorporation.org",
+        "jurisdiction_areas": "Kasba Peth, Shaniwar Peth, Budhwar Peth, Narayan Peth, Sadashiv Peth, Raviwar Peth, Somwar Peth, Mangalwar Peth, Shukrawar Peth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8532,
+          18.5152
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {},
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8305,
+          18.5262
+        ]
+      },
+      "properties": {
+        "id": "PUN-a6h7h4",
+        "name": "Office of the Chief Conservator of Forests (CCF) - Pune Circle (मुख्य वनसंरक्षक कार्यालय, पुणे वनवृत्त)",
+        "category": "circle_and_divisional_headquarters",
+        "department": "PMC",
+        "address": "Van Bhavan, Bhamburda, Senapati Bapat Road, Gokhalenagar, Pune, Maharashtra 411016",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831,
+          18.526
+        ]
+      },
+      "properties": {
+        "id": "PUN-ywqj5t",
+        "name": "Office of the Deputy Conservator of Forests (DCF) - Pune Forest Division (Territorial) (उपवनसंरक्षक, पुणे वनविभाग)",
+        "category": "circle_and_divisional_headquarters",
+        "department": "PMC",
+        "address": "Van Bhavan, Senapati Bapat Road, Shivajinagar / Gokhalenagar, Pune, Maharashtra 411016",
+        "locality": "",
+        "phone": "",
+        "email": "dcfpune@mahaforest.gov.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8745,
+          19.2085
+        ]
+      },
+      "properties": {
+        "id": "PUN-vyyd8x",
+        "name": "Office of the Deputy Conservator of Forests (DCF) - Junnar Forest Division (उपवनसंरक्षक, जुन्नर वनविभाग)",
+        "category": "circle_and_divisional_headquarters",
+        "department": "PMC",
+        "address": "6V4C+MWX, Sarai Peth, Sayyed Wada, Junnar, District Pune, Maharashtra 410502",
+        "locality": "",
+        "phone": "",
+        "email": "dcfjunnar@mahaforest.gov.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8735,
+          18.527
+        ]
+      },
+      "properties": {
+        "id": "PUN-5hdtrp",
+        "name": "Principal Chief Conservator of Forests - Directorate of Social Forestry (सामाजिक वनीकरण संचालनालय)",
+        "category": "circle_and_divisional_headquarters",
+        "department": "PMC",
+        "address": "Central Building Complex / Agarkar Nagar, Near Pune Railway Station, Pune, Maharashtra 411001",
+        "locality": "",
+        "phone": "",
+        "email": "pccf.sf@mahaforest.gov.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9015,
+          18.4795
+        ]
+      },
+      "properties": {
+        "id": "PUN-sf57dd",
+        "name": "Divisional Forest Office (DFO) - Social Forestry Division Pune (विभागीय वन अधिकारी, सामाजिक वनीकरण)",
+        "category": "circle_and_divisional_headquarters",
+        "department": "PMC",
+        "address": "49, Salunke Vihar Society, Wanowrie, Pune, Maharashtra 411048",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.1465
+        ]
+      },
+      "properties": {
+        "id": "PUN-bkae90",
+        "name": "Sub-Divisional Forest Office (SDFO) - Bhor Sub-Division (उपविभागीय वन अधिकारी कार्यालय, भोर)",
+        "category": "circle_and_divisional_headquarters",
+        "department": "PMC",
+        "address": "459/A, Amrai Ali, Bhor, District Pune, Maharashtra 412206",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.829,
+          18.5255
+        ]
+      },
+      "properties": {
+        "id": "PUN-ufoug9",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Mendhi Farm Road, Near Van Bhavan, Gokhalenagar, Pune, Maharashtra 411016",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8995,
+          18.4845
+        ]
+      },
+      "properties": {
+        "id": "PUN-k7m6zd",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Oxford Village, Kedari Nagar Road, Wanowrie, Pune, Maharashtra 411022",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.619,
+          18.5335
+        ]
+      },
+      "properties": {
+        "id": "PUN-jobny6",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Hinjawadi - Pirangut Road, Bhare, Paud, Taluka Mulshi, District Pune, Maharashtra 412115",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6495,
+          18.7565
+        ]
+      },
+      "properties": {
+        "id": "PUN-nm34xa",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Malinagar, Old Pune-Mumbai Highway, Vadgaon Maval, District Pune, Maharashtra 412106",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9415,
+          19.0065
+        ]
+      },
+      "properties": {
+        "id": "PUN-gzyslf",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Pune-Nashik Highway (NH 60), Bhorwadi, Manchar, Taluka Ambegaon, District Pune, Maharashtra 410512",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.859,
+          18.1525
+        ]
+      },
+      "properties": {
+        "id": "PUN-tw1xpg",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Bhor-Shirur Road, Sangvi, Bhor, District Pune, Maharashtra 412206",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0325,
+          18.3445
+        ]
+      },
+      "properties": {
+        "id": "PUN-roq481",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Saswad Rural, Taluka Purandar, District Pune, Maharashtra 412301",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8735,
+          18.2785
+        ]
+      },
+      "properties": {
+        "id": "PUN-edxtku",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "NH 48 (Pune-Bangalore Highway), Nasrapur, District Pune, Maharashtra 412213",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5765,
+          18.1885
+        ]
+      },
+      "properties": {
+        "id": "PUN-qn6ui0",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "MIDC Industrial Area, Baramati, District Pune, Maharashtra 413133",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5795,
+          18.4685
+        ]
+      },
+      "properties": {
+        "id": "PUN-z3nnr0",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Forest Colony, Deulgaon Raje Road, Daund, District Pune, Maharashtra 413801",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3765,
+          18.8285
+        ]
+      },
+      "properties": {
+        "id": "PUN-ckahy8",
+        "name": "Civic Facility",
+        "category": "range_forest_offices",
+        "department": "PMC",
+        "address": "Pune - Ahmednagar Road, Shirur, District Pune, Maharashtra 412210",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7715,
+          18.5135
+        ]
+      },
+      "properties": {
+        "id": "PUN-jjztvt",
+        "name": "RESQ Wildlife Transit Treatment Centre (TTC) Bavdhan (वन्यजीव संक्रमण उपचार केंद्र, बावधन)",
+        "category": "wildlife_transit_treatment_and_rescue_centres",
+        "department": "PMC",
+        "address": "Plot No. 3906, Paud-Mulshi Road, Near Chandani Chowk, Bavdhan, Pune, Maharashtra 411023",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8635,
+          18.4535
+        ]
+      },
+      "properties": {
+        "id": "PUN-04304s",
+        "name": "Katraj Wildlife Rescue & Transit Centre (कात्रज प्राणी अनाथालय व बचाव केंद्र)",
+        "category": "wildlife_transit_treatment_and_rescue_centres",
+        "department": "PMC",
+        "address": "Rajiv Gandhi Zoological Park, Pune - Satara Road, Katraj, Pune, Maharashtra 411046",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7935,
+          18.477
+        ]
+      },
+      "properties": {
+        "id": "PUN-d9ex7t",
+        "name": "Warje Urban Forest - Smriti Van (स्मृती वन, वारजे)",
+        "category": "urban_forests_reserves_and_nurseries",
+        "department": "PMC",
+        "address": "Survey No. 63, Warje Hillock, Near Mai Mangeshkar Hospital, Warje, Pune, Maharashtra 411058",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.4875
+        ]
+      },
+      "properties": {
+        "id": "PUN-uv1dxv",
+        "name": "Pachgaon Parvati Reserved Forest & Van Vihar (पाचगाव पर्वती / तळजाई राखीव वन)",
+        "category": "urban_forests_reserves_and_nurseries",
+        "department": "PMC",
+        "address": "Taljai Forest Area, Sahakar Nagar / Parvati Paytha, Pune, Maharashtra 411043",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.826,
+          18.5285
+        ]
+      },
+      "properties": {
+        "id": "PUN-7s49e9",
+        "name": "Bhamburda Van Vihar & Central Forest Nursery (भांबुर्डा वनविहार व रोपवाटिका)",
+        "category": "urban_forests_reserves_and_nurseries",
+        "department": "PMC",
+        "address": "Mendhi Farm Road, Near Symbiosis College / Vetal Hill, Gokhalenagar, Pune, Maharashtra 411016",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.754,
+          18.3685
+        ]
+      },
+      "properties": {
+        "id": "PUN-s19mb3",
+        "name": "Sinhagad Forest Checkpost & Protection Station (सिंहगड वन तपासणी नाका)",
+        "category": "urban_forests_reserves_and_nurseries",
+        "department": "PMC",
+        "address": "Sinhagad Ghat Road, Donaje, Ghera Sinhagad, Taluka Haveli, District Pune, Maharashtra 411025",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9165,
+          18.4725
+        ]
+      },
+      "properties": {
+        "id": "PUN-atuheb",
+        "name": "Anand Van - Mohammadwadi Reserved Forest (आनंद वन, महंमदवाडी)",
+        "category": "urban_forests_reserves_and_nurseries",
+        "department": "PMC",
+        "address": "NIBM Road, Mohammed Wadi, Kondhwa, Pune, Maharashtra 411048",
+        "locality": "",
+        "phone": "",
+        "email": "",
+        "role": ""
+      }
+    }
+  ]
+}

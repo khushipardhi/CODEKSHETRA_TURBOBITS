@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "name": "nagpur_waterways",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "nagpur_nag_river",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.034,
+            21.128
+          ],
+          [
+            79.052,
+            21.135
+          ],
+          [
+            79.068,
+            21.138
+          ],
+          [
+            79.082,
+            21.141
+          ],
+          [
+            79.098,
+            21.144
+          ],
+          [
+            79.115,
+            21.146
+          ],
+          [
+            79.145,
+            21.149
+          ],
+          [
+            79.175,
+            21.152
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Nag River",
+        "waterway": "river",
+        "catchment": "Ambazari Spillway Basin",
+        "risk_profile": "Primary stormwater discharge canal of Nagpur; historically overflowed September 2023 causing citywide flooding",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0) & NMC Disaster Management Cell",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_pili_river",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.048,
+            21.192
+          ],
+          [
+            79.072,
+            21.188
+          ],
+          [
+            79.095,
+            21.182
+          ],
+          [
+            79.12,
+            21.176
+          ],
+          [
+            79.155,
+            21.168
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pili River",
+        "waterway": "river",
+        "catchment": "Gorewada Overflow Channel",
+        "risk_profile": "Northern arterial stormwater channel, flash inundation risk at Mankapur & Nara",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0) & NMC PWD",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_ambazari_lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.032,
+              21.124
+            ],
+            [
+              79.038,
+              21.134
+            ],
+            [
+              79.048,
+              21.13
+            ],
+            [
+              79.042,
+              21.121
+            ],
+            [
+              79.032,
+              21.124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ambazari Lake",
+        "natural": "water",
+        "water": "reservoir",
+        "storage_type": "Nagpur Major Stormwater Reservoir & Spillway",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0)",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_futala_lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.045,
+              21.152
+            ],
+            [
+              79.052,
+              21.158
+            ],
+            [
+              79.058,
+              21.154
+            ],
+            [
+              79.051,
+              21.148
+            ],
+            [
+              79.045,
+              21.152
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Futala Lake (Telankhedi)",
+        "natural": "water",
+        "water": "lake",
+        "storage_type": "Urban Catchment & Flood Buffer",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0)",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nagpur_gorewada_reservoir",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.028,
+              21.195
+            ],
+            [
+              79.035,
+              21.215
+            ],
+            [
+              79.052,
+              21.21
+            ],
+            [
+              79.045,
+              21.192
+            ],
+            [
+              79.028,
+              21.195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gorewada Reservoir",
+        "natural": "water",
+        "water": "reservoir",
+        "storage_type": "Nagpur Municipal Water Supply & Retention Dam",
+        "city": "nagpur",
+        "source": "OpenStreetMap (ODbL 1.0)",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    }
+  ]
+}

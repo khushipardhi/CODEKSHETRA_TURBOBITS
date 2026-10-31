@@ -1,0 +1,731 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Pune Electricity Department & Utility Offices",
+    "city": "Pune, Maharashtra, India",
+    "total_features": 31,
+    "coordinate_system": "WGS 84 (EPSG:4326)",
+    "agencies_included": [
+      "Maharashtra State Electricity Distribution Company Limited (MSEDCL / Mahavitaran)",
+      "Pune Municipal Corporation (PMC) - Electrical Department (विद्युत विभाग)",
+      "Maharashtra State Electricity Transmission Company Limited (MSETCL / Mahatransco)",
+      "Consumer Grievance Redressal Forum (CGRF) Pune Zone"
+    ],
+    "generated_timestamp": "2026-10-03T10:48:00+05:30"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "msedcl_pune_zone_hq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868699,
+          18.519596
+        ]
+      },
+      "properties": {
+        "id": "msedcl_pune_zone_hq",
+        "name": "MSEDCL Pune Zone Headquarters (Chief Engineer Office)",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Zonal Headquarters",
+        "area": "Rasta Peth / Somwar Peth",
+        "address": "Administrative Building, Opposite KEM Hospital, Somwar Peth / Rasta Peth, Pune – 411011",
+        "role": "Zonal Administrative Headquarters overseeing electricity distribution across Pune Metropolitan Zone",
+        "emergency_contact": "020-26134408 / +91 7875767000 / Toll-Free: 1912 / 1800-233-3435",
+        "latitude": 18.519596,
+        "longitude": 73.868699
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_rastapeth_circle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868699,
+          18.519596
+        ]
+      },
+      "properties": {
+        "id": "msedcl_rastapeth_circle",
+        "name": "MSEDCL Rasta Peth Urban Circle (RPUC) Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Circle Office (Superintending Engineer)",
+        "area": "Rasta Peth",
+        "address": "1st Floor, Block No. 204/205, Administrative Building, Rasta Peth, Pune – 411011",
+        "role": "Superintending Engineer Office governing Rasta Peth, Padmavati, Bund Garden, and Nagar Road divisions",
+        "emergency_contact": "020-26052413 / +91 7875767103",
+        "latitude": 18.519596,
+        "longitude": 73.868699
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_ganeshkhind_circle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.829796,
+          18.537677
+        ]
+      },
+      "properties": {
+        "id": "msedcl_ganeshkhind_circle",
+        "name": "MSEDCL Ganeshkhind Urban Circle (GKUC) Office (Prakash Bhawan)",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Circle Office (Superintending Engineer)",
+        "area": "Ganeshkhind / Senapati Bapat Road",
+        "address": "Prakash Bhawan, 106/A, Senapati Bapat Road, Near Chaturshringi Temple, Gokhalenagar, Pune – 411016",
+        "role": "Superintending Engineer Office governing Shivajinagar, Kothrud, Pimpri, and Bhosari urban divisions",
+        "emergency_contact": "020-25635906 / 020-25635933 / +91 7875767429",
+        "latitude": 18.537677,
+        "longitude": 73.829796
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_pune_rural_circle",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868699,
+          18.519596
+        ]
+      },
+      "properties": {
+        "id": "msedcl_pune_rural_circle",
+        "name": "MSEDCL Pune Rural Circle (PRC) Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Circle Office (Superintending Engineer)",
+        "area": "Rasta Peth",
+        "address": "Administrative Building, Rasta Peth, Pune – 411011",
+        "role": "Superintending Engineer Office governing rural electricity distribution circles around Pune district",
+        "emergency_contact": "020-26119562 / +91 7875767409",
+        "latitude": 18.519596,
+        "longitude": 73.868699
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_electrical_dept_hq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854392,
+          18.524398
+        ]
+      },
+      "properties": {
+        "id": "pmc_electrical_dept_hq",
+        "name": "PMC Electrical Department (पुणे महानगरपालिका विद्युत विभाग)",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "department_type": "Municipal Electrical Department",
+        "area": "Shivajinagar",
+        "address": "3rd Floor, PMC Main Administrative Building, Shivaji Nagar, Near Mangala Multiplex, Pune – 411005",
+        "role": "Civic electricity department managing citywide municipal electrical systems, street lighting, solar installations, and EV charging stations",
+        "emergency_contact": "020-25501000 / 020-25501269 / +91 9689931279",
+        "latitude": 18.524398,
+        "longitude": 73.854392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_shivajinagar_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.829796,
+          18.537677
+        ]
+      },
+      "properties": {
+        "id": "msedcl_shivajinagar_div",
+        "name": "MSEDCL Shivajinagar Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Shivajinagar",
+        "address": "Prakash Bhawan, Senapati Bapat Road, Shivajinagar / Gokhalenagar, Pune – 411016",
+        "role": "Executive Engineer office managing electricity supply for Shivajinagar, Model Colony, Deccan, and Pune University areas",
+        "emergency_contact": "020-25635906 / +91 7875767012",
+        "latitude": 18.537677,
+        "longitude": 73.829796
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_kothrud_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.808921,
+          18.494675
+        ]
+      },
+      "properties": {
+        "id": "msedcl_kothrud_div",
+        "name": "MSEDCL Kothrud Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Kothrud / Dahanukar Colony",
+        "address": "30/A/33, Indra Nagari, Lane No. 11, Dahanukar Colony, Kothrud, Pune – 411038",
+        "role": "Executive Engineer office managing electricity distribution for Kothrud, Karve Nagar, Warje, and Paud Road areas",
+        "emergency_contact": "+91 7875767868 / 1800-103-0222",
+        "latitude": 18.494675,
+        "longitude": 73.808921
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_padmavati_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.859452,
+          18.476814
+        ]
+      },
+      "properties": {
+        "id": "msedcl_padmavati_div",
+        "name": "MSEDCL Padmavati Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Padmavati / Bibwewadi",
+        "address": "14, Sangam Society, Bibwewadi, Near Pune-Satara Road, Pune – 411037",
+        "role": "Executive Engineer office managing electricity distribution for Southern Pune, Bibwewadi, Dhankawadi, Katraj, and Kondhwa",
+        "emergency_contact": "+91 7875767018 / 1800-212-3435",
+        "latitude": 18.476814,
+        "longitude": 73.859452
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_bundgarden_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.886715,
+          18.510701
+        ]
+      },
+      "properties": {
+        "id": "msedcl_bundgarden_div",
+        "name": "MSEDCL Bund Garden Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Bund Garden / Camp",
+        "address": "Exhibition Road, Near Muredha Nala Park, Camp / Cantonment, Pune – 411001",
+        "role": "Executive Engineer office managing electricity distribution for Bund Garden, Pune Station, Koregaon Park, and Camp areas",
+        "emergency_contact": "020-26123456 / +91 7875767019",
+        "latitude": 18.510701,
+        "longitude": 73.886715
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_rastapeth_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868603,
+          18.519494
+        ]
+      },
+      "properties": {
+        "id": "msedcl_rastapeth_div",
+        "name": "MSEDCL Rasta Peth Division Office & Power House",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office & Power Substation Hub",
+        "area": "Rasta Peth",
+        "address": "112, Testing Division & Power House, Mudaliar Road, Rasta Peth, Pune – 411002",
+        "role": "Executive Engineer office managing distribution in central Peth areas and primary 22kV power distribution substation hub",
+        "emergency_contact": "020-26061582 / +91 7875767277",
+        "latitude": 18.519494,
+        "longitude": 73.868603
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_nagarroad_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.896518,
+          18.552695
+        ]
+      },
+      "properties": {
+        "id": "msedcl_nagarroad_div",
+        "name": "MSEDCL Nagar Road Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Yerawada / Nagar Road",
+        "address": "Shastrinagar, Airport Road / Nagar Road, Yerawada, Pune – 411006",
+        "role": "Executive Engineer office managing power distribution for Yerawada, Vadgaon Sheri, Kharadi, Viman Nagar, and Ahmednagar Road",
+        "emergency_contact": "020-26685412 / +91 7875767016",
+        "latitude": 18.552695,
+        "longitude": 73.896518
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_parvati_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8345,
+          18.4947
+        ]
+      },
+      "properties": {
+        "id": "msedcl_parvati_div",
+        "name": "MSEDCL Parvati Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Parvati / Sinhgad Road",
+        "address": "201, Sinhgad Road, Sarita Vihar, Dattawadi, Pune – 411030",
+        "role": "Executive Engineer office managing electricity supply for Dattawadi, Parvati, and Sinhgad Road residential belt",
+        "emergency_contact": "020-24350101 / +91 7875767017",
+        "latitude": 18.4947,
+        "longitude": 73.8345
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_bhosari_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831964,
+          18.631123
+        ]
+      },
+      "properties": {
+        "id": "msedcl_bhosari_div",
+        "name": "MSEDCL Bhosari Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Bhosari MIDC",
+        "address": "MIDC Area, Near Landewadi, Bhosari, Pimpri-Chinchwad, Pune – 411026",
+        "role": "Executive Engineer office managing power supply for major industrial estates in Bhosari, Dighi, and Moshi",
+        "emergency_contact": "020-27120090 / +91 7875767011",
+        "latitude": 18.631123,
+        "longitude": 73.831964
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_pimpri_div",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.80395,
+          18.612058
+        ]
+      },
+      "properties": {
+        "id": "msedcl_pimpri_div",
+        "name": "MSEDCL Pimpri Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division Office (Executive Engineer)",
+        "area": "Pimpri",
+        "address": "Nav Maharashtra Vidyalay Road, Pimpri Gaon, Pimpri Colony, Pimpri-Chinchwad, Pune – 411017",
+        "role": "Executive Engineer office managing electricity distribution for Pimpri, Chinchwad, Akurdi, and Nigdi",
+        "emergency_contact": "020-27423333 / 1800-233-3435",
+        "latitude": 18.612058,
+        "longitude": 73.80395
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msetcl_pune_zone_kasbapeth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.859884,
+          18.524992
+        ]
+      },
+      "properties": {
+        "id": "msetcl_pune_zone_kasbapeth",
+        "name": "MSETCL (Mahatransco) Pune Zonal & Administrative Building",
+        "agency": "Maharashtra State Electricity Transmission Company Limited (MSETCL)",
+        "department_type": "Transmission Zonal Headquarters",
+        "area": "Kasba Peth",
+        "address": "930, Veer Santaji Ghorpade Road, Kasba Peth, Pune – 411011",
+        "role": "State transmission utility administrative headquarters for Extra High Voltage (EHV) substations and transmission lines across Pune zone",
+        "emergency_contact": "020-24570000 / 020-24578900",
+        "latitude": 18.524992,
+        "longitude": 73.859884
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_cgrf_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868699,
+          18.519596
+        ]
+      },
+      "properties": {
+        "id": "msedcl_cgrf_pune",
+        "name": "Consumer Grievance Redressal Forum (CGRF) - MSEDCL Pune Zone",
+        "agency": "Maharashtra Electricity Regulatory Commission / MSEDCL",
+        "department_type": "Statutory Grievance Redressal Forum",
+        "area": "Rasta Peth",
+        "address": "Ground Floor, Administrative Building, Rasta Peth, Pune – 411011",
+        "role": "Statutory judicial authority established under Electricity Act 2003 for settling consumer disputes, billing issues, and compensation claims",
+        "emergency_contact": "020-26052413 / 020-26134408",
+        "latitude": 18.519596,
+        "longitude": 73.868699
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_scada_control",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868699,
+          18.519596
+        ]
+      },
+      "properties": {
+        "id": "msedcl_scada_control",
+        "name": "MSEDCL SCADA & Distribution Automation Center",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Grid Control & Automation Center",
+        "area": "Rasta Peth",
+        "address": "SCADA Building, Rasta Peth Substation Campus, Rasta Peth, Pune – 411011",
+        "role": "Computerized Supervisory Control and Data Acquisition (SCADA) hub monitoring real-time load dispatch, feeder health, and fault switching across Pune city",
+        "emergency_contact": "020-26059230",
+        "latitude": 18.519596,
+        "longitude": 73.868699
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_testing_lab_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868603,
+          18.519494
+        ]
+      },
+      "properties": {
+        "id": "msedcl_testing_lab_pune",
+        "name": "MSEDCL Testing & Quality Control Laboratory",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Testing & Calibration Division",
+        "area": "Rasta Peth",
+        "address": "Testing Division, MSEB Power House Compound, Rasta Peth, Pune – 411002",
+        "role": "Accredited laboratory for meter testing, high-voltage transformer diagnostics, relay calibration, and equipment quality testing",
+        "emergency_contact": "020-26061582",
+        "latitude": 18.519494,
+        "longitude": 73.868603
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_aundh_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.808074,
+          18.563111
+        ]
+      },
+      "properties": {
+        "id": "msedcl_aundh_subdiv",
+        "name": "MSEDCL Aundh Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Aundh",
+        "address": "Ward No. 8, Aundh Gaon, Near Aundh Bus Stand, Aundh, Pune – 411067",
+        "role": "Sub-divisional consumer service, bill collection, and local maintenance office for Aundh and Sindh Society areas",
+        "emergency_contact": "020-25883098 / 1800-233-3435",
+        "latitude": 18.563111,
+        "longitude": 73.808074
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_baner_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.793188,
+          18.556937
+        ]
+      },
+      "properties": {
+        "id": "msedcl_baner_subdiv",
+        "name": "MSEDCL Baner Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Baner",
+        "address": "Baner Road, Behind IDBI Bank, Near Pan Card Club Road, Baner, Pune – 411069",
+        "role": "Sub-divisional office serving Baner, Balewadi, and Pashan-Baner Link Road residential corridors",
+        "emergency_contact": "020-27290101 / 1800-233-3435",
+        "latitude": 18.556937,
+        "longitude": 73.793188
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_hinjawadi_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.758188,
+          18.598187
+        ]
+      },
+      "properties": {
+        "id": "msedcl_hinjawadi_subdiv",
+        "name": "MSEDCL Hinjawadi Sub-Division Office (Wakad)",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Wakad / Hinjawadi",
+        "address": "HQX5+775, Shankar Kalat Nagar, Near Datta Mandir Road, Wakad, Pune – 411057",
+        "role": "Sub-divisional office handling electricity operations for Wakad, Hinjawadi township, and IT clusters",
+        "emergency_contact": "020-27275163 / +91 7875767612",
+        "latitude": 18.598187,
+        "longitude": 73.758188
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_hinjawadi_it_park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.737312,
+          18.586562
+        ]
+      },
+      "properties": {
+        "id": "msedcl_hinjawadi_it_park",
+        "name": "MSEDCL Hinjawadi IT Park Phase 1 Section Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Section Office & IT Park Feeder Center",
+        "area": "Hinjawadi Phase 1",
+        "address": "Phase 1, Rajiv Gandhi Infotech Park, Hinjawadi, Pune – 411057",
+        "role": "Dedicated section office ensuring 24x7 express feeder power reliability for IT SEZ companies and data centers in Hinjawadi",
+        "emergency_contact": "020-22933101 / 1800-233-3435",
+        "latitude": 18.586562,
+        "longitude": 73.737312
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_hadapsar_office",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.919225,
+          18.506593
+        ]
+      },
+      "properties": {
+        "id": "msedcl_hadapsar_office",
+        "name": "MSEDCL Hadapsar Division & Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Division & Sub-Division Office",
+        "area": "Hadapsar / Vaiduwadi",
+        "address": "GW49+JMQ, MIDC Area, Pune-Solapur Road, Vaiduwadi, Hadapsar, Pune – 411013",
+        "role": "Sub-divisional and industrial operations office covering Magarpatta, Hadapsar Industrial Area, and Solapur Road corridor",
+        "emergency_contact": "020-26824079 / 1800-212-3435",
+        "latitude": 18.506593,
+        "longitude": 73.919225
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_kondhwa_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.88993,
+          18.456981
+        ]
+      },
+      "properties": {
+        "id": "msedcl_kondhwa_subdiv",
+        "name": "MSEDCL Kondhwa Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Kondhwa",
+        "address": "Ambedkar Nagar, Near Tyni Audyogic Wasahat, Kondhwa Khurd, Pune – 411048",
+        "role": "Sub-divisional maintenance and billing office for Kondhwa, NIBM, Salunke Vihar, and Undri",
+        "emergency_contact": "020-26930097 / 1800-233-3435",
+        "latitude": 18.456981,
+        "longitude": 73.88993
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_swargate_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.858187,
+          18.501188
+        ]
+      },
+      "properties": {
+        "id": "msedcl_swargate_subdiv",
+        "name": "MSEDCL Swargate Sub-Division & Vij Deyak Kendra",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division & Bill Payment Center",
+        "area": "Swargate / Shukrawar Peth",
+        "address": "GV25+F7R, Tilak Road, Dadawadi, Shukrawar Peth / Swargate, Pune – 411002",
+        "role": "Major central electricity billing and consumer grievance center serving central Pune and Swargate bus interchange transit zone",
+        "emergency_contact": "020-24441010 / 1800-233-3435",
+        "latitude": 18.501188,
+        "longitude": 73.858187
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_deccan_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.840187,
+          18.519188
+        ]
+      },
+      "properties": {
+        "id": "msedcl_deccan_subdiv",
+        "name": "MSEDCL Deccan Gymkhana / Ganeshwadi Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Deccan Gymkhana / FC Road",
+        "address": "Lane No. 3, Ganeshwadi, Wadervadi, Near BMCC Road, Deccan Gymkhana, Pune – 411004",
+        "role": "Sub-division office managing supply for Fergusson College Road, BMCC, Deccan, and Prabhat Road residential areas",
+        "emergency_contact": "020-25677524",
+        "latitude": 18.519188,
+        "longitude": 73.840187
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_vadgaonsheri_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.917187,
+          18.550312
+        ]
+      },
+      "properties": {
+        "id": "msedcl_vadgaonsheri_subdiv",
+        "name": "MSEDCL Vadgaon Sheri Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Wadgaon Sheri / Kalyani Nagar",
+        "address": "HW28+4VV, Sainikwadi, Wadgaon Sheri, Pune – 411014",
+        "role": "Sub-division office managing distribution for Wadgaon Sheri, Kalyani Nagar, and Mundhwa",
+        "emergency_contact": "+91 7875720259 / 1800-233-3435",
+        "latitude": 18.550312,
+        "longitude": 73.917187
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_vishrantwadi_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.881562,
+          18.568312
+        ]
+      },
+      "properties": {
+        "id": "msedcl_vishrantwadi_subdiv",
+        "name": "MSEDCL Vishrantwadi Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Vishrantwadi / Mohanwadi",
+        "address": "Blue Haven Society, Mohanwadi, Near Alandi Road, Yerawada / Vishrantwadi, Pune – 411006",
+        "role": "Sub-division office serving Vishrantwadi, Tingre Nagar, Dhanori, and Kalas corridors",
+        "emergency_contact": "020-26681010 / 1800-233-3435",
+        "latitude": 18.568312,
+        "longitude": 73.881562
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_dhankawadi_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.852687,
+          18.461562
+        ]
+      },
+      "properties": {
+        "id": "msedcl_dhankawadi_subdiv",
+        "name": "MSEDCL Dhankawadi Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Dhankawadi / Sahakar Nagar",
+        "address": "Akshay Nagar, Near Taljai Hills, Dhankawadi, Pune – 411043",
+        "role": "Sub-division office serving Dhankawadi, Sahakar Nagar, and Ambegaon Budruk",
+        "emergency_contact": "020-24371010 / 1800-233-3435",
+        "latitude": 18.461562,
+        "longitude": 73.852687
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_pashan_sus_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.784312,
+          18.540563
+        ]
+      },
+      "properties": {
+        "id": "msedcl_pashan_sus_subdiv",
+        "name": "MSEDCL Pashan & Sus Road Section Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Section Office",
+        "area": "Pashan / Sus Road",
+        "address": "Sai Chowk, Sus Road, Pashan, Pune – 411021",
+        "role": "Section office serving Pashan, Sus, Sutarwadi, and NDA Road residential developments",
+        "emergency_contact": "1800-212-3435",
+        "latitude": 18.540563,
+        "longitude": 73.784312
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msedcl_sangvi_wakad_subdiv",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.781657,
+          18.597308
+        ]
+      },
+      "properties": {
+        "id": "msedcl_sangvi_wakad_subdiv",
+        "name": "MSEDCL Sangvi / Wakad Sub-Division Office",
+        "agency": "Maharashtra State Electricity Distribution Company Limited (MSEDCL)",
+        "department_type": "Sub-Division Office",
+        "area": "Jagtap Dairy / Pimple Saudagar",
+        "address": "HQWJ+WJG, Aundh - Ravet BRTS Road, Jagtap Dairy Chowk, Wakad / Pimple Saudagar, Pune – 411057",
+        "role": "Sub-division office serving Sangvi, Pimple Gurav, Pimple Saudagar, and Wakad BRTS belt",
+        "emergency_contact": "1800-212-3435",
+        "latitude": 18.597308,
+        "longitude": 73.781657
+      }
+    }
+  ]
+}

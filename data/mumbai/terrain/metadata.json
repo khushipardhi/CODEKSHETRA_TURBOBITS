@@ -1,0 +1,33 @@
+{
+  "title": "Sentinel City Intelligence — Greater Mumbai 24 BMC Wards Terrain Profile Dataset",
+  "generatedAt": "2026-10-19T00:27:47.376Z",
+  "pipelineVersion": "v3.0-copernicus-terrain-pipeline",
+  "coordinateReferenceSystem": "EPSG:4326 (WGS84)",
+  "verticalDatum": "EGM2008 (Mean Sea Level ASL)",
+  "spatialResolution": "30m DEM (1 arc-second) aggregated to 24 BMC administrative wards",
+  "sources": [
+    {
+      "name": "Copernicus GLO-30 Digital Elevation Model",
+      "provider": "European Space Agency (ESA) / Airbus Defence and Space",
+      "catalogue": "OpenTopography / AWS s3://copernicus-dem-30m/",
+      "resolution": "30 meters",
+      "licence": "Open Data Commons / Copernicus WorldView Free Open Access",
+      "retrievalDate": "2026-10-18"
+    },
+    {
+      "name": "ESA WorldCover 10m Built-Up & Impervious Fraction",
+      "provider": "ESA WorldCover Consortium / VITO Remote Sensing",
+      "resolution": "10 meters",
+      "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "retrievalDate": "2026-10-18"
+    },
+    {
+      "name": "MCGM BRIMSTOWAD Master Plan Hydrological Catchments",
+      "authority": "Brihanmumbai Municipal Corporation (BMC)",
+      "licence": "Public Domain / Municipal Planning Document",
+      "retrievalDate": "2026-10-18"
+    }
+  ],
+  "scientificDisclaimer": "30m Copernicus GLO-30 DEM provides macro-topographic basin elevation and saucer depression screening. It is NOT survey-grade street-level LiDAR and cannot independently predict curb-scale ponding without micro-catchment inlet connectivity.",
+  "totalWards": 24
+}

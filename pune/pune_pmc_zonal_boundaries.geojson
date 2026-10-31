@@ -1,0 +1,609 @@
+{
+  "type": "FeatureCollection",
+  "name": "pune_pmc_zonal_boundaries",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 1,
+        "zone_code": "ZONE-1",
+        "name": "Zone 1 (North-East Pune)",
+        "name_mr": "परिमंडळ क्र. १ (उत्तर-पूर्व पुणे)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone 1) Office, Late B.S. Dhole Patil Market Building",
+        "dmc_address": "2nd Floor, Rajarshi Shahu Maharaj Path, Dhole Patil Road, Pune - 411001",
+        "constituent_ward_offices": [
+          "Yerawada - Kalas - Dhanori Ward Office",
+          "Nagar Road - Vadgaonsheri / Wagholi Ward Office",
+          "Dhole Patil Road Ward Office"
+        ],
+        "num_ward_offices": 3,
+        "electoral_prabhags": "Prabhag 1 to 6, 13, 14",
+        "key_localities": "Yerawada, Kalas, Dhanori, Vishrantwadi, Tingre Nagar, Lohegaon (Airport), Viman Nagar, Vadgaonsheri, Ramwadi, Kharadi, Wagholi, Dhole Patil Road, Koregaon Park, Sangamwadi, Bund Garden, Pune Station North-East",
+        "area_sq_km": 79.42,
+        "population_est": 1150000,
+        "helpline": "1800-1030-222 / 020-25501000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.862,
+              18.558
+            ],
+            [
+              73.865,
+              18.572
+            ],
+            [
+              73.868,
+              18.588
+            ],
+            [
+              73.875,
+              18.602
+            ],
+            [
+              73.892,
+              18.61
+            ],
+            [
+              73.915,
+              18.605
+            ],
+            [
+              73.935,
+              18.595
+            ],
+            [
+              73.958,
+              18.58
+            ],
+            [
+              73.975,
+              18.56
+            ],
+            [
+              73.985,
+              18.545
+            ],
+            [
+              73.975,
+              18.53
+            ],
+            [
+              73.955,
+              18.535
+            ],
+            [
+              73.935,
+              18.538
+            ],
+            [
+              73.922,
+              18.54
+            ],
+            [
+              73.905,
+              18.542
+            ],
+            [
+              73.888,
+              18.535
+            ],
+            [
+              73.875,
+              18.528
+            ],
+            [
+              73.865,
+              18.53
+            ],
+            [
+              73.858,
+              18.532
+            ],
+            [
+              73.856,
+              18.54
+            ],
+            [
+              73.858,
+              18.548
+            ],
+            [
+              73.862,
+              18.558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 2,
+        "zone_code": "ZONE-2",
+        "name": "Zone 2 (North-West & West Pune)",
+        "name_mr": "परिमंडळ क्र. २ (उत्तर-पश्चिम व पश्चिम पुणे)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone 2) Office, Ghole Road Ward Office Building",
+        "dmc_address": "Ghole Road, Off Fergusson College (FC) Road, Shivajinagar, Pune - 411005",
+        "constituent_ward_offices": [
+          "Shivajinagar - Ghole Road Ward Office",
+          "Aundh - Baner Ward Office",
+          "Kothrud - Bavdhan Ward Office"
+        ],
+        "num_ward_offices": 3,
+        "electoral_prabhags": "Prabhag 7 to 12, 15",
+        "key_localities": "Aundh, Baner, Balewadi, Mahalunge, Pashan, Sutarwadi, Bavdhan Khurd & Budruk, Kothrud, Ideal Colony, Mayur Colony, Rambaug, Paud Road, Shivajinagar, Ghole Road, Model Colony, Fergusson College Road (FC Road), BMCC Road, Deccan Gymkhana North, Wakdewadi",
+        "area_sq_km": 86.48,
+        "population_est": 1050000,
+        "helpline": "1800-1030-222 / 020-25501000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.858,
+              18.532
+            ],
+            [
+              73.856,
+              18.54
+            ],
+            [
+              73.858,
+              18.548
+            ],
+            [
+              73.862,
+              18.558
+            ],
+            [
+              73.845,
+              18.555
+            ],
+            [
+              73.828,
+              18.565
+            ],
+            [
+              73.815,
+              18.575
+            ],
+            [
+              73.8,
+              18.582
+            ],
+            [
+              73.782,
+              18.588
+            ],
+            [
+              73.765,
+              18.58
+            ],
+            [
+              73.755,
+              18.565
+            ],
+            [
+              73.748,
+              18.545
+            ],
+            [
+              73.752,
+              18.525
+            ],
+            [
+              73.762,
+              18.508
+            ],
+            [
+              73.775,
+              18.49
+            ],
+            [
+              73.795,
+              18.5
+            ],
+            [
+              73.81,
+              18.498
+            ],
+            [
+              73.825,
+              18.495
+            ],
+            [
+              73.836,
+              18.505
+            ],
+            [
+              73.846,
+              18.514
+            ],
+            [
+              73.849,
+              18.52
+            ],
+            [
+              73.853,
+              18.525
+            ],
+            [
+              73.858,
+              18.532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 3,
+        "zone_code": "ZONE-3",
+        "name": "Zone 3 (South-West Pune)",
+        "name_mr": "परिमंडळ क्र. ३ (दक्षिण-पश्चिम पुणे)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone 3) Office, Sinhgad Road Ward Office Building",
+        "dmc_address": "Dandekar Bridge / Hingne Khurd, Sinhgad Road, Pune - 411030",
+        "constituent_ward_offices": [
+          "Warje - Karvenagar Ward Office",
+          "Sinhgad Road Ward Office",
+          "Dhankawadi - Sahakar Nagar Ward Office"
+        ],
+        "num_ward_offices": 3,
+        "electoral_prabhags": "Prabhag 29 to 35",
+        "key_localities": "Warje, Malwadi, Karvenagar, Hingne Khurd & Budruk, Anand Nagar, Sun City, Sinhgad Road corridor, Vadgaon Khurd & Budruk, Dhayari, Nanded City border, Ambegaon Khurd & Budruk, Katraj, Katraj Lake, Bharati Vidyapeeth, Dhankawadi, Padmavati, Sahakar Nagar, Parvati foothills",
+        "area_sq_km": 58.2,
+        "population_est": 1250000,
+        "helpline": "1800-1030-222 / 020-25501000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.775,
+              18.49
+            ],
+            [
+              73.795,
+              18.5
+            ],
+            [
+              73.81,
+              18.498
+            ],
+            [
+              73.825,
+              18.495
+            ],
+            [
+              73.836,
+              18.505
+            ],
+            [
+              73.846,
+              18.514
+            ],
+            [
+              73.848,
+              18.505
+            ],
+            [
+              73.85,
+              18.498
+            ],
+            [
+              73.855,
+              18.485
+            ],
+            [
+              73.858,
+              18.47
+            ],
+            [
+              73.86,
+              18.455
+            ],
+            [
+              73.862,
+              18.442
+            ],
+            [
+              73.865,
+              18.435
+            ],
+            [
+              73.87,
+              18.425
+            ],
+            [
+              73.858,
+              18.42
+            ],
+            [
+              73.845,
+              18.422
+            ],
+            [
+              73.832,
+              18.428
+            ],
+            [
+              73.818,
+              18.435
+            ],
+            [
+              73.805,
+              18.442
+            ],
+            [
+              73.792,
+              18.455
+            ],
+            [
+              73.785,
+              18.468
+            ],
+            [
+              73.778,
+              18.48
+            ],
+            [
+              73.775,
+              18.49
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 4,
+        "zone_code": "ZONE-4",
+        "name": "Zone 4 (South-East & East Pune)",
+        "name_mr": "परिमंडळ क्र. ४ (दक्षिण-पूर्व व पूर्व पुणे)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone 4) Office, Hadapsar Ward Office Building",
+        "dmc_address": "Pandit Jawaharlal Nehru Udyan, Gadital, Pune-Solapur Road, Hadapsar, Pune - 411028",
+        "constituent_ward_offices": [
+          "Hadapsar - Mundhwa Ward Office",
+          "Wanawadi - Ramtekdi Ward Office",
+          "Kondhwa - Yewalewadi Ward Office"
+        ],
+        "num_ward_offices": 3,
+        "electoral_prabhags": "Prabhag 18 to 23, 26",
+        "key_localities": "Hadapsar, Magarpatta City, Amanora Park Town, Mundhwa, Keshav Nagar, Sadesatranali, Manjari Budruk, Shewalewadi, Phursungi border, Wanawadi, Ramtekdi, Fatima Nagar, Kedari Nagar, Lullanagar, Salunke Vihar, NIBM Road, Kondhwa Khurd & Budruk, Mohamadwadi, Undri, Yewalewadi, Tilekar Nagar, Bopdev Ghat foothills",
+        "area_sq_km": 110.17,
+        "population_est": 1300000,
+        "helpline": "1800-1030-222 / 020-25501000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.875,
+              18.528
+            ],
+            [
+              73.888,
+              18.535
+            ],
+            [
+              73.905,
+              18.542
+            ],
+            [
+              73.922,
+              18.54
+            ],
+            [
+              73.935,
+              18.538
+            ],
+            [
+              73.955,
+              18.535
+            ],
+            [
+              73.975,
+              18.53
+            ],
+            [
+              73.98,
+              18.515
+            ],
+            [
+              73.982,
+              18.5
+            ],
+            [
+              73.975,
+              18.485
+            ],
+            [
+              73.96,
+              18.472
+            ],
+            [
+              73.945,
+              18.458
+            ],
+            [
+              73.93,
+              18.445
+            ],
+            [
+              73.915,
+              18.435
+            ],
+            [
+              73.898,
+              18.428
+            ],
+            [
+              73.885,
+              18.424
+            ],
+            [
+              73.87,
+              18.425
+            ],
+            [
+              73.865,
+              18.435
+            ],
+            [
+              73.862,
+              18.442
+            ],
+            [
+              73.875,
+              18.462
+            ],
+            [
+              73.878,
+              18.478
+            ],
+            [
+              73.875,
+              18.49
+            ],
+            [
+              73.872,
+              18.502
+            ],
+            [
+              73.875,
+              18.51
+            ],
+            [
+              73.878,
+              18.518
+            ],
+            [
+              73.875,
+              18.528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 5,
+        "zone_code": "ZONE-5",
+        "name": "Zone 5 (Central Heritage Core & South-Central Peths)",
+        "name_mr": "परिमंडळ क्र. ५ (मध्यवर्ती पेठा व मध्य पुणे)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone 5) Office, Bhavani Peth Ward Office Building",
+        "dmc_address": "General Arunkumar Vaidya Stadium Complex, Bhavani Peth, Pune - 411042",
+        "constituent_ward_offices": [
+          "Kasba - Vishrambaugwada Ward Office",
+          "Bhavani Peth Ward Office",
+          "Bibwewadi Ward Office"
+        ],
+        "num_ward_offices": 3,
+        "electoral_prabhags": "Prabhag 16, 17, 24, 25, 27, 28",
+        "key_localities": "Kasba Peth, Shaniwar Peth, Narayan Peth, Sadashiv Peth, Budhwar Peth, Raviwar Peth, Somwar Peth, Mangalwar Peth, Rasta Peth, Nana Peth, Bhavani Peth, Ghorpade Peth, Guruwar Peth, Shukrawar Peth, Swargate, Sarasbaug, Maharshi Nagar, Salisbury Park, Gultekdi, Pune Market Yard, Bibwewadi, Upper Indira Nagar, Chintamani Nagar",
+        "area_sq_km": 20.08,
+        "population_est": 950000,
+        "helpline": "1800-1030-222 / 020-25501000"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.846,
+              18.514
+            ],
+            [
+              73.849,
+              18.52
+            ],
+            [
+              73.853,
+              18.525
+            ],
+            [
+              73.858,
+              18.532
+            ],
+            [
+              73.865,
+              18.53
+            ],
+            [
+              73.875,
+              18.528
+            ],
+            [
+              73.878,
+              18.518
+            ],
+            [
+              73.875,
+              18.51
+            ],
+            [
+              73.872,
+              18.502
+            ],
+            [
+              73.875,
+              18.49
+            ],
+            [
+              73.878,
+              18.478
+            ],
+            [
+              73.875,
+              18.462
+            ],
+            [
+              73.862,
+              18.442
+            ],
+            [
+              73.86,
+              18.455
+            ],
+            [
+              73.858,
+              18.47
+            ],
+            [
+              73.855,
+              18.485
+            ],
+            [
+              73.85,
+              18.498
+            ],
+            [
+              73.848,
+              18.505
+            ],
+            [
+              73.846,
+              18.514
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

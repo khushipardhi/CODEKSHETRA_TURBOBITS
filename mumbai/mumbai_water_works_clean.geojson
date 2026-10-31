@@ -1,0 +1,364 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_Metropolitan_Water_Works_and_Hydraulic_Engineering_Offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WW-MUM-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8184,
+          19.0062
+        ]
+      },
+      "properties": {
+        "name": "BMC Hydraulic Engineer's Department (Headquarters)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Apex Water Supply & Hydraulic Engineering Directorate",
+        "jurisdiction": "Greater Mumbai (All 24 Municipal Wards)",
+        "address": "1st Floor, BMC Engineering Hub Building, Dr. E. Moses Road, Worli Naka, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Hydraulic Engineer (HE)",
+        "designation": "Chief Hydraulic Engineer",
+        "phone": "+91-22-24958000",
+        "email": "he@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9345,
+          19.1685
+        ]
+      },
+      "properties": {
+        "name": "BMC Bhandup Complex (Water Treatment Plant & Master Pumping Station)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Central Water Treatment Plant & Pumping Complex (Asia's Largest WTP)",
+        "jurisdiction": "Greater Mumbai (Treatment of Tansa, Bhatsa, Upper Vaitarna Waters)",
+        "address": "Filter Annex Building 'B', Bhandup Complex, Near Khindipada, Mulund / Bhandup West, Mumbai, Maharashtra 400082",
+        "officer": "Deputy Hydraulic Engineer (Bhandup Complex)",
+        "designation": "Dy. Hydraulic Engineer",
+        "phone": "+91-22-25658500",
+        "email": "dyhe.bc@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8052,
+          18.9567
+        ]
+      },
+      "properties": {
+        "name": "Malabar Hill Reservoir (MHR) & Pumping Station",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Master Service Reservoir & South Mumbai Command Tank",
+        "jurisdiction": "South Mumbai (Colaba, Nariman Point, Marine Drive, Malabar Hill, Fort)",
+        "address": "Under Hanging Gardens, BG Kher Marg, Ridge Road, Malabar Hill, Mumbai, Maharashtra 400006",
+        "officer": "Assistant Engineer (Water Works) Malabar Hill",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-23631234",
+        "email": "ae.mhr@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8447,
+          18.9668
+        ]
+      },
+      "properties": {
+        "name": "Bhandarwada Hill Reservoir & Pumping Station (Mazgaon)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Service Reservoir & Distribution Complex",
+        "jurisdiction": "South-Central Mumbai (Mazgaon, Byculla, Dockyard Road, Dongri)",
+        "address": "Joseph Baptista Gardens, Mazgaon Hill, Dockyard Road, Mazgaon, Mumbai, Maharashtra 400010",
+        "officer": "Assistant Engineer (Water Works) Bhandarwada",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-23712345",
+        "email": "ae.bhr@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8142,
+          19.0035
+        ]
+      },
+      "properties": {
+        "name": "Worli Hill Reservoir & Love Grove Water Works",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "High-Level Service Reservoir & Pumping Station",
+        "jurisdiction": "Central Mumbai (Worli, Lower Parel, Prabhadevi)",
+        "address": "Dr. E. Moses Road / Khan Abdul Ghaffar Khan Road, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Assistant Engineer (Water Works) Worli",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-24934567",
+        "email": "ae.worliww@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8272,
+          19.0628
+        ]
+      },
+      "properties": {
+        "name": "Pali Hill Service Reservoir (Bandra West)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Service Reservoir & Pressure Regulating Station",
+        "jurisdiction": "Western Suburbs South (Bandra West, Khar West, Santa Cruz West)",
+        "address": "Nargis Dutt Road, Pali Hill, Bandra West, Mumbai, Maharashtra 400050",
+        "officer": "Assistant Engineer (Water Works) Bandra",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-26425678",
+        "email": "ae.paliww@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8682,
+          19.1245
+        ]
+      },
+      "properties": {
+        "name": "Veravali Reservoirs I, II & III Complex",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Master Balancing Reservoir & Western Suburbs Main Pumping Station",
+        "jurisdiction": "Western Suburbs Central (Andheri East/West, Vile Parle, Juhu, Jogeshwari)",
+        "address": "Mahakali Caves Road, Near Pump House, Andheri East, Mumbai, Maharashtra 400093",
+        "officer": "Executive Engineer Water Works (Western Suburbs South)",
+        "designation": "Executive Engineer",
+        "phone": "+91-22-28321234",
+        "email": "eeww.wss@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9125,
+          19.1298
+        ]
+      },
+      "properties": {
+        "name": "Powai High-Level Master Balancing Reservoir (MBR)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Master Balancing Reservoir & Transmission Node",
+        "jurisdiction": "Powai, Chandivali, Kanjurmarg & Central Suburban Corridors",
+        "address": "Powai Hill, Filter Plant Road, Near IIT Bombay, Powai, Mumbai, Maharashtra 400076",
+        "officer": "Assistant Engineer (Maintenance) Water Works ES-II",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-25782345",
+        "email": "ae.powaiww@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9255,
+          19.0412
+        ]
+      },
+      "properties": {
+        "name": "Trombay Master Balancing Reservoir & Pumping Station",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Master Balancing Reservoir & Pressure Booster Station",
+        "jurisdiction": "Eastern Suburbs South (Chembur, Govandi, Mankhurd, Trombay)",
+        "address": "Trombay Hill, Off Sion-Trombay Road, Chembur / BARC, Mumbai, Maharashtra 400088",
+        "officer": "Assistant Engineer (Water Works) Trombay",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-25561234",
+        "email": "ae.trombayww@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8465,
+          19.2312
+        ]
+      },
+      "properties": {
+        "name": "Borivali Hill Service Reservoir",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "High-Level Service Reservoir",
+        "jurisdiction": "Western Suburbs Far-North (Borivali, Dahisar, Kandivali West)",
+        "address": "Gorai Road / Shimpoli Hill, Borivali West, Mumbai, Maharashtra 400092",
+        "officer": "Assistant Engineer (Water Works) Borivali",
+        "designation": "Assistant Engineer",
+        "phone": "+91-22-28921234",
+        "email": "ae.borivaliww@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8184,
+          19.0062
+        ]
+      },
+      "properties": {
+        "name": "Executive Engineer Water Works (City Division)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Water Works Maintenance & Distribution Office",
+        "jurisdiction": "Island City (Wards A to G)",
+        "address": "1st Floor, BMC Engineering Hub, Dr. E. Moses Road, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Executive Engineer Water Works (City)",
+        "designation": "Executive Engineer",
+        "phone": "+91-22-24958050",
+        "email": "eeww.city@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.909,
+          19.0838
+        ]
+      },
+      "properties": {
+        "name": "Executive Engineer Water Works (Eastern Suburbs Division)",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Water Works Maintenance & Distribution Office",
+        "jurisdiction": "Eastern Suburbs (Wards L, M, N, S, T - Kurla to Mulund)",
+        "address": "N Ward Office Complex, Jawahar Road, Pant Nagar, Ghatkopar East, Mumbai, Maharashtra 400077",
+        "officer": "Executive Engineer Water Works (Eastern Suburbs)",
+        "designation": "Executive Engineer",
+        "phone": "+91-22-25010161",
+        "email": "eeww.es@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0416,
+          19.0142
+        ]
+      },
+      "properties": {
+        "name": "NMMC City Engineer Department (Water Supply Directorate)",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Municipal Apex Water Works Directorate",
+        "jurisdiction": "Navi Mumbai Municipal Corporation Area (Morbe Dam Supply Grid)",
+        "address": "1st Floor, NMMC Bhavan, Plot No. 1 & 2, Sector 15A, Palm Beach Road, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+        "officer": "City Engineer & Executive Engineer (Water Supply)",
+        "designation": "City Engineer (Water Supply)",
+        "phone": "+91-22-27567070",
+        "email": "ee_water@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0368,
+          19.0225
+        ]
+      },
+      "properties": {
+        "name": "NMMC CBD Belapur Master Balancing Reservoir & Water Works",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Master Balancing Reservoir & Distribution Station",
+        "jurisdiction": "CBD Belapur Node & Sectoral Supply",
+        "address": "Sector 8, CBD Belapur Hill, Navi Mumbai, Maharashtra 400614",
+        "officer": "Deputy Engineer (Water Supply Belapur)",
+        "designation": "Deputy Engineer",
+        "phone": "+91-22-27571234",
+        "email": "water.belapur@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0182,
+          19.0345
+        ]
+      },
+      "properties": {
+        "name": "NMMC Nerul Master Balancing Reservoir & Booster Pumping Station",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Master Balancing Reservoir & Booster Station",
+        "jurisdiction": "Nerul Node, Seawoods & Palm Beach Road Sectoral Grids",
+        "address": "Sector 20, Nerul West, Navi Mumbai, Maharashtra 400706",
+        "officer": "Deputy Engineer (Water Supply Nerul)",
+        "designation": "Deputy Engineer",
+        "phone": "+91-22-27701234",
+        "email": "water.nerul@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WW-MUM-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9984,
+          19.0768
+        ]
+      },
+      "properties": {
+        "name": "NMMC Vashi Water Works & Pumping Station",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Zonal Water Works Pumping Station",
+        "jurisdiction": "Vashi Node & Sectors 1 to 30",
+        "address": "Sector 10 / Sector 28, Vashi, Navi Mumbai, Maharashtra 400703",
+        "officer": "Deputy Engineer (Water Supply Vashi)",
+        "designation": "Deputy Engineer",
+        "phone": "+91-22-27892345",
+        "email": "water.vashi@nmmc.gov.in"
+      }
+    }
+  ]
+}

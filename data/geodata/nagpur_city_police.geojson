@@ -1,0 +1,1189 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_City_Police_Stations_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "1. Nagpur City Police",
+    "department_id": 1,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 31,
+    "categories": [
+      {
+        "category": "Crime Report",
+        "sub_categories": [
+          "Reporting thefts",
+          "Lost mobile phones or documents",
+          "General crimes"
+        ]
+      },
+      {
+        "category": "Traffic",
+        "sub_categories": [
+          "Traffic violations",
+          "Severe traffic jams",
+          "Abandoned vehicles"
+        ]
+      },
+      {
+        "category": "Public Order",
+        "sub_categories": [
+          "Public nuisance",
+          "Harassment",
+          "Late-night noise pollution"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-POL-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0732,
+          21.1578
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-HQ01",
+        "name": "Nagpur Police Commissionerate (Police Bhavan)",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Headquarters / Commissioner Office",
+        "zone": "Headquarters",
+        "division": "Commissionerate",
+        "address": "Police Bhavan, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2560601",
+        "emergency_number": "112 / 100",
+        "jurisdiction_area": "Nagpur City Police Commissionerate Jurisdiction",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-HQ02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0728,
+          21.1534
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-HQ02",
+        "name": "Nagpur Police Control Room & Cyber Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Specialized Station / Control Room",
+        "zone": "Headquarters",
+        "division": "Crime Branch",
+        "address": "Samaj Kalyan Office Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2561222",
+        "emergency_number": "112",
+        "jurisdiction_area": "Citywide Cyber Crime & Emergency Dispatch",
+        "handling_categories": [
+          "Crime Report",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-HQ03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0831,
+          21.1472
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-HQ03",
+        "name": "Nagpur Traffic Police Headquarters",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Traffic Branch Headquarters",
+        "zone": "Traffic Branch",
+        "division": "Traffic",
+        "address": "Traffic Police HQ, Near Morris College Ground, Sitabuldi, Nagpur, Maharashtra 440001",
+        "locality": "Sitabuldi",
+        "pincode": "440001",
+        "contact_number": "+91-712-2565888",
+        "emergency_number": "103 / 112",
+        "jurisdiction_area": "Citywide Traffic Management & Enforcement",
+        "handling_categories": [
+          "Traffic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0792,
+          21.1458
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-01",
+        "name": "Sitabuldi Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sitabuldi Division",
+        "address": "Variety Square, Wardha Road, Sitabuldi, Nagpur, Maharashtra 440012",
+        "locality": "Sitabuldi",
+        "pincode": "440012",
+        "contact_number": "+91-712-2565666",
+        "emergency_number": "112",
+        "jurisdiction_area": "Sitabuldi, Variety Square, Maharajbagh, Anand Talkies, Munje Square",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0803,
+          21.1345
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-02",
+        "name": "Dhantoli Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sitabuldi Division",
+        "address": "Police Station Road, Congress Nagar, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2422100",
+        "emergency_number": "112",
+        "jurisdiction_area": "Dhantoli, Congress Nagar, Rahate Colony, Takiya, Lokmat Square",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0634,
+          21.1278
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-03",
+        "name": "Bajaj Nagar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sitabuldi Division",
+        "address": "No. 76, RPTS Road, Vivekanand Nagar, Bajaj Nagar, Nagpur, Maharashtra 440015",
+        "locality": "Bajaj Nagar",
+        "pincode": "440015",
+        "contact_number": "+91-712-2244222",
+        "emergency_number": "112",
+        "jurisdiction_area": "Bajaj Nagar, VNIT Campus, Laxmi Nagar, Shraddhanand Peth, Shankar Nagar",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0526,
+          21.1492
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-04",
+        "name": "Ambazari Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sitabuldi Division",
+        "address": "Amravati Road, Ravi Nagar, Civil Lines, Nagpur, Maharashtra 440033",
+        "locality": "Ambazari / Ravi Nagar",
+        "pincode": "440033",
+        "contact_number": "+91-712-2561300",
+        "emergency_number": "112",
+        "jurisdiction_area": "Ambazari, Ravi Nagar, Ram Nagar, Gokulpeth, Hill Top, Futala Lake area",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0805,
+          21.1612
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-05",
+        "name": "Sadar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sadar Division",
+        "address": "Futala Road, Residency Road, Sadar Bazar, Nagpur, Maharashtra 440001",
+        "locality": "Sadar",
+        "pincode": "440001",
+        "contact_number": "+91-712-2562707",
+        "emergency_number": "112",
+        "jurisdiction_area": "Sadar, Residency Road, Mount Road, Raj Bhavan, Civil Lines North, Gaddigodam",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0562,
+          21.1764
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-06",
+        "name": "Gittikhadan Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sadar Division",
+        "address": "Katol Road, Near Police Line Takli, Gittikhadan, Nagpur, Maharashtra 440013",
+        "locality": "Gittikhadan",
+        "pincode": "440013",
+        "contact_number": "+91-712-2580127",
+        "emergency_number": "112",
+        "jurisdiction_area": "Gittikhadan, Katol Road, Police Line Takli, Friends Colony, Borgaon",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z2-07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0781,
+          21.1895
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z2-07",
+        "name": "Mankapur Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 2",
+        "division": "Sadar Division",
+        "address": "Koradi Road, Near Mankapur Ring Road Square, Nagpur, Maharashtra 440030",
+        "locality": "Mankapur",
+        "pincode": "440030",
+        "contact_number": "+91-712-2591100",
+        "emergency_number": "112",
+        "jurisdiction_area": "Mankapur, Koradi Road, Godhani, Zingabai Takli, Faras",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z1-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0528,
+          21.1158
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z1-01",
+        "name": "Rana Pratap Nagar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 1",
+        "division": "Pratap Nagar Division",
+        "address": "Ring Road, Near NIT Garden, Trimurti Nagar, Nagpur, Maharashtra 440022",
+        "locality": "Trimurti Nagar / Pratap Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2228800",
+        "emergency_number": "112",
+        "jurisdiction_area": "Pratap Nagar, Trimurti Nagar, Khamla, Tatya Tope Nagar, Subhash Nagar",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z1-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0664,
+          21.0936
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z1-02",
+        "name": "Sonegaon Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 1",
+        "division": "Pratap Nagar Division",
+        "address": "Wardha Road, Near Dr. Babasaheb Ambedkar International Airport, Nagpur, Maharashtra 440025",
+        "locality": "Sonegaon",
+        "pincode": "440025",
+        "contact_number": "+91-712-2284110",
+        "emergency_number": "112",
+        "jurisdiction_area": "Sonegaon, Airport area, Sahakar Nagar, Gajanan Nagar, Somalwada, Chhatrapati Square",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z1-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0062,
+          21.1124
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z1-03",
+        "name": "MIDC Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 1",
+        "division": "MIDC Division",
+        "address": "Central Road, MIDC Industrial Area, Hingna Road, Nagpur, Maharashtra 440016",
+        "locality": "MIDC Hingna",
+        "pincode": "440016",
+        "contact_number": "+91-7104-237100",
+        "emergency_number": "112",
+        "jurisdiction_area": "MIDC Industrial Estate, Hingna Road, Isasani, Digdoh, CRPF Camp Area",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z1-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9892,
+          21.1498
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z1-04",
+        "name": "Wadi Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 1",
+        "division": "MIDC Division",
+        "address": "Amravati Road, Defence Gate, Wadi, Nagpur, Maharashtra 440023",
+        "locality": "Wadi",
+        "pincode": "440023",
+        "contact_number": "+91-7104-220928",
+        "emergency_number": "112",
+        "jurisdiction_area": "Wadi, Defence Gate, Ordnance Factory Ambajhari Area, Dattawadi, Lava",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z1-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9664,
+          21.0682
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z1-05",
+        "name": "Hingna Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 1",
+        "division": "MIDC Division",
+        "address": "Main Road, Hingna Town, Nagpur, Maharashtra 441110",
+        "locality": "Hingna",
+        "pincode": "441110",
+        "contact_number": "+91-7104-242033",
+        "emergency_number": "112",
+        "jurisdiction_area": "Hingna Rural & Industrial fringe, Kanhan Road, Wanadongri",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z1-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0824,
+          21.0742
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z1-06",
+        "name": "Beltarodi Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 1",
+        "division": "Pratap Nagar Division",
+        "address": "Near Shankarpur / Besa-Beltarodi Road, Nagpur, Maharashtra 440037",
+        "locality": "Beltarodi / Besa",
+        "pincode": "440037",
+        "contact_number": "+91-712-2782100",
+        "emergency_number": "112",
+        "jurisdiction_area": "Beltarodi, Besa, Shankarpur, Manish Nagar, MIHAN Entrance, Wardha Road South",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z3-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1082,
+          21.1428
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z3-01",
+        "name": "Kotwali Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 3",
+        "division": "Kotwali Division",
+        "address": "Mahal Road, Near Shivaji Putla, Mahal, Nagpur, Maharashtra 440002",
+        "locality": "Mahal",
+        "pincode": "440002",
+        "contact_number": "+91-712-2738284",
+        "emergency_number": "112",
+        "jurisdiction_area": "Mahal, Shivaji Nagar, Budhwar Bazar, Tilak Putla, Badkas Chowk",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z3-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1042,
+          21.1524
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z3-02",
+        "name": "Tahsil Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 3",
+        "division": "Kotwali Division",
+        "address": "Police Station Road, Nanga Putla Chowk, Gandhibagh, Nagpur, Maharashtra 440002",
+        "locality": "Gandhibagh / Itwari",
+        "pincode": "440002",
+        "contact_number": "+91-712-2738287",
+        "emergency_number": "112",
+        "jurisdiction_area": "Gandhibagh, Itwari Wholesale Market, Teen Nal Chowk, Hansapuri, Nanga Putla",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z3-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0945,
+          21.1442
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z3-03",
+        "name": "Ganeshpeth Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 3",
+        "division": "Kotwali Division",
+        "address": "Modern Mill Road, Near Gandhi Sagar Lake (Jumma Talao), Ganeshpeth, Nagpur, Maharashtra 440018",
+        "locality": "Ganeshpeth",
+        "pincode": "440018",
+        "contact_number": "+91-712-2738286",
+        "emergency_number": "112",
+        "jurisdiction_area": "Ganeshpeth, Central Bus Stand (ST Stand), Shukrawari Talao, Empress Mall Area, Model Mills",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z3-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1235,
+          21.1518
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z3-04",
+        "name": "Lakadganj Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 3",
+        "division": "Lakadganj Division",
+        "address": "107, Old Bhandara Road, Queta Colony, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2767758",
+        "emergency_number": "112",
+        "jurisdiction_area": "Lakadganj, Queta Colony, Central Avenue East, Timber Market, Wardhaman Nagar West",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z3-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1028,
+          21.1672
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z3-05",
+        "name": "Panchpaoli Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 3",
+        "division": "Lakadganj Division",
+        "address": "Ambedkar Road, Under Panchpaoli Overbridge, Kamal Chowk, Nagpur, Maharashtra 440017",
+        "locality": "Panchpaoli",
+        "pincode": "440017",
+        "contact_number": "+91-712-2640367",
+        "emergency_number": "112",
+        "jurisdiction_area": "Panchpaoli, Kamal Chowk, Lashkaribagh, Tandapeth, Golibar Chowk",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z3-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1284,
+          21.1645
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z3-06",
+        "name": "Shanti Nagar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 3",
+        "division": "Lakadganj Division",
+        "address": "Prem Nagar, Near Shanti Nagar Colony, Nagpur, Maharashtra 440002",
+        "locality": "Shanti Nagar / Prem Nagar",
+        "pincode": "440002",
+        "contact_number": "+91-712-2761100",
+        "emergency_number": "112",
+        "jurisdiction_area": "Shanti Nagar, Prem Nagar, Mudliar Layout, Kawrapeth, Itwari Railway Station Area",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z4-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0882,
+          21.1186
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z4-01",
+        "name": "Ajni Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 4",
+        "division": "Ajni Division",
+        "address": "Ridge Road, Vishwakarma Nagar, Rameshwari, Nagpur, Maharashtra 440027",
+        "locality": "Ajni / Rameshwari",
+        "pincode": "440027",
+        "contact_number": "+91-712-2746555",
+        "emergency_number": "112",
+        "jurisdiction_area": "Ajni, Rameshwari, Medical Square, Chunabhatti, Vishwakarma Nagar, Bhagwan Nagar",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z4-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0915,
+          21.1312
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z4-02",
+        "name": "Imamwada Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 4",
+        "division": "Ajni Division",
+        "address": "Great Nag Road, Near Mor Bhavan / Untkhana, Imamwada, Nagpur, Maharashtra 440024",
+        "locality": "Imamwada",
+        "pincode": "440024",
+        "contact_number": "+91-712-2743088",
+        "emergency_number": "112",
+        "jurisdiction_area": "Imamwada, Untkhana, Medical College campus, Rambagh, Great Nag Road",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z4-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1128,
+          21.1245
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z4-03",
+        "name": "Sakkardara Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 4",
+        "division": "Sakkardara Division",
+        "address": "Raje Raghoji Bhonsle Putla, Sakkardara Road, Azamshah Layout, Nagpur, Maharashtra 440009",
+        "locality": "Sakkardara",
+        "pincode": "440009",
+        "contact_number": "+91-712-2744477",
+        "emergency_number": "112",
+        "jurisdiction_area": "Sakkardara, Bada Tajbagh, Chhota Tajbagh, Ayodhya Nagar, Reshimbagh",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z4-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1326,
+          21.1294
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z4-04",
+        "name": "Nandanvan Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 4",
+        "division": "Sakkardara Division",
+        "address": "Plot E-34, New Nandanvan Layout, Nandanvan, Nagpur, Maharashtra 440024",
+        "locality": "Nandanvan",
+        "pincode": "440024",
+        "contact_number": "+91-712-2712190",
+        "emergency_number": "112",
+        "jurisdiction_area": "Nandanvan, Hasanbagh, KDK College Road, Jagnade Chowk, Great Nag Road East",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z4-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1245,
+          21.0982
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z4-05",
+        "name": "Hudkeshwar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 4",
+        "division": "Ajni Division",
+        "address": "Hudkeshwar Main Road, Pipla Phata, Hudkeshwar, Nagpur, Maharashtra 440034",
+        "locality": "Hudkeshwar",
+        "pincode": "440034",
+        "contact_number": "+91-712-2700444",
+        "emergency_number": "112",
+        "jurisdiction_area": "Hudkeshwar, Chandrakiran Nagar, Pipla, Mahakali Nagar, Ring Road South",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z4-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1582,
+          21.1224
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z4-06",
+        "name": "Wathoda Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 4",
+        "division": "Sakkardara Division",
+        "address": "Outer Ring Road, Near Symbiosis Institute, Wathoda Layout, Nagpur, Maharashtra 440009",
+        "locality": "Wathoda",
+        "pincode": "440009",
+        "contact_number": "+91-712-2751500",
+        "emergency_number": "112",
+        "jurisdiction_area": "Wathoda, Tarodi, Symbiosis campus area, Shrikrishna Nagar, Outer Ring Road East",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0965,
+          21.1872
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-01",
+        "name": "Jaripatka Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Jaripatka Division",
+        "address": "Nari Road, Sindhi Colony, Jaripatka, Nagpur, Maharashtra 440014",
+        "locality": "Jaripatka",
+        "pincode": "440014",
+        "contact_number": "+91-712-2706200",
+        "emergency_number": "112",
+        "jurisdiction_area": "Jaripatka, Sindhi Hindi Town, Nari Village, Mecosabagh, Dayanand Park",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0988,
+          21.2425
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-02",
+        "name": "Koradi Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Jaripatka Division",
+        "address": "Chhindwara Road, Near Koradi Thermal Power Station & Temple, Koradi, Nagpur, Maharashtra 441111",
+        "locality": "Koradi",
+        "pincode": "441111",
+        "contact_number": "+91-712-262116",
+        "emergency_number": "112",
+        "jurisdiction_area": "Koradi Temple Area, KTPS Colony, Mahadula, Panjara, Chhindwara Road",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1154,
+          21.1962
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-03",
+        "name": "Kapil Nagar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Jaripatka Division",
+        "address": "Uppalwadi Industrial Area, Near Kapil Nagar Square, Kamptee Road, Nagpur, Maharashtra 440026",
+        "locality": "Kapil Nagar / Uppalwadi",
+        "pincode": "440026",
+        "contact_number": "+91-712-2632200",
+        "emergency_number": "112",
+        "jurisdiction_area": "Kapil Nagar, Uppalwadi, Automotive Square, Kamptee Road North, Bhilgaon",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1312,
+          21.1884
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-04",
+        "name": "Yashodhara Nagar Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Jaripatka Division",
+        "address": "Near Kundanlal Gupta Nagar, Yashodhara Nagar, Nagpur, Maharashtra 440026",
+        "locality": "Yashodhara Nagar",
+        "pincode": "440026",
+        "contact_number": "+91-712-2651122",
+        "emergency_number": "112",
+        "jurisdiction_area": "Yashodhara Nagar, Kundanlal Gupta Nagar, Vinoba Bhave Nagar, Rani Durgawati Chowk",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1486,
+          21.1782
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-05",
+        "name": "Kalamna Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Kalamna Division",
+        "address": "Kalamna Market Yard Road, Old Kamptee Road, Naka No. 4, Nagpur, Maharashtra 440026",
+        "locality": "Kalamna",
+        "pincode": "440026",
+        "contact_number": "+91-712-2790021",
+        "emergency_number": "112",
+        "jurisdiction_area": "Kalamna Basti, Kalamna APMC Grain & Chilli Market Yard, Bharatwada, Chikhali Layout",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1558,
+          21.1478
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-06",
+        "name": "Pardi Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Kalamna Division",
+        "address": "Bhandara Road, Near HB Town Chowk, Pardi, Nagpur, Maharashtra 440035",
+        "locality": "Pardi",
+        "pincode": "440035",
+        "contact_number": "+91-712-2784300",
+        "emergency_number": "112",
+        "jurisdiction_area": "Pardi, Bhandara Road NH-53, HB Town, Punapur, Bharat Nagar East",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1985,
+          21.2225
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-07",
+        "name": "Old Kamptee Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Kamptee Division",
+        "address": "Main Bazar, Kamptee Cantonment / Town, Nagpur, Maharashtra 441001",
+        "locality": "Old Kamptee",
+        "pincode": "441001",
+        "contact_number": "+91-7109-288222",
+        "emergency_number": "112",
+        "jurisdiction_area": "Old Kamptee Town, Cantonment area, Gujri Bazar, Kanhan River Bank",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-Z5-08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1824,
+          21.2152
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-Z5-08",
+        "name": "New Kamptee Police Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Police Station",
+        "zone": "Zone 5",
+        "division": "Kamptee Division",
+        "address": "Nagpur-Jabalpur Road, Near Dragon Palace Temple, Kamptee, Maharashtra 441002",
+        "locality": "New Kamptee",
+        "pincode": "441002",
+        "contact_number": "+91-7109-282400",
+        "emergency_number": "112",
+        "jurisdiction_area": "New Kamptee, Dragon Palace Temple area, Ranala, Jabalpur Highway NH-44",
+        "handling_categories": [
+          "Crime Report",
+          "Traffic",
+          "Public Order"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-POL-GRP01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0886,
+          21.1528
+        ]
+      },
+      "properties": {
+        "id": "NGP-POL-GRP01",
+        "name": "Lohamarg (GRP) Police Station Nagpur Railway Station",
+        "department": "Nagpur City Police",
+        "department_id": 1,
+        "facility_type": "Government Railway Police (GRP) Station",
+        "zone": "Railway Division",
+        "division": "GRP Nagpur",
+        "address": "Platform No. 1, Nagpur Junction Railway Station, Kingsway, Sitabuldi, Nagpur, Maharashtra 440001",
+        "locality": "Nagpur Railway Station",
+        "pincode": "440001",
+        "contact_number": "+91-712-2564344",
+        "emergency_number": "1512 / 112",
+        "jurisdiction_area": "Nagpur Main Railway Station, Ajni Railway Station, tracks & passenger concourses",
+        "handling_categories": [
+          "Crime Report",
+          "Public Order"
+        ]
+      }
+    }
+  ]
+}

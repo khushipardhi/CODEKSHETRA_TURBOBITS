@@ -1,0 +1,452 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_Metropolitan_Health_Department_and_Hospitals",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8277,
+          18.927
+        ]
+      },
+      "properties": {
+        "name": "Public Health Department - Government of Maharashtra (State Secretariat)",
+        "agency": "Public Health Department (Government of Maharashtra)",
+        "facility_type": "State Apex Health Directorate & Policy Secretariat",
+        "jurisdiction": "State of Maharashtra (Statewide Healthcare Policy & National Health Mission)",
+        "address": "4th Floor, Main Building, Mantralaya, Madam Cama Road, Nariman Point, Mumbai, Maharashtra 400032",
+        "officer": "Principal Secretary (Public Health)",
+        "designation": "Principal Secretary",
+        "phone": "+91-22-22026567",
+        "email": "sec.phd@maharashtra.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8385,
+          18.9392
+        ]
+      },
+      "properties": {
+        "name": "Directorate of Health Services (DHS Maharashtra) & NHM Headquarters",
+        "agency": "Directorate of Health Services (DHS Maharashtra)",
+        "facility_type": "State Health Services Directorate & NHM Command Center",
+        "jurisdiction": "State of Maharashtra",
+        "address": "7th & 8th Floor, Arogya Bhavan, St. George Hospital Compound, P. D'Mello Road, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Director of Health Services / Commissioner Health & MD NHM",
+        "designation": "Director of Health Services",
+        "phone": "+91-22-22620235",
+        "email": "commissioner.health@maharashtra.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8342,
+          18.9615
+        ]
+      },
+      "properties": {
+        "name": "Sir J.J. Group of Hospitals & Grant Government Medical College",
+        "agency": "Medical Education & Drugs Department (Govt of Maharashtra)",
+        "facility_type": "State Premier Quaternary Teaching Hospital & Medical College",
+        "jurisdiction": "Greater Mumbai & Konkan Region",
+        "address": "J.J. Hospital Marg, Byculla, Mumbai, Maharashtra 400008",
+        "officer": "Dean, Grant Government Medical College & Sir J.J. Group of Hospitals",
+        "designation": "Dean / Medical Superintendent",
+        "phone": "+91-22-23735555",
+        "email": "dean.gmcjj@maharashtra.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8325,
+          18.9412
+        ]
+      },
+      "properties": {
+        "name": "Cama & Albless Hospital for Women and Children",
+        "agency": "Medical Education & Drugs Department (Govt of Maharashtra)",
+        "facility_type": "State Specialized Maternal & Pediatric Hospital",
+        "jurisdiction": "South & Island City Maternal Care",
+        "address": "Mahapalika Marg, Dhobi Talao, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Medical Superintendent, Cama Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-22620388",
+        "email": "ms.camahospital@maharashtra.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.0028
+        ]
+      },
+      "properties": {
+        "name": "BMC Public Health Department (Executive Health Officer Headquarters)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Apex Public Health & Epidemiology Directorate",
+        "jurisdiction": "Greater Mumbai (All 24 Municipal Wards)",
+        "address": "3rd Floor, Room No. 50, F-South Ward Building, Dr. Babasaheb Ambedkar Road, Parel, Mumbai, Maharashtra 400012",
+        "officer": "Executive Health Officer (EHO), BMC",
+        "designation": "Executive Health Officer",
+        "phone": "+91-22-24134560",
+        "email": "eho.bmc@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8297,
+          18.9842
+        ]
+      },
+      "properties": {
+        "name": "Kasturba Hospital for Infectious Diseases & Epidemic Control Cell",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Metropolitan Epidemic Surveillance & Infectious Diseases Center",
+        "jurisdiction": "Greater Mumbai (Infectious Diseases, PCR Testing & Outbreak Management)",
+        "address": "Sane Guruji Marg, Arya Nagar, Chinchpokli, Mumbai, Maharashtra 400011",
+        "officer": "Medical Superintendent, Kasturba Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-23027700",
+        "email": "ms.kasturba@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.0028
+        ]
+      },
+      "properties": {
+        "name": "King Edward Memorial (KEM) Hospital & Seth G.S. Medical College",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Tertiary Teaching Hospital & Medical College",
+        "jurisdiction": "Greater Mumbai (Apex Trauma & Specialized Healthcare)",
+        "address": "Acharya Donde Marg, Parel, Mumbai, Maharashtra 400012",
+        "officer": "Dean, KEM Hospital & Seth G.S. Medical College",
+        "designation": "Dean",
+        "phone": "+91-22-24107000",
+        "email": "dean.kem@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8615,
+          19.0395
+        ]
+      },
+      "properties": {
+        "name": "Lokmanya Tilak Municipal General (Sion) Hospital & Medical College",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Tertiary Teaching Hospital & Major Trauma Center",
+        "jurisdiction": "Central Mumbai & Eastern Suburbs Transit Corridors",
+        "address": "Sion West, Mumbai, Maharashtra 400022",
+        "officer": "Dean, LTMG Sion Hospital",
+        "designation": "Dean",
+        "phone": "+91-22-24076381",
+        "email": "dean.sion@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8215,
+          18.9735
+        ]
+      },
+      "properties": {
+        "name": "BYL Nair Charitable Hospital & Topiwala National Medical College",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Tertiary Teaching Hospital & Medical College",
+        "jurisdiction": "South & Central Mumbai",
+        "address": "Dr. A.L. Nair Road, Mumbai Central, Mumbai, Maharashtra 400008",
+        "officer": "Dean, BYL Nair Hospital",
+        "designation": "Dean",
+        "phone": "+91-22-23027000",
+        "email": "dean.nair@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8365,
+          19.1085
+        ]
+      },
+      "properties": {
+        "name": "Dr. R.N. Cooper Municipal General Hospital & HBT Medical College",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Tertiary Teaching Hospital & Western Suburbs Medical College",
+        "jurisdiction": "Western Suburbs (Bandra to Dahisar)",
+        "address": "U 15, Bhaktivedanta Swami Marg, JVPD Scheme, Juhu, Vile Parle West, Mumbai, Maharashtra 400056",
+        "officer": "Dean, HBT Medical College & Cooper Hospital",
+        "designation": "Dean",
+        "phone": "+91-22-26207254",
+        "email": "dean.cooper@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8552,
+          19.0065
+        ]
+      },
+      "properties": {
+        "name": "Sewri Group of TB Hospitals (GTB Hospital)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Municipal Specialized Pulmonary & Tuberculosis Hospital",
+        "jurisdiction": "Greater Mumbai (Asia's Largest Tuberculosis Hospital)",
+        "address": "Jerbai Wadia Road, Sewri, Mumbai, Maharashtra 400015",
+        "officer": "Medical Superintendent, GTB Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-24146904",
+        "email": "ms.sewri@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.909,
+          19.0768
+        ]
+      },
+      "properties": {
+        "name": "Rajawadi Municipal General Hospital (Eastern Suburbs Main)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Referral & Acute Trauma Hospital",
+        "jurisdiction": "Eastern Suburbs (Ghatkopar, Kurla, Vikhroli, Chembur)",
+        "address": "Patel Chowk, Ghatkopar East, Mumbai, Maharashtra 400077",
+        "officer": "Medical Superintendent, Rajawadi Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-25115066",
+        "email": "ms.rajawadi@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8315,
+          19.0552
+        ]
+      },
+      "properties": {
+        "name": "K.B. Bhabha Hospital (Bandra West)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Municipal General Hospital",
+        "jurisdiction": "Western Suburbs South (Bandra, Khar, Santacruz)",
+        "address": "Waterfield Road, Bandra West, Mumbai, Maharashtra 400050",
+        "officer": "Medical Superintendent, Bhabha Hospital Bandra",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-26422775",
+        "email": "ms.bhabhabandra@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8765,
+          19.0682
+        ]
+      },
+      "properties": {
+        "name": "K.B. Bhabha Hospital (Kurla West)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Municipal General Hospital",
+        "jurisdiction": "Central Suburbs (Kurla, Kalina, Chunabhatti)",
+        "address": "Belgrami Road, Kurla West, Mumbai, Maharashtra 400070",
+        "officer": "Medical Superintendent, Bhabha Hospital Kurla",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-26500241",
+        "email": "ms.bhabhakurla@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8482,
+          19.2062
+        ]
+      },
+      "properties": {
+        "name": "Dr. Babasaheb Ambedkar Municipal Hospital (Shatabdi Hospital, Kandivali)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Municipal General & Trauma Hospital",
+        "jurisdiction": "North Western Suburbs (Kandivali, Malad, Charkop)",
+        "address": "S.V. Road, Kandivali West, Mumbai, Maharashtra 400067",
+        "officer": "Medical Superintendent, Shatabdi Hospital Kandivali",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-28050301",
+        "email": "ms.shatabdikandivali@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9152,
+          19.0512
+        ]
+      },
+      "properties": {
+        "name": "Pandit Madan Mohan Malaviya Hospital (Shatabdi Hospital, Govandi)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Municipal General Hospital",
+        "jurisdiction": "Eastern Suburbs South (Govandi, Mankhurd, Deonar, Trombay)",
+        "address": "Govandi Station Road, Govandi, Mumbai, Maharashtra 400043",
+        "officer": "Medical Superintendent, Shatabdi Hospital Govandi",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-25564070",
+        "email": "ms.shatabdigovandi@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8532,
+          19.2307
+        ]
+      },
+      "properties": {
+        "name": "Bhagwati Municipal Hospital (Borivali West)",
+        "agency": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Municipal General Hospital",
+        "jurisdiction": "Northern Suburbs (Borivali, Dahisar, Gorai)",
+        "address": "S.V. Road, Borivali West, Mumbai, Maharashtra 400092",
+        "officer": "Medical Superintendent, Bhagwati Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-28932461",
+        "email": "ms.bhagwati@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0416,
+          19.0142
+        ]
+      },
+      "properties": {
+        "name": "NMMC Health Department (Chief Medical Officer Headquarters)",
+        "agency": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Municipal Apex Public Health Directorate",
+        "jurisdiction": "Navi Mumbai Municipal Corporation Area (All 8 Wards)",
+        "address": "3rd Floor, NMMC Bhavan, Plot No. 1 & 2, Sector 15A, Palm Beach Road, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+        "officer": "Chief Medical Officer (CMO), NMMC",
+        "designation": "Chief Medical Officer",
+        "phone": "+91-22-27567261",
+        "email": "cmo@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9984,
+          19.0768
+        ]
+      },
+      "properties": {
+        "name": "NMMC First Referral Hospital (FRH), Vashi",
+        "agency": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Zonal Tertiary Municipal General Hospital",
+        "jurisdiction": "Vashi, Koparkhairane, Ghansoli & Turbhe Nodes",
+        "address": "Sector 10, Near Fr. Agnel Complex, Vashi, Navi Mumbai, Maharashtra 400703",
+        "officer": "Medical Superintendent, NMMC Vashi Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-27899901",
+        "email": "hospital.vashi@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HLTH-MUM-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0182,
+          19.0345
+        ]
+      },
+      "properties": {
+        "name": "NMMC General Hospital, Nerul",
+        "agency": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Zonal Municipal General Hospital",
+        "jurisdiction": "Nerul, Seawoods, CBD Belapur & Sanpada Nodes",
+        "address": "Sector 15 / Sector 20, Nerul West, Navi Mumbai, Maharashtra 400706",
+        "officer": "Medical Superintendent, NMMC Nerul Hospital",
+        "designation": "Medical Superintendent",
+        "phone": "+91-22-27702222",
+        "email": "hospital.nerul@nmmc.gov.in"
+      }
+    }
+  ]
+}

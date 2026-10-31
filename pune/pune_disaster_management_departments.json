@@ -1,0 +1,125 @@
+{
+  "city": "Pune",
+  "state": "Maharashtra",
+  "country": "India",
+  "description": "Disaster Management and Emergency Response Departments, Cells, and Control Rooms in Pune",
+  "departments": [
+    {
+      "name": "Pune Municipal Corporation (PMC) Disaster Management Cell",
+      "department_type": "Municipal Disaster Management & Control Room",
+      "authority": "Pune Municipal Corporation",
+      "address": "2nd Floor, PMC Main Building, Shivajinagar, Pune, Maharashtra 411005",
+      "latitude": 18.5308,
+      "longitude": 73.8527,
+      "contact_numbers": [
+        "020-25501269",
+        "020-25506800",
+        "020-67801500",
+        "+91 9689931511"
+      ],
+      "email": "dmcell@punecorporation.org",
+      "official_url": "https://www.pmc.gov.in/en/d/disaster"
+    },
+    {
+      "name": "Pune District Disaster Management Authority (DDMA) / District Emergency Operation Centre (DEOC)",
+      "department_type": "District Disaster Management Authority",
+      "authority": "Collector Office, Pune District Administration",
+      "address": "Collector Office, Bund Garden Road, Camp, Pune, Maharashtra 411001",
+      "latitude": 18.5284,
+      "longitude": 73.8744,
+      "contact_numbers": [
+        "020-26123371",
+        "1077 (District Toll Free)"
+      ],
+      "email": "collector.pune@maharashtra.gov.in",
+      "official_url": "https://pune.gov.in/en/disaster-management/"
+    },
+    {
+      "name": "Pimpri-Chinchwad Municipal Corporation (PCMC) Disaster Management Cell",
+      "department_type": "Municipal Disaster Management & Control Room",
+      "authority": "Pimpri Chinchwad Municipal Corporation",
+      "address": "PCMC Main Administrative Building, Mumbai-Pune Road, Pimpri, Pune, Maharashtra 411018",
+      "latitude": 18.6279,
+      "longitude": 73.7997,
+      "contact_numbers": [
+        "020-27425511",
+        "020-27423333",
+        "020-67333333"
+      ],
+      "email": "disaster@pcmcindia.gov.in",
+      "official_url": "https://pune.gov.in/en/public-utility/pimpri-chinchwad-mahanagarpalika-bhavan/"
+    },
+    {
+      "name": "Divisional Commissioner Disaster Control Room (Pune Division)",
+      "department_type": "Divisional Disaster Control Room",
+      "authority": "Office of the Divisional Commissioner, Pune Division",
+      "address": "Council Hall (Vidhan Bhavan), Bund Garden Road, Camp, Pune, Maharashtra 411001",
+      "latitude": 18.5262,
+      "longitude": 73.8791,
+      "contact_numbers": [
+        "020-26114949",
+        "020-26123375"
+      ],
+      "email": "divcom.pune@maharashtra.gov.in",
+      "official_url": "https://divcompune.maharashtra.gov.in/en/disaster-management/"
+    },
+    {
+      "name": "5th Battalion National Disaster Response Force (NDRF)",
+      "department_type": "National Disaster Response Specialized Force",
+      "authority": "Ministry of Home Affairs, Government of India",
+      "address": "Post Sudumbare, Taluka Maval, near Talegaon Dabhade, Pune, Maharashtra 410507",
+      "latitude": 18.7247,
+      "longitude": 73.6828,
+      "contact_numbers": [
+        "02114-247000",
+        "02114-247008",
+        "+91 9423506783"
+      ],
+      "email": "mah05-ndrf@nic.in",
+      "official_url": "https://www.ndrf.gov.in/en/ndrf-units"
+    },
+    {
+      "name": "PMC Fire Brigade Central Headquarters & Emergency Control Room",
+      "department_type": "Fire and Emergency Rescue Operations",
+      "authority": "Pune Municipal Corporation Fire Department",
+      "address": "Central Fire Station, Mahatma Phule Peth, Bhawani Peth, Pune, Maharashtra 411042",
+      "latitude": 18.5065,
+      "longitude": 73.8643,
+      "contact_numbers": [
+        "101",
+        "020-26442101",
+        "020-26450601"
+      ],
+      "email": "fire@punecorporation.org",
+      "official_url": "https://www.pmc.gov.in/en/d/fire"
+    },
+    {
+      "name": "Centre for Disaster Management (CDM), YASHADA",
+      "department_type": "State Disaster Management Training & Research Institute",
+      "authority": "Yashwantrao Chavan Academy of Development Administration (YASHADA)",
+      "address": "Raj Bhavan Complex, Baner Road, Ganeshkhind, Pune, Maharashtra 411007",
+      "latitude": 18.5448,
+      "longitude": 73.8268,
+      "contact_numbers": [
+        "020-25608000",
+        "020-25608151"
+      ],
+      "email": "cdm@yashada.org",
+      "official_url": "https://mahayashada.org/center/cdm"
+    },
+    {
+      "name": "Pune Cantonment Board (PCB) Disaster Management & Fire Brigade",
+      "department_type": "Cantonment Emergency Response",
+      "authority": "Pune Cantonment Board, Ministry of Defence",
+      "address": "Near Golibar Maidan, Pune Camp, Pune, Maharashtra 411001",
+      "latitude": 18.5034,
+      "longitude": 73.8821,
+      "contact_numbers": [
+        "020-26452601",
+        "020-26452602"
+      ],
+      "email": "ceopune@dgpce.gov.in",
+      "official_url": "https://pune.cantt.gov.in/"
+    }
+  ]
+}

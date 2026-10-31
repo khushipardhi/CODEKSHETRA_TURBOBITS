@@ -1,0 +1,574 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_Fire_Department_Stations_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "9. Fire Dept",
+    "department_id": 9,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 17,
+    "categories": [
+      {
+        "category": "NOC & Compliance",
+        "sub_categories": [
+          "Commercial buildings operating without a valid Fire NOC",
+          "Hospitals operating without a valid Fire NOC"
+        ]
+      },
+      {
+        "category": "Safety Violations",
+        "sub_categories": [
+          "Blocked fire exits",
+          "Missing fire extinguishers in residential societies"
+        ]
+      },
+      {
+        "category": "Emergency Hazards",
+        "sub_categories": [
+          "Gas leaks",
+          "Chemical spills requiring emergency response"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0745,
+          21.1558
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-HQ01",
+        "name": "NMC Fire & Emergency Services Department (Central Headquarters / Chief Fire Officer)",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Fire & Rescue Department Headquarters",
+        "zone": "Central Administration",
+        "division": "Chief Fire Officer (CFO) Office",
+        "address": "Fire Brigade Headquarters, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567777",
+        "emergency_number": "101 / 112 / 0712-2567777",
+        "jurisdiction_area": "Citywide fire prevention policy, high-rise building firefighting apparatus deployment, hazardous chemical disaster protocols, hydraulic turntable ladder operations",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-HQ02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0748,
+          21.1562
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-HQ02",
+        "name": "NMC Fire Safety Audit, Building Inspection & Fire NOC Directorate",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Fire NOC Regulatory & Inspection Directorate",
+        "zone": "Central Administration",
+        "division": "Fire Prevention & NOC Verification Wing",
+        "address": "Fire Brigade Headquarters Complex, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "Mandatory Fire NOC issuance and renewal for commercial complexes, high-rises, coaching centres, hospitals, and inspection of blocked fire exits and missing fire extinguishers",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-RDMC01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0715,
+          21.1538
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-RDMC01",
+        "name": "Regional Disaster Management Centre (RDMC) & Emergency Operations Command",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Disaster Management Command & Control Centre",
+        "zone": "Central Administration",
+        "division": "State & Municipal Disaster Management Cell",
+        "address": "Administrative Complex, Beside Collector Office, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567029",
+        "emergency_number": "1077 (Disaster Helpline) / 112",
+        "jurisdiction_area": "Central coordination for industrial chemical spills, hazardous toxic gas leaks, major structural collapses, flood rescue boats, and multi-agency emergency mobilization",
+        "handling_categories": [
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STE01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0645,
+          21.1715
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STE01",
+        "name": "National Fire Service College (NFSC) - Ministry of Home Affairs",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Central Government Fire Engineering & Research Institution",
+        "zone": "National Fire Authority",
+        "division": "NFSC Academic & Advanced Training Directorate",
+        "address": "Raj Nagar, Katol Road, Nagpur, Maharashtra 440013",
+        "locality": "Raj Nagar / Katol Road",
+        "pincode": "440013",
+        "contact_number": "+91-712-2982224",
+        "emergency_number": "112",
+        "jurisdiction_area": "Advanced industrial firefighting research, chemical-biological-radiological-nuclear (CBRN) emergency response training and fire safety standards testing",
+        "handling_categories": [
+          "Emergency Hazards",
+          "Safety Violations"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0745,
+          21.1555
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN01",
+        "name": "Civil Lines Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "Central Zone (Zone 2 / Zone 10)",
+        "division": "Civil Lines Fire Division",
+        "address": "Fire Brigade HQ Compound, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567777",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Civil Lines, Sadar, High Court area, Raj Bhavan, Vidhan Bhavan, Seminary Hills (Government enclaves, high-rises, hospital Fire NOC compliance)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0948,
+          21.1452
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN02",
+        "name": "Ganeshpeth Central Fire Station & Hazardous Materials Response Base",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Central Fire Station & Heavy Hazmat Unit",
+        "zone": "Central Zone (Zone 4 / Zone 6)",
+        "division": "Ganeshpeth Fire Division",
+        "address": "Model Mills Road, Near Gandhi Sagar Lake, Ganeshpeth, Nagpur, Maharashtra 440018",
+        "locality": "Ganeshpeth",
+        "pincode": "440018",
+        "contact_number": "+91-712-2726101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Ganeshpeth, ST Bus Stand, Empress Mall area, Dhantoli, Mahal, Gandhibagh (High-density market fires, toxic gas leaks, commercial building fire exit violations)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0912,
+          21.1472
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN03",
+        "name": "Cotton Market Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "Central Commercial Zone",
+        "division": "Ganeshpeth Fire Division",
+        "address": "Subhash Road, Near Cotton Market Square, Nagpur, Maharashtra 440018",
+        "locality": "Cotton Market",
+        "pincode": "440018",
+        "contact_number": "+91-712-2724101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Cotton Market, Santra Market, Wholesale grain mandi, Railway station East, Bajeria (Commercial godowns, LPG cylinder burst hazards, fire access lane clearing)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1165,
+          21.1228
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN04",
+        "name": "Sakkardara Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "South-East Zone (Zone 5)",
+        "division": "Sakkardara Fire Division",
+        "address": "Umred Road, Near Sakkardara Lake Square, Nagpur, Maharashtra 440009",
+        "locality": "Sakkardara",
+        "pincode": "440009",
+        "contact_number": "+91-712-2747101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Sakkardara, Nehru Nagar, Nandanvan, Dighori, Tajbagh, Hasanbagh, Umred Road corridor (Residential societies fire extinguishers, hospital safety inspections, LPG leakages)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0725,
+          21.1092
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN05",
+        "name": "Narendra Nagar Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "South Zone (Zone 3 / Zone 1)",
+        "division": "South Nagpur Fire Division",
+        "address": "Ring Road, Near Narendra Nagar Overbridge, Nagpur, Maharashtra 440015",
+        "locality": "Narendra Nagar",
+        "pincode": "440015",
+        "contact_number": "+91-712-2251101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Narendra Nagar, Manewada, Besa, Somalwada, Manish Nagar, Wardha Road (High-rise residential fire NOC audits, basement safety violations, transformer fire hazards)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0485,
+          21.1185
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN06",
+        "name": "Trimurti Nagar Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "South-West Zone (Zone 1)",
+        "division": "West Nagpur Fire Division",
+        "address": "Ring Road, Near NIT Garden, Trimurti Nagar, Nagpur, Maharashtra 440022",
+        "locality": "Trimurti Nagar / Pratap Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2227101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Trimurti Nagar, Pratap Nagar, Laxmi Nagar, VNIT, Hingna Road, Khamla (Commercial showrooms fire safety, hospital emergency exit checks, domestic gas leakages)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1895
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN07",
+        "name": "Sugat Nagar / Jaripatka Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "North Zone (Zone 9 / Zone 10)",
+        "division": "North Nagpur Fire Division",
+        "address": "Nari Road, Near Sugat Nagar, Jaripatka, Nagpur, Maharashtra 440014",
+        "locality": "Jaripatka / Sugat Nagar",
+        "pincode": "440014",
+        "contact_number": "+91-712-2703101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Jaripatka, Mankapur, Ashi Nagar, Uppalwadi, Kamptee Road, Nari (Industrial units, cloth markets, chemical store safety audits, fire equipment compliance)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1245,
+          21.1522
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN08",
+        "name": "Lakadganj Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station",
+        "zone": "East Zone (Zone 8)",
+        "division": "East Nagpur Fire Division",
+        "address": "Old Bhandara Road, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2761101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Lakadganj, Timber Market, Wardhaman Nagar, Central Avenue East, Queta Colony (High-risk timber yards, sawmills fire NOC enforcement, foam tender deployment)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1472,
+          21.1765
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN09",
+        "name": "Kalamna Fire Station & Chemical Emergency Response Base",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Zonal Fire Station & Hazmat Base",
+        "zone": "North-East Zone (Zone 8 / Zone 9)",
+        "division": "Kalamna Industrial Fire Division",
+        "address": "Near Kalamna APMC Market, Old Kamptee Road, Kalamna, Nagpur, Maharashtra 440026",
+        "locality": "Kalamna",
+        "pincode": "440026",
+        "contact_number": "+91-712-2794101",
+        "emergency_number": "101 / 112",
+        "jurisdiction_area": "Kalamna Grain & Chilli Market, Pardi, Surya Nagar, Chikhali Industrial Area (Major chemical spills, cold storage ammonia gas leaks, freight warehouse inspections)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0025,
+          21.1145
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN10",
+        "name": "MIDC Hingna Industrial Fire Station (Chemical & Hazmat Base)",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Industrial Fire & Hazmat Emergency Station",
+        "zone": "Industrial Zone (West Corridor)",
+        "division": "MIDC Fire Wing Nagpur",
+        "address": "Central Road, MIDC Industrial Area, Hingna, Nagpur, Maharashtra 440016",
+        "locality": "MIDC Hingna",
+        "pincode": "440016",
+        "contact_number": "+91-7104-237101",
+        "emergency_number": "101 / 112",
+        "latitude": 21.1145,
+        "longitude": 79.0025,
+        "jurisdiction_area": "MIDC Hingna, Wadi Industrial belt, Ordnance Factory Ambajhari buffer (Chemical manufacturing units, boiler explosion control, solvent spill neutralization, industrial Fire NOC)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0945,
+          21.2395
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN11",
+        "name": "Koradi Thermal Power Corridor Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Thermal Power & Suburban Fire Station",
+        "zone": "North Energy Corridor",
+        "division": "Koradi Fire Division",
+        "address": "Near KTPS Complex, Chhindwara Road, Koradi, Nagpur, Maharashtra 441111",
+        "locality": "Koradi",
+        "pincode": "441111",
+        "contact_number": "+91-712-262101",
+        "emergency_number": "101 / 112",
+        "latitude": 21.2395,
+        "longitude": 79.0945,
+        "jurisdiction_area": "Koradi Thermal Power Station, Mahadula, Koradi Temple pilgrimage complex, Chhindwara Highway (Turbine/transformer fires, chlorine gas emergency handling)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0585,
+          21.0385
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN12",
+        "name": "MIHAN SEZ Fire Station (Aviation & Industrial Buffer)",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "SEZ & High-Tech Zone Fire Station",
+        "zone": "South Special Economic Zone",
+        "division": "MIHAN Emergency Services",
+        "address": "Central Boulevard, MIHAN Special Economic Zone, Khapri, Nagpur, Maharashtra 441108",
+        "locality": "MIHAN / Khapri",
+        "pincode": "441108",
+        "contact_number": "+91-712-2815101",
+        "emergency_number": "101 / 112",
+        "latitude": 21.0385,
+        "longitude": 79.0585,
+        "jurisdiction_area": "MIHAN SEZ, AIIMS Nagpur campus, IIM Nagpur, Infosys/TCS IT campuses, Airport south perimeter (High-tech server room clean-agent extinguisher audits, high-rise emergency egress)",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-FIR-STN13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9945,
+          20.9315
+        ]
+      },
+      "properties": {
+        "id": "NGP-FIR-STN13",
+        "name": "MIDC Butibori Industrial Fire Station",
+        "department": "Fire Dept",
+        "department_id": 9,
+        "facility_type": "Heavy Industrial Fire Station",
+        "zone": "South Industrial Corridor",
+        "division": "MIDC Butibori Fire Division",
+        "address": "Phase-1, 5-Star Industrial Zone, MIDC Butibori, Maharashtra 441108",
+        "locality": "MIDC Butibori",
+        "pincode": "441108",
+        "contact_number": "+91-7104-265101",
+        "emergency_number": "101 / 112",
+        "latitude": 20.9315,
+        "longitude": 78.9945,
+        "jurisdiction_area": "Butibori 5-Star MIDC industrial belt, textile mills, chemical manufacturing plants, steel fabrication plants, and bulk petroleum storage facilities",
+        "handling_categories": [
+          "NOC & Compliance",
+          "Safety Violations",
+          "Emergency Hazards"
+        ]
+      }
+    }
+  ]
+}

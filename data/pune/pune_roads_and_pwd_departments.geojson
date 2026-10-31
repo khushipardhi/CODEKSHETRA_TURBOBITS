@@ -1,0 +1,1126 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Roads and Public Works Department (PWD) Offices, Divisions & Engineering Authorities of Pune",
+    "city": "Pune, Maharashtra, India",
+    "total_features": 46,
+    "coordinate_system": "WGS 84 (EPSG:4326)",
+    "agencies_included": [
+      "Maharashtra Public Works Department (State PWD Pune Region, Circles & Divisions)",
+      "Pune Municipal Corporation (PMC) – Road Department HQ, Hot Mix Plant & 15 Zonal Ward Engineering Offices",
+      "Pimpri Chinchwad Municipal Corporation (PCMC) – Engineering & Roads Department HQ & Zonal Offices",
+      "National Highways Authority of India (NHAI PIU Pune)",
+      "Maharashtra State Road Development Corporation (MSRDC Pune)",
+      "Pune Metropolitan Region Development Authority (PMRDA Engineering Roads Wing)",
+      "Central Public Works Department (CPWD Nirman Bhavan Pune)",
+      "Pune Zilla Parishad – Works Department (North & South Bandhkam)"
+    ],
+    "generated_timestamp": "2026-10-03T11:05:00+05:30"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pwd_ce_region_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_ce_region_pune",
+        "name": "Office of the Chief Engineer, Public Works Region Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Regional Headquarters",
+        "sub_category": "Apex Regional Authority",
+        "address": "Central Building, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Apex administrative and technical oversight of all National Highways, State Highways, Major District Roads, Bridges, and Government Buildings across Pune, Satara, and Solapur districts (over 1,825 km of State Highways and 5,023 km of Major District Roads in Pune district alone).",
+        "contact": "020-26122485 / 020-26122414 / cepunepwd@gmail.com",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_se_circle_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_se_circle_pune",
+        "name": "Office of the Superintending Engineer, Pune Public Works Circle",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Circle Office",
+        "sub_category": "District Circle Administration",
+        "address": "Central Building, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Supervision of Pune Public Works Division, East Division, South Division, North Division, and allied specialized infrastructure divisions across Pune district.",
+        "contact": "020-26122485 / sepwdpune@mahapwd.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_ee_division_pune_central",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_ee_division_pune_central",
+        "name": "Office of the Executive Engineer, Public Works Division Pune (Central)",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Division Office",
+        "sub_category": "City & Central Infrastructure Division",
+        "address": "Central Building Campus, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Execution and capital maintenance of State Highway stretches, urban flyovers, VIP government complexes, Raj Bhavan infrastructure, and district court buildings in central Pune.",
+        "contact": "020-26122485 / 020-26122414 / pune.ee@mahapwd.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_ee_east_division_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_ee_east_division_pune",
+        "name": "Office of the Executive Engineer, Public Works (East) Division, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Division Office",
+        "sub_category": "Eastern District Highways & Roads Division",
+        "address": "B Barrack, Central Building Compound, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "State Highway and Major District Road networks across eastern Pune district including Baramati, Daund, Indapur, and Shirur corridors; bridge constructions and highway upgrades under Central Road Fund (CRF) and Hybrid Annuity Model (HAM).",
+        "contact": "020-26123400 / eastpune.ee@mahapwd.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_ee_south_division_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_ee_south_division_pune",
+        "name": "Office of the Executive Engineer, Public Works (South) Division, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Division Office",
+        "sub_category": "Southern District Highways & Ghat Roads Division",
+        "address": "Central Building, B.J. Medical Road / Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Roads, ghat passes, culverts, and bridges across southern Pune district including Haveli, Purandar, Bhor, Velhe, Panshet, and Sinhgad foothills.",
+        "contact": "020-26121400 / southpune.ee@mahapwd.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_ee_north_division_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.878804,
+          18.525268
+        ]
+      },
+      "properties": {
+        "id": "pwd_ee_north_division_pune",
+        "name": "Office of the Executive Engineer, Public Works (North) Division, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Division Office",
+        "sub_category": "Northern District Highways Division",
+        "address": "New Administrative Building, Opp. Council Hall, Bund Garden Road, Camp, Pune – 411001",
+        "area": "Bund Garden Road / Camp",
+        "jurisdiction": "State Highway networks, major bridges, and rural-urban connectivity corridors across northern Pune district (Khed, Ambegaon, Junnar, and Maval).",
+        "contact": "020-26121100 / northpune.ee@mahapwd.gov.in",
+        "latitude": 18.525268,
+        "longitude": 73.878804
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_ee_national_highway_division_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.877245,
+          18.520637
+        ]
+      },
+      "properties": {
+        "id": "pwd_ee_national_highway_division_pune",
+        "name": "Office of the Executive Engineer, National Highway Division, Pune",
+        "agency": "Public Works Department (PWD) / MoRTH (Govt of India)",
+        "category": "National Highway Division Office",
+        "sub_category": "National Highway Project Implementation",
+        "address": "1st Floor, Arsenal Plot Compound, Opp. Hotel Sagar Plaza, Bund Garden Road, Camp, Pune – 411001",
+        "area": "Camp / Bund Garden",
+        "jurisdiction": "Execution and maintenance of National Highway stretches entrusted by the Ministry of Road Transport and Highways (MoRTH) to the Maharashtra PWD across Pune district.",
+        "contact": "020-26131450 / nhpune.ee@mahapwd.gov.in",
+        "latitude": 18.520637,
+        "longitude": 73.877245
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_se_quality_control_circle_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_se_quality_control_circle_pune",
+        "name": "Office of the Superintending Engineer, PWD Quality Control Circle, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Specialized Circle",
+        "sub_category": "Quality Control & Materials Testing",
+        "address": "Central Building Compound, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Technical audit, quality surveillance, core-cutter asphalt testing, concrete strength verification, and compliance monitoring for all PWD civil road and bridge works in Pune region.",
+        "contact": "020-26124500 / qcpune.se@mahapwd.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_electrical_circle_division_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "pwd_electrical_circle_division_pune",
+        "name": "Office of the Superintending & Executive Engineer, PWD Electrical Circle & Division, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Electrical Division",
+        "sub_category": "Electrical & Highway Lighting Infrastructure",
+        "address": "Central Building Campus, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Design and execution of electrical works for state highway interchanges, high-mast lighting, traffic management signals, and electrical installations in government complexes.",
+        "contact": "020-26122800 / elpune.se@mahapwd.gov.in / elpune.ee@mahapwd.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_mechanical_division_swargate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.858,
+          18.5015
+        ]
+      },
+      "properties": {
+        "id": "pwd_mechanical_division_swargate",
+        "name": "Office of the Executive Engineer, PWD Mechanical Division No. 2, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Mechanical Division",
+        "sub_category": "Heavy Plant & Road Machinery Depot",
+        "address": "Near Swargate Bus Station, Swargate, Pune – 411037",
+        "area": "Swargate",
+        "jurisdiction": "Maintenance, deployment, and logistics of heavy road machinery, tar boilers, asphalt pavers, road rollers, cranes, and emergency disaster clearing equipment across Pune district.",
+        "contact": "020-24266011 / eemd123@gmail.com",
+        "latitude": 18.5015,
+        "longitude": 73.858
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_subdivision_yerawada",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8825,
+          18.548
+        ]
+      },
+      "properties": {
+        "id": "pwd_subdivision_yerawada",
+        "name": "PWD Sub-Divisional Office, Yerawada, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Sub-Division Office",
+        "sub_category": "Sub-Divisional Field Engineering Office",
+        "address": "Deccan College Road, Near Mental Hospital, Yerawada, Pune – 411006",
+        "area": "Yerawada",
+        "jurisdiction": "Field sub-division responsible for road maintenance, state highway sections, and government building maintenance in northeastern Pune.",
+        "contact": "020-26681200",
+        "latitude": 18.548,
+        "longitude": 73.8825
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_vvip_circuit_house_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.886504,
+          18.528464
+        ]
+      },
+      "properties": {
+        "id": "pwd_vvip_circuit_house_pune",
+        "name": "PWD Government VVIP Circuit House, Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Protocol & Rest House",
+        "sub_category": "State Government VVIP Circuit House",
+        "address": "1, Richardson Road (Ashoka Marg), Near St. Mira's College, Camp, Pune – 411001",
+        "area": "Camp / Bund Garden",
+        "jurisdiction": "State government VIP and VVIP transit complex, government review meetings, and ministerial administrative coordination managed by PWD Pune.",
+        "contact": "020-26125000",
+        "latitude": 18.528464,
+        "longitude": 73.886504
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pwd_ib_rest_house_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.879818,
+          18.528111
+        ]
+      },
+      "properties": {
+        "id": "pwd_ib_rest_house_pune",
+        "name": "PWD Inspection Bungalow (IB Guest House), Pune",
+        "agency": "Public Works Department (PWD), Government of Maharashtra",
+        "category": "State PWD Rest House",
+        "sub_category": "Departmental Inspection Bungalow",
+        "address": "2, Queen's Garden, Near District Collector Residence, Camp, Pune – 411001",
+        "area": "Camp / Queen's Garden",
+        "jurisdiction": "PWD departmental inspection bungalow, field engineers accommodation, and camp office during site inspections.",
+        "contact": "020-26122485",
+        "latitude": 18.528111,
+        "longitude": 73.879818
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_zp_works_dept",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.869678,
+          18.523555
+        ]
+      },
+      "properties": {
+        "id": "pune_zp_works_dept",
+        "name": "Pune Zilla Parishad – Works Department (North & South / बांधकाम विभाग)",
+        "agency": "Zilla Parishad Pune, Rural Development Department",
+        "category": "District Rural Works & Roads Department",
+        "sub_category": "Zilla Parishad Bandhkam Vibhag",
+        "address": "Yashwantrao Chavan Bhavan, Wellesley Road, Near Pune Station, Camp, Pune – 411001",
+        "area": "Camp / Wellesley Road",
+        "jurisdiction": "Construction, upgradation, and maintenance of Major District Roads (MDR), Other District Roads (ODR), and Village Roads (VR) connecting rural hubs and peri-urban growth centers in Pune district.",
+        "contact": "020-26138080 / 020-26138081 / ceozp.pune@maharashtra.gov.in",
+        "latitude": 18.523555,
+        "longitude": 73.869678
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cpwd_nirman_bhavan_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.862104,
+          18.495179
+        ]
+      },
+      "properties": {
+        "id": "cpwd_nirman_bhavan_pune",
+        "name": "Central Public Works Department (CPWD) – Pune Central Circle & Nirman Bhavan",
+        "agency": "Central Public Works Department (CPWD), Ministry of Housing and Urban Affairs (MoHUA)",
+        "category": "Central PWD Regional Headquarters",
+        "sub_category": "Central Government Works & Infrastructure Circle",
+        "address": "2nd Floor, Nirman Bhavan, Mukund Nagar, Pune – 411037",
+        "area": "Mukund Nagar",
+        "jurisdiction": "Planning, architectural design, construction, and maintenance of Central Government public buildings, national defense installations, central research laboratories, income tax and customs complexes, and central road networks in western Maharashtra.",
+        "contact": "020-24263000 / sepccpune@cpwd.gov.in / punesecc@yahoo.co.in",
+        "latitude": 18.495179,
+        "longitude": 73.862104
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cpwd_holiday_home_mukund_nagar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.862104,
+          18.495179
+        ]
+      },
+      "properties": {
+        "id": "cpwd_holiday_home_mukund_nagar",
+        "name": "CPWD Inspection Quarters & Holiday Home",
+        "agency": "Central Public Works Department (CPWD), Government of India",
+        "category": "Central PWD Rest House",
+        "sub_category": "Central Government Inspection Quarters",
+        "address": "2/75, SS Dhage Road, Mukund Nagar, Pune – 411037",
+        "area": "Mukund Nagar",
+        "jurisdiction": "Central PWD transit inspection quarters and transit accommodation for touring engineers and government dignitaries.",
+        "contact": "020-24261983",
+        "latitude": 18.495179,
+        "longitude": 73.862104
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nhai_piu_pune_koregaon_park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.885213,
+          18.533478
+        ]
+      },
+      "properties": {
+        "id": "nhai_piu_pune_koregaon_park",
+        "name": "National Highways Authority of India (NHAI) – Project Implementation Unit (PIU) Pune",
+        "agency": "National Highways Authority of India (NHAI), Ministry of Road Transport and Highways (MoRTH)",
+        "category": "National Highways Authority Office",
+        "sub_category": "Project Implementation Unit (PIU)",
+        "address": "7, Koregaon Road, Opp. St. Mira's College For Girls, Atur Park Co-op Housing Society, Sangamvadi, Pune – 411001",
+        "area": "Sangamvadi / Koregaon Park",
+        "jurisdiction": "Development, widening, tolling, and asset management of National Highways passing through Pune district, including NH-48 (Old NH-4 Pune-Bangalore Highway), NH-65 (Pune-Solapur-Hyderabad Highway), and greenfield access-controlled expressway links.",
+        "contact": "020-26127000 / pune1@nhai.org / roncmumbai@nhai.org",
+        "latitude": 18.533478,
+        "longitude": 73.885213
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nhai_piu_pune_warje_depot",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.800288,
+          18.485768
+        ]
+      },
+      "properties": {
+        "id": "nhai_piu_pune_warje_depot",
+        "name": "National Highways Authority of India (NHAI) – PIU Pune Highway Operations Office (Warje)",
+        "agency": "National Highways Authority of India (NHAI), MoRTH",
+        "category": "National Highways Authority Office",
+        "sub_category": "Highway Operations & Corridor Maintenance Office",
+        "address": "Near Warje Flyover / Mumbai-Bangalore Highway, Warje, Pune – 411058",
+        "area": "Warje",
+        "jurisdiction": "Corridor operations, highway incident management, service road regulation, and maintenance along the Western Pune NH-48 Bypass (Katraj–Navale Bridge–Warje–Chandani Chowk–Wakad).",
+        "contact": "020-29706884",
+        "latitude": 18.485768,
+        "longitude": 73.800288
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "msrdc_camp_office_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.878804,
+          18.525268
+        ]
+      },
+      "properties": {
+        "id": "msrdc_camp_office_pune",
+        "name": "Maharashtra State Road Development Corporation (MSRDC) – Regional Office Pune",
+        "agency": "Maharashtra State Road Development Corporation (MSRDC), Government of Maharashtra",
+        "category": "State Highway & Expressway Authority",
+        "sub_category": "Expressway & Ring Road Project Authority",
+        "address": "1st Floor, D Hall, New Administrative Building, Opp. Council Hall, Bund Garden Road, Camp, Pune – 411001",
+        "area": "Camp / Bund Garden",
+        "jurisdiction": "Execution and operation of mega expressway and ring road infrastructure in the Pune region, including the Yashwantrao Chavan Mumbai-Pune Expressway, the Pune Eastern Ring Road (Urse to Varve Budruk), and Hindu Hrudaysamrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg feeder corridors.",
+        "contact": "020-26131100 / sepune@msrdc.in",
+        "latitude": 18.525268,
+        "longitude": 73.878804
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmrda_engineering_roads_aundh",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.813024,
+          18.56309
+        ]
+      },
+      "properties": {
+        "id": "pmrda_engineering_roads_aundh",
+        "name": "Pune Metropolitan Region Development Authority (PMRDA) – Engineering Division (Roads & Infrastructure)",
+        "agency": "Pune Metropolitan Region Development Authority (PMRDA)",
+        "category": "Metropolitan Region Road Planning Authority",
+        "sub_category": "Regional Ring Road & Arterial Infrastructure Division",
+        "address": "Maharaja Sayajirao Gaikwad Udyog Bhavan, Survey No. 152-153, Aundh Gaon, Aundh, Pune – 411067",
+        "area": "Aundh",
+        "jurisdiction": "Planning, design, land acquisition, and execution of the Pune Metropolitan Region Ring Road (128 km), urban arterial road corridors, town planning scheme (TPS) road networks, multi-level flyovers, and metropolitan transport master plans across 7,256 sq km of the PMR boundary.",
+        "contact": "020-25933344 / 020-25933300 / comm@pmrda.gov.in",
+        "latitude": 18.56309,
+        "longitude": 73.813024
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmrda_engineering_akurdi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7676,
+          18.6469
+        ]
+      },
+      "properties": {
+        "id": "pmrda_engineering_akurdi",
+        "name": "PMRDA Engineering & Regional Development Office (Akurdi)",
+        "agency": "Pune Metropolitan Region Development Authority (PMRDA)",
+        "category": "Metropolitan Region Road Planning Authority",
+        "sub_category": "Northern Metropolitan Planning & Engineering Division",
+        "address": "3rd Floor, New Administration Building, PCNTDA, Opp. Akurdi Railway Station Road, Akurdi, Pune – 411044",
+        "area": "Akurdi / Nigdi",
+        "jurisdiction": "Road network execution, industrial link corridors, and urban town planning road infrastructure for the northern metropolitan industrial cluster (Pimpri-Chinchwad, Chakan, Talegaon, and Hinjawadi linkages).",
+        "contact": "020-27652934 / 020-25933344",
+        "latitude": 18.6469,
+        "longitude": 73.7676
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_main_road_department_shivajinagar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854392,
+          18.524398
+        ]
+      },
+      "properties": {
+        "id": "pmc_main_road_department_shivajinagar",
+        "name": "Pune Municipal Corporation (PMC) – Road Department (रस्ते विभाग HQ)",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Corporation Road Department",
+        "sub_category": "Civic Apex Road & Transport Engineering Department",
+        "address": "PMC Main Administrative Building, Shivaji Nagar, Near Mangala Multiplex, Pune – 411005",
+        "area": "Shivajinagar",
+        "jurisdiction": "Headed by the Chief Engineer (Road); apex municipal department responsible for all 1,400+ km of civic roads, development plan (DP) roads, flyovers, grade separators, pedestrian footpaths, asphalt resurfacing, road digging / utility trenching permissions, and traffic calming across Pune city limits.",
+        "contact": "+91 9689931197 / 020-25501000 / road@punecorporation.org",
+        "latitude": 18.524398,
+        "longitude": 73.854392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_hot_mix_plant_yerawada",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.879294,
+          18.550747
+        ]
+      },
+      "properties": {
+        "id": "pmc_hot_mix_plant_yerawada",
+        "name": "PMC Road Department – Central Hot Mix & Asphalt Testing Plant, Yerawada",
+        "agency": "Pune Municipal Corporation (PMC) – Road Development Department",
+        "category": "Municipal Asphalt Plant & Testing Facility",
+        "sub_category": "Municipal Bitumen & Material Quality Center",
+        "address": "College Road, Ekta Society, Dr. Ambedkar Path, Near Indraprastha Garden, Ashok Nagar, Yerawada, Pune – 411006",
+        "area": "Yerawada",
+        "jurisdiction": "Municipal in-house automated asphalt production plant supplying hot-mix bitumen for resurfacing, pothole remediation, and emergency monsoon road repairs; equipped with IRC/NABL material testing laboratories.",
+        "contact": "020-25501000 / road@punecorporation.org",
+        "latitude": 18.550747,
+        "longitude": 73.879294
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_main_engineering_road_dept_pimpri",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.804422,
+          18.628408
+        ]
+      },
+      "properties": {
+        "id": "pcmc_main_engineering_road_dept_pimpri",
+        "name": "Pimpri Chinchwad Municipal Corporation (PCMC) – Engineering & Roads Department (HQ)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Corporation Road Department",
+        "sub_category": "Apex Municipal Road Engineering Department (PCMC)",
+        "address": "PCMC Main Administrative Building, Old Mumbai-Pune Highway, Pimpri Colony, Pimpri-Chinchwad, Pune – 411018",
+        "area": "Pimpri",
+        "jurisdiction": "Apex department headed by the City Engineer / Executive Engineer (Roads) managing arterial road networks, BRTS corridors, bridges across Pavana and Mula rivers, grade separators, and industrial spine roads across the twin city.",
+        "contact": "020-67333333 / 020-27425511 / civil@pcmcindia.gov.in",
+        "latitude": 18.628408,
+        "longitude": 73.804422
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_ghole_road_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.844211,
+          18.523921
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_ghole_road_ward",
+        "name": "PMC Zonal Road Engineering Office – Ghole Road / Shivajinagar Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "1187/5, Main Building, Vamanrao Malhar Joshi Marg, Near Mangala Theatre, Shivajinagar, Pune – 411005",
+        "area": "Shivajinagar / Ghole Road",
+        "jurisdiction": "Road resurfacing, pothole repair, utility trenching approvals, and storm drain culverts across Shivajinagar, Fergusson College Road, Jangli Maharaj Road, and Model Colony.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.523921,
+        "longitude": 73.844211
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_aundh_baner_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.813024,
+          18.56309
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_aundh_baner_ward",
+        "name": "PMC Zonal Road Engineering Office – Aundh / Baner Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Ganeshkhind Udyog Bhavan, Ward No. 8, Aundh Gaon, Pune – 411067",
+        "area": "Aundh / Baner",
+        "jurisdiction": "Maintenance of DP roads, footpaths, cross-drainage, and asphalt repairs across Aundh, Baner, Balewadi, Pashan, and Sutarwadi.",
+        "contact": "020-25597100 / 1800 103 0222",
+        "latitude": 18.56309,
+        "longitude": 73.813024
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_kothrud_bavdhan_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.809433,
+          18.501224
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_kothrud_bavdhan_ward",
+        "name": "PMC Zonal Road Engineering Office – Kothrud / Bavdhan Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Golden Hind Building, Behind Paranjape School, Bhelkenagar Chowk, D.P. Road, Kothrud, Pune – 411038",
+        "area": "Kothrud / Bavdhan",
+        "jurisdiction": "Local road network, DP road extensions, pedestrian crossings, and drainage across Kothrud, Bavdhan, Paud Road, and Ideal Colony.",
+        "contact": "020-25501600 / 1800 103 0222",
+        "latitude": 18.501224,
+        "longitude": 73.809433
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_warje_karvenagar_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.823745,
+          18.498383
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_warje_karvenagar_ward",
+        "name": "PMC Zonal Road Engineering Office – Warje / Karve Nagar Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Swapnashilp Commercial Building, Karvenagar, Pune – 411038",
+        "area": "Karve Nagar / Warje",
+        "jurisdiction": "Road upgrades, pothole repairs, side gutters, and road safety infrastructure in Karve Nagar, Warje, Hingne, and Cummins College Road.",
+        "contact": "020-25432192 / 1800 103 0222",
+        "latitude": 18.498383,
+        "longitude": 73.823745
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_sinhgad_road_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.825024,
+          18.470857
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_sinhgad_road_ward",
+        "name": "PMC Zonal Road Engineering Office – Sinhgad Road Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Niranjan Park, Anand Nagar, Sinhgad Road, Pune – 411051",
+        "area": "Sinhgad Road / Anand Nagar",
+        "jurisdiction": "Maintenance and resurfacing of Sinhgad Road corridor, Vadgaon Budruk, Dhayari, Manikbaug, and Anand Nagar arterial linkages.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.470857,
+        "longitude": 73.825024
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_hadapsar_mundhwa_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.934409,
+          18.499803
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_hadapsar_mundhwa_ward",
+        "name": "PMC Zonal Road Engineering Office – Hadapsar / Mundhwa Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Kshetriya Karyalay, Near Bhaji Mandi Road, Hadapsar Gaon, Pune – 411028",
+        "area": "Hadapsar / Mundhwa",
+        "jurisdiction": "Road maintenance, concrete road development, and industrial connectivity for Hadapsar, Magarpatta, Mundhwa, Amanora, and Pune-Solapur link roads.",
+        "contact": "020-26821092 / 1800 103 0222",
+        "latitude": 18.499803,
+        "longitude": 73.934409
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_nagar_road_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.917575,
+          18.563048
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_nagar_road_ward",
+        "name": "PMC Zonal Road Engineering Office – Nagar Road / Vadgaon Sheri Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Survey No. 30/7, Pune-Nagar Road, Ramwadi, Wadgaon Sheri, Pune – 411014",
+        "area": "Vadgaon Sheri / Ramwadi",
+        "jurisdiction": "Maintenance of IT corridor roads, BRTS lanes, asphalt resurfacing, and culverts across Viman Nagar, Vadgaon Sheri, Kalyani Nagar, and Kharadi bypass.",
+        "contact": "020-25509000 / 1800 103 0222",
+        "latitude": 18.563048,
+        "longitude": 73.917575
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_dhole_patil_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.875838,
+          18.535926
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_dhole_patil_ward",
+        "name": "PMC Zonal Road Engineering Office – Dhole Patil Road Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Near Sangamwadi Bridge, Dhole Patil Road, Sangamvadi, Pune – 411001",
+        "area": "Sangamvadi / Dhole Patil Road",
+        "jurisdiction": "Road maintenance and drainage along Dhole Patil Road, Koregaon Park, Bund Garden Road, and Sangamwadi bridge approaches.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.535926,
+        "longitude": 73.875838
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_tilak_road_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85583,
+          18.50334
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_tilak_road_ward",
+        "name": "PMC Zonal Road Engineering Office – Tilak Road / Swargate Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Shivajirao Dhere Udyog Bhavan, Tilak Road, Swargate, Pune – 411002",
+        "area": "Swargate / Tilak Road",
+        "jurisdiction": "Urban road maintenance, junction redesign, pedestrian crossings, and drainage along Tilak Road, Swargate, Parvati, and Shukrawar Peth.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.50334,
+        "longitude": 73.85583
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_kasba_vishrambaug_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.853438,
+          18.513108
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_kasba_vishrambaug_ward",
+        "name": "PMC Zonal Road Engineering Office – Kasba / Vishrambaug Wada Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "787, Vedacharya Phatak Guruji Road, Perugate, Sadashiv Peth, Pune – 411030",
+        "area": "Sadashiv Peth / Kasba",
+        "jurisdiction": "Heritage Peth road maintenance, cobblestone / paver restoration, stormwater desilting, and utility trenching in central core Peth areas.",
+        "contact": "020-25432620 / 1800 103 0222",
+        "latitude": 18.513108,
+        "longitude": 73.853438
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_bhavani_peth_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.87012,
+          18.508429
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_bhavani_peth_ward",
+        "name": "PMC Zonal Road Engineering Office – Bhavani Peth Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "General Arun Kumar Vaidya Stadium Complex, Bhavani Peth, Pune – 411002",
+        "area": "Bhavani Peth",
+        "jurisdiction": "Maintenance of commercial marketplace roads, timber market corridors, and internal lanes in Bhavani Peth, Nana Peth, and Guruwar Peth.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.508429,
+        "longitude": 73.87012
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_bibvewadi_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.858007,
+          18.489067
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_bibvewadi_ward",
+        "name": "PMC Zonal Road Engineering Office – Bibvewadi Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Shivneri Path, Adinath Society, Maharshi Nagar / Bibvewadi, Pune – 411037",
+        "area": "Bibvewadi / Maharshi Nagar",
+        "jurisdiction": "Road upgrades, Market Yard access roads, concrete road surfacing, and drainage in Bibvewadi, Salisbury Park, and Maharshi Nagar.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.489067,
+        "longitude": 73.858007
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_dhankawadi_sahakarnagar_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.857734,
+          18.455592
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_dhankawadi_sahakarnagar_ward",
+        "name": "PMC Zonal Road Engineering Office – Dhankawadi / Sahakarnagar Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Near Sawant Corner, Pune-Satara Road, Katraj / Dhankawadi, Pune – 411046",
+        "area": "Dhankawadi / Katraj",
+        "jurisdiction": "Road infrastructure, slope stabilization, cross-drainage, and asphalt patching for Sahakarnagar, Dhankawadi, Katraj, and Ambegaon Budruk.",
+        "contact": "020-25508900 / 1800 103 0222",
+        "latitude": 18.455592,
+        "longitude": 73.857734
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_kondhwa_yewalewadi_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85783,
+          18.447651
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_kondhwa_yewalewadi_ward",
+        "name": "PMC Zonal Road Engineering Office – Kondhwa / Yewalewadi Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Santosh Nagar, Ambegaon Budruk / Katraj-Kondhwa Road, Pune – 411046",
+        "area": "Kondhwa / Katraj-Kondhwa Road",
+        "jurisdiction": "Widening of Katraj-Kondhwa Road, asphalt resurfacing, and municipal stormwater channel upkeep in Kondhwa, Undri, and Yewalewadi.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.447651,
+        "longitude": 73.85783
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_wanowrie_ramtekdi_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.900337,
+          18.503314
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_wanowrie_ramtekdi_ward",
+        "name": "PMC Zonal Road Engineering Office – Wanowrie / Ramtekdi Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "15, Fatima Nagar, Wanowrie, Pune – 411013",
+        "area": "Wanowrie / Fatima Nagar",
+        "jurisdiction": "Road resurfacing, pedestrian sidewalks, storm drain culverts, and traffic safety works in Wanowrie, Fatima Nagar, Salunke Vihar, and Ramtekdi.",
+        "contact": "020-25501000 / 1800 103 0222",
+        "latitude": 18.503314,
+        "longitude": 73.900337
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_road_yerawada_kalas_dhanori_ward",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.887573,
+          18.545352
+        ]
+      },
+      "properties": {
+        "id": "pmc_road_yerawada_kalas_dhanori_ward",
+        "name": "PMC Zonal Road Engineering Office – Yerawada / Kalas / Dhanori Ward",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Ward Level Road Maintenance Division",
+        "address": "Gunjan Chowk, Pune-Nagar Road, Yerawada, Pune – 411006",
+        "area": "Yerawada",
+        "jurisdiction": "Road network upkeep, road widening, pothole patching, and culvert desilting in Yerawada, Kalas, Dhanori, Tingre Nagar, and Vishrantwadi.",
+        "contact": "020-25509100 / 1800 103 0222",
+        "latitude": 18.545352,
+        "longitude": 73.887573
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_road_zone_a_nigdi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7711,
+          18.6559
+        ]
+      },
+      "properties": {
+        "id": "pcmc_road_zone_a_nigdi",
+        "name": "PCMC Zonal Engineering & Road Office – Zone A (Nigdi / Pradhikaran)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Zone Level Road Maintenance Division (PCMC)",
+        "address": "Near Sant Dnyaneshwar Chowk, Sector 25, Pradhikaran, Nigdi, Pimpri-Chinchwad – 411044",
+        "area": "Nigdi / Pradhikaran",
+        "jurisdiction": "Road engineering, asphalt resurfacing, and municipal stormwater channel upkeep across Nigdi, Pradhikaran, and Akurdi.",
+        "contact": "020-67333333 / +91 9552290777",
+        "latitude": 18.6559,
+        "longitude": 73.7711
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_road_zone_b_chinchwad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.783985,
+          18.629802
+        ]
+      },
+      "properties": {
+        "id": "pcmc_road_zone_b_chinchwad",
+        "name": "PCMC Zonal Engineering & Road Office – Zone B (Chinchwad)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Zone Level Road Maintenance Division (PCMC)",
+        "address": "Elpro Company Campus, PCMC Link Road, Chinchwad Gaon, Pimpri-Chinchwad – 411033",
+        "area": "Chinchwad",
+        "jurisdiction": "Road infrastructure, industrial estate access corridors, and stormwater networks across Chinchwad Gaon, Mohan Nagar, and Anandnagar.",
+        "contact": "020-27351894 / bzone@pcmcindia.gov.in",
+        "latitude": 18.629802,
+        "longitude": 73.783985
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_road_zone_c_bhosari",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.827019,
+          18.631485
+        ]
+      },
+      "properties": {
+        "id": "pcmc_road_zone_c_bhosari",
+        "name": "PCMC Zonal Engineering & Road Office – Zone C (Bhosari / Nehrunagar)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Zone Level Road Maintenance Division (PCMC)",
+        "address": "Nehrunagar, MIDC, Bhosari, Pimpri-Chinchwad – 411026",
+        "area": "Bhosari / MIDC",
+        "jurisdiction": "Heavy vehicle industrial spine roads, MIDC drainage, concrete paving, and asphalt resurfacing in Bhosari and Nehrunagar.",
+        "contact": "020-67333333 / czone@pcmcindia.gov.in",
+        "latitude": 18.631485,
+        "longitude": 73.827019
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_road_zone_d_rahatani",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.782038,
+          18.596512
+        ]
+      },
+      "properties": {
+        "id": "pcmc_road_zone_d_rahatani",
+        "name": "PCMC Zonal Engineering & Road Office – Zone D (Pimple Saudagar / Rahatani / Wakad)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Zone Level Road Maintenance Division (PCMC)",
+        "address": "Kalewadi Main Road, Jagtap Dairy Chowk, Wakad, Pimpri-Chinchwad – 411057",
+        "area": "Wakad / Pimple Saudagar",
+        "jurisdiction": "High-density urban road corridors, BRTS junction upkeep, footpath tiles, and drainage across Wakad, Pimple Saudagar, Rahatani, and Pimple Nilakh.",
+        "contact": "020-67333333 / dzone@pcmcindia.gov.in",
+        "latitude": 18.596512,
+        "longitude": 73.782038
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_road_zone_g_thergaon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.778601,
+          18.612271
+        ]
+      },
+      "properties": {
+        "id": "pcmc_road_zone_g_thergaon",
+        "name": "PCMC Zonal Engineering & Road Office – Zone G (Thergaon / Kalewadi)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Zone Level Road Maintenance Division (PCMC)",
+        "address": "Old Thergaon Regional Office, Thergaon, Pimpri-Chinchwad – 411033",
+        "area": "Thergaon",
+        "jurisdiction": "Maintenance of concrete roads, asphalt resurfacing, and municipal stormwater channel upkeep in Thergaon, Kalewadi, and Dange Chowk linkages.",
+        "contact": "020-67333333 / gzone@pcmcindia.gov.in",
+        "latitude": 18.612271,
+        "longitude": 73.778601
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_road_zone_h_kasarwadi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.822213,
+          18.600979
+        ]
+      },
+      "properties": {
+        "id": "pcmc_road_zone_h_kasarwadi",
+        "name": "PCMC Zonal Engineering & Road Office – Zone H (Sangvi / Pimple Gurav / Kasarwadi)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Zonal Road Engineering Office",
+        "sub_category": "Zone Level Road Maintenance Division (PCMC)",
+        "address": "A-3, Pimple Gurav Road, Shastri Nagar, Kasarwadi, Pimpri-Chinchwad – 411034",
+        "area": "Kasarwadi / Sangvi",
+        "jurisdiction": "Road network upkeep, riverfront roads along Mula River, bridge approaches, and stormwater drainage in Old Sangvi, New Sangvi, Pimple Gurav, and Kasarwadi.",
+        "contact": "+91 8308339869 / hzone@pcmcindia.gov.in",
+        "latitude": 18.600979,
+        "longitude": 73.822213
+      }
+    }
+  ]
+}

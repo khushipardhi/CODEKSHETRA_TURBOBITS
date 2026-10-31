@@ -1,0 +1,524 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Electrical Department, Power Distribution & Grid Facilities in Pune",
+    "region": "Pune Metropolitan Area, Maharashtra, India",
+    "generated_date": "2026-10-03",
+    "description": "Comprehensive dataset containing geographical coordinates, operational roles, contact information, and jurisdictions for municipal electrical departments (PMC & PCMC), Maharashtra State Electricity Distribution Company Limited (MSEDCL/Mahavitaran) circle and division offices, Maharashtra State Electricity Transmission Company Limited (MSETCL/Mahatransco) regional facilities, and the Government of Maharashtra Electrical Inspectorate.",
+    "key_contacts_and_helplines": {
+      "MSEDCL 24x7 Power Outage & Emergency Toll-Free Helpline": "1912 / 1800 233 3435 / 1800 212 3435",
+      "MSEDCL Pune Central Fault Complaint WhatsApp": "+91 99303 99303",
+      "PMC Central Street Light Complaint Toll-Free Helpline": "1800 103 0222",
+      "PMC Electrical Department Head Office": "+91 20 2550 1000 / +91 96899 31279",
+      "PCMC Electrical Department Helpline": "+91 20 6733 3333",
+      "Government Electrical Inspectorate Pune": "+91 20 2581 2337"
+    },
+    "total_facilities": 24
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85172,
+          18.52835
+        ]
+      },
+      "properties": {
+        "id": "PMC-ELEC-HQ-01",
+        "name": "PMC Electrical Department Central Head Office",
+        "category": "municipal_electrical_departments_and_control_centers",
+        "department": "Pune Municipal Corporation (PMC)",
+        "address": "Second Floor, Sawarkar Bhavan, Congress House Road, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1000",
+        "email": "electrical@punecorporation.org",
+        "role": "Apex civic body managing public street lighting network, solar power rooftop installations, electrification of civic hospitals, schools, gardens, crematoriums, electric vehicle (EV) public charging infrastructure, and decorative illumination."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.853062,
+          18.523438
+        ]
+      },
+      "properties": {
+        "id": "PMC-ELEC-CCMS-02",
+        "name": "PMC Central Street Lighting SCADA & CCMS Control Room",
+        "category": "municipal_electrical_departments_and_control_centers",
+        "department": "Pune Municipal Corporation (PMC)",
+        "address": "3rd Floor, PMC Main Building Complex, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1000",
+        "email": "info@punecorporation.org",
+        "role": "Centralized Control and Monitoring System (CCMS) operating over 150,000 smart LED streetlights across Pune, automated fault detection, timer switching, and energy conservation tracking."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801,
+          18.6275
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ELEC-HQ-03",
+        "name": "PCMC Electrical Department Headquarters",
+        "category": "municipal_electrical_departments_and_control_centers",
+        "department": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "address": "PCMC Main Administrative Building, Mumbai - Pune Road, Pimpri Colony",
+        "locality": "Pimpri",
+        "phone": "+91 20 6733 3333",
+        "email": "contact@pcmcindia.gov.in",
+        "role": "Citywide public illumination, electrical maintenance of municipal water works, sewage treatment plants, civic auditoriums, traffic signal synchronization, and green energy initiatives in Pimpri-Chinchwad."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8305,
+          18.5365
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-HQ-SBROAD-01",
+        "name": "MSEDCL Regional & Ganeshkhind Urban Circle Office (Prakashbhavan)",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "106/A, Senapati Bapat Road, Chaturshringi, Jawahar Nagar, Gokhalenagar",
+        "locality": "Senapati Bapat Road",
+        "phone": "+91 20 2563 5906",
+        "email": "segkuc@mahadiscom.in",
+        "role": "Regional administrative headquarters overseeing electricity distribution, billing, high-tension lines, transformer maintenance, and subscriber grievances for Western and Central Pune."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.868603,
+          18.519494
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-RASTAPETH-02",
+        "name": "MSEDCL Pune Zone Office & Rasta Peth Circle Headquarters (Power House)",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "112, Testing Division, Mudaliar Road, Rasta Peth",
+        "locality": "Rasta Peth",
+        "phone": "+91 20 2606 1582",
+        "email": "serastapeth@mahadiscom.in",
+        "role": "Zonal headquarters for Pune Urban & Rural Circles, central testing division, high-capacity urban substations, and central emergency response crew for Central & Eastern Pune."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805,
+          18.5075
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-KOTHRUD-03",
+        "name": "MSEDCL Kothrud Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "1, Paud Road, Near Rambaug Colony, Kothrud",
+        "locality": "Kothrud",
+        "phone": "+91 1800 233 3435",
+        "email": "",
+        "role": "Power supply regulation, feeder line breakdown repairs, new connection sanctioning, and billing administration for Kothrud, Bavdhan, Karvenagar, and Warje."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.861,
+          18.487
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-PADMAVATI-04",
+        "name": "MSEDCL Padmavati Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "14, Sangam Society, Near Pune-Satara Road, Bibwewadi",
+        "locality": "Bibwewadi / Padmavati",
+        "phone": "+91 1800 212 3435",
+        "email": "",
+        "role": "Managing electrical grid, substation transformers, and consumer billing for Bibwewadi, Dhankawadi, Katraj, Ambegaon, and Pune-Satara Road."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.842,
+          18.498
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-PARVATI-05",
+        "name": "MSEDCL Parvati Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "201, Sinhgad Road, Sarita Vihar, Dattawadi",
+        "locality": "Dattawadi / Sinhgad Road",
+        "phone": "+91 1800 233 3435",
+        "email": "",
+        "role": "Managing suburban power supply lines, feeder trip repairs, and distribution transformer stations along Sinhgad Road, Dattawadi, and Vadgaon."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.876,
+          18.524
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-BUNDGARDEN-06",
+        "name": "MSEDCL Bund Garden Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "Exhibition Road, Near General Post Office (GPO), Pune Cantonment",
+        "locality": "Camp / Bund Garden",
+        "phone": "+91 20 2612 1100",
+        "email": "",
+        "role": "Power distribution and high-reliability transmission maintenance for Pune Cantonment (Camp), Bund Garden, Koregaon Park, and Dhole Patil Road."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.885,
+          18.552
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-NAGARROAD-07",
+        "name": "MSEDCL Nagar Road / Yerwada Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "Shastrinagar, Airport Road / Nagar Road, Yerawada",
+        "locality": "Yerwada",
+        "phone": "+91 20 2668 1122",
+        "email": "",
+        "role": "Overseeing power supply grids, IT industrial parks, commercial feeders, and residential lines across Yerwada, Kalyani Nagar, Viman Nagar, and Kharadi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.804,
+          18.618
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-PIMPRI-08",
+        "name": "MSEDCL Pimpri Circle & Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "Nav Maharashtra Vidyalay Road, Shastri Nagar, Pimpri Colony",
+        "locality": "Pimpri",
+        "phone": "+91 1800 233 3435",
+        "email": "",
+        "role": "Circle and divisional administrative center directing power supply to industrial clusters, automotive manufacturing zones, and residential townships in Pimpri, Chinchwad, and Akurdi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.845,
+          18.625
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-BHOSARI-09",
+        "name": "MSEDCL Bhosari Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "General Block, MIDC Bhosari, Pimpri-Chinchwad",
+        "locality": "Bhosari",
+        "phone": "+91 20 2712 0405",
+        "email": "",
+        "role": "Heavy industrial feeder power management, high-voltage consumer metering, and infrastructure maintenance across Bhosari MIDC, Chikhali, and Moshi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.755,
+          18.598
+        ]
+      },
+      "properties": {
+        "id": "MSEDCL-HINJEWADI-10",
+        "name": "MSEDCL Hinjewadi & Wakad Sub-Division Office",
+        "category": "state_electricity_distribution_offices_msedcl",
+        "department": "Maharashtra State Electricity Distribution Co. Ltd. (Mahavitaran)",
+        "address": "Shankar Kalat Nagar, Aundh-Wakad BRTS Road, Wakad",
+        "locality": "Wakad / Hinjewadi",
+        "phone": "+91 20 2727 5163",
+        "email": "",
+        "role": "Ensuring 24x7 uninterrupted power to Rajiv Gandhi Infotech Park (Phases 1, 2, 3), data centers, IT campuses, Wakad, and Punawale residential zones."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.848,
+          18.508
+        ]
+      },
+      "properties": {
+        "id": "GOV-ELEC-INSPECT-01",
+        "name": "Office of the Electrical Inspector, Government of Maharashtra (Pune Division)",
+        "category": "state_regulatory_and_transmission_authorities",
+        "department": "Industries, Energy and Labour Department, Government of Maharashtra",
+        "address": "Indulal Complex, Lal Bahadur Shastri Road, Lokamanya Nagar, Navi Peth / Sadashiv Peth",
+        "locality": "Sadashiv Peth / Navi Peth",
+        "phone": "+91 20 2581 2337",
+        "email": "ceipune@ceimah.in",
+        "role": "Statutory authority responsible for electrical safety inspections under Central Electricity Authority (CEA) regulations, licensing of electrical contractors and supervisors, inspection of high-voltage sub-stations, cinema theaters, lifts, and escalators."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.738,
+          18.586
+        ]
+      },
+      "properties": {
+        "id": "MSETCL-HINJEWADI-02",
+        "name": "MSETCL 220kV Flagship Transmission Substation & Division",
+        "category": "state_regulatory_and_transmission_authorities",
+        "department": "Maharashtra State Electricity Transmission Co. Ltd. (Mahatransco)",
+        "address": "Blue Ridge, Phase 1, Rajiv Gandhi Infotech Park, Hinjawadi",
+        "locality": "Hinjewadi",
+        "phone": "+91 74474 40358",
+        "email": "contact@mahatransco.in",
+        "role": "Operating extra high-voltage (220kV/132kV/33kV) power transmission grids, grid sub-stations, and bulk power corridors supplying Hinjewadi IT hub and Western Pune."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.5255
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-GHOLEROAD-01",
+        "name": "Ghole Road - Shivajinagar Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "1187/5, Ghole Road, Main Ward Office Building, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1405",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.807,
+          18.5605
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-AUNDH-BANER-02",
+        "name": "Aundh - Baner Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Bremen Chowk, Near Ambedkar Chowk, Aundh",
+        "locality": "Aundh",
+        "phone": "+91 20 2550 1410",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805,
+          18.5075
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-KOTHRUD-03",
+        "name": "Kothrud - Bavdhan Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Chhatrapati Shivaji Maharaj Smarak, Paud Road, Kothrud",
+        "locality": "Kothrud",
+        "phone": "+91 20 2550 1415",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.842,
+          18.4985
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-SINHGADROAD-04",
+        "name": "Sinhgad Road Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Near Dandekar Bridge, PL Deshpande Garden Road, Sinhgad Road",
+        "locality": "Dattawadi / Parvati",
+        "phone": "+91 20 2550 1425",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8525,
+          18.514
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-KASBA-05",
+        "name": "Kasba - Vishrambaug Wada Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Near Shanipar Chowk, Sadashiv Peth",
+        "locality": "Sadashiv Peth",
+        "phone": "+91 20 2550 1435",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.869,
+          18.5085
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-BHAVANI-06",
+        "name": "Bhavani Peth Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "General Arunkumar Vaidya Stadium, Bhavani Peth",
+        "locality": "Bhavani Peth",
+        "phone": "+91 20 2550 1440",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9295,
+          18.5025
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-HADAPSAR-07",
+        "name": "Hadapsar - Mundhwa Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Pandit Jawaharlal Nehru Road, Gadital, Hadapsar",
+        "locality": "Hadapsar",
+        "phone": "+91 20 2550 1450",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8825,
+          18.552
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-YERWADA-08",
+        "name": "Yerwada - Kalas - Dhanori Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Near Gunjan Talkies, Airport Road, Yerawada",
+        "locality": "Yerwada",
+        "phone": "+91 20 2550 1460",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.918,
+          18.555
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-NAGARROAD-09",
+        "name": "Nagar Road - Vadgaon Sheri Ward Electrical Maintenance Division",
+        "category": "zonal_municipal_electrical_maintenance_offices",
+        "department": "PMC",
+        "address": "Pune - Ahmednagar Road, Near Inorbit Mall, Vadgaon Sheri",
+        "locality": "Vadgaon Sheri",
+        "phone": "+91 20 2550 1465",
+        "email": "",
+        "role": ""
+      }
+    }
+  ]
+}

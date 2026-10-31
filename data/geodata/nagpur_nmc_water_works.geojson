@@ -1,0 +1,653 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_Water_Works_Offices_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "4. NMC Water Works",
+    "department_id": 4,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 20,
+    "categories": [
+      {
+        "category": "Water Supply",
+        "sub_categories": [
+          "No water supply",
+          "Very low water pressure in residential areas"
+        ]
+      },
+      {
+        "category": "Water Quality",
+        "sub_categories": [
+          "Supply of contaminated or muddy water",
+          "Foul-smelling drinking water"
+        ]
+      },
+      {
+        "category": "Pipeline Maintenance",
+        "sub_categories": [
+          "Major pipeline leakages",
+          "Water wastage on streets"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-HQ01",
+        "name": "NMC Water Works Department (Central Headquarters)",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Municipal Department Headquarters",
+        "zone": "Central Administration",
+        "division": "NMC Superintending Engineer (Water Supply)",
+        "address": "2nd Floor, NMC Central Administrative Complex, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "1800-266-9899 / 0712-2567777",
+        "jurisdiction_area": "Citywide raw water intake allocation, transmission main pipelines, 24x7 water supply policy, major tariff & billing grievance resolution",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-HQ02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0692,
+          21.1518
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-HQ02",
+        "name": "Orange City Water (OCW) Central Customer Care & Control Centre",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Water Operator Central Operations Headquarters",
+        "zone": "Central Operations",
+        "division": "OCW Operations & Maintenance Wing",
+        "address": "Opposite Bal Bhavan, Beside RTO Office, Giripeth, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Giripeth / Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-6638000",
+        "emergency_number": "1800-266-9899 (24x7 Toll Free)",
+        "jurisdiction_area": "Citywide 24x7 SCADA water monitoring, customer grievance escalation, emergency water tanker dispatch and telemetry network management",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0631,
+          21.1218
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z01",
+        "name": "NMC / OCW Laxmi Nagar Zone No. 1 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Laxmi Nagar Zone (Zone 1)",
+        "division": "Zone 1 Water Supply Division",
+        "address": "Laxmi Nagar Water Tank Premises, Near Hingna Road T-Point, Nagpur, Maharashtra 440022",
+        "locality": "Laxmi Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2245833",
+        "emergency_number": "1800-266-9899 / +91-9130616734",
+        "jurisdiction_area": "Laxmi Nagar, Pratap Nagar, Trimurti Nagar, VNIT, Khamla, Bajaj Nagar (Low pressure complaints, local pipeline bursts, contaminated water testing)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0542,
+          21.1585
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z02",
+        "name": "NMC / OCW Dharampeth Zone No. 2 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Dharampeth Zone (Zone 2)",
+        "division": "Zone 2 Water Supply Division",
+        "address": "Seminary Hills MBR Campus, Near TV Tower Road, Dharampeth / Seminary Hills, Nagpur, Maharashtra 440006",
+        "locality": "Seminary Hills / Dharampeth",
+        "pincode": "440006",
+        "contact_number": "+91-712-2565589",
+        "emergency_number": "1800-266-9899 / +91-9823245671",
+        "jurisdiction_area": "Dharampeth, Ram Nagar, Ambazari, Ravi Nagar, Gokulpeth, Civil Lines, Seminary Hills (Distribution network valves, feeder main leakage, water pressure regulation)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0962,
+          21.1145
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z03",
+        "name": "NMC / OCW Hanuman Nagar Zone No. 3 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Hanuman Nagar Zone (Zone 3)",
+        "division": "Zone 3 Water Supply Division",
+        "address": "Omkar Nagar Water Tank Campus, Near Tukdoji Square, Manewada Road, Nagpur, Maharashtra 440027",
+        "locality": "Hanuman Nagar / Manewada",
+        "pincode": "440027",
+        "contact_number": "+91-712-2755589",
+        "emergency_number": "1800-266-9899 / +91-9823245673",
+        "jurisdiction_area": "Hanuman Nagar, Medical Square, Manewada, Besa fringe, Bhagwan Nagar, Rameshwari (Contaminated tap water redressal, no-supply resolution, distribution network repair)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0845,
+          21.1325
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z04",
+        "name": "NMC / OCW Dhantoli Zone No. 4 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Dhantoli Zone (Zone 4)",
+        "division": "Zone 4 Water Supply Division",
+        "address": "Chandan Nagar Water Tank Premises, Near Medical Square / Congress Nagar, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli / Congress Nagar",
+        "pincode": "440012",
+        "contact_number": "+91-712-2465299",
+        "emergency_number": "1800-266-9899 / +91-9823350242",
+        "jurisdiction_area": "Dhantoli, Congress Nagar, Rahate Colony, Imamwada, Rambagh, Untkhana (Main distribution line maintenance, water contamination complaints, pressure boosting)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1175,
+          21.1238
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z05",
+        "name": "NMC / OCW Nehru Nagar Zone No. 5 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Nehru Nagar Zone (Zone 5)",
+        "division": "Zone 5 Water Supply Division",
+        "address": "Sakkardara ESR Complex, Umred Road, Nehru Nagar, Nagpur, Maharashtra 440024",
+        "locality": "Nehru Nagar / Sakkardara",
+        "pincode": "440024",
+        "contact_number": "+91-712-2700090",
+        "emergency_number": "1800-266-9899 / +91-9823313064",
+        "jurisdiction_area": "Nehru Nagar, Sakkardara, Nandanvan, Dighori, Tajbagh, Hasanbagh (Pipeline valve regulation, turbid water mitigation, emergency tanker logistics)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1445
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z06",
+        "name": "NMC / OCW Gandhi Mahal / Gandhibagh Zone No. 6 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Gandhibagh Zone (Zone 6)",
+        "division": "Zone 6 Water Supply Division",
+        "address": "Near Jumma Talao / Gandhi Sagar Lake, Mahal Road, Nagpur, Maharashtra 440002",
+        "locality": "Mahal / Gandhibagh",
+        "pincode": "440002",
+        "contact_number": "+91-712-2735599",
+        "emergency_number": "1800-266-9899 / +91-9823313086",
+        "jurisdiction_area": "Mahal, Gandhibagh, Itwari market lanes, Badkas Chowk, Tilak Putla (Old pipeline leakage repair, water pressure restoration, sewage-mixed water line isolation)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1128,
+          21.1595
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z07",
+        "name": "NMC / OCW Satranjipura Zone No. 7 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Satranjipura Zone (Zone 7)",
+        "division": "Zone 7 Water Supply Division",
+        "address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur, Maharashtra 440002",
+        "locality": "Satranjipura",
+        "pincode": "440002",
+        "contact_number": "+91-7030577650",
+        "emergency_number": "1800-266-9899 / +91-9823313105",
+        "jurisdiction_area": "Satranjipura, Tandapeth, Hansapuri, Wholesale Grain Market (Distribution line leak repair, contaminated tap water resolution, low pressure redressal)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1272,
+          21.1518
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z08",
+        "name": "NMC / OCW Lakadganj Zone No. 8 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Lakadganj Zone (Zone 8)",
+        "division": "Zone 8 Water Supply Division",
+        "address": "Kapsi ESR / Sub-Station, Old Bhandara Road, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj / Pardi",
+        "pincode": "440008",
+        "contact_number": "+91-712-2737599",
+        "emergency_number": "1800-266-9899 / +91-9850342942",
+        "jurisdiction_area": "Lakadganj, Wardhaman Nagar, Pardi, Surya Nagar, Bharat Nagar (Pipeline joint welding, contaminated supply flushing, booster pump regulation)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1032,
+          21.1788
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z09",
+        "name": "NMC / OCW Ashi Nagar Zone No. 9 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Ashi Nagar Zone (Zone 9)",
+        "division": "Zone 9 Water Supply Division",
+        "address": "Panchpaoli Water Tank Campus, Kamal Chowk Road, Ashi Nagar, Nagpur, Maharashtra 440017",
+        "locality": "Ashi Nagar / Panchpaoli",
+        "pincode": "440017",
+        "contact_number": "+91-712-2653476",
+        "emergency_number": "1800-266-9899 / +91-9923799884",
+        "jurisdiction_area": "Ashi Nagar, Panchpaoli, Lashkaribagh, Uppalwadi, Yashodhara Nagar, Jaripatka (Water pressure booster management, damaged pipe replacement, tap water testing)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-Z10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1688
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-Z10",
+        "name": "NMC / OCW Mangalwari Zone No. 10 Water Works Division",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Zonal Water Works Engineering Office",
+        "zone": "Mangalwari Zone (Zone 10)",
+        "division": "Zone 10 Water Supply Division",
+        "address": "Gittikhadan ESR / New Colony Campus, Koradi Road, Sadar, Nagpur, Maharashtra 440013",
+        "locality": "New Colony / Sadar",
+        "pincode": "440013",
+        "contact_number": "+91-712-2598800",
+        "emergency_number": "1800-266-9899 / +91-9823245679",
+        "jurisdiction_area": "Mangalwari, Sadar, Mankapur, Gittikhadan, Zingabai Takli, Koradi fringe (Elevated reservoir distribution, street leakage repairs, water quality checks)",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-WTP01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0412,
+          21.1852
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-WTP01",
+        "name": "Gorewada Central Water Treatment Plant (WTP) Complex (200 MLD)",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Major Water Treatment Plant & Pumping Station",
+        "zone": "North-West Water Grid",
+        "division": "NMC Bulk Water Production Division",
+        "address": "Gorewada Lake Treatment Plant Campus, Katol Road, Gorewada, Nagpur, Maharashtra 440013",
+        "locality": "Gorewada",
+        "pincode": "440013",
+        "contact_number": "+91-712-2584100",
+        "emergency_number": "1800-266-9899 / 112",
+        "jurisdiction_area": "Primary bulk water purification facility (200 MLD capacity) supplying treated drinking water to West, Central and South Nagpur zones",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-WTP02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2152,
+          21.2355
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-WTP02",
+        "name": "Kanhan Water Treatment Plant & River Intake Works (240 MLD)",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Major Water Treatment Plant & River Intake Station",
+        "zone": "North-East Water Grid",
+        "division": "NMC Bulk Water Production Division",
+        "address": "Kanhan River Intake Campus, National Highway 44, Beyond Kamptee, Maharashtra 441002",
+        "locality": "Kanhan / Kamptee",
+        "pincode": "441002",
+        "contact_number": "+91-7109-286500",
+        "emergency_number": "1800-266-9899 / 112",
+        "jurisdiction_area": "Major raw water intake and filtration plant (240 MLD) supplying East, North-East and South-East Nagpur city distribution grids",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-WTP03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0885,
+          21.2482
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-WTP03",
+        "name": "Pench Water Supply Project & Mahadula Treatment Plant (115 MLD)",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Water Treatment Plant & Feeder Intake Works",
+        "zone": "North Water Grid",
+        "division": "NMC Pench Project Division",
+        "address": "Pench Canal Feeder Complex, Near Mahadula, Koradi Road, Nagpur, Maharashtra 441111",
+        "locality": "Mahadula / Koradi",
+        "pincode": "441111",
+        "contact_number": "+91-712-262450",
+        "emergency_number": "1800-266-9899 / 112",
+        "jurisdiction_area": "Pench-IV project treated water delivery to North Nagpur elevated service reservoirs and industrial power grid buffers",
+        "handling_categories": [
+          "Water Supply",
+          "Water Quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-MBR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0565,
+          21.1612
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-MBR01",
+        "name": "Seminary Hills Master Balancing Reservoir (MBR) & Transmission Hub",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Master Balancing Reservoir & Primary Booster Station",
+        "zone": "Central & West Grid",
+        "division": "NMC Water Transmission Division",
+        "address": "Seminary Hills Reservoir Campus, Near AIR Tower, Seminary Hills, Nagpur, Maharashtra 440006",
+        "locality": "Seminary Hills",
+        "pincode": "440006",
+        "contact_number": "+91-712-2510200",
+        "emergency_number": "1800-266-9899 / 112",
+        "jurisdiction_area": "High-capacity master gravity reservoir regulating hydrostatic water pressure for 18 elevated service reservoirs (ESRs) across the city",
+        "handling_categories": [
+          "Water Supply",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-MBR02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0842,
+          21.1478
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-MBR02",
+        "name": "Sitabuldi Fort Master Water Reservoir & Distribution Station",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Heritage Elevated Reservoir & Pressure Regulation Facility",
+        "zone": "Central Heritage Grid",
+        "division": "NMC Water Transmission Division",
+        "address": "Sitabuldi Fort Complex, Civil Lines / Sitabuldi, Nagpur, Maharashtra 440001",
+        "locality": "Sitabuldi Fort",
+        "pincode": "440001",
+        "contact_number": "+91-712-2565100",
+        "emergency_number": "1800-266-9899",
+        "jurisdiction_area": "Gravity-feed water reservoir supplying uninterrupted high-pressure drinking water to Sitabuldi, Civil Lines, Sadar and central government enclaves",
+        "handling_categories": [
+          "Water Supply",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-MBR03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0512,
+          21.1235
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-MBR03",
+        "name": "Gayatri Nagar Elevated Water Distribution Centre (ESR)",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Elevated Service Reservoir & Booster Centre",
+        "zone": "South-West Grid",
+        "division": "Laxmi Nagar Water Division",
+        "address": "Near VNIT Rear Gate & IT Park, Gayatri Nagar, Nagpur, Maharashtra 440022",
+        "locality": "Gayatri Nagar / IT Park",
+        "pincode": "440022",
+        "contact_number": "+91-712-2224100",
+        "emergency_number": "1800-266-9899",
+        "jurisdiction_area": "Supplies pressurized piped water to IT Park, Gayatri Nagar, Parsodi, Subhash Nagar and Pratap Nagar residential zones",
+        "handling_categories": [
+          "Water Supply",
+          "Pipeline Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-LAB01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0418,
+          21.1858
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-LAB01",
+        "name": "NMC Central Water Quality & Bacteriological Testing Laboratory",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Central Water Quality & Testing Laboratory",
+        "zone": "Citywide Quality Assurance",
+        "division": "NMC Water Quality & Public Health Wing",
+        "address": "Water Testing Lab Complex, Gorewada Treatment Plant Campus, Katol Road, Nagpur, Maharashtra 440013",
+        "locality": "Gorewada",
+        "pincode": "440013",
+        "contact_number": "+91-712-2584150",
+        "emergency_number": "1800-266-9899 / 0712-2567777",
+        "jurisdiction_area": "Citywide chemical, heavy metal, and bacteriological (E. coli, coliform) testing of drinking water samples from distribution lines, overhead tanks, and consumer taps",
+        "handling_categories": [
+          "Water Quality"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-WAT-OPR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0558,
+          21.1472
+        ]
+      },
+      "properties": {
+        "id": "NGP-WAT-OPR01",
+        "name": "NMC Central Pipeline Emergency Leakage Breakdown & Heavy Repairs Yard",
+        "department": "NMC Water Works",
+        "department_id": 4,
+        "facility_type": "Emergency Pipeline Repair & Equipment Depot",
+        "zone": "Emergency Response",
+        "division": "NMC Main Pipeline Maintenance Cell",
+        "address": "Water Works Workshop Campus, Near Dharampeth Water Works, Amravati Road, Nagpur, Maharashtra 440010",
+        "locality": "Dharampeth / Ravi Nagar",
+        "pincode": "440010",
+        "contact_number": "+91-712-2541200",
+        "emergency_number": "1800-266-9899 / 112",
+        "jurisdiction_area": "Heavy emergency response base for transmission main pipe bursts, dewatering pumps, hydraulic pipe clamping machines, and major street water wastage emergencies",
+        "handling_categories": [
+          "Pipeline Maintenance"
+        ]
+      }
+    }
+  ]
+}

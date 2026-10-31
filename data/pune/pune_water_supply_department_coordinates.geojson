@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Water Supply Department & Infrastructure Facilities in Pune",
+    "region": "Pune Metropolitan Area, Maharashtra, India",
+    "generated_date": "2026-10-03",
+    "description": "Comprehensive dataset of geographical coordinates, purification capacities, supply zones, operational roles, and contact information for the Pune Municipal Corporation (PMC) Water Supply Department, major Water Treatment Plants (WTPs), raw water pumping stations, master balancing reservoirs (MBRs), zonal division offices, PCMC water works, and Maharashtra Jeevan Pradhikaran (MJP).",
+    "key_contacts_and_helplines": {
+      "PMC Central Water Complaint Toll-Free Helpline": "1800 103 0222",
+      "PMC Water Supply Department Head Office": "+91 20 2550 1383",
+      "PMC 24x7 Water Supply Control Room": "+91 20 2550 1000",
+      "PMC Water Tanker Supply Helpline": "+91 20 2550 1222",
+      "PCMC Water Supply Control Room": "+91 20 6733 3333",
+      "Maharashtra Jeevan Pradhikaran (MJP) Pune": "+91 20 2613 1917"
+    },
+    "total_facilities": 25
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.85172,
+          18.52835
+        ]
+      },
+      "properties": {
+        "id": "PMC-WATER-HQ-01",
+        "name": "PMC Water Supply Department Central Head Office",
+        "category": "administrative_headquarters_and_regulatory_authorities",
+        "department": "Pune Municipal Corporation (PMC)",
+        "address": "Second Floor, Sawarkar Bhavan, Congress House Road, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1383",
+        "email": "water@punecorporation.org",
+        "role": "Citywide water governance, planning and execution of 24x7 Equitable Water Supply Scheme, new tap connections, water meters, pipeline laying, and monitoring of water quality."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801,
+          18.6275
+        ]
+      },
+      "properties": {
+        "id": "PCMC-WATER-HQ-02",
+        "name": "PCMC Water Supply Department Headquarters",
+        "category": "administrative_headquarters_and_regulatory_authorities",
+        "department": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "address": "PCMC Main Administrative Building, Mumbai - Pune Road, Pimpri Colony",
+        "locality": "Pimpri",
+        "phone": "+91 20 6733 3333",
+        "email": "contact@pcmcindia.gov.in",
+        "role": "Management of raw water lifting from Pavana Dam and Andra Dam, operation of Nigdi WTP, water distribution grid, and AMRUT water supply schemes across Pimpri-Chinchwad."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8744,
+          18.5285
+        ]
+      },
+      "properties": {
+        "id": "MJP-PUNE-DIV-03",
+        "name": "Maharashtra Jeevan Pradhikaran (MJP) - Pune Divisional Office",
+        "category": "administrative_headquarters_and_regulatory_authorities",
+        "department": "Water Supply & Sanitation Department, Government of Maharashtra",
+        "address": "Central Building, 5, Finance Road, Agarkar Nagar, Pune Station",
+        "locality": "Pune Station",
+        "phone": "+91 20 2613 1917",
+        "email": "cepune@mjp.gov.in",
+        "role": "Apex state agency responsible for designing, executing, and technical sanctioning of regional rural and peri-urban water supply schemes, bulk water pipelines, and quality monitoring in Pune district."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.840418,
+          18.496732
+        ]
+      },
+      "properties": {
+        "id": "WTP-PARVATI-01",
+        "name": "Parvati Water Treatment Plant (Old & New Jalkendra)",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "123, Deshpande Chowk, Narveer Tanaji Malusare Road (Sinhgad Road), Parvati Foothills",
+        "locality": "Parvati / Sinhgad Road",
+        "phone": "+91 20 2550 1383",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.809401,
+          18.486147
+        ]
+      },
+      "properties": {
+        "id": "WTP-WARJE-02",
+        "name": "Warje Water Treatment Plant (100 MLD & 200 MLD Units)",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "Brahma Chaitanya Society, Hingane Home Colony, Warje Jakat Naka, Warje",
+        "locality": "Warje",
+        "phone": "+91 20 2550 1383",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.882,
+          18.52
+        ]
+      },
+      "properties": {
+        "id": "WTP-CANTONMENT-03",
+        "name": "Pune Cantonment / Lashkar Water Works (Jalkendra)",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "5-B, General Bhagat Marg, Near Bund Garden / MJP Colony, Camp",
+        "locality": "Camp / Bund Garden",
+        "phone": "+91 20 2636 1775",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.818,
+          18.468
+        ]
+      },
+      "properties": {
+        "id": "WTP-VADGAON-04",
+        "name": "Vadgaon Budruk Water Treatment Plant",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "Near Sinhgad Institute Campus, Vadgaon Budruk, Sinhgad Road",
+        "locality": "Vadgaon Budruk",
+        "phone": "+91 20 2550 1383",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854,
+          18.5605
+        ]
+      },
+      "properties": {
+        "id": "WTP-HOLKAR-05",
+        "name": "Holkar Water Works (Khadki Water Treatment Plant)",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "Near Holkar Bridge, Mula River Bank, Khadki",
+        "locality": "Khadki",
+        "phone": "+91 20 2581 0244",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.945,
+          18.558
+        ]
+      },
+      "properties": {
+        "id": "WTP-BHAMA-ASKHED-06",
+        "name": "Bhama Askhed Water Supply Project - Terminal WTP & Pumping Station",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "Terminal Distribution Grid, Kharadi - Vadgaon Sheri Riverfront",
+        "locality": "Kharadi",
+        "phone": "+91 20 2550 1383",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7618,
+          18.6619
+        ]
+      },
+      "properties": {
+        "id": "WTP-PCMC-NIGDI-07",
+        "name": "PCMC Water Treatment Plant (Nigdi Sector 23)",
+        "category": "major_water_treatment_plants",
+        "department": "PMC",
+        "address": "Sector Number 23, Transport Nagar, Pradhikaran, Nigdi",
+        "locality": "Nigdi / Pradhikaran",
+        "phone": "+91 20 2765 1475",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7639,
+          18.4361
+        ]
+      },
+      "properties": {
+        "id": "PUMP-KHADAKWASLA-01",
+        "name": "Khadakwasla Dam Raw Water Pumping Station & Jackwell",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "Khadakwasla Dam Foot, Sinhgad Road, Khadakwasla",
+        "locality": "Khadakwasla",
+        "phone": "+91 20 2550 1383",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.834,
+          18.5065
+        ]
+      },
+      "properties": {
+        "id": "PUMP-SNDT-02",
+        "name": "SNDT Water Works & Booster Pumping Station",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "32, Karve Road, Kachare Colony, Deccan Gymkhana / Erandwane",
+        "locality": "Erandwane",
+        "phone": "+91 20 2544 0405",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.84,
+          18.528
+        ]
+      },
+      "properties": {
+        "id": "PUMP-CHATURSHRINGI-03",
+        "name": "Chaturshringi Water Reservoir & Pumping Office",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "Ganeshwadi, Near Ferguson College Road & Senapati Bapat Road, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1405",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.856,
+          18.489
+        ]
+      },
+      "properties": {
+        "id": "PUMP-PADMAVATI-04",
+        "name": "Padmavati Water Pumping Station & Booster Reservoir",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "Near Swami Vivekanand Putala, Pune-Satara Road, Padmavati",
+        "locality": "Padmavati",
+        "phone": "+91 20 2550 1425",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9163,
+          18.5039
+        ]
+      },
+      "properties": {
+        "id": "PUMP-RAMTEKDI-05",
+        "name": "Ramtekdi Water Supply Master Reservoir & Booster Station",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "JJC Colony, Ramtekadi Industrial Hilltop, Hadapsar",
+        "locality": "Hadapsar",
+        "phone": "+91 20 2550 1450",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.864,
+          18.455
+        ]
+      },
+      "properties": {
+        "id": "PUMP-KATRAJ-06",
+        "name": "Katraj Water Booster Pumping Station & Reservoir",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "Near Rajiv Gandhi Zoological Park, Katraj",
+        "locality": "Katraj",
+        "phone": "+91 20 2550 1430",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.847,
+          18.482
+        ]
+      },
+      "properties": {
+        "id": "PUMP-TALJAI-07",
+        "name": "Taljai Hill Water Storage Reservoir",
+        "category": "major_pumping_stations_and_balancing_reservoirs",
+        "department": "PMC",
+        "address": "Taljai Hills Forest Park, Sahakarnagar / Dhankawadi",
+        "locality": "Dhankawadi",
+        "phone": "+91 20 2550 1425",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.5255
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-GHOLEROAD-01",
+        "name": "Ghole Road - Shivajinagar Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "1187/5, Ghole Road, Main Ward Office Building, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1405",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.807,
+          18.5605
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-AUNDH-BANER-02",
+        "name": "Aundh - Baner - Pashan Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "Bremen Chowk, Near Ambedkar Chowk, Aundh",
+        "locality": "Aundh",
+        "phone": "+91 20 2550 1410",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805,
+          18.5075
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-KOTHRUD-03",
+        "name": "Kothrud - Bavdhan Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "Chhatrapati Shivaji Maharaj Smarak, Paud Road, Kothrud",
+        "locality": "Kothrud",
+        "phone": "+91 20 2550 1415",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.842,
+          18.4985
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-SINHGADROAD-04",
+        "name": "Sinhgad Road - Vadgaon Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "Near Dandekar Bridge, PL Deshpande Garden Road, Sinhgad Road",
+        "locality": "Dattawadi / Parvati",
+        "phone": "+91 20 2550 1425",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8525,
+          18.514
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-KASBA-05",
+        "name": "Kasba - Vishrambaug Wada Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "Near Shanipar Chowk, Sadashiv Peth",
+        "locality": "Sadashiv Peth",
+        "phone": "+91 20 2550 1435",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.869,
+          18.5085
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-BHAVANI-06",
+        "name": "Bhavani Peth Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "General Arunkumar Vaidya Stadium, Bhavani Peth",
+        "locality": "Bhavani Peth",
+        "phone": "+91 20 2550 1440",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9295,
+          18.5025
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-HADAPSAR-07",
+        "name": "Hadapsar - Mundhwa Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "Pandit Jawaharlal Nehru Road, Gadital, Hadapsar",
+        "locality": "Hadapsar",
+        "phone": "+91 20 2550 1450",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8825,
+          18.552
+        ]
+      },
+      "properties": {
+        "id": "ZONE-WATER-YERWADA-08",
+        "name": "Yerwada - Kalas - Dhanori Water Supply Division",
+        "category": "zonal_water_supply_maintenance_offices",
+        "department": "PMC",
+        "address": "Near Gunjan Talkies, Airport Road, Yerawada",
+        "locality": "Yerwada",
+        "phone": "+91 20 2550 1460",
+        "email": "",
+        "role": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_10_Zones_Seamless_Contiguous_Boundaries",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "title": "NMC Nagpur 10 Administrative Zones Precise Non-Overlapping Contiguous Polygons",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_zones": 10,
+    "topology_status": "Strictly Zero Overlaps, Zero Interior Gaps (Seamless Tessellation)",
+    "reference_map": "NMC Nagpur Zonal Division Map"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.995,
+              21.128
+            ],
+            [
+              79.015,
+              21.132
+            ],
+            [
+              79.028,
+              21.136
+            ],
+            [
+              79.045,
+              21.137
+            ],
+            [
+              79.062,
+              21.138
+            ],
+            [
+              79.071,
+              21.131
+            ],
+            [
+              79.081,
+              21.124
+            ],
+            [
+              79.076,
+              21.108
+            ],
+            [
+              79.075,
+              21.088
+            ],
+            [
+              79.071,
+              21.066
+            ],
+            [
+              79.068,
+              21.045
+            ],
+            [
+              79.055,
+              21.058
+            ],
+            [
+              79.045,
+              21.075
+            ],
+            [
+              79.025,
+              21.082
+            ],
+            [
+              79.008,
+              21.095
+            ],
+            [
+              79.002,
+              21.112
+            ],
+            [
+              78.995,
+              21.128
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-01",
+        "zone_number": 1,
+        "zone_name": "Laxmi Nagar Zone (Zone 1)",
+        "zone_marathi": "लक्ष्मी नगर झोन क्र. १",
+        "sector_orientation": "South-West Nagpur (57 SOUTH-WEST)",
+        "area_sq_km_approx": 46.16,
+        "zonal_office_id": "NGP-ZON-01",
+        "zonal_office_address": "Hingna Road, Near Laxmi Nagar Square, Nagpur 440022",
+        "zonal_office_coordinates": [
+          79.0628,
+          21.1215
+        ],
+        "zonal_office_contact": "+91-712-2245833 / +91-9130616734",
+        "key_localities": [
+          "Laxmi Nagar",
+          "Pratap Nagar",
+          "Trimurti Nagar",
+          "Bajaj Nagar",
+          "VNIT",
+          "Khamla",
+          "Jaitala",
+          "Sonegaon",
+          "Airport",
+          "Somalwada",
+          "Manish Nagar West"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.995,
+              21.128
+            ],
+            [
+              79.002,
+              21.142
+            ],
+            [
+              79.012,
+              21.155
+            ],
+            [
+              79.031,
+              21.162
+            ],
+            [
+              79.052,
+              21.168
+            ],
+            [
+              79.072,
+              21.166
+            ],
+            [
+              79.082,
+              21.154
+            ],
+            [
+              79.078,
+              21.145
+            ],
+            [
+              79.069,
+              21.141
+            ],
+            [
+              79.062,
+              21.138
+            ],
+            [
+              79.045,
+              21.137
+            ],
+            [
+              79.028,
+              21.136
+            ],
+            [
+              79.015,
+              21.132
+            ],
+            [
+              78.995,
+              21.128
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-02",
+        "zone_number": 2,
+        "zone_name": "Dharampeth Zone (Zone 2)",
+        "zone_marathi": "धरमपेठ झोन क्र. २",
+        "sector_orientation": "West / Central-West Nagpur (56 WEST)",
+        "area_sq_km_approx": 22.81,
+        "zonal_office_id": "NGP-ZON-02",
+        "zonal_office_address": "90, Gokulpeth Market Road, Dharampeth, Nagpur 440010",
+        "zonal_office_coordinates": [
+          79.0575,
+          21.1448
+        ],
+        "zonal_office_contact": "+91-712-2565589 / +91-9823245671",
+        "key_localities": [
+          "Dharampeth",
+          "Gokulpeth",
+          "Ram Nagar",
+          "Ambazari",
+          "Ravi Nagar",
+          "Civil Lines",
+          "Seminary Hills",
+          "Futala",
+          "Telangkhedi",
+          "Bharat Nagar",
+          "Hill Top"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.081,
+              21.124
+            ],
+            [
+              79.091,
+              21.131
+            ],
+            [
+              79.101,
+              21.138
+            ],
+            [
+              79.106,
+              21.122
+            ],
+            [
+              79.112,
+              21.106
+            ],
+            [
+              79.118,
+              21.092
+            ],
+            [
+              79.128,
+              21.065
+            ],
+            [
+              79.115,
+              21.061
+            ],
+            [
+              79.098,
+              21.062
+            ],
+            [
+              79.082,
+              21.052
+            ],
+            [
+              79.068,
+              21.045
+            ],
+            [
+              79.071,
+              21.066
+            ],
+            [
+              79.075,
+              21.088
+            ],
+            [
+              79.076,
+              21.108
+            ],
+            [
+              79.081,
+              21.124
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-03",
+        "zone_number": 3,
+        "zone_name": "Hanuman Nagar Zone (Zone 3)",
+        "zone_marathi": "हनुमान नगर झोन क्र. ३",
+        "sector_orientation": "South Nagpur (Hanuman Nagar / Manewada / Besa)",
+        "area_sq_km_approx": 36.6,
+        "zonal_office_id": "NGP-ZON-03",
+        "zonal_office_address": "Near Tukdoji Putla Square, Manewada Road, Nagpur 440009",
+        "zonal_office_coordinates": [
+          79.0985,
+          21.1212
+        ],
+        "zonal_office_contact": "+91-712-2755589 / +91-9823245673",
+        "key_localities": [
+          "Hanuman Nagar",
+          "Medical Square",
+          "Manewada",
+          "Omkar Nagar",
+          "Rameshwari",
+          "Bhagwan Nagar",
+          "Chandan Nagar",
+          "Besa Border",
+          "Shatabdi Nagar",
+          "Kukde Layout"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-04",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.062,
+              21.138
+            ],
+            [
+              79.069,
+              21.141
+            ],
+            [
+              79.078,
+              21.145
+            ],
+            [
+              79.082,
+              21.154
+            ],
+            [
+              79.089,
+              21.148
+            ],
+            [
+              79.096,
+              21.142
+            ],
+            [
+              79.101,
+              21.138
+            ],
+            [
+              79.091,
+              21.131
+            ],
+            [
+              79.081,
+              21.124
+            ],
+            [
+              79.071,
+              21.131
+            ],
+            [
+              79.062,
+              21.138
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-04",
+        "zone_number": 4,
+        "zone_name": "Dhantoli Zone (Zone 4)",
+        "zone_marathi": "धंतोली झोन क्र. ४",
+        "sector_orientation": "Central-South Nagpur (Dhantoli / Sitabuldi South)",
+        "area_sq_km_approx": 6.07,
+        "zonal_office_id": "NGP-ZON-04",
+        "zonal_office_address": "Yashwant Stadium Commercial Complex, Dhantoli, Nagpur 440012",
+        "zonal_office_coordinates": [
+          79.0825,
+          21.1378
+        ],
+        "zonal_office_contact": "+91-712-2465299 / +91-9823350242",
+        "key_localities": [
+          "Dhantoli",
+          "Congress Nagar",
+          "Rahate Colony",
+          "Sitabuldi South",
+          "Imamwada",
+          "Untkhana",
+          "Rambagh",
+          "Medical College Enclave",
+          "Ajni Station Area"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-05",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.101,
+              21.138
+            ],
+            [
+              79.114,
+              21.1375
+            ],
+            [
+              79.126,
+              21.138
+            ],
+            [
+              79.141,
+              21.136
+            ],
+            [
+              79.162,
+              21.132
+            ],
+            [
+              79.178,
+              21.135
+            ],
+            [
+              79.172,
+              21.121
+            ],
+            [
+              79.168,
+              21.108
+            ],
+            [
+              79.158,
+              21.092
+            ],
+            [
+              79.145,
+              21.082
+            ],
+            [
+              79.136,
+              21.072
+            ],
+            [
+              79.128,
+              21.065
+            ],
+            [
+              79.118,
+              21.092
+            ],
+            [
+              79.112,
+              21.106
+            ],
+            [
+              79.106,
+              21.122
+            ],
+            [
+              79.101,
+              21.138
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-05",
+        "zone_number": 5,
+        "zone_name": "Nehru Nagar Zone (Zone 5)",
+        "zone_marathi": "नेहरू नगर झोन क्र. ५",
+        "sector_orientation": "South-East Nagpur (Hudkeshwar / Tajbagh / Sakkardara)",
+        "area_sq_km_approx": 36.05,
+        "zonal_office_id": "NGP-ZON-05",
+        "zonal_office_address": "Near Sakkardara Lake, Nehru Nagar Road, Nagpur 440024",
+        "zonal_office_coordinates": [
+          79.1182,
+          21.1225
+        ],
+        "zonal_office_contact": "+91-712-2700090 / +91-9823313064",
+        "key_localities": [
+          "Nehru Nagar",
+          "Sakkardara",
+          "Nandanvan",
+          "Dighori",
+          "Bada Tajbagh",
+          "Chhota Tajbagh",
+          "Hasanbagh",
+          "Kharbi",
+          "Ayodhya Nagar",
+          "Reshimbagh"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-06",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.082,
+              21.154
+            ],
+            [
+              79.092,
+              21.155
+            ],
+            [
+              79.102,
+              21.156
+            ],
+            [
+              79.114,
+              21.152
+            ],
+            [
+              79.122,
+              21.149
+            ],
+            [
+              79.1245,
+              21.1435
+            ],
+            [
+              79.126,
+              21.138
+            ],
+            [
+              79.114,
+              21.1375
+            ],
+            [
+              79.101,
+              21.138
+            ],
+            [
+              79.096,
+              21.142
+            ],
+            [
+              79.089,
+              21.148
+            ],
+            [
+              79.082,
+              21.154
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-06",
+        "zone_number": 6,
+        "zone_name": "Gandhibagh Zone (Zone 6)",
+        "zone_marathi": "गांधीबाग / गांधी महाल झोन क्र. ६",
+        "sector_orientation": "Central Heritage Core (Mahal / Gandhibagh / Itwari Core)",
+        "area_sq_km_approx": 5.89,
+        "zonal_office_id": "NGP-ZON-06",
+        "zonal_office_address": "Town Hall Premises, Mahal, Nagpur 440002",
+        "zonal_office_coordinates": [
+          79.1068,
+          21.1438
+        ],
+        "zonal_office_contact": "+91-712-2735599 / +91-9823313086",
+        "key_localities": [
+          "Mahal",
+          "Gandhibagh",
+          "Itwari Market Core",
+          "Badkas Chowk",
+          "Tilak Putla",
+          "Budhwar Bazar",
+          "Shukrawari Talao",
+          "Kalyaneshwar Mandir Area",
+          "Model Mills Area"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-07",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.095,
+              21.178
+            ],
+            [
+              79.105,
+              21.175
+            ],
+            [
+              79.117,
+              21.173
+            ],
+            [
+              79.128,
+              21.172
+            ],
+            [
+              79.126,
+              21.161
+            ],
+            [
+              79.122,
+              21.149
+            ],
+            [
+              79.114,
+              21.152
+            ],
+            [
+              79.102,
+              21.156
+            ],
+            [
+              79.092,
+              21.155
+            ],
+            [
+              79.082,
+              21.154
+            ],
+            [
+              79.0885,
+              21.164
+            ],
+            [
+              79.095,
+              21.178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-07",
+        "zone_number": 7,
+        "zone_name": "Satranjipura Zone (Zone 7)",
+        "zone_marathi": "सतरंजीपुरा झोन क्र. ७",
+        "sector_orientation": "North-Central / Inner-East (Satranjipura / Tandapeth)",
+        "area_sq_km_approx": 9.24,
+        "zonal_office_id": "NGP-ZON-07",
+        "zonal_office_address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur 440002",
+        "zonal_office_coordinates": [
+          79.1125,
+          21.1592
+        ],
+        "zonal_office_contact": "+91-7030577650 / +91-9823313105",
+        "key_localities": [
+          "Satranjipura",
+          "Tandapeth",
+          "Hansapuri",
+          "Wholesale Grain Market",
+          "Maskasath",
+          "Ganjakhet",
+          "Shanti Nagar West",
+          "Itwari Railway Station Environs"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-08",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.128,
+              21.172
+            ],
+            [
+              79.142,
+              21.176
+            ],
+            [
+              79.155,
+              21.179
+            ],
+            [
+              79.172,
+              21.185
+            ],
+            [
+              79.185,
+              21.162
+            ],
+            [
+              79.182,
+              21.148
+            ],
+            [
+              79.178,
+              21.135
+            ],
+            [
+              79.162,
+              21.132
+            ],
+            [
+              79.141,
+              21.136
+            ],
+            [
+              79.126,
+              21.138
+            ],
+            [
+              79.1245,
+              21.1435
+            ],
+            [
+              79.122,
+              21.149
+            ],
+            [
+              79.126,
+              21.161
+            ],
+            [
+              79.128,
+              21.172
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-08",
+        "zone_number": 8,
+        "zone_name": "Lakadganj Zone (Zone 8)",
+        "zone_marathi": "लकडगंज झोन क्र. ८",
+        "sector_orientation": "East Nagpur (58 EAST)",
+        "area_sq_km_approx": 27.95,
+        "zonal_office_id": "NGP-ZON-08",
+        "zonal_office_address": "Old Bhandara Road, Near Queta Colony, Lakadganj, Nagpur 440008",
+        "zonal_office_coordinates": [
+          79.1265,
+          21.1515
+        ],
+        "zonal_office_contact": "+91-712-2737599 / +91-9850342942",
+        "key_localities": [
+          "Lakadganj",
+          "Wardhaman Nagar",
+          "Pardi",
+          "Surya Nagar",
+          "HB Town",
+          "Timber Market",
+          "Bhandewadi",
+          "Kapsi Border",
+          "Queta Colony",
+          "Bharat Nagar East"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-09",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.088,
+              21.225
+            ],
+            [
+              79.112,
+              21.221
+            ],
+            [
+              79.135,
+              21.208
+            ],
+            [
+              79.155,
+              21.196
+            ],
+            [
+              79.172,
+              21.185
+            ],
+            [
+              79.155,
+              21.179
+            ],
+            [
+              79.142,
+              21.176
+            ],
+            [
+              79.128,
+              21.172
+            ],
+            [
+              79.117,
+              21.173
+            ],
+            [
+              79.105,
+              21.175
+            ],
+            [
+              79.095,
+              21.178
+            ],
+            [
+              79.091,
+              21.192
+            ],
+            [
+              79.0895,
+              21.205
+            ],
+            [
+              79.088,
+              21.225
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-09",
+        "zone_number": 9,
+        "zone_name": "Ashi Nagar Zone (Zone 9)",
+        "zone_marathi": "आसी नगर झोन क्र. ९",
+        "sector_orientation": "North-East Nagpur (Ashi Nagar / Uppalwadi / Kapil Nagar)",
+        "area_sq_km_approx": 30.06,
+        "zonal_office_id": "NGP-ZON-09",
+        "zonal_office_address": "Kamal Chowk Road, Near Panchpaoli Overbridge, Ashi Nagar, Nagpur 440017",
+        "zonal_office_coordinates": [
+          79.1025,
+          21.1785
+        ],
+        "zonal_office_contact": "+91-712-2653476 / +91-9923799884",
+        "key_localities": [
+          "Ashi Nagar",
+          "Panchpaoli",
+          "Lashkaribagh",
+          "Uppalwadi",
+          "Yashodhara Nagar",
+          "Kapil Nagar",
+          "Nari Village",
+          "Bhilgaon Border",
+          "Automotive Square East",
+          "Vinoba Bhave Nagar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZPOLY-10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.012,
+              21.155
+            ],
+            [
+              79.025,
+              21.185
+            ],
+            [
+              79.035,
+              21.205
+            ],
+            [
+              79.058,
+              21.218
+            ],
+            [
+              79.075,
+              21.222
+            ],
+            [
+              79.088,
+              21.225
+            ],
+            [
+              79.0895,
+              21.205
+            ],
+            [
+              79.091,
+              21.192
+            ],
+            [
+              79.095,
+              21.178
+            ],
+            [
+              79.0885,
+              21.164
+            ],
+            [
+              79.082,
+              21.154
+            ],
+            [
+              79.072,
+              21.166
+            ],
+            [
+              79.052,
+              21.168
+            ],
+            [
+              79.031,
+              21.162
+            ],
+            [
+              79.012,
+              21.155
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZPOLY-10",
+        "zone_number": 10,
+        "zone_name": "Mangalwari Zone (Zone 10)",
+        "zone_marathi": "मंगळवारी झोन क्र. १०",
+        "sector_orientation": "North-West Nagpur (Mangalwari / Sadar / Mankapur / Gittikhadan)",
+        "area_sq_km_approx": 39.71,
+        "zonal_office_id": "NGP-ZON-10",
+        "zonal_office_address": "408, New Colony, Koradi Road, Sadar, Nagpur 440013",
+        "zonal_office_coordinates": [
+          79.0762,
+          21.1685
+        ],
+        "zonal_office_contact": "+91-712-2598800 / +91-9823245679",
+        "key_localities": [
+          "Mangalwari",
+          "Sadar Bazar",
+          "Mankapur",
+          "Gittikhadan",
+          "Katol Road",
+          "Zingabai Takli",
+          "Police Line Takli",
+          "Friends Colony",
+          "Borgaon",
+          "Godhani Border",
+          "Koradi Highway Corridor"
+        ]
+      }
+    }
+  ]
+}
+

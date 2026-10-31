@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "name": "pune_waterways",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pune_mutha_river",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.785,
+            18.472
+          ],
+          [
+            73.805,
+            18.489
+          ],
+          [
+            73.825,
+            18.502
+          ],
+          [
+            73.842,
+            18.514
+          ],
+          [
+            73.854,
+            18.525
+          ],
+          [
+            73.865,
+            18.531
+          ],
+          [
+            73.878,
+            18.536
+          ],
+          [
+            73.895,
+            18.542
+          ],
+          [
+            73.925,
+            18.548
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Mutha River",
+        "waterway": "river",
+        "catchment": "Khadakwasla Basin",
+        "risk_profile": "High monsoon discharge corridor, prone to low-lying bank inundation at Pulachi Wadi & Sinhagad Rd",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0) & PMC Drainage Masterplan",
+        "retrieved_at": "2026-10-18T04:15:21.010Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_mula_river",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.765,
+            18.568
+          ],
+          [
+            73.792,
+            18.562
+          ],
+          [
+            73.818,
+            18.558
+          ],
+          [
+            73.845,
+            18.552
+          ],
+          [
+            73.868,
+            18.542
+          ],
+          [
+            73.878,
+            18.536
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Mula River",
+        "waterway": "river",
+        "catchment": "Mulshi Basin",
+        "risk_profile": "Monsoon flood corridor through Aundh, Khadki, and Holkar Bridge",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0) & PMC Disaster Management",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_pavana_river",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.775,
+            18.625
+          ],
+          [
+            73.798,
+            18.608
+          ],
+          [
+            73.815,
+            18.585
+          ],
+          [
+            73.832,
+            18.565
+          ],
+          [
+            73.845,
+            18.552
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pavana River",
+        "waterway": "river",
+        "catchment": "Pavana Dam Basin",
+        "risk_profile": "Tributary confluence at Dapodi/Sangvi, flash flood risk",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0) & PCMC / PMC Joint Basin",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_pashan_lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.788,
+              18.538
+            ],
+            [
+              73.794,
+              18.542
+            ],
+            [
+              73.798,
+              18.537
+            ],
+            [
+              73.793,
+              18.532
+            ],
+            [
+              73.788,
+              18.538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pashan Lake",
+        "natural": "water",
+        "water": "lake",
+        "storage_type": "Urban Catchment & Flood Buffer Reservoir",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0)",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_katraj_lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.854,
+              18.452
+            ],
+            [
+              73.859,
+              18.457
+            ],
+            [
+              73.864,
+              18.453
+            ],
+            [
+              73.859,
+              18.448
+            ],
+            [
+              73.854,
+              18.452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Katraj Lake",
+        "natural": "water",
+        "water": "lake",
+        "storage_type": "Southern Urban Flood Retention Lake",
+        "city": "pune",
+        "source": "OpenStreetMap (ODbL 1.0)",
+        "retrieved_at": "2026-10-18T04:15:21.011Z"
+      }
+    }
+  ]
+}

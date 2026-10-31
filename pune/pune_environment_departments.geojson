@@ -1,0 +1,699 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Environment Departments, Pollution Control Authorities & Conservation Centers of Pune",
+    "city": "Pune, Maharashtra, India",
+    "total_features": 28,
+    "coordinate_system": "WGS 84 (EPSG:4326)",
+    "agencies_included": [
+      "National Green Tribunal (NGT Western Zone Bench)",
+      "Maharashtra Pollution Control Board (MPCB Regional & Sub-Regional Offices)",
+      "Pune Municipal Corporation (PMC Environment Department, Indradhanushya, Tree Authority & Zoo)",
+      "Pimpri Chinchwad Municipal Corporation (PCMC Environment Engineering & Tree Authority)",
+      "Maharashtra Forest Department (Territorial Pune Division, Van Bhavan & Social Forestry Directorate)",
+      "Botanical Survey of India (BSI Western Regional Centre)",
+      "Zoological Survey of India (ZSI Western Regional Centre)",
+      "Indian Institute of Tropical Meteorology (IITM SAFAR Air Quality HQ)",
+      "India Meteorological Department (IMD Climate Research & Environmental Services)",
+      "Central Water and Power Research Station (CWPRS Environmental Hydraulics)",
+      "Maharashtra Energy Development Agency (MEDA Renewable Energy & Climate Action HQ)",
+      "Agharkar Research Institute (ARI Environmental Biotechnology)",
+      "Continuous Ambient Air Quality Monitoring Stations (CAAQMS Network across Pune & PCMC)"
+    ],
+    "generated_timestamp": "2026-10-03T11:15:00+05:30"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ngt_western_zone_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.878804,
+          18.525268
+        ]
+      },
+      "properties": {
+        "id": "ngt_western_zone_pune",
+        "name": "National Green Tribunal (NGT) – Western Zone Bench, Pune",
+        "agency": "National Green Tribunal (NGT), Ministry of Law and Justice / MoEFCC, Govt of India",
+        "category": "Statutory Environmental Judicial Tribunal",
+        "sub_category": "Judicial & Regulatory Bench",
+        "address": "1st Floor, B-Wing, New Administrative Building, Opposite Council Hall, Bund Garden Road, Camp, Pune – 411001",
+        "area": "Camp / Agarkar Nagar",
+        "jurisdiction": "Statutory judicial forum handling environmental litigations, enforcement of legal rights relating to environment, relief and compensation for damages to persons and property, forest conservation, coastal management, and pollution cases across Maharashtra, Gujarat, Goa, and UTs of Daman, Diu, Dadra & Nagar Haveli.",
+        "contact": "020-26143300 / ngt-wzb-pune@gov.in",
+        "latitude": 18.525268,
+        "longitude": 73.878804
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mpcb_regional_office_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.851612,
+          18.540205
+        ]
+      },
+      "properties": {
+        "id": "mpcb_regional_office_pune",
+        "name": "Maharashtra Pollution Control Board (MPCB) – Regional Office Pune",
+        "agency": "Maharashtra Pollution Control Board (MPCB), Environment Department, Govt. of Maharashtra",
+        "category": "State Pollution Control Authority",
+        "sub_category": "Regional Headquarters",
+        "address": "3rd Floor, Jog Centre, Mumbai-Pune Road, Wakdewadi, Pune – 411003",
+        "area": "Wakdewadi / Shivajinagar",
+        "jurisdiction": "Regional regulatory enforcement of Water (Prevention & Control of Pollution) Act 1974, Air (Prevention & Control of Pollution) Act 1981, Hazardous Waste Rules, Biomedical Waste Rules, and Plastic Waste Management Rules across Pune district.",
+        "contact": "020-25811029 / 020-25811694 / ropune@mpcb.gov.in / mpcbpune@mpcb.gov.in",
+        "latitude": 18.540205,
+        "longitude": 73.851612
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mpcb_sro_pune_1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.851612,
+          18.540205
+        ]
+      },
+      "properties": {
+        "id": "mpcb_sro_pune_1",
+        "name": "Maharashtra Pollution Control Board (MPCB) – Sub-Regional Office Pune-I",
+        "agency": "Maharashtra Pollution Control Board (MPCB)",
+        "category": "State Pollution Control Authority",
+        "sub_category": "Sub-Regional Office (City & South/East District)",
+        "address": "3rd Floor, Jog Centre, Mumbai-Pune Road, Wakdewadi, Pune – 411003",
+        "area": "Wakdewadi",
+        "jurisdiction": "Inspection, sampling, and consent to establish/operate for industries, healthcare establishments, and infrastructure projects in Pune Municipal Corporation (PMC) area, Daund, Indapur, Baramati, Purandar, Bhor, and Velhe talukas.",
+        "contact": "020-25811694 / sropune1@mpcb.gov.in",
+        "latitude": 18.540205,
+        "longitude": 73.851612
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mpcb_sro_pune_2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.851612,
+          18.540205
+        ]
+      },
+      "properties": {
+        "id": "mpcb_sro_pune_2",
+        "name": "Maharashtra Pollution Control Board (MPCB) – Sub-Regional Office Pune-II",
+        "agency": "Maharashtra Pollution Control Board (MPCB)",
+        "category": "State Pollution Control Authority",
+        "sub_category": "Sub-Regional Office (PCMC & North District)",
+        "address": "3rd Floor, Jog Centre, Mumbai-Pune Road, Wakdewadi, Pune – 411003",
+        "area": "Wakdewadi",
+        "jurisdiction": "Regulatory oversight of industrial estates in Pimpri Chinchwad Municipal Corporation (PCMC), Haveli, Khed (Chakan MIDC), Ambegaon, Junnar, Shirur (Ranjangaon MIDC), and Maval (Talegaon MIDC).",
+        "contact": "020-25811694 / sropune2@mpcb.gov.in",
+        "latitude": 18.540205,
+        "longitude": 73.851612
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_environment_department_main",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854392,
+          18.524398
+        ]
+      },
+      "properties": {
+        "id": "pmc_environment_department_main",
+        "name": "Pune Municipal Corporation (PMC) – Environment Department (पर्यावरण विभाग)",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Environment Department",
+        "sub_category": "Civic Apex Environmental Authority",
+        "address": "2nd Floor, Room No. 209/210, PMC Main Administrative Building, Shivajinagar, Pune – 411005",
+        "area": "Shivajinagar",
+        "jurisdiction": "Preparation of the mandatory annual Environmental Status Report (ESR), implementation of Pune Climate Action Plan (CAP), urban heat island mitigation, air pollution reduction action plan, sound level monitoring during festivals, lake rejuvenation, and e-waste management.",
+        "contact": "+91 9689931457 / 020-25501000 / indradhanushya@punecorporation.org",
+        "latitude": 18.524398,
+        "longitude": 73.854392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "indradhanushya_environment_centre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.839647,
+          18.504608
+        ]
+      },
+      "properties": {
+        "id": "indradhanushya_environment_centre",
+        "name": "Indradhanushya Environment Education & Citizenship Centre (PMC)",
+        "agency": "Pune Municipal Corporation (PMC) – Environment Department",
+        "category": "Environmental Education & Resource Centre",
+        "sub_category": "Public Environmental Resource Hub",
+        "address": "Opposite Sachin Tendulkar Jogging Park, Anant Kanhere Path, Near Mhatre Bridge, Rajendra Nagar, Navi Peth, Dattawadi, Pune – 411030",
+        "area": "Navi Peth / Rajendra Nagar",
+        "jurisdiction": "Interactive public environment museum, citizen outreach, Majhi Vasundhara Abhiyan nodal cell, urban biodiversity documentation, school environmental camps, and renewable energy live demonstration models.",
+        "contact": "020-24530077 / indradhanushyapune@gmail.com",
+        "latitude": 18.504608,
+        "longitude": 73.839647
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_environment_engineering_dept",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.804422,
+          18.628408
+        ]
+      },
+      "properties": {
+        "id": "pcmc_environment_engineering_dept",
+        "name": "Pimpri Chinchwad Municipal Corporation (PCMC) – Environment Engineering Department",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Environment Department",
+        "sub_category": "Civic Environmental Engineering Authority (PCMC)",
+        "address": "2nd Floor, PCMC Main Administrative Building, Old Mumbai-Pune Highway, Pimpri Colony, Pimpri-Chinchwad, Pune – 411018",
+        "area": "Pimpri",
+        "jurisdiction": "Industrial and urban pollution monitoring, continuous ambient air monitoring, river water quality testing along Pavana and Indrayani rivers, sewage treatment plants (STP) operation, bio-mining, and PCMC environmental status reporting.",
+        "contact": "020-67333333 / 020-27425511 / env@pcmcindia.gov.in",
+        "latitude": 18.628408,
+        "longitude": 73.804422
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_mula_mutha_river_restoration_dept",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854392,
+          18.524398
+        ]
+      },
+      "properties": {
+        "id": "pmc_mula_mutha_river_restoration_dept",
+        "name": "PMC Riverfront Development & Pollution Abatement Project Department (Mula-Mutha Rejuvenation)",
+        "agency": "Pune Municipal Corporation (PMC) / JICA (Japan International Cooperation Agency)",
+        "category": "River Environmental Restoration Authority",
+        "sub_category": "Ecological River Basin Restoration",
+        "address": "PMC Main Administrative Building, Shivaji Nagar, Pune – 411005",
+        "area": "Shivajinagar",
+        "jurisdiction": "Execution of the JICA-assisted Mula-Mutha River Pollution Abatement Project; construction of 11 intermediate sewage treatment plants (STPs), 113 km of interceptor sewer networks, and riparian buffer ecological restoration.",
+        "contact": "020-25501000 / info@punecorporation.org",
+        "latitude": 18.524398,
+        "longitude": 73.854392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "forest_dept_van_bhavan_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.82314,
+          18.525307
+        ]
+      },
+      "properties": {
+        "id": "forest_dept_van_bhavan_pune",
+        "name": "Maharashtra Forest Department – Office of the Conservator of Forests (Territorial) & DCF Pune (Van Bhavan)",
+        "agency": "Maharashtra Forest Department, Government of Maharashtra",
+        "category": "State Forest & Wildlife Authority",
+        "sub_category": "Territorial Forest Division Headquarters",
+        "address": "Van Bhavan, Bhamburda Van Vihar, Gokhalenagar - Vetal Hill Road, Gokhalenagar, Pune – 411016",
+        "area": "Gokhalenagar / Bhamburda",
+        "jurisdiction": "Management and conservation of reserved forests, wildlife sanctuaries, urban hill ecosystems (Vetal Tekdi, Taljai, ARAI), anti-poaching squads, human-leopard conflict mitigation in rural Pune, and afforestation programs.",
+        "contact": "020-25671233 / 020-25671244 / ccftpune@mahaforest.gov.in / dycfpunet@mahaforest.gov.in",
+        "latitude": 18.525307,
+        "longitude": 73.82314
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "social_forestry_headquarters_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.872183,
+          18.524844
+        ]
+      },
+      "properties": {
+        "id": "social_forestry_headquarters_pune",
+        "name": "Office of the Principal Chief Conservator of Forests (Social Forestry) Maharashtra State",
+        "agency": "Social Forestry Directorate, Maharashtra Forest Department",
+        "category": "State Forestry & Agro-Ecology Authority",
+        "sub_category": "State Social Forestry Headquarters",
+        "address": "Central Building, Ground Floor, Station Road, Agarkar Nagar, Pune – 411001",
+        "area": "Agarkar Nagar / Pune Station",
+        "jurisdiction": "Statewide headquarters for social forestry, afforestation on non-forest wastelands, canal-side and roadside tree corridors, green belt development in urban perimeters, and farmer agroforestry.",
+        "contact": "020-26126324 / pccfsfm@mahaforest.gov.in",
+        "latitude": 18.524844,
+        "longitude": 73.872183
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bsi_western_regional_centre_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.885508,
+          18.535828
+        ]
+      },
+      "properties": {
+        "id": "bsi_western_regional_centre_pune",
+        "name": "Botanical Survey of India (BSI) – Western Regional Centre, Pune",
+        "agency": "Botanical Survey of India, Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "category": "National Botanical Research & Survey Center",
+        "sub_category": "Floral Biodiversity Survey Institution",
+        "address": "7, Koregaon Road, Sangamvadi, Pune – 411001",
+        "area": "Sangamvadi / Koregaon Road",
+        "jurisdiction": "Exploration, inventory, taxonomic research, and conservation of endangered, endemic, and economic plant species in the Western Ghats biodiversity hotspot, Maharashtra, Goa, and Gujarat; maintains regional botanical museum and herbarium.",
+        "contact": "020-26122125 / 020-26139512 / wrc@bsi.gov.in",
+        "latitude": 18.535828,
+        "longitude": 73.885508
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zsi_western_regional_centre_pune",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.760087,
+          18.648368
+        ]
+      },
+      "properties": {
+        "id": "zsi_western_regional_centre_pune",
+        "name": "Zoological Survey of India (ZSI) – Western Regional Centre, Pune",
+        "agency": "Zoological Survey of India, Ministry of Environment, Forest and Climate Change (MoEFCC)",
+        "category": "National Zoological Research & Survey Center",
+        "sub_category": "Faunal Biodiversity Survey Institution",
+        "address": "Western Regional Station, Sector 29, Rawet Road, Near Akurdi Railway Station, PCNTDA, Akurdi, Pune – 412101",
+        "area": "Akurdi / Rawet",
+        "jurisdiction": "Faunal explorations, taxonomic research, ecological assessments of Western Ghats invertebrate and vertebrate species, wildlife forensics, and biodiversity database documentation.",
+        "contact": "020-27651927 / 020-27652564 / wrc@zsi.gov.in",
+        "latitude": 18.648368,
+        "longitude": 73.760087
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rajiv_gandhi_zoo_wildlife_centre",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.859849,
+          18.454254
+        ]
+      },
+      "properties": {
+        "id": "rajiv_gandhi_zoo_wildlife_centre",
+        "name": "Rajiv Gandhi Zoological Park & Wildlife Research Centre (Katraj Zoo)",
+        "agency": "Pune Municipal Corporation (PMC) – Environment Wing / Central Zoo Authority (CZA)",
+        "category": "Wildlife Conservation & Rescue Center",
+        "sub_category": "Ex-Situ Conservation & Wildlife Research",
+        "address": "Pune - Satara Road, Opposite Katraj Dairy, Katraj, Pune – 411046",
+        "area": "Katraj",
+        "jurisdiction": "Ex-situ conservation breeding of endangered native fauna (Royal Bengal Tiger, Indian Leopard, King Cobra), wildlife rescue transit center, Katraj lake wetland management, and public environmental education.",
+        "contact": "020-24367712 / 020-24370744 / rajivgandhizoo@punecorporation.org",
+        "latitude": 18.454254,
+        "longitude": 73.859849
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_tree_authority_sambhaji_park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.846695,
+          18.51987
+        ]
+      },
+      "properties": {
+        "id": "pmc_tree_authority_sambhaji_park",
+        "name": "PMC Tree Authority & Garden Department (वृक्ष प्राधिकरण मुख्य कार्यालय)",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "category": "Municipal Tree Authority",
+        "sub_category": "Statutory Urban Tree Regulatory Body",
+        "address": "Chhatrapati Sambhajiraje Udyan Office, Jangali Maharaj Road, Shivajinagar, Pune – 411004",
+        "area": "Shivajinagar / JM Road",
+        "jurisdiction": "Statutory authority under Maharashtra (Urban Areas) Protection & Preservation of Trees Act; processing tree felling and trimming permissions, geo-tagged tree census (over 4 million trees mapped), urban public garden upkeep, and indigenous tree planting.",
+        "contact": "020-25501000 / treeauthority@punecorporation.org",
+        "latitude": 18.51987,
+        "longitude": 73.846695
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_tree_authority_dept",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.804422,
+          18.628408
+        ]
+      },
+      "properties": {
+        "id": "pcmc_tree_authority_dept",
+        "name": "PCMC Tree Authority & Garden Department (वृक्ष प्राधिकरण PCMC)",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "category": "Municipal Tree Authority",
+        "sub_category": "Statutory Urban Tree Regulatory Body (PCMC)",
+        "address": "PCMC Main Administrative Building, Old Mumbai-Pune Highway, Pimpri, Pune – 411018",
+        "area": "Pimpri",
+        "jurisdiction": "Enforcement of Tree Protection Act, conservation of industrial green belts, avenue plantation along BRTS corridors, and urban park ecosystems across Pimpri-Chinchwad.",
+        "contact": "020-67333333 / garden@pcmcindia.gov.in",
+        "latitude": 18.628408,
+        "longitude": 73.804422
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmrda_environment_tree_cell",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.813024,
+          18.56309
+        ]
+      },
+      "properties": {
+        "id": "pmrda_environment_tree_cell",
+        "name": "PMRDA – Environment, Lake Conservation & Tree Authority Department",
+        "agency": "Pune Metropolitan Region Development Authority (PMRDA)",
+        "category": "Metropolitan Region Environmental Cell",
+        "sub_category": "Regional Environmental Assessment & Conservation",
+        "address": "Maharaja Sayajirao Gaikwad Udyog Bhavan, Survey No. 152-153, Aundh Gaon, Aundh, Pune – 411067",
+        "area": "Aundh",
+        "jurisdiction": "Environmental clearance compliance reviews for town planning schemes, preservation of wetlands and rural waterbodies, environmental buffer zoning along rivers and hills, and tree protection across the 7,256 sq km PMR jurisdiction.",
+        "contact": "020-25933344 / env@pmrda.gov.in",
+        "latitude": 18.56309,
+        "longitude": 73.813024
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "iitm_safar_air_quality_hq_pashan",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805486,
+          18.537355
+        ]
+      },
+      "properties": {
+        "id": "iitm_safar_air_quality_hq_pashan",
+        "name": "Indian Institute of Tropical Meteorology (IITM) – Air Quality & SAFAR Headquarters",
+        "agency": "Ministry of Earth Sciences (MoES), Government of India",
+        "category": "National Atmospheric & Climate Research Institute",
+        "sub_category": "National Air Quality Modeling Center",
+        "address": "Dr. Homi Bhabha Road, Pashan, Pune – 411008",
+        "area": "Pashan",
+        "jurisdiction": "Premier national atmospheric science institution; designer, developer, and nodal control center for the SAFAR (System of Air Quality and Weather Forecasting and Research) network; emission inventory modeling, aerosol physics, and monsoon climate change projections.",
+        "contact": "020-25904200 / 020-25904201 / lip@tropmet.res.in",
+        "latitude": 18.537355,
+        "longitude": 73.805486
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "imd_climate_research_services_shimla_office",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.849589,
+          18.530067
+        ]
+      },
+      "properties": {
+        "id": "imd_climate_research_services_shimla_office",
+        "name": "India Meteorological Department (IMD) – Climate Research & Environmental Services (Shimla Office)",
+        "agency": "India Meteorological Department (IMD), Ministry of Earth Sciences",
+        "category": "National Meteorological & Climate Center",
+        "sub_category": "Climate Research & Air Pollution Meteorology",
+        "address": "Ganeshkhind Road, Revenue Colony, Shivajinagar, Pune – 411005",
+        "area": "Shivajinagar",
+        "jurisdiction": "National climate monitoring and diagnostic services, historical climate data archives, atmospheric turbidity and solar radiation measurements, urban meteorology, and climate risk assessments.",
+        "contact": "020-25535877 / 020-25535200 / crs@imdpune.gov.in",
+        "latitude": 18.530067,
+        "longitude": 73.849589
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cwprs_environmental_hydraulics_khadakwasla",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.783765,
+          18.446515
+        ]
+      },
+      "properties": {
+        "id": "cwprs_environmental_hydraulics_khadakwasla",
+        "name": "Central Water and Power Research Station (CWPRS) – River & Environmental Hydraulics Division",
+        "agency": "Department of Water Resources, Ministry of Jal Shakti, Government of India",
+        "category": "National Environmental Hydraulics Research Station",
+        "sub_category": "Water Quality & Estuarine Environmental Research",
+        "address": "Sinhagad Road, Khadakwasla, Pune – 411024",
+        "area": "Khadakwasla",
+        "jurisdiction": "Hydraulic physical and mathematical modeling, environmental impact studies for river basin projects, water quality modeling in estuaries and reservoirs, and thermal discharge dispersion studies.",
+        "contact": "020-24103200 / 020-24380825 / director@cwprs.gov.in",
+        "latitude": 18.446515,
+        "longitude": 73.783765
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "meda_renewable_energy_hq_aundh",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.821679,
+          18.562509
+        ]
+      },
+      "properties": {
+        "id": "meda_renewable_energy_hq_aundh",
+        "name": "Maharashtra Energy Development Agency (MEDA) – Renewable Energy & Climate Action HQ",
+        "agency": "Department of Energy, Government of Maharashtra",
+        "category": "State Clean Energy & Climate Action Agency",
+        "sub_category": "Renewable Energy Transition Authority",
+        "address": "Aundh Road, Opposite Spicer College Road, Aundh, Pune – 411067",
+        "area": "Aundh / Ganeshkhind",
+        "jurisdiction": "Implementation of Maharashtra State Renewable Energy Policy, grid-connected solar rooftop initiatives, wind power, biomass gasification, carbon mitigation strategies, and energy conservation building codes (ECBC).",
+        "contact": "020-35000450 / 020-35000451 / dg@mahaurja.com",
+        "latitude": 18.562509,
+        "longitude": 73.821679
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ari_environmental_sciences_shivajinagar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831733,
+          18.5206
+        ]
+      },
+      "properties": {
+        "id": "ari_environmental_sciences_shivajinagar",
+        "name": "Agharkar Research Institute (ARI) – Environmental Sciences & Microbial Diversity Division",
+        "agency": "Department of Science & Technology (DST), Government of India",
+        "category": "Autonomous National Scientific Research Institute",
+        "sub_category": "Environmental Biotechnology & Bioremediation",
+        "address": "Agarkar Road, Shivajinagar, Pune – 411004",
+        "area": "Shivajinagar",
+        "jurisdiction": "Applied scientific research on bio-remediation of heavy metals and pollutants, microbial fuel cells, bio-energy, National Facility for Culture Collection of Fungi (NFCCI), and paleontological climate proxies.",
+        "contact": "020-25325000 / 020-25325103 / director@aripune.org",
+        "latitude": 18.5206,
+        "longitude": 73.831733
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_shivajinagar_imd",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.849589,
+          18.530067
+        ]
+      },
+      "properties": {
+        "id": "caaqms_shivajinagar_imd",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Shivajinagar (IMD)",
+        "agency": "MPCB / CPCB / IITM-SAFAR",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "Urban Commercial Air Quality Station",
+        "address": "IMD Weather Observatory Campus, Ganeshkhind Road, Shivajinagar, Pune – 411005",
+        "area": "Shivajinagar",
+        "jurisdiction": "Continuous real-time sampling and public broadcasting of National Air Quality Index (AQI), PM2.5, PM10, Nitrogen Dioxide (NO2), Sulfur Dioxide (SO2), Carbon Monoxide (CO), and Ozone (O3).",
+        "contact": "020-25535877 / 020-25811029",
+        "latitude": 18.530067,
+        "longitude": 73.849589
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_karve_road_erandwane",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8341,
+          18.5082
+        ]
+      },
+      "properties": {
+        "id": "caaqms_karve_road_erandwane",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Karve Road (Erandwane)",
+        "agency": "MPCB / CPCB / IITM-SAFAR",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "High-Density Traffic Corridor Air Quality Station",
+        "address": "Near Karve Putala, Karve Road, Erandwane, Pune – 411004",
+        "area": "Erandwane / Kothrud",
+        "jurisdiction": "Continuous monitoring of roadside traffic emissions, vehicular particulate matter (PM2.5/PM10), volatile organic compounds (VOCs), and nitrogen oxides along the Karve Road transit corridor.",
+        "contact": "020-25811029",
+        "latitude": 18.5082,
+        "longitude": 73.8341
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_bhosari_midc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.827019,
+          18.631485
+        ]
+      },
+      "properties": {
+        "id": "caaqms_bhosari_midc",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Bhosari MIDC",
+        "agency": "Maharashtra Pollution Control Board (MPCB) / CPCB",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "Industrial Air Quality Monitoring Station",
+        "address": "Nehrunagar / Sector 10, MIDC Bhosari, Pimpri-Chinchwad, Pune – 411026",
+        "area": "Bhosari MIDC",
+        "jurisdiction": "Continuous surveillance of industrial air emissions, boiler flue particulates, sulfur dioxide, ammonia, and chemical smog indicators in the northern manufacturing hub.",
+        "contact": "020-25811694",
+        "latitude": 18.631485,
+        "longitude": 73.827019
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_hadapsar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9295,
+          18.5105
+        ]
+      },
+      "properties": {
+        "id": "caaqms_hadapsar",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Hadapsar",
+        "agency": "IITM-SAFAR / MPCB",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "Mixed Commercial-Residential Air Quality Station",
+        "address": "Magarpatta City / Hadapsar, Pune – 411013",
+        "area": "Hadapsar / Magarpatta",
+        "jurisdiction": "Automated 24x7 monitoring of fine particulates and gaseous pollutants across eastern suburban and IT industrial corridors.",
+        "contact": "020-25904200",
+        "latitude": 18.5105,
+        "longitude": 73.9295
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_pashan_iitm",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805486,
+          18.537355
+        ]
+      },
+      "properties": {
+        "id": "caaqms_pashan_iitm",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Pashan (IITM)",
+        "agency": "Indian Institute of Tropical Meteorology (IITM) / MoES",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "Regional Background Air Quality Reference Station",
+        "address": "IITM Atmospheric Observatory Campus, Dr. Homi Bhabha Road, Pashan, Pune – 411008",
+        "area": "Pashan",
+        "jurisdiction": "Reference calibration station providing clean-air baseline benchmarks, long-range aerosol transport tracking, and atmospheric optical depth measurements.",
+        "contact": "020-25904200",
+        "latitude": 18.537355,
+        "longitude": 73.805486
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_katraj",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.857316,
+          18.459652
+        ]
+      },
+      "properties": {
+        "id": "caaqms_katraj",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Katraj",
+        "agency": "IITM-SAFAR / MPCB",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "Highway Gateway Air Quality Station",
+        "address": "Bharati Vidyapeeth Campus, Pune - Satara Road, Katraj, Pune – 411046",
+        "area": "Katraj / Dhankawadi",
+        "jurisdiction": "Monitoring of vehicular dust, diesel exhaust particulates, and transit emissions entering Pune from the southern NH-48 corridor.",
+        "contact": "020-25904200",
+        "latitude": 18.459652,
+        "longitude": 73.857316
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "caaqms_alandi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8967,
+          18.6775
+        ]
+      },
+      "properties": {
+        "id": "caaqms_alandi",
+        "name": "Continuous Ambient Air Quality Monitoring Station (CAAQMS) – Alandi",
+        "agency": "IITM-SAFAR / MPCB",
+        "category": "Continuous Environmental Air Monitoring Station",
+        "sub_category": "Peri-Urban & River Basin Air Quality Station",
+        "address": "Alandi Devachi, Near Indrayani River, Pune – 412105",
+        "area": "Alandi",
+        "jurisdiction": "Environmental monitoring of ambient air and microclimatic parameters along the Indrayani River basin in northern peri-urban Pune.",
+        "contact": "020-25904200",
+        "latitude": 18.6775,
+        "longitude": 73.8967
+      }
+    }
+  ]
+}

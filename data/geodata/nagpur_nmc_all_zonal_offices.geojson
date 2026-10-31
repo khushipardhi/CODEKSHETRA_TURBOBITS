@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_All_Zonal_Offices_and_Headquarters",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "title": "NMC Nagpur 10 Zonal Administrative Offices & Central Headquarters",
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 11,
+    "zones_count": 10,
+    "headquarters_count": 1
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-HQ01",
+        "name": "Nagpur Municipal Corporation (Central Headquarters)",
+        "zone_number": 0,
+        "zone_name": "NMC Central Headquarters",
+        "zone_marathi": "नागपूर महानगरपालिका मुख्य प्रशासकीय भवन",
+        "facility_type": "Municipal Corporation Central Headquarters",
+        "head_of_office": "Municipal Commissioner & Administrator",
+        "address": "Mahanagar Palika Marg, Near Vidhan Bhavan, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567777 / 112",
+        "latitude": 21.1552,
+        "longitude": 79.0765,
+        "key_localities_covered": [
+          "Citywide Apex Administration",
+          "10 Zonal Coordination",
+          "Central Disaster Control",
+          "Central Treasury"
+        ],
+        "total_wards_supervised": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0628,
+          21.1215
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-01",
+        "name": "NMC Laxmi Nagar Zonal Office (Zone No. 1)",
+        "zone_number": 1,
+        "zone_name": "Laxmi Nagar Zone",
+        "zone_marathi": "लक्ष्मी नगर झोन क्र. १",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 1)",
+        "address": "Hingna Road, Near Laxmi Nagar Water Tank & Square, Nagpur, Maharashtra 440022",
+        "locality": "Laxmi Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2245833",
+        "emergency_number": "+91-9130616734 / 112",
+        "latitude": 21.1215,
+        "longitude": 79.0628,
+        "key_localities_covered": [
+          "Laxmi Nagar",
+          "Pratap Nagar",
+          "Trimurti Nagar",
+          "Bajaj Nagar",
+          "VNIT Campus",
+          "Khamla",
+          "Jaitala",
+          "Sonegaon",
+          "Airport",
+          "Somalwada",
+          "Manish Nagar West"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0575,
+          21.1448
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-02",
+        "name": "NMC Dharampeth Zonal Office (Zone No. 2)",
+        "zone_number": 2,
+        "zone_name": "Dharampeth Zone",
+        "zone_marathi": "धरमपेठ झोन क्र. २",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 2)",
+        "address": "90, Gokulpeth Market Road, Dharampeth, Nagpur, Maharashtra 440010",
+        "locality": "Gokulpeth / Dharampeth",
+        "pincode": "440010",
+        "contact_number": "+91-712-2565589",
+        "emergency_number": "+91-9823245671 / 112",
+        "latitude": 21.1448,
+        "longitude": 79.0575,
+        "key_localities_covered": [
+          "Dharampeth",
+          "Gokulpeth",
+          "Ram Nagar",
+          "Ambazari",
+          "Ravi Nagar",
+          "Civil Lines",
+          "Seminary Hills",
+          "Futala",
+          "Telangkhedi",
+          "Bharat Nagar",
+          "Hill Top"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0985,
+          21.1212
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-03",
+        "name": "NMC Hanuman Nagar Zonal Office (Zone No. 3)",
+        "zone_number": 3,
+        "zone_name": "Hanuman Nagar Zone",
+        "zone_marathi": "हनुमान नगर झोन क्र. ३ (वंदनीय राष्ट्रसंत तुकडोजी महाराज झोन)",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 3)",
+        "address": "Near Tukdoji Putla Square, Manewada Road, Hanuman Nagar, Nagpur, Maharashtra 440009",
+        "locality": "Hanuman Nagar",
+        "pincode": "440009",
+        "contact_number": "+91-712-2755589",
+        "emergency_number": "+91-9823245673 / 112",
+        "latitude": 21.1212,
+        "longitude": 79.0985,
+        "key_localities_covered": [
+          "Hanuman Nagar",
+          "Medical Square",
+          "Manewada",
+          "Omkar Nagar",
+          "Rameshwari",
+          "Bhagwan Nagar",
+          "Chandan Nagar",
+          "Besa Border",
+          "Shatabdi Nagar",
+          "Kukde Layout"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0825,
+          21.1378
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-04",
+        "name": "NMC Dhantoli Zonal Office (Zone No. 4)",
+        "zone_number": 4,
+        "zone_name": "Dhantoli Zone",
+        "zone_marathi": "धंतोली झोन क्र. ४",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 4)",
+        "address": "Yashwant Stadium Commercial Complex, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2465299",
+        "emergency_number": "+91-9823350242 / 112",
+        "latitude": 21.1378,
+        "longitude": 79.0825,
+        "key_localities_covered": [
+          "Dhantoli",
+          "Congress Nagar",
+          "Rahate Colony",
+          "Sitabuldi South",
+          "Imamwada",
+          "Untkhana",
+          "Rambagh",
+          "Medical College Enclave",
+          "Ajni Station Area"
+        ],
+        "total_wards_supervised": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1182,
+          21.1225
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-05",
+        "name": "NMC Nehru Nagar Zonal Office (Zone No. 5)",
+        "zone_number": 5,
+        "zone_name": "Nehru Nagar Zone",
+        "zone_marathi": "नेहरू नगर झोन क्र. ५",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 5)",
+        "address": "Near Sakkardara Lake, Nehru Nagar Road, Nagpur, Maharashtra 440024",
+        "locality": "Nehru Nagar / Sakkardara",
+        "pincode": "440024",
+        "contact_number": "+91-712-2700090",
+        "emergency_number": "+91-9823313064 / 112",
+        "latitude": 21.1225,
+        "longitude": 79.1182,
+        "key_localities_covered": [
+          "Nehru Nagar",
+          "Sakkardara",
+          "Nandanvan",
+          "Dighori",
+          "Bada Tajbagh",
+          "Chhota Tajbagh",
+          "Hasanbagh",
+          "Kharbi",
+          "Ayodhya Nagar",
+          "Reshimbagh"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1068,
+          21.1438
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-06",
+        "name": "NMC Gandhibagh / Gandhi Mahal Zonal Office (Zone No. 6)",
+        "zone_number": 6,
+        "zone_name": "Gandhibagh Zone (Gandhi Mahal)",
+        "zone_marathi": "गांधीबाग / गांधी महाल झोन क्र. ६",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 6)",
+        "address": "Town Hall Premises, Mahal, Nagpur, Maharashtra 440002",
+        "locality": "Mahal / Gandhibagh",
+        "pincode": "440002",
+        "contact_number": "+91-712-2735599",
+        "emergency_number": "+91-9823313086 / 112",
+        "latitude": 21.1438,
+        "longitude": 79.1068,
+        "key_localities_covered": [
+          "Mahal",
+          "Gandhibagh",
+          "Itwari Market Core",
+          "Badkas Chowk",
+          "Tilak Putla",
+          "Budhwar Bazar",
+          "Shukrawari Talao",
+          "Kalyaneshwar Mandir Area",
+          "Model Mills Area"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1125,
+          21.1592
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-07",
+        "name": "NMC Satranjipura Zonal Office (Zone No. 7)",
+        "zone_number": 7,
+        "zone_name": "Satranjipura Zone",
+        "zone_marathi": "सतरंजीपुरा झोन क्र. ७",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 7)",
+        "address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur, Maharashtra 440002",
+        "locality": "Satranjipura / Itwari",
+        "pincode": "440002",
+        "contact_number": "+91-7030577650",
+        "emergency_number": "+91-9823313105 / 112",
+        "latitude": 21.1592,
+        "longitude": 79.1125,
+        "key_localities_covered": [
+          "Satranjipura",
+          "Tandapeth",
+          "Hansapuri",
+          "Wholesale Grain Market",
+          "Maskasath",
+          "Ganjakhet",
+          "Shanti Nagar West",
+          "Itwari Railway Station Environs"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1265,
+          21.1515
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-08",
+        "name": "NMC Lakadganj Zonal Office (Zone No. 8)",
+        "zone_number": 8,
+        "zone_name": "Lakadganj Zone",
+        "zone_marathi": "लकडगंज झोन क्र. ८",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 8)",
+        "address": "Old Bhandara Road, Near Queta Colony, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2737599",
+        "emergency_number": "+91-9850342942 / 112",
+        "latitude": 21.1515,
+        "longitude": 79.1265,
+        "key_localities_covered": [
+          "Lakadganj",
+          "Wardhaman Nagar",
+          "Pardi",
+          "Surya Nagar",
+          "HB Town",
+          "Timber Market",
+          "Bhandewadi",
+          "Kapsi Border",
+          "Queta Colony",
+          "Bharat Nagar East"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1785
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-09",
+        "name": "NMC Ashi Nagar Zonal Office (Zone No. 9)",
+        "zone_number": 9,
+        "zone_name": "Ashi Nagar Zone",
+        "zone_marathi": "आसी नगर झोन क्र. ९",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 9)",
+        "address": "Kamal Chowk Road, Near Panchpaoli Overbridge, Ashi Nagar, Nagpur, Maharashtra 440017",
+        "locality": "Ashi Nagar / Kamal Chowk",
+        "pincode": "440017",
+        "contact_number": "+91-712-2653476",
+        "emergency_number": "+91-9923799884 / 112",
+        "latitude": 21.1785,
+        "longitude": 79.1025,
+        "key_localities_covered": [
+          "Ashi Nagar",
+          "Panchpaoli",
+          "Lashkaribagh",
+          "Uppalwadi",
+          "Yashodhara Nagar",
+          "Kapil Nagar",
+          "Nari Village",
+          "Bhilgaon Border",
+          "Automotive Square East",
+          "Vinoba Bhave Nagar"
+        ],
+        "total_wards_supervised": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ZON-10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0762,
+          21.1685
+        ]
+      },
+      "properties": {
+        "id": "NGP-ZON-10",
+        "name": "NMC Mangalwari Zonal Office (Zone No. 10)",
+        "zone_number": 10,
+        "zone_name": "Mangalwari Zone",
+        "zone_marathi": "मंगळवारी झोन क्र. १०",
+        "facility_type": "Zonal Administrative Office",
+        "head_of_office": "Assistant Municipal Commissioner (Zone 10)",
+        "address": "408, New Colony, Koradi Road, Sadar, Nagpur, Maharashtra 440013",
+        "locality": "New Colony / Sadar",
+        "pincode": "440013",
+        "contact_number": "+91-712-2598800",
+        "emergency_number": "+91-9823245679 / 112",
+        "latitude": 21.1685,
+        "longitude": 79.0762,
+        "key_localities_covered": [
+          "Mangalwari",
+          "Sadar Bazar",
+          "Mankapur",
+          "Gittikhadan",
+          "Katol Road",
+          "Zingabai Takli",
+          "Police Line Takli",
+          "Friends Colony",
+          "Borgaon",
+          "Godhani Border",
+          "Koradi Highway Corridor"
+        ],
+        "total_wards_supervised": 4
+      }
+    }
+  ]
+}

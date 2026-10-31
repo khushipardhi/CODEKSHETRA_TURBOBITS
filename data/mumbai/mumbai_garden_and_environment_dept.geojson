@@ -1,0 +1,342 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_Metropolitan_Garden_and_Environment_Offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GE-MUM-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354,
+          18.9404
+        ]
+      },
+      "properties": {
+        "name": "BMC Environment and Climate Change Department (Headquarters)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Apex Environmental Policy & Climate Directorate",
+        "jurisdiction": "Greater Mumbai (All 24 Wards)",
+        "address": "6th Floor, Annex Building, BMC Head Office, Mahapalika Marg, Dhobi Talao, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Deputy Municipal Commissioner (Environment & Climate Change)",
+        "designation": "DMC (Environment)",
+        "phone": "+91-22-22620251",
+        "email": "dmc.env@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358,
+          18.9788
+        ]
+      },
+      "properties": {
+        "name": "BMC Central Office of Superintendent of Gardens & Tree Authority",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Central Garden & Tree Authority Headquarters",
+        "jurisdiction": "Greater Mumbai (All 24 Wards)",
+        "address": "Veermata Jijabai Bhosale Botanical Udyan & Zoo Campus, Dr. Babasaheb Ambedkar Road, Byculla East, Mumbai, Maharashtra 400027",
+        "officer": "Superintendent of Gardens & Tree Officer",
+        "designation": "Superintendent of Gardens",
+        "phone": "+91-22-23735700",
+        "email": "sg.gardens@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8152,
+          18.9613
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone I (Island City South: Wards A, B, C, D)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone I (Colaba, Fort, Marine Drive, Malabar Hill, Grant Road)",
+        "address": "D Ward Office Building, Jobanputra Compound, Nana Chowk, Grant Road West, Mumbai, Maharashtra 400007",
+        "officer": "Assistant Superintendent of Gardens (Zone I)",
+        "designation": "ASG (Zone I)",
+        "phone": "+91-22-23861426",
+        "email": "asg.zone1@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.0028
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone II (Central Mumbai: Wards E, F-South, F-North)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone II (Byculla, Parel, Sewri, Wadala, Matunga)",
+        "address": "2nd Floor, Room No. 32B, F-South Ward Office Building, Dr. Babasaheb Ambedkar Road, Parel, Mumbai, Maharashtra 400012",
+        "officer": "Assistant Superintendent of Gardens (Zone II)",
+        "designation": "ASG (Zone II)",
+        "phone": "+91-22-24134560",
+        "email": "asg.zone2@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8302,
+          18.9982
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone III (South-Central & Dadar: Wards G-South, G-North)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone III (Worli, Lower Parel, Mahalakshmi, Dadar, Dharavi)",
+        "address": "G-South Ward Office Building, N.M. Joshi Marg, Dhanmill Naka, Lower Parel, Mumbai, Maharashtra 400013",
+        "officer": "Assistant Superintendent of Gardens (Zone III)",
+        "designation": "ASG (Zone III)",
+        "phone": "+91-22-24305031",
+        "email": "asg.zone3@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8447,
+          19.1648
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone IV (Western Suburbs North: Wards P-South, P-North, R-South)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone IV (Goregaon, Malad, Kandivali West)",
+        "address": "P-South Ward Office Building, S.V. Road, Near Goregaon Railway Station, Goregaon West, Mumbai, Maharashtra 400104",
+        "officer": "Assistant Superintendent of Gardens (Zone IV)",
+        "designation": "ASG (Zone IV)",
+        "phone": "+91-22-28721186",
+        "email": "asg.zone4@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8553,
+          19.1172
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone V (Western Suburbs South: Wards H-East, H-West, K-East, K-West)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone V (Bandra, Khar, Santa Cruz, Andheri, Vile Parle, Juhu)",
+        "address": "K-East Ward Office Building, Azad Road, Gundavali, Off Western Express Highway, Andheri East, Mumbai, Maharashtra 400069",
+        "officer": "Assistant Superintendent of Gardens (Zone V)",
+        "designation": "ASG (Zone V)",
+        "phone": "+91-22-26840103",
+        "email": "asg.zone5@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8795,
+          19.0682
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone VI (Eastern Suburbs Central: Wards L, M-East, M-West)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone VI (Kurla, Chembur, Govandi, Mankhurd, Trombay)",
+        "address": "L Ward Office Building, S.G. Barve Marg, Near Kurla Railway Station, Kurla West, Mumbai, Maharashtra 400070",
+        "officer": "Assistant Superintendent of Gardens (Zone VI)",
+        "designation": "ASG (Zone VI)",
+        "phone": "+91-22-26505103",
+        "email": "asg.zone6@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8584,
+          19.2505
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Zone VII (Western Suburbs Far-North: Wards R-Central, R-North)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Zonal Garden & Tree Authority Office",
+        "jurisdiction": "Zone VII (Borivali, Dahisar, Gorai)",
+        "address": "R-North Ward Office Building, Below Sudhir Phadke Flyover, Dahisar West, Mumbai, Maharashtra 400068",
+        "officer": "Assistant Superintendent of Gardens (Zone VII)",
+        "designation": "ASG (Zone VII)",
+        "phone": "+91-22-28936000",
+        "email": "asg.zone7@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.909,
+          19.0838
+        ]
+      },
+      "properties": {
+        "name": "BMC Garden & Tree Department - Eastern Suburbs North Division (Wards N, S, T)",
+        "corporation": "Brihanmumbai Municipal Corporation (BMC)",
+        "facility_type": "Divisional Garden & Tree Authority Office",
+        "jurisdiction": "Eastern Suburbs North (Ghatkopar, Vikhroli, Bhandup, Powai, Mulund)",
+        "address": "N Ward Office Building, Jawahar Road, Saibaba Nagar, Pant Nagar, Ghatkopar East, Mumbai, Maharashtra 400077",
+        "officer": "Assistant Superintendent of Gardens (Eastern Division)",
+        "designation": "ASG (Eastern North)",
+        "phone": "+91-22-25010161",
+        "email": "asg.eastnorth@mcgm.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0416,
+          19.0142
+        ]
+      },
+      "properties": {
+        "name": "NMMC Garden and Tree Authority Department (Headquarters)",
+        "corporation": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Municipal Headquarters & Tree Authority Directorate",
+        "jurisdiction": "Navi Mumbai Municipal Corporation Area (All 8 Wards)",
+        "address": "NMMC Bhavan, Plot No. 1 & 2, Sector 15A, Palm Beach Road, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+        "officer": "Deputy Municipal Commissioner (Garden & Trees)",
+        "designation": "DMC (Garden & Tree Authority)",
+        "phone": "+91-22-27567070",
+        "email": "dmc_garden@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0418,
+          19.0144
+        ]
+      },
+      "properties": {
+        "name": "NMMC Environment and Solid Waste Management Department",
+        "corporation": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Municipal Environmental Monitoring & Policy Directorate",
+        "jurisdiction": "Navi Mumbai Municipal Corporation Area",
+        "address": "2nd Floor, NMMC Head Office, Sector 15A, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+        "officer": "Deputy Municipal Commissioner (Environment)",
+        "designation": "DMC (Environment)",
+        "phone": "+91-22-27567071",
+        "email": "dmc_env@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9984,
+          19.0768
+        ]
+      },
+      "properties": {
+        "name": "NMMC Garden Department - Vashi Ward Division",
+        "corporation": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Ward Garden & Horticulture Office",
+        "jurisdiction": "Vashi Ward (Sectors 1 to 30)",
+        "address": "NMMC Vashi Ward Office, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703",
+        "officer": "Horticultural Officer / Garden Supervisor (Vashi)",
+        "designation": "Garden Supervisor (Vashi)",
+        "phone": "+91-22-27891234",
+        "email": "garden.vashi@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0182,
+          19.0345
+        ]
+      },
+      "properties": {
+        "name": "NMMC Garden Department - Nerul & Central Park Division",
+        "corporation": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Divisional Garden Office & Urban Biodiversity Node",
+        "jurisdiction": "Nerul Ward & Wonders Park / Jewel of Navi Mumbai",
+        "address": "NMMC Nerul Ward Office, Sector 20, Nerul West, Navi Mumbai, Maharashtra 400706",
+        "officer": "Horticultural Officer / Garden Supervisor (Nerul)",
+        "designation": "Garden Supervisor (Nerul)",
+        "phone": "+91-22-27702345",
+        "email": "garden.nerul@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GE-MUM-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0076,
+          19.1028
+        ]
+      },
+      "properties": {
+        "name": "NMMC Garden Department - Koparkhairane Division",
+        "corporation": "Navi Mumbai Municipal Corporation (NMMC)",
+        "facility_type": "Ward Garden & Tree Maintenance Office",
+        "jurisdiction": "Koparkhairane & Ghansoli Nodes",
+        "address": "2nd Floor, NMMC Ward Office, Sector 6, Koparkhairane, Navi Mumbai, Maharashtra 400709",
+        "officer": "Garden Supervisor (Koparkhairane)",
+        "designation": "Garden Supervisor (Koparkhairane)",
+        "phone": "+91-22-27546789",
+        "email": "garden.kk@nmmc.gov.in"
+      }
+    }
+  ]
+}

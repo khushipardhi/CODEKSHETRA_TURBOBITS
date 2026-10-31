@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "title": "Drainage & Sewage Management Departments and Facilities in Pune",
+    "region": "Pune Metropolitan Area, Maharashtra, India",
+    "generated_date": "2026-10-03",
+    "description": "Geographical coordinates, capacities, operational roles, and contact information for the Pune Municipal Corporation (PMC) Drainage Department, JICA Mula-Mutha River Pollution Abatement Project, major Sewage Treatment Plants (STPs), pumping stations, and zonal drainage maintenance divisions.",
+    "key_contacts_and_helplines": {
+      "PMC Central Toll-Free Helpline": "1800 103 0222",
+      "PMC Drainage Department Head Office": "+91 20 2550 1383",
+      "PMC Drainage Suction & Jetting Machine Complaint Cell": "+91 20 2550 1000",
+      "PMC Disaster Management & Waterlogging Control Room": "+91 20 2550 6800",
+      "PCMC Drainage Department Control": "+91 20 6733 3333"
+    },
+    "total_facilities": 24
+  },
+  "administrative_headquarters_and_project_offices": [
+    {
+      "id": "PMC-DRAIN-HQ-01",
+      "name": "PMC Drainage Department Central Head Office",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "office_type": "Central Department Headquarters",
+      "role_and_responsibilities": "Apex civic administration for citywide sewerage network design, stormwater drains, drainage connection approvals, manhole inspection, and superintending engineer oversight.",
+      "address": "Second Floor, Sawarkar Bhavan, Congress House Road, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.52835,
+        "longitude": 73.85172
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383",
+        "alternate_phone": "+91 96899 34691",
+        "toll_free": "1800 103 0222",
+        "email": "drainage@punecorporation.org"
+      },
+      "website": "https://www.pmc.gov.in/en/d/drainage"
+    },
+    {
+      "id": "PMC-DRAIN-JICA-02",
+      "name": "Pollution Abatement of River Mula-Mutha (PARMM) JICA Project Cell",
+      "governing_body": "Pune Municipal Corporation & National River Conservation Directorate (NRCD)",
+      "office_type": "Mega Infrastructure Project Directorate",
+      "role_and_responsibilities": "Overseeing the construction of 11 new centralized STPs (396 MLD additional capacity), 113.6 km of trunk sewer network, intermediate pumping stations, and SCADA monitoring under JICA funding.",
+      "address": "PMC Main Building Complex, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.523438,
+        "longitude": 73.853062
+      },
+      "contact": {
+        "phone": "+91 20 2550 1000",
+        "email": "info@punecorporation.org"
+      },
+      "website": "https://www.pmc.gov.in/en/b/parmm-project"
+    },
+    {
+      "id": "PCMC-DRAIN-HQ-03",
+      "name": "PCMC Sewerage & Drainage Department Headquarters",
+      "governing_body": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+      "office_type": "Municipal Department Headquarters",
+      "role_and_responsibilities": "Planning, maintenance, and operation of sewer lines, storm water networks, and industrial/domestic sewage treatment infrastructure in Pimpri-Chinchwad.",
+      "address": "PCMC Main Administrative Building, Mumbai - Pune Road, Pimpri Colony",
+      "locality": "Pimpri",
+      "city": "Pimpri-Chinchwad, Pune",
+      "pincode": "411018",
+      "coordinates": {
+        "latitude": 18.6275,
+        "longitude": 73.801
+      },
+      "contact": {
+        "phone": "+91 20 6733 3333",
+        "email": "contact@pcmcindia.gov.in"
+      },
+      "website": "https://www.pcmcindia.gov.in"
+    }
+  ],
+  "centralized_sewage_treatment_plants": [
+    {
+      "id": "STP-NAIDU-01",
+      "name": "Dr. Naidu Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 127.0,
+      "technology": "Sequencing Batch Reactor (SBR) / Activated Sludge Process (ASP)",
+      "catchment_area": "Sangamwadi, Shivajinagar, Pune Station, Camp, Kasba Peth",
+      "address": "Railway Officers Colony, Near Dr. Naidu Hospital, Wellesley Road, Sangamvadi",
+      "locality": "Sangamwadi",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.532188,
+        "longitude": 73.868875
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-BHAIROBA-02",
+      "name": "Bhairoba Nala Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 75.0,
+      "technology": "Extended Aeration / Cyclic Activated Sludge Technology (C-TECH)",
+      "catchment_area": "Koregaon Park, Ghorpadi, Wanowrie, Fatima Nagar, Cantonment East",
+      "address": "North Main Road, Kavadewadi, Koregaon Park / Ghorpadi",
+      "locality": "Koregaon Park",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.538394,
+        "longitude": 73.902304
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-MUNDHWA-03",
+      "name": "Mundhwa Sewage Treatment Plant & Irrigation Jackwell",
+      "facility_type": "Sewage Treatment Plant & River Water Recycling Project",
+      "capacity_mld": 65.0,
+      "technology": "Activated Sludge Process (ASP) & Secondary Treated Water Lift Pumping",
+      "catchment_area": "Mundhwa, Magarpatta, Hadapsar, Keshavnagar",
+      "address": "Mundhwa - Kharadi Road, Magarpatta, Mundhwa",
+      "locality": "Mundhwa",
+      "city": "Pune",
+      "pincode": "411036",
+      "coordinates": {
+        "latitude": 18.5338,
+        "longitude": 73.9325
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-ERANDWANE-04",
+      "name": "Erandwane Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 50.0,
+      "technology": "Upflow Anaerobic Sludge Blanket (UASB) + Extended Aeration",
+      "catchment_area": "Kothrud, Erandwane, Karve Nagar, Deccan Gymkhana",
+      "address": "Near Mhatre Bridge, Vakil Nagar, DP Road, Erandwane",
+      "locality": "Erandwane",
+      "city": "Pune",
+      "pincode": "411004",
+      "coordinates": {
+        "latitude": 18.5028,
+        "longitude": 73.8345
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-VITTHALWADI-05",
+      "name": "Vitthalwadi Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 32.0,
+      "technology": "Sequencing Batch Reactor (SBR)",
+      "catchment_area": "Hingne Khurd, Anand Nagar, Sinhgad Road, Manikbaug",
+      "address": "Narveer Tanaji Malusare Road (Sinhgad Road), Vittalvadi, Hingne Khurd",
+      "locality": "Hingne Khurd",
+      "city": "Pune",
+      "pincode": "411051",
+      "coordinates": {
+        "latitude": 18.4878,
+        "longitude": 73.8286
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-KHARADI-06",
+      "name": "Kharadi Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 40.0,
+      "technology": "Sequencing Batch Reactor (SBR) / C-TECH",
+      "catchment_area": "Kharadi, Vadgaon Sheri, Chandan Nagar, Viman Nagar East",
+      "address": "Near EON Free Zone, Riverfront Road, Survey No. 74/75, Kharadi",
+      "locality": "Kharadi",
+      "city": "Pune",
+      "pincode": "411014",
+      "coordinates": {
+        "latitude": 18.5476,
+        "longitude": 73.9506
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-WARJE-07",
+      "name": "Warje Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 28.0,
+      "technology": "Sequencing Batch Reactor (SBR)",
+      "catchment_area": "Warje, Karvenagar South, Dahanukar Colony, Ramnagar",
+      "address": "Near Mutha River Bank, Warje Malwadi, Warje",
+      "locality": "Warje",
+      "city": "Pune",
+      "pincode": "411058",
+      "coordinates": {
+        "latitude": 18.482,
+        "longitude": 73.796
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-BANER-08",
+      "name": "Baner Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 30.0,
+      "technology": "Moving Bed Biofilm Reactor (MBBR) / SBR",
+      "catchment_area": "Baner, Balewadi, Pashan, Sus Road, Mahalunge",
+      "address": "Near Ramnadi Confluence, Pancard Club Road / Survey No. 53, Baner",
+      "locality": "Baner",
+      "city": "Pune",
+      "pincode": "411045",
+      "coordinates": {
+        "latitude": 18.561,
+        "longitude": 73.785
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-BOPODI-09",
+      "name": "Bopodi Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 18.0,
+      "technology": "Extended Aeration Process",
+      "catchment_area": "Bopodi, Khadki, Aundh East, Range Hills",
+      "address": "Laxmanrao Kirloskar Road, Near Mula River Bank, Bopodi",
+      "locality": "Bopodi",
+      "city": "Pune",
+      "pincode": "411020",
+      "coordinates": {
+        "latitude": 18.572,
+        "longitude": 73.833
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-TANAJIWADI-10",
+      "name": "Tanajiwadi Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 17.0,
+      "technology": "Two-stage Biological Treatment / SBR",
+      "catchment_area": "Wakdewadi, Narveer Tanaji Wadi, Shivajinagar North",
+      "address": "Babulal Sheikth Path, Narveer Tanaji Wadi, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.529,
+        "longitude": 73.8505
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-VADGAON-11",
+      "name": "Vadgaon Budruk Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 26.0,
+      "technology": "Sequencing Batch Reactor (SBR)",
+      "catchment_area": "Vadgaon Budruk, Dhayari, Ambegaon Budruk",
+      "address": "Near Funtime Cinema, Mutha River Bank, Vadgaon Budruk, Sinhgad Road",
+      "locality": "Vadgaon Budruk",
+      "city": "Pune",
+      "pincode": "411041",
+      "coordinates": {
+        "latitude": 18.468,
+        "longitude": 73.818
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-DHANORI-12",
+      "name": "Dhanori Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 33.0,
+      "technology": "Sequencing Batch Reactor (SBR)",
+      "catchment_area": "Dhanori, Tingre Nagar, Kalas, Lohegaon South",
+      "address": "Dhanori - Tingre Nagar Road, Near Bhairavnath Mandir, Dhanori",
+      "locality": "Dhanori",
+      "city": "Pune",
+      "pincode": "411015",
+      "coordinates": {
+        "latitude": 18.579,
+        "longitude": 73.882
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-HADAPSAR-13",
+      "name": "Matsyabeej Kendra Hadapsar Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 7.0,
+      "technology": "Cyclic Activated Sludge Technology (C-TECH)",
+      "catchment_area": "Hadapsar Gaothan, Malwadi, Gadital area",
+      "address": "Matsyabeej Kendra Campus, Malwadi Road, Hadapsar",
+      "locality": "Hadapsar",
+      "city": "Pune",
+      "pincode": "411028",
+      "coordinates": {
+        "latitude": 18.501,
+        "longitude": 73.936
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-BOTANICAL-14",
+      "name": "Botanical Garden Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 10.0,
+      "technology": "Sequencing Batch Reactor (SBR)",
+      "catchment_area": "Pune University Campus, Ganeshkhind, Aundh Road",
+      "address": "Savitribai Phule Pune University Botanical Garden, Ganeshkhind",
+      "locality": "Ganeshkhind",
+      "city": "Pune",
+      "pincode": "411007",
+      "coordinates": {
+        "latitude": 18.552,
+        "longitude": 73.824
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "STP-PCMC-KASARWADI-15",
+      "name": "PCMC Kasarwadi Sewage Treatment Plant",
+      "facility_type": "Centralized Sewage Treatment Plant (STP)",
+      "capacity_mld": 80.0,
+      "technology": "Activated Sludge Process (ASP) & Advanced Aeration",
+      "catchment_area": "Pimpri, Chinchwad, Kasarwadi, Dapodi, Bhosari",
+      "address": "Old Mumbai - Pune Highway, Near Railway Bridge, Kasarwadi",
+      "locality": "Kasarwadi",
+      "city": "Pimpri-Chinchwad, Pune",
+      "pincode": "411034",
+      "coordinates": {
+        "latitude": 18.6015,
+        "longitude": 73.821
+      },
+      "contact": {
+        "phone": "+91 20 6733 3333"
+      }
+    }
+  ],
+  "zonal_drainage_maintenance_divisions_and_vehicle_depots": [
+    {
+      "id": "ZONE-GHOLEROAD-01",
+      "name": "Ghole Road - Shivajinagar Drainage Maintenance Office & Suction Depot",
+      "ward": "Ghole Road Ward Office (Ward 1)",
+      "responsibilities": "Operation of jetting & suction machines, unblocking sewers, clearing stormwater channels, de-siltation of Ambil Odha and local storm drains.",
+      "address": "1187/5, Ghole Road, Main Ward Office Building, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.5255,
+        "longitude": 73.8445
+      },
+      "contact": {
+        "phone": "+91 20 2550 1405"
+      }
+    },
+    {
+      "id": "ZONE-AUNDH-BANER-02",
+      "name": "Aundh - Baner Drainage Maintenance Office",
+      "ward": "Aundh - Baner Ward Office (Ward 2)",
+      "responsibilities": "Drainage network repairs, desilting of Ramnadi tributaries, and deployment of vacuum suction tankers for Western Pune.",
+      "address": "Bremen Chowk, Near Ambedkar Chowk, Aundh",
+      "locality": "Aundh",
+      "city": "Pune",
+      "pincode": "411007",
+      "coordinates": {
+        "latitude": 18.5605,
+        "longitude": 73.807
+      },
+      "contact": {
+        "phone": "+91 20 2550 1410"
+      }
+    },
+    {
+      "id": "ZONE-KOTHRUD-BAVDHAN-03",
+      "name": "Kothrud - Bavdhan Drainage Maintenance Division",
+      "ward": "Kothrud - Bavdhan Ward Office (Ward 3)",
+      "responsibilities": "Maintenance of storm water drains along Paud Road, DP Road, and Bavdhan nallas; suction machine deployment.",
+      "address": "Chhatrapati Shivaji Maharaj Smarak, Paud Road, Kothrud",
+      "locality": "Kothrud",
+      "city": "Pune",
+      "pincode": "411038",
+      "coordinates": {
+        "latitude": 18.5075,
+        "longitude": 73.805
+      },
+      "contact": {
+        "phone": "+91 20 2550 1415"
+      }
+    },
+    {
+      "id": "ZONE-WARJE-KARVENAGAR-04",
+      "name": "Warje - Karvenagar Drainage Maintenance Division",
+      "ward": "Warje - Karvenagar Ward Office (Ward 4)",
+      "responsibilities": "Drainage infrastructure upkeep, riverfront sewer line maintenance, and monsoon waterlogging response.",
+      "address": "Near Karve Putala, Kothrud / Warje Hillock Road",
+      "locality": "Warje",
+      "city": "Pune",
+      "pincode": "411058",
+      "coordinates": {
+        "latitude": 18.4815,
+        "longitude": 73.801
+      },
+      "contact": {
+        "phone": "+91 20 2550 1420"
+      }
+    },
+    {
+      "id": "ZONE-SINHGADROAD-05",
+      "name": "Sinhgad Road Drainage Maintenance Division",
+      "ward": "Sinhgad Road Ward Office (Ward 5)",
+      "responsibilities": "Ambil Odha and Mutha riverfront sewer drainage maintenance, flood preventive cleaning, and desilting.",
+      "address": "Near Dandekar Bridge, PL Deshpande Garden Road, Sinhgad Road",
+      "locality": "Dattawadi / Parvati",
+      "city": "Pune",
+      "pincode": "411030",
+      "coordinates": {
+        "latitude": 18.4985,
+        "longitude": 73.842
+      },
+      "contact": {
+        "phone": "+91 20 2550 1425"
+      }
+    },
+    {
+      "id": "ZONE-KASBA-VISHRAMBAUG-06",
+      "name": "Kasba - Vishrambaug Wada Drainage Maintenance Office",
+      "ward": "Kasba - Vishrambaug Wada Ward Office (Ward 7)",
+      "responsibilities": "Management of old city core drainage networks in Peth areas, manhole de-silting, chamber replacement, and heritage area sewer flushing.",
+      "address": "Near Shanipar Chowk, Sadashiv Peth",
+      "locality": "Sadashiv Peth",
+      "city": "Pune",
+      "pincode": "411030",
+      "coordinates": {
+        "latitude": 18.514,
+        "longitude": 73.8525
+      },
+      "contact": {
+        "phone": "+91 20 2550 1435"
+      }
+    },
+    {
+      "id": "ZONE-HADAPSAR-MUNDHWA-07",
+      "name": "Hadapsar - Mundhwa Drainage Maintenance Division",
+      "ward": "Hadapsar - Mundhwa Ward Office (Ward 10)",
+      "responsibilities": "Eastern zone drainage line maintenance, industrial estate runoff inspection, and Mundhwa STP feeder line coordination.",
+      "address": "Pandit Jawaharlal Nehru Road, Gadital, Hadapsar",
+      "locality": "Hadapsar",
+      "city": "Pune",
+      "pincode": "411028",
+      "coordinates": {
+        "latitude": 18.5025,
+        "longitude": 73.9295
+      },
+      "contact": {
+        "phone": "+91 20 2550 1450"
+      }
+    },
+    {
+      "id": "ZONE-YERWADA-DHANORI-08",
+      "name": "Yerwada - Kalas - Dhanori Drainage Maintenance Division",
+      "ward": "Yerwada - Kalas - Dhanori Ward Office (Ward 12)",
+      "responsibilities": "Maintenance of drainage lines in Yerwada, Kalas, and Dhanori; suction vehicle deployment and monsoon stormwater clearing.",
+      "address": "Near Gunjan Talkies, Airport Road, Yerawada",
+      "locality": "Yerwada",
+      "city": "Pune",
+      "pincode": "411006",
+      "coordinates": {
+        "latitude": 18.552,
+        "longitude": 73.8825
+      },
+      "contact": {
+        "phone": "+91 20 2550 1460"
+      }
+    },
+    {
+      "id": "ZONE-NAGARROAD-09",
+      "name": "Nagar Road - Vadgaon Sheri Drainage Maintenance Division",
+      "ward": "Nagar Road - Vadgaon Sheri Ward Office (Ward 13)",
+      "responsibilities": "Sewer maintenance for IT corridors (Viman Nagar, Kharadi, Kalyani Nagar) and stormwater drainage outfalls along Mula-Mutha.",
+      "address": "Pune - Ahmednagar Road, Near Inorbit Mall, Vadgaon Sheri",
+      "locality": "Vadgaon Sheri",
+      "city": "Pune",
+      "pincode": "411014",
+      "coordinates": {
+        "latitude": 18.555,
+        "longitude": 73.918
+      },
+      "contact": {
+        "phone": "+91 20 2550 1465"
+      }
+    }
+  ]
+}

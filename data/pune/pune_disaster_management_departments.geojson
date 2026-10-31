@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {},
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8527,
+          18.5308
+        ]
+      },
+      "properties": {
+        "id": "PUN-phd4ow",
+        "name": "Pune Municipal Corporation (PMC) Disaster Management Cell",
+        "category": "departments",
+        "department": "PMC",
+        "address": "2nd Floor, PMC Main Building, Shivajinagar, Pune, Maharashtra 411005",
+        "locality": "",
+        "phone": "",
+        "email": "dmcell@punecorporation.org",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8744,
+          18.5284
+        ]
+      },
+      "properties": {
+        "id": "PUN-nq6hws",
+        "name": "Pune District Disaster Management Authority (DDMA) / District Emergency Operation Centre (DEOC)",
+        "category": "departments",
+        "department": "PMC",
+        "address": "Collector Office, Bund Garden Road, Camp, Pune, Maharashtra 411001",
+        "locality": "",
+        "phone": "",
+        "email": "collector.pune@maharashtra.gov.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7997,
+          18.6279
+        ]
+      },
+      "properties": {
+        "id": "PUN-a5ymsy",
+        "name": "Pimpri-Chinchwad Municipal Corporation (PCMC) Disaster Management Cell",
+        "category": "departments",
+        "department": "PMC",
+        "address": "PCMC Main Administrative Building, Mumbai-Pune Road, Pimpri, Pune, Maharashtra 411018",
+        "locality": "",
+        "phone": "",
+        "email": "disaster@pcmcindia.gov.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8791,
+          18.5262
+        ]
+      },
+      "properties": {
+        "id": "PUN-4dhh00",
+        "name": "Divisional Commissioner Disaster Control Room (Pune Division)",
+        "category": "departments",
+        "department": "PMC",
+        "address": "Council Hall (Vidhan Bhavan), Bund Garden Road, Camp, Pune, Maharashtra 411001",
+        "locality": "",
+        "phone": "",
+        "email": "divcom.pune@maharashtra.gov.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6828,
+          18.7247
+        ]
+      },
+      "properties": {
+        "id": "PUN-820f05",
+        "name": "5th Battalion National Disaster Response Force (NDRF)",
+        "category": "departments",
+        "department": "PMC",
+        "address": "Post Sudumbare, Taluka Maval, near Talegaon Dabhade, Pune, Maharashtra 410507",
+        "locality": "",
+        "phone": "",
+        "email": "mah05-ndrf@nic.in",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8643,
+          18.5065
+        ]
+      },
+      "properties": {
+        "id": "PUN-z9wun0",
+        "name": "PMC Fire Brigade Central Headquarters & Emergency Control Room",
+        "category": "departments",
+        "department": "PMC",
+        "address": "Central Fire Station, Mahatma Phule Peth, Bhawani Peth, Pune, Maharashtra 411042",
+        "locality": "",
+        "phone": "",
+        "email": "fire@punecorporation.org",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8268,
+          18.5448
+        ]
+      },
+      "properties": {
+        "id": "PUN-t9j973",
+        "name": "Centre for Disaster Management (CDM), YASHADA",
+        "category": "departments",
+        "department": "PMC",
+        "address": "Raj Bhavan Complex, Baner Road, Ganeshkhind, Pune, Maharashtra 411007",
+        "locality": "",
+        "phone": "",
+        "email": "cdm@yashada.org",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8821,
+          18.5034
+        ]
+      },
+      "properties": {
+        "id": "PUN-gbklce",
+        "name": "Pune Cantonment Board (PCB) Disaster Management & Fire Brigade",
+        "category": "departments",
+        "department": "PMC",
+        "address": "Near Golibar Maidan, Pune Camp, Pune, Maharashtra 411001",
+        "locality": "",
+        "phone": "",
+        "email": "ceopune@dgpce.gov.in",
+        "role": ""
+      }
+    }
+  ]
+}

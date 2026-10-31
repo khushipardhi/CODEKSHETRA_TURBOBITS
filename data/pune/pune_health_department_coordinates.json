@@ -1,0 +1,302 @@
+{
+  "organization": "Public Health Administration Pune (Pune Municipal Corporation Health Department & Public Health Department, Govt. of Maharashtra)",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "country": "India",
+  "emergency_helpline_numbers": {
+    "emergency_ambulance": "108",
+    "national_health_helpline": "104",
+    "pmc_civic_health_helpline": "1800-1030-222"
+  },
+  "description": "Geographical coordinates, addresses, and details of all health department headquarters, municipal general hospitals, infectious disease centers, maternity homes, and state medical institutions in Pune.",
+  "central_administrative_health_headquarters": [
+    {
+      "facility_id": "PMC_HEALTH_HQ",
+      "name": "PMC Health Department Central Head Office (पुणे महानगरपालिका आरोग्य विभाग मुख्यालय)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "role": "Apex civic health administration, disease surveillance, public health schemes, and municipal hospital regulation",
+      "address": "3rd Floor, Main Building, Pune Municipal Corporation, Near Mangala Theatre, Shivajinagar, Pune, Maharashtra 411005",
+      "coordinates": {
+        "latitude": 18.523438,
+        "longitude": 73.853062
+      },
+      "plus_code": "7JCMGVF3+96",
+      "contact_phone": "+91-20-25501000",
+      "toll_free": "1800-1030-222",
+      "website": "https://www.pmc.gov.in/en/d/health"
+    },
+    {
+      "facility_id": "MAHA_DDHS_PUNE",
+      "name": "Office of the Deputy Director of Health Services (DDHS) - Pune Circle (उपसंचालक आरोग्य सेवा, पुणे मंडळ)",
+      "governing_body": "Public Health Department, Government of Maharashtra",
+      "role": "Regional health services directorate overseeing Pune, Satara, and Solapur districts",
+      "address": "Opposite Vidhan Bhavan, Sasoon Road, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.5238,
+        "longitude": 73.8732
+      },
+      "plus_code": "7JCMGVFF+G7",
+      "contact_phone": "+91-20-26126870",
+      "website": "https://nhm.maharashtra.gov.in/"
+    },
+    {
+      "facility_id": "PUNE_ZP_DHO",
+      "name": "District Health Office (DHO) - Zilla Parishad Pune (जिल्हा आरोग्य अधिकारी कार्यालय, जिल्हा परिषद पुणे)",
+      "governing_body": "Zilla Parishad Pune / Public Health Department, Govt. of Maharashtra",
+      "role": "District-level rural and semi-urban primary healthcare, PHCs, sub-centers, and epidemic control",
+      "address": "Health Department, Zilla Parishad Administrative Building, Station Road, Agarkar Nagar, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.5255,
+        "longitude": 73.8745
+      },
+      "plus_code": "7JCMGVGF+5R",
+      "contact_phone": "+91-20-26129965"
+    },
+    {
+      "facility_id": "MAHA_HEALTH_TRANSPORT",
+      "name": "State Health Transport Directorate & Family Welfare Bureau (आरोग्य वाहतूक संचालनालय)",
+      "governing_body": "Public Health Department, Government of Maharashtra",
+      "role": "Statewide emergency medical transport, ambulance fleet management, and cold-chain vaccine logistics",
+      "address": "Station Road / Sasoon Road, Near Pune Railway Station, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.5248,
+        "longitude": 73.872
+      },
+      "plus_code": "7JCMGVFC+WR",
+      "contact_phone": "+91-20-26052300"
+    }
+  ],
+  "apex_state_and_district_civil_hospitals": [
+    {
+      "hospital_id": "SASSOON_GENERAL_HOSPITAL",
+      "name": "Sassoon General Hospital & B.J. Government Medical College (ससून सर्वोपचार रुग्णालय)",
+      "governing_body": "Directorate of Medical Education and Research (DMER), Government of Maharashtra",
+      "facility_type": "Tertiary Care Teaching Hospital & Apex Trauma Care Center (1,500+ Beds)",
+      "address": "Jai Prakash Narayan Road, Railway Station Road, Agarkar Nagar, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.525,
+        "longitude": 73.8715
+      },
+      "plus_code": "7JCMGVGC+2H",
+      "contact_phone": "+91-20-26128000",
+      "website": "http://www.bjmcpune.org/"
+    },
+    {
+      "hospital_id": "AUNDH_DISTRICT_HOSPITAL",
+      "name": "Aundh District Hospital / Civil Hospital Pune (औंध जिल्हा रुग्णालय)",
+      "governing_body": "Directorate of Health Services (DHS), Government of Maharashtra",
+      "facility_type": "District Civil Hospital & Super-Specialty Healthcare Facility (400+ Beds)",
+      "address": "Aundh - Ravet BRTS Road, Near Sangvi Phata, Old Sangvi / Aundh, Pune, Maharashtra 411027",
+      "coordinates": {
+        "latitude": 18.5715,
+        "longitude": 73.8075
+      },
+      "plus_code": "7JCMHRC5+J2",
+      "contact_phone": "+91-20-27280320"
+    }
+  ],
+  "pmc_municipal_general_and_specialty_hospitals": [
+    {
+      "hospital_id": "KAMLA_NEHRU_HOSPITAL",
+      "name": "Bharatratna Atal Bihari Vajpayee Medical College & Kamla Nehru General Hospital (कमला नेहरू रुग्णालय)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Major Municipal General Teaching Hospital & NICU/Pediatric Center (450+ Beds)",
+      "address": "Mangalwar Peth Road, Near Kasba Post Office, Gandhinagar, Mangalwar Peth, Pune, Maharashtra 411011",
+      "coordinates": {
+        "latitude": 18.5215,
+        "longitude": 73.8645
+      },
+      "plus_code": "7JCMGVC7+JR",
+      "contact_phone": "+91-20-25508500"
+    },
+    {
+      "hospital_id": "DR_NAIDU_HOSPITAL",
+      "name": "Dr. Naidu Infectious Diseases Hospital (डॉ. नायडू सांसर्गिक रोग रुग्णालय)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Apex Municipal Infectious Diseases, Isolation & Epidemic Response Hospital",
+      "address": "Railway Officers Colony, Behind Pune Main Railway Station, Wellesley Road, Sangamwadi, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.532,
+        "longitude": 73.8695
+      },
+      "plus_code": "7JCMGVJ9+QR",
+      "contact_phone": "+91-20-26058243"
+    },
+    {
+      "hospital_id": "RAJIV_GANDHI_HOSPITAL",
+      "name": "Bharat Ratna Late Rajiv Gandhi Hospital (राजीव गांधी रुग्णालय, येरवडा)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Municipal Multi-Speciality General Hospital & Diagnostic Centre",
+      "address": "Deccan College Road, Nawanagar, Salwe Nagar, Yerawada, Pune, Maharashtra 411006",
+      "coordinates": {
+        "latitude": 18.5525,
+        "longitude": 73.8785
+      },
+      "plus_code": "7JCMHV2H+XC",
+      "contact_phone": "+91-7030600100"
+    },
+    {
+      "hospital_id": "SUTAR_HOSPITAL_KOTHRUD",
+      "name": "Shankarrao Dhondiba Sutar Multi-speciality Hospital (सुतार रुग्णालय, कोथरूड)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Municipal General Hospital, Diagnostic Centre & Maternity Care",
+      "address": "Om Trimurti Colony, Shastri Nagar Road, Azad Nagar, Gujrat Colony, Kothrud, Pune, Maharashtra 411038",
+      "coordinates": {
+        "latitude": 18.5045,
+        "longitude": 73.8125
+      },
+      "plus_code": "7JCMGR36+RX",
+      "contact_phone": "+91-9623396233"
+    },
+    {
+      "hospital_id": "DALVI_HOSPITAL",
+      "name": "Dalvi Hospital (दालवी रुग्णालय, शिवाजीनगर)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Municipal Multi-Specialty Hospital & Urban Primary Health Center",
+      "address": "Babulal Sheikth Path, Narveer Tanaji Wadi, Near PMC Bhavan, Shivajinagar, Pune, Maharashtra 411005",
+      "coordinates": {
+        "latitude": 18.5275,
+        "longitude": 73.851
+      },
+      "plus_code": "7JCMGVH2+29",
+      "contact_phone": "+91-20-25531000"
+    },
+    {
+      "hospital_id": "BARATE_HOSPITAL_WARJE",
+      "name": "Late Subhadra Prabhakar Barate Multispeciality Hospital (बार्टक्के रुग्णालय, वारजे)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Municipal Multispeciality Maternity & General Hospital",
+      "address": "Survey No. 63, Warje Hillock Road, Near Mai Mangeshkar Hospital, Warje, Pune, Maharashtra 411058",
+      "coordinates": {
+        "latitude": 18.477,
+        "longitude": 73.7935
+      },
+      "plus_code": "7JCMFQGV+R9",
+      "contact_phone": "+91-20-25448650"
+    },
+    {
+      "hospital_id": "SANJAY_GANDHI_HOSPITAL",
+      "name": "Sanjay Gandhi Hospital (संजय गांधी रुग्णालय, बोपोडी)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Municipal General Hospital & Maternal Child Care Centre (80 Beds)",
+      "address": "Laxmanrao Kirloskar Road, Anupam Nagar, Khadki / Bopodi, Pune, Maharashtra 411020",
+      "coordinates": {
+        "latitude": 18.5685,
+        "longitude": 73.8295
+      },
+      "plus_code": "7JCMHR9H+CQ",
+      "contact_phone": "+91-20-25810200"
+    },
+    {
+      "hospital_id": "MAGAR_HOSPITAL_HADAPSAR",
+      "name": "Late Annasaheb Magar General Hospital (अण्णासाहेब मगर रुग्णालय, हडपसर)",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "facility_type": "Municipal General Hospital serving Eastern Pune suburbs",
+      "address": "Pune - Solapur Road, Near Mantri Market, Gadital, Hadapsar, Pune, Maharashtra 411028",
+      "coordinates": {
+        "latitude": 18.5015,
+        "longitude": 73.931
+      },
+      "plus_code": "7JCMGW2J+H9",
+      "contact_phone": "+91-20-26821092"
+    }
+  ],
+  "pmc_maternity_homes_and_specialized_clinics": [
+    {
+      "facility_id": "SONAWANE_HOSPITAL",
+      "name": "Late Chandumama Sonawane Maternity Hospital (सोनवणे प्रसूतिगृह, भवानी पेठ)",
+      "role": "Major Municipal Maternity Hospital, Neonatal Nursery & Gynecological Centre",
+      "address": "413, Mahatma Phule Peth, Kashewadi, Bhavani Peth, Pune, Maharashtra 411042",
+      "coordinates": {
+        "latitude": 18.5085,
+        "longitude": 73.869
+      },
+      "plus_code": "7JCMGV59+9H",
+      "contact_phone": "+91-20-24440500"
+    },
+    {
+      "facility_id": "MEENATAI_THACKERAY_HOSPITAL",
+      "name": "Meenatai Thackeray Maternity Hospital (मीनाताई ठाकरे प्रसूतिगृह, कोंढवा)",
+      "role": "Municipal Mother & Child Care Hospital serving South-Eastern Pune",
+      "address": "Near Kausar Baugh, Kondhwa Khurd, Pune, Maharashtra 411048",
+      "coordinates": {
+        "latitude": 18.4765,
+        "longitude": 73.891
+      },
+      "plus_code": "7JCMFVGR+JC",
+      "contact_phone": "+91-20-26930050"
+    },
+    {
+      "facility_id": "KHELKAR_HOSPITAL",
+      "name": "Draupadabai Khelkar Maternity Hospital (द्रौपदाबाई खेलकर रुग्णालय, एरंडवणे)",
+      "role": "Municipal Maternity Home & Child Immunization Clinic",
+      "address": "Karve Road, Opposite Sahyadri Hospital, Erandwane, Pune, Maharashtra 411004",
+      "coordinates": {
+        "latitude": 18.511,
+        "longitude": 73.834
+      },
+      "plus_code": "7JCMGR6M+9J",
+      "contact_phone": "+91-20-25442000"
+    },
+    {
+      "facility_id": "DUGAD_HOSPITAL",
+      "name": "Dugad Hospital (दुगड रुग्णालय, बिबवेवाडी)",
+      "role": "Municipal Hospital & Specialized Healthcare Facility (70 Beds)",
+      "address": "Adinath Shopping Centre, Pune - Satara Road, Maharshi Nagar, Bibwewadi, Pune, Maharashtra 411037",
+      "coordinates": {
+        "latitude": 18.4895,
+        "longitude": 73.8605
+      },
+      "plus_code": "7JCMFVQ6+Q6",
+      "contact_phone": "+91-20-24268000"
+    },
+    {
+      "facility_id": "HOMI_BHABHA_HOSPITAL",
+      "name": "Homi Bhabha Hospital (होमी भाभा रुग्णालय, शिवाजीनगर)",
+      "role": "Municipal Healthcare & Day-Care Diagnostic Centre",
+      "address": "Near Congress Bhavan / Modern High School Road, Shivajinagar, Pune, Maharashtra 411005",
+      "coordinates": {
+        "latitude": 18.525,
+        "longitude": 73.849
+      },
+      "plus_code": "7JCMGRGX+2H",
+      "contact_phone": "+91-20-25501000"
+    },
+    {
+      "facility_id": "RAMABAI_AMBEDKAR_HOSPITAL",
+      "name": "Mata Ramabai Ambedkar Maternity Hospital (रमाबाई आंबेडकर प्रसूतिगृह, ताडीवाला रोड)",
+      "role": "Maternal health and pediatric clinic for Central Railway Station / Tadiwala belt",
+      "address": "Survey No. 190, Tadiwala Road, Sangamwadi / Dhole Patil Ward, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.531,
+        "longitude": 73.879
+      },
+      "plus_code": "7JCMGVJH+CJ",
+      "contact_phone": "+91-20-26123400"
+    },
+    {
+      "facility_id": "BINDUMADHAV_THACKERAY_HOSPITAL",
+      "name": "Bindumadhav Thackeray Hospital (बिंदूमाधव ठाकरे रुग्णालय, कोथरूड)",
+      "role": "Municipal Health Centre, Dispensary & Specialized Maternity Care",
+      "address": "Gosavi Vasti, Off Paud Road, Kothrud, Pune, Maharashtra 411038",
+      "coordinates": {
+        "latitude": 18.506,
+        "longitude": 73.8055
+      },
+      "plus_code": "7JCMGR44+C5",
+      "contact_phone": "+91-20-25501600"
+    },
+    {
+      "facility_id": "SIDDHARTH_HOSPITAL",
+      "name": "Siddharth Hospital (सिद्धार्थ रुग्णालय, धनकवडी)",
+      "role": "Municipal General Healthcare and Dispensary Unit",
+      "address": "Sambhajinagar, Pune - Satara Road, Dhankawadi, Pune, Maharashtra 411043",
+      "coordinates": {
+        "latitude": 18.4685,
+        "longitude": 73.8565
+      },
+      "plus_code": "7JCMFV94+CH",
+      "contact_phone": "+91-20-25508900"
+    }
+  ]
+}

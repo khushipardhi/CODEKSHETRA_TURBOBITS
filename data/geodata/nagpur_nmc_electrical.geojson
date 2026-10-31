@@ -1,0 +1,613 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_Electrical_Offices_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "6. NMC Electrical",
+    "department_id": 6,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 18,
+    "categories": [
+      {
+        "category": "Street Light Outages",
+        "sub_categories": [
+          "Non-functioning public street lights",
+          "Flickering street lights"
+        ]
+      },
+      {
+        "category": "Power Wastage",
+        "sub_categories": [
+          "Street lights left turned on during the daytime"
+        ]
+      },
+      {
+        "category": "Electrical Hazards",
+        "sub_categories": [
+          "Dangerous exposed wiring on public electric poles",
+          "Short-circuiting street lamps"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-HQ01",
+        "name": "NMC Electrical Department (Central Headquarters)",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Municipal Department Headquarters",
+        "zone": "Central Administration",
+        "division": "NMC Executive Engineer (Electrical)",
+        "address": "2nd Floor, NMC Central Administrative Building, Mahanagar Palika Marg, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "Citywide LED street light conversion, central public illumination infrastructure, high-mast lighting towers, energy-audit and electrical safety compliance",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-HQ02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0758,
+          21.1548
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-HQ02",
+        "name": "NMC Central Street Light SCADA Automation & Smart Lighting Control Room",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Central SCADA & Lighting Monitoring Centre",
+        "zone": "Central Administration",
+        "division": "Smart City Lighting Cell",
+        "address": "NMC Central Administrative Complex, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567029",
+        "emergency_number": "1800-233-3333 / 112",
+        "jurisdiction_area": "Automated astronomical timer monitoring, centralized daytime glow (power wastage) switching, dark-spot surveillance and remote feeder fault isolation",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0628,
+          21.1215
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z01",
+        "name": "NMC Laxmi Nagar Zone No. 1 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Laxmi Nagar Zone (Zone 1)",
+        "division": "Zone 1 Electrical Division",
+        "address": "Near Water Tank, Hingna Road, Laxmi Nagar, Nagpur, Maharashtra 440022",
+        "locality": "Laxmi Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2245833",
+        "emergency_number": "+91-9130616734 / 112",
+        "jurisdiction_area": "Laxmi Nagar, Pratap Nagar, Bajaj Nagar, Trimurti Nagar, VNIT, Khamla (LED street light repairs, flickering fixtures, exposed pole wiring hazards)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0575,
+          21.1448
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z02",
+        "name": "NMC Dharampeth Zone No. 2 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Dharampeth Zone (Zone 2)",
+        "division": "Zone 2 Electrical Division",
+        "address": "90, Gokulpeth Market Road, Dharampeth, Nagpur, Maharashtra 440010",
+        "locality": "Gokulpeth / Dharampeth",
+        "pincode": "440010",
+        "contact_number": "+91-712-2565589",
+        "emergency_number": "+91-9823245671 / 112",
+        "jurisdiction_area": "Dharampeth, Ram Nagar, Ambazari, Ravi Nagar, Civil Lines, Seminary Hills (Futala lake lighting, daytime switch-off, loose cable grounding)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0985,
+          21.1212
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z03",
+        "name": "NMC Hanuman Nagar Zone No. 3 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Hanuman Nagar Zone (Zone 3)",
+        "division": "Zone 3 Electrical Division",
+        "address": "Tukdoji Putla Square, Manewada Road, Hanuman Nagar, Nagpur, Maharashtra 440009",
+        "locality": "Hanuman Nagar",
+        "pincode": "440009",
+        "contact_number": "+91-712-2755589",
+        "emergency_number": "+91-9823245673 / 112",
+        "latitude": 21.1212,
+        "longitude": 79.0985,
+        "jurisdiction_area": "Hanuman Nagar, Medical Square, Manewada, Besa fringe, Rameshwari (Sodium/LED luminaire replacement, pole spark hazards, daytime energy wastage)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0825,
+          21.1378
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z04",
+        "name": "NMC Dhantoli Zone No. 4 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Dhantoli Zone (Zone 4)",
+        "division": "Zone 4 Electrical Division",
+        "address": "Yashwant Stadium Commercial Complex, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2465299",
+        "emergency_number": "+91-9823350242 / 112",
+        "jurisdiction_area": "Dhantoli, Congress Nagar, Rahate Colony, Sitabuldi Market south, Imamwada (High-mast stadium lights, commercial lane lighting, exposed junction boxes)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1182,
+          21.1225
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z05",
+        "name": "NMC Nehru Nagar Zone No. 5 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Nehru Nagar Zone (Zone 5)",
+        "division": "Zone 5 Electrical Division",
+        "address": "Near Sakkardara Lake, Nehru Nagar Road, Nagpur, Maharashtra 440024",
+        "locality": "Nehru Nagar / Sakkardara",
+        "pincode": "440024",
+        "contact_number": "+91-712-2700090",
+        "emergency_number": "+91-9823313064 / 112",
+        "latitude": 21.1225,
+        "longitude": 79.1182,
+        "jurisdiction_area": "Nehru Nagar, Sakkardara, Nandanvan, Dighori, Tajbagh, Hasanbagh (Street lamp maintenance, automated timer calibration, short-circuit emergency response)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1068,
+          21.1438
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z06",
+        "name": "NMC Gandhi Mahal / Gandhibagh Zone No. 6 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Gandhibagh Zone (Zone 6)",
+        "division": "Zone 6 Electrical Division",
+        "address": "Town Hall Premises, Mahal, Nagpur, Maharashtra 440002",
+        "locality": "Mahal / Gandhibagh",
+        "pincode": "440002",
+        "contact_number": "+91-712-2735599",
+        "emergency_number": "+91-9823313086 / 112",
+        "jurisdiction_area": "Mahal, Gandhibagh, Itwari market, Badkas Chowk, Tilak Putla (Heritage market street lighting, overhead wire entanglement repairs, non-functional fixtures)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1125,
+          21.1592
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z07",
+        "name": "NMC Satranjipura Zone No. 7 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Satranjipura Zone (Zone 7)",
+        "division": "Zone 7 Electrical Division",
+        "address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur, Maharashtra 440002",
+        "locality": "Satranjipura",
+        "pincode": "440002",
+        "contact_number": "+91-7030577650",
+        "emergency_number": "+91-9823313105 / 112",
+        "latitude": 21.1592,
+        "longitude": 79.1125,
+        "jurisdiction_area": "Satranjipura, Tandapeth, Hansapuri, Wholesale Grain Market (Crowded lane illumination, short-circuit mitigation, daytime power shutoff)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1265,
+          21.1515
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z08",
+        "name": "NMC Lakadganj Zone No. 8 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Lakadganj Zone (Zone 8)",
+        "division": "Zone 8 Electrical Division",
+        "address": "Old Bhandara Road, Near Queta Colony, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2737599",
+        "emergency_number": "+91-9850342942 / 112",
+        "latitude": 21.1515,
+        "longitude": 79.1265,
+        "jurisdiction_area": "Lakadganj, Wardhaman Nagar, Pardi, Surya Nagar, HB Town (Industrial feeder lighting, highway underpass lights, damaged electrical pole replacement)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1785
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z09",
+        "name": "NMC Ashi Nagar Zone No. 9 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Ashi Nagar Zone (Zone 9)",
+        "division": "Zone 9 Electrical Division",
+        "address": "Kamal Chowk Road, Near Panchpaoli Overbridge, Ashi Nagar, Nagpur, Maharashtra 440017",
+        "locality": "Ashi Nagar / Kamal Chowk",
+        "pincode": "440017",
+        "contact_number": "+91-712-2653476",
+        "emergency_number": "+91-9923799884 / 112",
+        "latitude": 21.1785,
+        "longitude": 79.1025,
+        "jurisdiction_area": "Ashi Nagar, Panchpaoli, Lashkaribagh, Uppalwadi, Yashodhara Nagar (Flickering street lights, power line clearance, dangling low-voltage cables)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-Z10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0762,
+          21.1685
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-Z10",
+        "name": "NMC Mangalwari Zone No. 10 Electrical & Street Lighting Office",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Zonal Electrical Engineering Office",
+        "zone": "Mangalwari Zone (Zone 10)",
+        "division": "Zone 10 Electrical Division",
+        "address": "408, New Colony, Koradi Road, Sadar, Nagpur, Maharashtra 440013",
+        "locality": "New Colony / Sadar",
+        "pincode": "440013",
+        "contact_number": "+91-712-2598800",
+        "emergency_number": "+91-9823245679 / 112",
+        "latitude": 21.1685,
+        "longitude": 79.0762,
+        "jurisdiction_area": "Mangalwari, Sadar, Mankapur, Gittikhadan, Zingabai Takli, Koradi corridor (Arterial street lighting, high-mast illumination, broken electric pole repairs)",
+        "handling_categories": [
+          "Street Light Outages",
+          "Power Wastage",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-MSD01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0625,
+          21.1682
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-MSD01",
+        "name": "MSEDCL Nagpur Urban Circle Office (Vidyut Bhavan)",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "State Electricity Distribution Circle Headquarters",
+        "zone": "State Power Grid",
+        "division": "MSEDCL Nagpur Urban Circle",
+        "address": "Vidyut Bhavan, Katol Road, Gittikhadan, Nagpur, Maharashtra 440013",
+        "locality": "Katol Road / Gittikhadan",
+        "pincode": "440013",
+        "contact_number": "+91-712-2582400",
+        "emergency_number": "1912 / 1800-233-3435 (24x7 MSEDCL Helpline)",
+        "latitude": 21.1682,
+        "longitude": 79.0625,
+        "jurisdiction_area": "High-voltage distribution grid, power transformer failures, major sub-station faults, HT/LT electrical wire snapping emergencies across Nagpur",
+        "handling_categories": [
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-MSD02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0712,
+          21.1528
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-MSD02",
+        "name": "MSEDCL West Urban Division Office (Civil Lines)",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Electricity Distribution Division Office",
+        "zone": "West Urban Division",
+        "division": "MSEDCL Civil Lines Division",
+        "address": "Beside High Court, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2561100",
+        "emergency_number": "1912 / 112",
+        "latitude": 21.1528,
+        "longitude": 79.0712,
+        "jurisdiction_area": "Civil Lines, Dharampeth, Ram Nagar, Seminary Hills (Transformer sparking, underground cable damage, public electric post current leakage)",
+        "handling_categories": [
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-MSD03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0798,
+          21.1345
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-MSD03",
+        "name": "MSEDCL South Urban Division Office (Congress Nagar)",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Electricity Distribution Division Office",
+        "zone": "South Urban Division",
+        "division": "MSEDCL Congress Nagar Division",
+        "address": "Sub-Station Complex, Congress Nagar, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Congress Nagar / Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2424100",
+        "emergency_number": "1912 / 112",
+        "latitude": 21.1345,
+        "longitude": 79.0798,
+        "jurisdiction_area": "Dhantoli, Laxmi Nagar, Pratap Nagar, Sonegaon, Wardha Road (Public pole wire detachment, transformer oil leakage hazards, street light feeder supply)",
+        "handling_categories": [
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-MSD04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1085,
+          21.1442
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-MSD04",
+        "name": "MSEDCL East Urban Division Office (Mahal)",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Electricity Distribution Division Office",
+        "zone": "East Urban Division",
+        "division": "MSEDCL Mahal Division",
+        "address": "Kotwali Sub-Station Premises, Mahal Road, Nagpur, Maharashtra 440002",
+        "locality": "Mahal",
+        "pincode": "440002",
+        "contact_number": "+91-712-2734200",
+        "emergency_number": "1912 / 112",
+        "latitude": 21.1442,
+        "longitude": 79.1085,
+        "jurisdiction_area": "Mahal, Gandhibagh, Itwari, Sakkardara, Lakadganj (High-density market electric cable snapping, overloaded distribution boxes, sparking overhead lines)",
+        "handling_categories": [
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-OPR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0525,
+          21.1768
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-OPR01",
+        "name": "NMC Central Electrical Heavy Machinery & Hydraulic Sky-Lift Crane Yard",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Electrical Equipment & Sky-Lift Crane Depot",
+        "zone": "Central Workshop Grid",
+        "division": "NMC Electrical Rapid Maintenance Fleet",
+        "address": "Gittikhadan Municipal Workshop Complex, Katol Road, Nagpur, Maharashtra 440013",
+        "locality": "Gittikhadan",
+        "pincode": "440013",
+        "contact_number": "+91-712-2583320",
+        "emergency_number": "0712-2567777 / 112",
+        "latitude": 21.1768,
+        "longitude": 79.0525,
+        "jurisdiction_area": "Deployment base for hydraulic sky-lift crane trucks, high-mast floodlight servicing squads, and street light electrical cable breakdown vans",
+        "handling_categories": [
+          "Street Light Outages",
+          "Electrical Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-ELE-OPR02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0918,
+          21.1465
+        ]
+      },
+      "properties": {
+        "id": "NGP-ELE-OPR02",
+        "name": "NMC Street Light Pole Fabrication & Central Electrical Stores",
+        "department": "NMC Electrical",
+        "department_id": 6,
+        "facility_type": "Central Electrical Material Store & Workshop",
+        "zone": "Central Supply Grid",
+        "division": "NMC Electrical Procurement & Stores",
+        "address": "NMC Central Stores Campus, Near Cotton Market Square, Subhash Road, Nagpur, Maharashtra 440018",
+        "locality": "Cotton Market / Ganeshpeth",
+        "pincode": "440018",
+        "contact_number": "+91-712-2724420",
+        "emergency_number": "112",
+        "latitude": 21.1465,
+        "longitude": 79.0918,
+        "jurisdiction_area": "Central storage of LED luminaire fixtures, underground armored power cables, electrical control timers, octagonal steel poles, and junction boxes",
+        "handling_categories": [
+          "Street Light Outages",
+          "Electrical Hazards"
+        ]
+      }
+    }
+  ]
+}

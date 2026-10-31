@@ -1,0 +1,640 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Pune Ambulance Departments, Emergency Dispatch Hubs & Hospital Bases",
+    "city": "Pune, Maharashtra, India",
+    "total_features": 27,
+    "coordinate_system": "WGS 84 (EPSG:4326)",
+    "agencies_included": [
+      "Maharashtra Emergency Medical Services (MEMS 108 / National Health Mission)",
+      "Pune Municipal Corporation (PMC) – Health Department Ambulance Control",
+      "Government & District Hospitals (Sassoon, Aundh Civil, YCMH, Kamala Nehru, Naidu)",
+      "Cantonment & Military Hospitals (Command Hospital, Khadki, PCB)",
+      "Major Charitable & Tertiary Care Emergency Hospitals in Pune"
+    ],
+    "generated_timestamp": "2026-10-03T11:00:00+05:30"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "mems_108_hq_aundh",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.807218,
+          18.575795
+        ]
+      },
+      "properties": {
+        "id": "mems_108_hq_aundh",
+        "name": "Maharashtra Emergency Medical Services (MEMS 108) Central Control Room & State ERC",
+        "agency": "National Health Mission (NHM) / BVG India Ltd.",
+        "facility_type": "State & District 108 Emergency Response Centre",
+        "area": "Aundh / Pimple Gurav",
+        "address": "Aundh Chest Hospital Campus, 13 to 15, PCH Campus Road, Defence Area, Pimple Gurav / Aundh, Pune – 411027",
+        "role": "Statewide centralized 24x7 emergency response centre, 108 call triage, real-time GPS ambulance tracking, and emergency fleet dispatch for Pune district and Maharashtra",
+        "contact": "Toll-Free: 108 / 102",
+        "latitude": 18.575795,
+        "longitude": 73.807218
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_ambulance_central_control",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854392,
+          18.524398
+        ]
+      },
+      "properties": {
+        "id": "pmc_ambulance_central_control",
+        "name": "PMC Health Department - Central Ambulance Control & Disaster Management Cell",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal Central Ambulance Control",
+        "area": "Shivajinagar",
+        "address": "PMC Main Administrative Building, Shivaji Nagar, Near Mangala Multiplex, Pune – 411005",
+        "role": "Civic health department emergency ambulance depot managing 54 municipal emergency ambulances and hearse vans stationed across civic hospitals",
+        "contact": "020-25501269 / 020-25506800 / 020-25501000 / 102",
+        "latitude": 18.524398,
+        "longitude": 73.854392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sassoon_trauma_ambulance_base",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8745,
+          18.5276
+        ]
+      },
+      "properties": {
+        "id": "sassoon_trauma_ambulance_base",
+        "name": "Sassoon General Hospital & B.J. Govt Medical College Emergency & Trauma Ambulance Base",
+        "agency": "Government of Maharashtra / Directorate of Medical Education & Research",
+        "facility_type": "Apex Level-1 Trauma Emergency Ambulance Base",
+        "area": "Pune Station / Agarkar Nagar",
+        "address": "Jai Prakash Narayan Road (Station Road), Near Pune Railway Station, Agarkar Nagar, Pune – 411001",
+        "role": "Western Maharashtra's premier public tertiary trauma hospital with 24x7 emergency casualty, disaster ambulances, and advanced cardiac resuscitation fleet",
+        "contact": "020-26128000 / 020-26133300 / 108",
+        "latitude": 18.5276,
+        "longitude": 73.8745
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aundh_civil_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8118,
+          18.5715
+        ]
+      },
+      "properties": {
+        "id": "aundh_civil_hospital_ambulance",
+        "name": "District Hospital Pune (Aundh Civil Hospital) 108 Ambulance Base",
+        "agency": "Public Health Department, Government of Maharashtra",
+        "facility_type": "District Civil Hospital Ambulance Base",
+        "area": "Aundh / Sangvi",
+        "address": "Aundh-Ravet BRTS Road, Near Sangvi Phata, Aundh, Pune – 411027",
+        "role": "District hospital casualty and emergency ambulance dispatch base serving northwest Pune, Aundh, Sangvi, and Pune-Mumbai highway commuter corridor",
+        "contact": "020-27280237 / 108 / 102",
+        "latitude": 18.5715,
+        "longitude": 73.8118
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kamala_nehru_ambulance_center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.862061,
+          18.522848
+        ]
+      },
+      "properties": {
+        "id": "kamala_nehru_ambulance_center",
+        "name": "Kamala Nehru Hospital (PMC Main Hospital) Ambulance Center",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal Multi-Speciality Hospital Ambulance Base",
+        "area": "Mangalwar Peth",
+        "address": "Mangalwar Peth Road, Near Kasba Post Office, Kasba Peth / Mangalwar Peth, Pune – 411011",
+        "role": "PMC's flagship multi-speciality general hospital operating 24x7 municipal ambulances, neonatal ICU transport, and emergency patient referral vehicles",
+        "contact": "020-25508500 / 102 / 108",
+        "latitude": 18.522848,
+        "longitude": 73.862061
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ycm_hospital_ambulance_base",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.821028,
+          18.621819
+        ]
+      },
+      "properties": {
+        "id": "ycm_hospital_ambulance_base",
+        "name": "YCM Hospital (PCMC) Emergency & Trauma Ambulance Base",
+        "agency": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+        "facility_type": "Municipal Apex Trauma Ambulance Base (PCMC)",
+        "area": "Pimpri / Sant Tukaram Nagar",
+        "address": "No. 476/2692, Sant Tukaram Nagar, Pimpri Colony, Pimpri-Chinchwad, Pune – 411018",
+        "role": "Major multi-speciality postgraduate hospital handling high-volume emergency trauma admissions, industrial accident rescue, and critical ambulance logistics in northern Pune",
+        "contact": "020-27422405 / 020-27423333 / 108",
+        "latitude": 18.621819,
+        "longitude": 73.821028
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "naidu_hospital_ambulance_unit",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.86895,
+          18.53141
+        ]
+      },
+      "properties": {
+        "id": "naidu_hospital_ambulance_unit",
+        "name": "Naidu Infectious Diseases Hospital (PMC) Ambulance Unit",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Infectious Disease & Isolation Ambulance Base",
+        "area": "Sangamvadi / Station",
+        "address": "Wellesley Road, Behind Pune Railway Station, Sangamvadi, Pune – 411001",
+        "role": "PMC's specialized hospital equipped with biological isolation transport ambulances and containment protocol vehicles for communicable disease outbreaks",
+        "contact": "020-26058243 / 102",
+        "latitude": 18.53141,
+        "longitude": 73.86895
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sonawane_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.86876,
+          18.506101
+        ]
+      },
+      "properties": {
+        "id": "sonawane_hospital_ambulance",
+        "name": "Late Chandumama Sonawane Hospital (PMC) Ambulance Center",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal Maternity & Pediatric Ambulance Base",
+        "area": "Guruwar Peth / Bhavani Peth",
+        "address": "Kashewadi, Near Jawaharlal Nehru Road, Guruwar Peth / Bhavani Peth, Pune – 411002",
+        "role": "Municipal hospital operating 24-hour maternal emergency ambulances and neonatal critical care transfer units for central Pune",
+        "contact": "020-24440500 / 102",
+        "latitude": 18.506101,
+        "longitude": 73.86876
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rajiv_gandhi_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.883791,
+          18.54555
+        ]
+      },
+      "properties": {
+        "id": "rajiv_gandhi_hospital_ambulance",
+        "name": "Bharat Ratna Late Rajiv Gandhi Hospital (PMC) Ambulance Center",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal General Hospital Ambulance Base",
+        "area": "Yerawada",
+        "address": "Deccan College Road, Nawanagar, Salwe Nagar, Yerawada, Pune – 411006",
+        "role": "Emergency ambulance base serving Yerawada, Kalyani Nagar, Shastrinagar, and Ahmednagar Road suburbs",
+        "contact": "020-26684000 / 102",
+        "latitude": 18.54555,
+        "longitude": 73.883791
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sutar_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.807785,
+          18.503679
+        ]
+      },
+      "properties": {
+        "id": "sutar_hospital_ambulance",
+        "name": "Shankarrao Dhondiba Sutar Multi-speciality Hospital (PMC) Ambulance Center",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal General Hospital Ambulance Base",
+        "area": "Kothrud",
+        "address": "Om Trimurti Colony, Shastri Nagar Road, Azad Nagar, Kothrud, Pune – 411038",
+        "role": "PMC multi-speciality ambulance station serving western suburbs of Kothrud, Karve Nagar, and Warje",
+        "contact": "020-25381000 / 102",
+        "latitude": 18.503679,
+        "longitude": 73.807785
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dr_kotnis_gadikhana_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.858009,
+          18.511858
+        ]
+      },
+      "properties": {
+        "id": "dr_kotnis_gadikhana_ambulance",
+        "name": "Dr. Kotnis Arogya Kendra (Gadikhana Central Health Hub)",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal Central Health & Ambulance Base",
+        "area": "Shukrawar Peth / Mandai",
+        "address": "GV65+P6R, Mandai Road, Shukrawar Peth, Pune – 411002",
+        "role": "Historic core municipal health dispensary and ambulance point providing emergency coverage for the central Peth marketplace",
+        "contact": "020-24451000 / 102",
+        "latitude": 18.511858,
+        "longitude": 73.858009
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "command_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.882353,
+          18.496472
+        ]
+      },
+      "properties": {
+        "id": "command_hospital_ambulance",
+        "name": "Command Hospital (Southern Command) Military Emergency Ambulance Center",
+        "agency": "Indian Armed Forces / Ministry of Defence",
+        "facility_type": "Military Multi-Speciality Emergency Ambulance Center",
+        "area": "Wanowrie / Pune Cantonment",
+        "address": "Cross Road, Near AFMC, Wanowrie, Pune Cantonment, Pune – 411040",
+        "role": "Armed forces tertiary hospital ambulance base providing ALS military ambulances and disaster support to civil authorities during major crises",
+        "contact": "020-26306000 / 020-26363300",
+        "latitude": 18.496472,
+        "longitude": 73.882353
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "khadki_cantonment_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.848621,
+          18.568019
+        ]
+      },
+      "properties": {
+        "id": "khadki_cantonment_hospital_ambulance",
+        "name": "Dr. Babasaheb Ambedkar Cantonment General Hospital Ambulance Base",
+        "agency": "Khadki Cantonment Board (KCB)",
+        "facility_type": "Cantonment General Hospital Ambulance Base",
+        "area": "Khadki",
+        "address": "Elphinstone Road, Kasamali Jumbo Marg, Khadki Cantonment, Pune – 411003",
+        "role": "Cantonment public hospital providing 24x7 emergency medical transport and casualty transfer for Khadki military and civilian residents",
+        "contact": "020-25819155 / 020-25817000",
+        "latitude": 18.568019,
+        "longitude": 73.848621
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcb_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.877628,
+          18.502702
+        ]
+      },
+      "properties": {
+        "id": "pcb_hospital_ambulance",
+        "name": "Pune Cantonment Board General Hospital Ambulance Base",
+        "agency": "Pune Cantonment Board (PCB)",
+        "facility_type": "Cantonment General Hospital Ambulance Base",
+        "area": "Pune Camp / Cantonment",
+        "address": "Pune-Solapur Road, Near Golibar Maidan, Camp, Pune – 411001",
+        "role": "Cantonment board emergency ambulance unit servicing Camp, Wanowrie, and southeastern highway junction corridors",
+        "contact": "020-26450453",
+        "latitude": 18.502702,
+        "longitude": 73.877628
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kem_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.866976,
+          18.519972
+        ]
+      },
+      "properties": {
+        "id": "kem_hospital_ambulance",
+        "name": "KEM Hospital Emergency Ambulance Service",
+        "agency": "KEM Hospital Trust (Charitable Tertiary Hospital)",
+        "facility_type": "Tertiary Care Cardiac & Trauma Ambulance Base",
+        "area": "Rasta Peth",
+        "address": "489, Mudaliar Road, Rasta Peth, Pune – 411011",
+        "role": "Major charitable multi-speciality tertiary hospital operating advanced cardiac life support (ACLS) ambulances and pediatric/neonatal emergency vans",
+        "contact": "+91 9421018970 / +91 9850918420 / 020-66037300",
+        "latitude": 18.519972,
+        "longitude": 73.866976
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jehangir_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.876811,
+          18.530321
+        ]
+      },
+      "properties": {
+        "id": "jehangir_hospital_ambulance",
+        "name": "Jehangir Hospital Emergency & Critical Care Ambulance Department",
+        "agency": "Jehangir Clinical Development Centre / Apollo Hospitals Network",
+        "facility_type": "Tertiary Care Critical Care Ambulance Base",
+        "area": "Sangamvadi / Sassoon Road",
+        "address": "32, Sassoon Road, Central Excise Colony, Sangamvadi, Pune – 411001",
+        "role": "Equipped with ICU-on-wheels, transport ventilators, defibrillators, and critical stroke/cardiac rapid response medical crews",
+        "contact": "Emergency: 1066 / +91 8888881066 / 020-66819999",
+        "latitude": 18.530321,
+        "longitude": 73.876811
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ruby_hall_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8778,
+          18.5325
+        ]
+      },
+      "properties": {
+        "id": "ruby_hall_ambulance",
+        "name": "Ruby Hall Clinic Emergency & Cardiac Ambulance Department",
+        "agency": "Grant Medical Foundation (Ruby Hall Clinic)",
+        "facility_type": "Tertiary Care Cardiac Ambulance Base",
+        "area": "Sangamvadi / Sassoon Road",
+        "address": "40, Sassoon Road, Sangamvadi, Pune – 411001",
+        "role": "Fleet of specialized coronary care ambulances, air ambulance coordination cell, and mobile intensive care units with physician on-board",
+        "contact": "020-66455100 / Emergency: 020-26164555 / 108",
+        "latitude": 18.5325,
+        "longitude": 73.8778
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "deenanath_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.831783,
+          18.502413
+        ]
+      },
+      "properties": {
+        "id": "deenanath_hospital_ambulance",
+        "name": "Deenanath Mangeshkar Hospital Emergency & ICU Ambulance Base",
+        "agency": "Lata Mangeshkar Medical Foundation",
+        "facility_type": "Tertiary Multi-Speciality Emergency Ambulance Base",
+        "area": "Erandwane",
+        "address": "Near Mhatre Bridge, Vakil Nagar, Erandwane, Pune – 411004",
+        "role": "Comprehensive fleet of advanced life support ambulances, cardiac resuscitation vans, and pediatric critical care transfer units",
+        "contact": "020-40151000 / 020-49153000 / Emergency: 020-40151600",
+        "latitude": 18.502413,
+        "longitude": 73.831783
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "poona_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.842201,
+          18.51118
+        ]
+      },
+      "properties": {
+        "id": "poona_hospital_ambulance",
+        "name": "Poona Hospital & Research Centre Ambulance Department",
+        "agency": "Poona Hospital Trust",
+        "facility_type": "Emergency & Patient Transport Ambulance Base",
+        "area": "Sadashiv Peth",
+        "address": "27, Near Alka Talkies, Sadashiv Peth, Pune – 411030",
+        "role": "Emergency casualty transport serving central Pune, Alka Talkies intersection, and Sinhgad Road connectivity routes",
+        "contact": "020-66096000 / 020-24331707",
+        "latitude": 18.51118,
+        "longitude": 73.842201
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sancheti_trauma_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8525,
+          18.5298
+        ]
+      },
+      "properties": {
+        "id": "sancheti_trauma_ambulance",
+        "name": "Sancheti Hospital Emergency Orthopaedic & Trauma Ambulance Base",
+        "agency": "Sancheti Institute for Orthopaedics and Rehabilitation",
+        "facility_type": "Trauma & Spinal Injury Ambulance Base",
+        "area": "Shivajinagar",
+        "address": "16, Shivajinagar, Near Sancheti Bridge / JM Road, Pune – 411005",
+        "role": "Specialized orthopedic trauma retrieval ambulances equipped with spinal immobilization boards, splints, and polytrauma life support",
+        "contact": "020-28999999 / 020-25533333",
+        "latitude": 18.5298,
+        "longitude": 73.8525
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sahyadri_deccan_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8341,
+          18.5082
+        ]
+      },
+      "properties": {
+        "id": "sahyadri_deccan_ambulance",
+        "name": "Sahyadri Super Speciality Hospital Emergency Ambulance Base (Deccan)",
+        "agency": "Sahyadri Hospitals Group",
+        "facility_type": "Neuro & Cardiac Emergency Ambulance Base",
+        "area": "Deccan Gymkhana",
+        "address": "Plot No. 30-C, Karve Road, Deccan Gymkhana, Pune – 411004",
+        "role": "Acute stroke response ambulances, primary angioplasty emergency vans, and 24x7 trauma retrieval units",
+        "contact": "020-67215000 / Emergency: 020-67213333",
+        "latitude": 18.5082,
+        "longitude": 73.8341
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bharati_hospital_ambulance_base",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.857316,
+          18.459652
+        ]
+      },
+      "properties": {
+        "id": "bharati_hospital_ambulance_base",
+        "name": "Bharati Hospital & Medical College Emergency Ambulance Base (Katraj)",
+        "agency": "Bharati Vidyapeeth Deemed University",
+        "facility_type": "Medical College Hospital Trauma Ambulance Base",
+        "area": "Katraj / Dhankawadi",
+        "address": "Pune-Satara Road, Bharati Vidyapeeth Campus, Dhankawadi, Katraj, Pune – 411043",
+        "role": "Large medical college casualty and ICU ambulance base providing emergency medical coverage along NH-48 and southern Pune bypass",
+        "contact": "020-40555555 / 020-24373226",
+        "latitude": 18.459652,
+        "longitude": 73.857316
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "noble_hospital_ambulance_base",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9295,
+          18.5105
+        ]
+      },
+      "properties": {
+        "id": "noble_hospital_ambulance_base",
+        "name": "Noble Hospitals & Research Centre Emergency Ambulance Base (Hadapsar)",
+        "agency": "Noble Hospital Group",
+        "facility_type": "Tertiary Care Trauma Ambulance Base",
+        "area": "Hadapsar / Magarpatta",
+        "address": "153, Magarpatta Road, Magarpatta City, Hadapsar, Pune – 411013",
+        "role": "Tertiary care ambulance fleet serving eastern Pune, Magarpatta IT SEZ, and Solapur highway industrial estates",
+        "contact": "020-66285000 / Emergency: 020-66285555",
+        "latitude": 18.5105,
+        "longitude": 73.9295
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inamdar_hospital_ambulance_base",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9015,
+          18.4985
+        ]
+      },
+      "properties": {
+        "id": "inamdar_hospital_ambulance_base",
+        "name": "Inamdar Multispeciality Hospital Emergency Ambulance Base (Wanowrie)",
+        "agency": "Inamdar Multispeciality Hospital",
+        "facility_type": "Tertiary Emergency Ambulance Base",
+        "area": "Wanowrie / Fatima Nagar",
+        "address": "15, Vitthal Rao Shivarkar Road, Fatima Nagar, Wanowrie, Pune – 411013",
+        "role": "Critical care cardiac and emergency ambulances serving Wanowrie, Fatima Nagar, Kondhwa, and Pune Cantonment communities",
+        "contact": "020-66816666 / Emergency: +91 9766699999",
+        "latitude": 18.4985,
+        "longitude": 73.9015
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manipal_hospital_kharadi_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9392,
+          18.5385
+        ]
+      },
+      "properties": {
+        "id": "manipal_hospital_kharadi_ambulance",
+        "name": "Manipal Hospital Emergency Ambulance Base (Kharadi)",
+        "agency": "Manipal Hospitals Group",
+        "facility_type": "Tertiary Emergency Ambulance Base",
+        "area": "Kharadi",
+        "address": "22/2A, Mundhwa-Kharadi Road, Near Nyati Empire, Kharadi, Pune – 411014",
+        "role": "Advanced life support ambulance and rapid emergency response dispatch for Kharadi EON IT park, Wagholi, and Nagar road belt",
+        "contact": "020-61656666 / Emergency: 020-61656660",
+        "latitude": 18.5385,
+        "longitude": 73.9392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jupiter_hospital_baner_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.786047,
+          18.565388
+        ]
+      },
+      "properties": {
+        "id": "jupiter_hospital_baner_ambulance",
+        "name": "Jupiter Hospital Emergency Ambulance Base (Baner)",
+        "agency": "Jupiter Hospital Group",
+        "facility_type": "Tertiary Care Trauma & Cardiac Ambulance Base",
+        "area": "Baner / Balewadi",
+        "address": "Near Prathamesh Park, Baner Road, Baner, Pune – 411045",
+        "role": "Tertiary emergency medical fleet serving Baner, Balewadi, Aundh, Pashan, and Mumbai-Pune expressway corridor",
+        "contact": "020-27992799 / Emergency: 020-27992222",
+        "latitude": 18.565388,
+        "longitude": 73.786047
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aditya_birla_hospital_ambulance",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7712,
+          18.6231
+        ]
+      },
+      "properties": {
+        "id": "aditya_birla_hospital_ambulance",
+        "name": "Aditya Birla Memorial Hospital Emergency Ambulance Base (Chinchwad)",
+        "agency": "Aditya Birla Memorial Hospital Trust",
+        "facility_type": "Multi-Super Speciality Trauma Ambulance Base",
+        "area": "Chinchwad / Thergaon",
+        "address": "Aditya Birla Hospital Marg, Thergaon, Chinchwad, Pimpri-Chinchwad, Pune – 411033",
+        "role": "JCI-accredited tertiary care trauma center operating advanced ALS/BLS mobile intensive care ambulances, neo-natal transport, and highway accident rescue",
+        "contact": "020-30717777 / Emergency: +91 9881123033 / 020-30717788",
+        "latitude": 18.6231,
+        "longitude": 73.7712
+      }
+    }
+  ]
+}

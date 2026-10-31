@@ -1,0 +1,408 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_Metropolitan_Transport_Department_RTO_and_Transit_Depots",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8512,
+          19.0632
+        ]
+      },
+      "properties": {
+        "name": "Maharashtra Transport Commissionerate (State Apex Headquarters)",
+        "agency": "Motor Vehicles Department (Government of Maharashtra)",
+        "facility_type": "State Apex Transport Commissionerate Headquarters",
+        "jurisdiction": "State of Maharashtra (Statewide Motor Vehicle Administration)",
+        "address": "4th Floor, New Administrative Building, Near Dr. Babasaheb Ambedkar Garden, Government Colony, Bandra East, Mumbai, Maharashtra 400051",
+        "officer": "Transport Commissioner, Maharashtra State",
+        "designation": "Transport Commissioner",
+        "phone": "+91-22-26572233",
+        "email": "tc.maharashtra@gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8152,
+          18.9725
+        ]
+      },
+      "properties": {
+        "name": "Regional Transport Office (RTO) Mumbai Central - MH-01",
+        "agency": "Motor Vehicles Department (Government of Maharashtra)",
+        "facility_type": "Regional Transport Office (RTO)",
+        "jurisdiction": "South Mumbai / Island City (Colaba to Mahim/Sion)",
+        "address": "Old Bodyguard Lane, Tulsiwadi, Tardeo Road, Mumbai Central, Mumbai, Maharashtra 400034",
+        "officer": "Regional Transport Officer, Mumbai Central",
+        "designation": "RTO (MH-01)",
+        "phone": "+91-22-23534600",
+        "email": "rtomumbaicentral@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8285,
+          19.1312
+        ]
+      },
+      "properties": {
+        "name": "Regional Transport Office (RTO) Mumbai West / Andheri - MH-02",
+        "agency": "Motor Vehicles Department (Government of Maharashtra)",
+        "facility_type": "Regional Transport Office (RTO)",
+        "jurisdiction": "Western Suburbs (Bandra to Jogeshwari & Goregaon)",
+        "address": "D/111, Ambivali Village, New Manish Nagar, Versova Road, Andheri West, Mumbai, Maharashtra 400053",
+        "officer": "Regional Transport Officer, Mumbai West",
+        "designation": "RTO (MH-02)",
+        "phone": "+91-22-26366952",
+        "email": "rtomumbaiwest@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8712,
+          19.0285
+        ]
+      },
+      "properties": {
+        "name": "Regional Transport Office (RTO) Mumbai East / Wadala - MH-03",
+        "agency": "Motor Vehicles Department (Government of Maharashtra)",
+        "facility_type": "Regional Transport Office (RTO)",
+        "jurisdiction": "Eastern Suburbs (Kurla, Chembur, Ghatkopar, Mulund)",
+        "address": "Building B-2, 3rd Floor, Wadala Truck Terminal, Wadala Road, Wadala East, Mumbai, Maharashtra 400037",
+        "officer": "Regional Transport Officer, Mumbai East",
+        "designation": "RTO (MH-03)",
+        "phone": "+91-22-24036479",
+        "email": "rtomumbaieast@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8525,
+          19.2532
+        ]
+      },
+      "properties": {
+        "name": "Deputy Regional Transport Office (Dy. RTO) Borivali / Dahisar - MH-47",
+        "agency": "Motor Vehicles Department (Government of Maharashtra)",
+        "facility_type": "Deputy Regional Transport Office (Dy. RTO)",
+        "jurisdiction": "North Mumbai (Malad, Kandivali, Borivali, Dahisar)",
+        "address": "Wing-A, Link Road, Kandarpada, Anand Park, Dahisar West, Mumbai, Maharashtra 400068",
+        "officer": "Deputy Regional Transport Officer, Borivali",
+        "designation": "Dy. RTO (MH-47)",
+        "phone": "+91-22-28926000",
+        "email": "dyrtoborivali@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9984,
+          19.0768
+        ]
+      },
+      "properties": {
+        "name": "Regional Transport Office (RTO) Navi Mumbai - MH-43",
+        "agency": "Motor Vehicles Department (Government of Maharashtra)",
+        "facility_type": "Regional Transport Office (RTO)",
+        "jurisdiction": "Navi Mumbai (NMMC Area: Vashi, Belapur, Nerul, Airoli, Panvel)",
+        "address": "Block-T, Sector 19B, APMC Market Compound, Vashi, Navi Mumbai, Maharashtra 400703",
+        "officer": "Regional Transport Officer, Navi Mumbai",
+        "designation": "RTO (MH-43)",
+        "phone": "+91-22-27883333",
+        "email": "rtonavimumbai@gmail.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8315,
+          18.9242
+        ]
+      },
+      "properties": {
+        "name": "BEST Undertaking - Transport Directorate (Headquarters)",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Civic Public Bus Transport Headquarters",
+        "jurisdiction": "Greater Mumbai & Extended Metropolitan Bus Network",
+        "address": "1st Floor, BEST Bhavan, BEST Marg, Colaba, Mumbai, Maharashtra 400001",
+        "officer": "General Manager / Chief Manager (Transport)",
+        "designation": "Chief Manager (Transport)",
+        "phone": "+91-22-22873962",
+        "email": "transport@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8285,
+          18.9142
+        ]
+      },
+      "properties": {
+        "name": "BEST Colaba Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Zonal Bus Depot & Operational Terminal",
+        "jurisdiction": "South Mumbai Coastal Corridor (Colaba, Gateway of India, Navy Nagar)",
+        "address": "Shahid Bhagat Singh Road, Colaba, Mumbai, Maharashtra 400005",
+        "officer": "Depot Manager, Colaba",
+        "designation": "Depot Manager",
+        "phone": "+91-22-22851234",
+        "email": "depot.colaba@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8195,
+          18.9185
+        ]
+      },
+      "properties": {
+        "name": "BEST Backbay Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Zonal Bus Depot & Southern Terminal",
+        "jurisdiction": "Cuffe Parade, Nariman Point & Marine Drive Corridors",
+        "address": "G.D. Somani Marg, Cuffe Parade, Mumbai, Maharashtra 400005",
+        "officer": "Depot Manager, Backbay",
+        "designation": "Depot Manager",
+        "phone": "+91-22-22181234",
+        "email": "depot.backbay@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8184,
+          19.0062
+        ]
+      },
+      "properties": {
+        "name": "BEST Worli Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Central Zonal Bus Depot",
+        "jurisdiction": "Worli, Lower Parel, Prabhadevi & Sea Link Transit",
+        "address": "Dr. E. Moses Road, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Depot Manager, Worli",
+        "designation": "Depot Manager",
+        "phone": "+91-22-24931234",
+        "email": "depot.worli@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8552,
+          19.0195
+        ]
+      },
+      "properties": {
+        "name": "BEST Wadala Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Major Regional Fleet Maintenance & Operational Depot",
+        "jurisdiction": "Wadala, Dadar, Parel & Eastern Gateway",
+        "address": "Katrak Road, Wadala West, Mumbai, Maharashtra 400031",
+        "officer": "Depot Manager, Wadala",
+        "designation": "Depot Manager",
+        "phone": "+91-22-24141234",
+        "email": "depot.wadala@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8398,
+          19.0552
+        ]
+      },
+      "properties": {
+        "name": "BEST Bandra Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Western Suburbs Major Terminal Depot",
+        "jurisdiction": "Bandra West, BKC, Khar & Western Transit Grid",
+        "address": "Station Road, Bandra West, Mumbai, Maharashtra 400050",
+        "officer": "Depot Manager, Bandra",
+        "designation": "Depot Manager",
+        "phone": "+91-22-26421234",
+        "email": "depot.bandra@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8325,
+          19.1255
+        ]
+      },
+      "properties": {
+        "name": "BEST D.N. Nagar / Andheri Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Zonal Bus Depot & Metro Interchange Terminal",
+        "jurisdiction": "Andheri West, Versova, Juhu & Link Road Corridors",
+        "address": "New Link Road, Near D.N. Nagar Metro Station, Andheri West, Mumbai, Maharashtra 400053",
+        "officer": "Depot Manager, D.N. Nagar",
+        "designation": "Depot Manager",
+        "phone": "+91-22-26201234",
+        "email": "depot.dnnagar@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8795,
+          19.0682
+        ]
+      },
+      "properties": {
+        "name": "BEST Kurla Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Central Suburban Interchange Bus Depot",
+        "jurisdiction": "Kurla, LTT Station, SCLR & Central Suburban Transit",
+        "address": "L.B.S. Marg, Near Kurla Railway Station, Kurla West, Mumbai, Maharashtra 400070",
+        "officer": "Depot Manager, Kurla",
+        "designation": "Depot Manager",
+        "phone": "+91-22-26501234",
+        "email": "depot.kurla@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9152,
+          19.0885
+        ]
+      },
+      "properties": {
+        "name": "BEST Ghatkopar Bus Depot",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Eastern Suburbs Major Terminal Depot",
+        "jurisdiction": "Ghatkopar, Pant Nagar, Vikhroli & Metro Line 1 Transit",
+        "address": "L.B.S. Marg, Ghatkopar West, Mumbai, Maharashtra 400086",
+        "officer": "Depot Manager, Ghatkopar",
+        "designation": "Depot Manager",
+        "phone": "+91-22-25111234",
+        "email": "depot.ghatkopar@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8465,
+          19.2312
+        ]
+      },
+      "properties": {
+        "name": "BEST Gorai Bus Depot (Borivali West)",
+        "agency": "Brihanmumbai Electric Supply & Transport (BMC Undertaking)",
+        "facility_type": "Northern Suburban Terminal Depot",
+        "jurisdiction": "Borivali West, Gorai Creek, Dahisar & Western Express Highway",
+        "address": "Gorai Road, Borivali West, Mumbai, Maharashtra 400092",
+        "officer": "Depot Manager, Gorai",
+        "designation": "Depot Manager",
+        "phone": "+91-22-28921234",
+        "email": "depot.gorai@bestundertaking.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0165,
+          19.0712
+        ]
+      },
+      "properties": {
+        "name": "NMMT Central Administrative Headquarters & Turbhe Depot",
+        "agency": "Navi Mumbai Municipal Transport (NMMC Undertaking)",
+        "facility_type": "Apex Municipal Transit Headquarters & Central Maintenance Depot",
+        "jurisdiction": "Navi Mumbai Municipal Corporation Area & Mumbai Suburban Link Routes",
+        "address": "Turbhe Railway Station Complex, Sector 20, Turbhe, Navi Mumbai, Maharashtra 400705",
+        "officer": "Transport Manager, NMMT",
+        "designation": "Transport Manager",
+        "phone": "+91-22-27841828",
+        "email": "nmmt@nmmc.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TRPT-MUM-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8188,
+          18.9702
+        ]
+      },
+      "properties": {
+        "name": "MSRTC Mumbai Central Bus Station & Regional Office",
+        "agency": "Maharashtra State Road Transport Corporation (MSRTC)",
+        "facility_type": "State Apex Intercity Terminal & Divisional Traffic Office",
+        "jurisdiction": "Intercity & Inter-District Express Bus Operations",
+        "address": "Dr. Anandrao Nair Marg, Opposite Mumbai Central Railway Station, Mumbai Central, Mumbai, Maharashtra 400008",
+        "officer": "Divisional Controller, MSRTC Mumbai Division",
+        "designation": "Divisional Controller",
+        "phone": "+91-22-23074272",
+        "email": "dc.mumbai@msrtc.maharashtra.gov.in"
+      }
+    }
+  ]
+}

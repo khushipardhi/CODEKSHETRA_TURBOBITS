@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "title": "Water Supply Department & Infrastructure Facilities in Pune",
+    "region": "Pune Metropolitan Area, Maharashtra, India",
+    "generated_date": "2026-10-03",
+    "description": "Comprehensive dataset of geographical coordinates, purification capacities, supply zones, operational roles, and contact information for the Pune Municipal Corporation (PMC) Water Supply Department, major Water Treatment Plants (WTPs), raw water pumping stations, master balancing reservoirs (MBRs), zonal division offices, PCMC water works, and Maharashtra Jeevan Pradhikaran (MJP).",
+    "key_contacts_and_helplines": {
+      "PMC Central Water Complaint Toll-Free Helpline": "1800 103 0222",
+      "PMC Water Supply Department Head Office": "+91 20 2550 1383",
+      "PMC 24x7 Water Supply Control Room": "+91 20 2550 1000",
+      "PMC Water Tanker Supply Helpline": "+91 20 2550 1222",
+      "PCMC Water Supply Control Room": "+91 20 6733 3333",
+      "Maharashtra Jeevan Pradhikaran (MJP) Pune": "+91 20 2613 1917"
+    },
+    "total_facilities": 25
+  },
+  "administrative_headquarters_and_regulatory_authorities": [
+    {
+      "id": "PMC-WATER-HQ-01",
+      "name": "PMC Water Supply Department Central Head Office",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "office_type": "Central Department Headquarters",
+      "role_and_responsibilities": "Citywide water governance, planning and execution of 24x7 Equitable Water Supply Scheme, new tap connections, water meters, pipeline laying, and monitoring of water quality.",
+      "address": "Second Floor, Sawarkar Bhavan, Congress House Road, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.52835,
+        "longitude": 73.85172
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383",
+        "toll_free": "1800 103 0222",
+        "email": "water@punecorporation.org"
+      },
+      "website": "https://www.pmc.gov.in/en/d/water"
+    },
+    {
+      "id": "PCMC-WATER-HQ-02",
+      "name": "PCMC Water Supply Department Headquarters",
+      "governing_body": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+      "office_type": "Municipal Water Supply Directorate",
+      "role_and_responsibilities": "Management of raw water lifting from Pavana Dam and Andra Dam, operation of Nigdi WTP, water distribution grid, and AMRUT water supply schemes across Pimpri-Chinchwad.",
+      "address": "PCMC Main Administrative Building, Mumbai - Pune Road, Pimpri Colony",
+      "locality": "Pimpri",
+      "city": "Pimpri-Chinchwad, Pune",
+      "pincode": "411018",
+      "coordinates": {
+        "latitude": 18.6275,
+        "longitude": 73.801
+      },
+      "contact": {
+        "phone": "+91 20 6733 3333",
+        "email": "contact@pcmcindia.gov.in"
+      },
+      "website": "https://www.pcmcindia.gov.in"
+    },
+    {
+      "id": "MJP-PUNE-DIV-03",
+      "name": "Maharashtra Jeevan Pradhikaran (MJP) - Pune Divisional Office",
+      "governing_body": "Water Supply & Sanitation Department, Government of Maharashtra",
+      "office_type": "State Water Resources Statutory Board",
+      "role_and_responsibilities": "Apex state agency responsible for designing, executing, and technical sanctioning of regional rural and peri-urban water supply schemes, bulk water pipelines, and quality monitoring in Pune district.",
+      "address": "Central Building, 5, Finance Road, Agarkar Nagar, Pune Station",
+      "locality": "Pune Station",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.5285,
+        "longitude": 73.8744
+      },
+      "contact": {
+        "phone": "+91 20 2613 1917",
+        "alternate_phone": "+91 20 2612 2840",
+        "email": "cepune@mjp.gov.in"
+      },
+      "website": "https://mjp.maharashtra.gov.in"
+    }
+  ],
+  "major_water_treatment_plants": [
+    {
+      "id": "WTP-PARVATI-01",
+      "name": "Parvati Water Treatment Plant (Old & New Jalkendra)",
+      "facility_type": "Major Urban Water Treatment Plant (WTP)",
+      "capacity_mld": 500.0,
+      "source_dam": "Khadakwasla Dam (via closed conduit & canal pipeline)",
+      "supply_zones": "Old City Peth areas, Swargate, Sahakarnagar, Parvati, Bibwewadi, Dhankawadi, Katraj, Camp (West), and Deccan Gymkhana",
+      "address": "123, Deshpande Chowk, Narveer Tanaji Malusare Road (Sinhgad Road), Parvati Foothills",
+      "locality": "Parvati / Sinhgad Road",
+      "city": "Pune",
+      "pincode": "411030",
+      "coordinates": {
+        "latitude": 18.496732,
+        "longitude": 73.840418
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "WTP-WARJE-02",
+      "name": "Warje Water Treatment Plant (100 MLD & 200 MLD Units)",
+      "facility_type": "Major Urban Water Treatment Plant (WTP)",
+      "capacity_mld": 200.0,
+      "source_dam": "Khadakwasla Dam / Mutha River",
+      "supply_zones": "Kothrud, Warje, Karvenagar, Bavdhan, Baner, Balewadi, Pashan, Shivane, and NDA Road",
+      "address": "Brahma Chaitanya Society, Hingane Home Colony, Warje Jakat Naka, Warje",
+      "locality": "Warje",
+      "city": "Pune",
+      "pincode": "411052",
+      "coordinates": {
+        "latitude": 18.486147,
+        "longitude": 73.809401
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "WTP-CANTONMENT-03",
+      "name": "Pune Cantonment / Lashkar Water Works (Jalkendra)",
+      "facility_type": "Major Urban Water Treatment Plant (WTP)",
+      "capacity_mld": 200.0,
+      "source_dam": "Khadakwasla Dam canal & Mutha Right Bank canal",
+      "supply_zones": "Pune Cantonment (Camp), Koregaon Park, Dhole Patil Road, Hadapsar, Wanowrie, Fatima Nagar, Kondhwa, and Ramtekdi",
+      "address": "5-B, General Bhagat Marg, Near Bund Garden / MJP Colony, Camp",
+      "locality": "Camp / Bund Garden",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.52,
+        "longitude": 73.882
+      },
+      "contact": {
+        "phone": "+91 20 2636 1775"
+      }
+    },
+    {
+      "id": "WTP-VADGAON-04",
+      "name": "Vadgaon Budruk Water Treatment Plant",
+      "facility_type": "Major Urban Water Treatment Plant (WTP)",
+      "capacity_mld": 125.0,
+      "source_dam": "Khadakwasla Dam (direct raw water pipeline)",
+      "supply_zones": "Vadgaon Budruk, Dhayari, Ambegaon Budruk & Khurd, Narhe, Sinhgad Road corridor, and Katraj-Kondhwa Bypass",
+      "address": "Near Sinhgad Institute Campus, Vadgaon Budruk, Sinhgad Road",
+      "locality": "Vadgaon Budruk",
+      "city": "Pune",
+      "pincode": "411041",
+      "coordinates": {
+        "latitude": 18.468,
+        "longitude": 73.818
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "WTP-HOLKAR-05",
+      "name": "Holkar Water Works (Khadki Water Treatment Plant)",
+      "facility_type": "Urban Water Treatment Plant & Pumping Station",
+      "capacity_mld": 40.0,
+      "source_dam": "Mula River & Khadakwasla raw water feeder",
+      "supply_zones": "Khadki Cantonment, Bopodi, Aundh (East), Range Hills, and Vishrantwadi",
+      "address": "Near Holkar Bridge, Mula River Bank, Khadki",
+      "locality": "Khadki",
+      "city": "Pune",
+      "pincode": "411003",
+      "coordinates": {
+        "latitude": 18.5605,
+        "longitude": 73.854
+      },
+      "contact": {
+        "phone": "+91 20 2581 0244"
+      }
+    },
+    {
+      "id": "WTP-BHAMA-ASKHED-06",
+      "name": "Bhama Askhed Water Supply Project - Terminal WTP & Pumping Station",
+      "facility_type": "Mega Regional Water Treatment Plant & Distribution Grid",
+      "capacity_mld": 200.0,
+      "source_dam": "Bhama Askhed Dam (Chakan / Khed taluka)",
+      "supply_zones": "Kharadi, Vadgaon Sheri, Viman Nagar, Kalyani Nagar, Lohagaon, Tingre Nagar, Dhanori, and Ahmednagar Road corridor",
+      "address": "Terminal Distribution Grid, Kharadi - Vadgaon Sheri Riverfront",
+      "locality": "Kharadi",
+      "city": "Pune",
+      "pincode": "411014",
+      "coordinates": {
+        "latitude": 18.558,
+        "longitude": 73.945
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "WTP-PCMC-NIGDI-07",
+      "name": "PCMC Water Treatment Plant (Nigdi Sector 23)",
+      "facility_type": "PCMC Apex Central Water Purification Complex",
+      "capacity_mld": 520.0,
+      "source_dam": "Pavana Dam (via Ravet bund & raw water pumping station)",
+      "supply_zones": "Entire Pimpri-Chinchwad municipal area: Nigdi, Akurdi, Chinchwad, Pimpri, Bhosari, Moshi, Sangvi, Wakad, Rahatani, and Ravet",
+      "address": "Sector Number 23, Transport Nagar, Pradhikaran, Nigdi",
+      "locality": "Nigdi / Pradhikaran",
+      "city": "Pimpri-Chinchwad, Pune",
+      "pincode": "411044",
+      "coordinates": {
+        "latitude": 18.6619,
+        "longitude": 73.7618
+      },
+      "contact": {
+        "phone": "+91 20 2765 1475",
+        "helpline": "+91 20 6733 3333"
+      },
+      "website": "https://www.pcmcindia.gov.in"
+    }
+  ],
+  "major_pumping_stations_and_balancing_reservoirs": [
+    {
+      "id": "PUMP-KHADAKWASLA-01",
+      "name": "Khadakwasla Dam Raw Water Pumping Station & Jackwell",
+      "facility_type": "Raw Water Intake & High-Pressure Pumping Station",
+      "function": "Primary raw water intake point lifting impounded river water from Khadakwasla reservoir into closed conduits and gravity canals feeding Parvati, Warje, and Vadgaon WTPs.",
+      "address": "Khadakwasla Dam Foot, Sinhgad Road, Khadakwasla",
+      "locality": "Khadakwasla",
+      "city": "Pune",
+      "pincode": "411024",
+      "coordinates": {
+        "latitude": 18.4361,
+        "longitude": 73.7639
+      },
+      "contact": {
+        "phone": "+91 20 2550 1383"
+      }
+    },
+    {
+      "id": "PUMP-SNDT-02",
+      "name": "SNDT Water Works & Booster Pumping Station",
+      "facility_type": "Intermediate Booster Pumping Station & Service Reservoir",
+      "function": "Major intermediate pressure boosting facility lifting treated water from Parvati & Warje WTPs to elevated hilltop reservoirs across Kothrud and Chaturshringi hills.",
+      "address": "32, Karve Road, Kachare Colony, Deccan Gymkhana / Erandwane",
+      "locality": "Erandwane",
+      "city": "Pune",
+      "pincode": "411004",
+      "coordinates": {
+        "latitude": 18.5065,
+        "longitude": 73.834
+      },
+      "contact": {
+        "phone": "+91 20 2544 0405"
+      }
+    },
+    {
+      "id": "PUMP-CHATURSHRINGI-03",
+      "name": "Chaturshringi Water Reservoir & Pumping Office",
+      "facility_type": "Master Balancing Reservoir (MBR) & Pumping Station",
+      "function": "High-elevation water storage and gravity distribution balancing reservoir feeding Model Colony, Shivajinagar, Senapati Bapat Road, Gokhalenagar, and Pune University.",
+      "address": "Ganeshwadi, Near Ferguson College Road & Senapati Bapat Road, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411004",
+      "coordinates": {
+        "latitude": 18.528,
+        "longitude": 73.84
+      },
+      "contact": {
+        "phone": "+91 20 2550 1405"
+      }
+    },
+    {
+      "id": "PUMP-PADMAVATI-04",
+      "name": "Padmavati Water Pumping Station & Booster Reservoir",
+      "facility_type": "Booster Pumping Station & ESR",
+      "function": "Supplying treated drinking water from Parvati HLR/LLR to Southern Pune elevated sectors, Bibwewadi, Upper Indiranagar, and Sahakarnagar.",
+      "address": "Near Swami Vivekanand Putala, Pune-Satara Road, Padmavati",
+      "locality": "Padmavati",
+      "city": "Pune",
+      "pincode": "411037",
+      "coordinates": {
+        "latitude": 18.489,
+        "longitude": 73.856
+      },
+      "contact": {
+        "phone": "+91 20 2550 1425"
+      }
+    },
+    {
+      "id": "PUMP-RAMTEKDI-05",
+      "name": "Ramtekdi Water Supply Master Reservoir & Booster Station",
+      "facility_type": "Elevated Master Balancing Reservoir (MBR)",
+      "function": "Key hilltop balancing reservoir receiving treated water from Cantonment Water Works to feed Hadapsar, Magarpatta, Mundhwa, and Solapur Road suburbs.",
+      "address": "JJC Colony, Ramtekadi Industrial Hilltop, Hadapsar",
+      "locality": "Hadapsar",
+      "city": "Pune",
+      "pincode": "411013",
+      "coordinates": {
+        "latitude": 18.5039,
+        "longitude": 73.9163
+      },
+      "contact": {
+        "phone": "+91 20 2550 1450"
+      }
+    },
+    {
+      "id": "PUMP-KATRAJ-06",
+      "name": "Katraj Water Booster Pumping Station & Reservoir",
+      "facility_type": "Zonal Booster Pumping Station",
+      "function": "Water booster station serving Katraj gaothan, Rajas Society, Katraj-Kondhwa road, and fringe hill settlements.",
+      "address": "Near Rajiv Gandhi Zoological Park, Katraj",
+      "locality": "Katraj",
+      "city": "Pune",
+      "pincode": "411046",
+      "coordinates": {
+        "latitude": 18.455,
+        "longitude": 73.864
+      },
+      "contact": {
+        "phone": "+91 20 2550 1430"
+      }
+    },
+    {
+      "id": "PUMP-TALJAI-07",
+      "name": "Taljai Hill Water Storage Reservoir",
+      "facility_type": "High-Level Hilltop Storage Reservoir (HLR)",
+      "function": "High-gravity storage reservoir stabilizing water distribution pressures for Sahakarnagar and Dhankawadi wards.",
+      "address": "Taljai Hills Forest Park, Sahakarnagar / Dhankawadi",
+      "locality": "Dhankawadi",
+      "city": "Pune",
+      "pincode": "411009",
+      "coordinates": {
+        "latitude": 18.482,
+        "longitude": 73.847
+      },
+      "contact": {
+        "phone": "+91 20 2550 1425"
+      }
+    }
+  ],
+  "zonal_water_supply_maintenance_offices": [
+    {
+      "id": "ZONE-WATER-GHOLEROAD-01",
+      "name": "Ghole Road - Shivajinagar Water Supply Division",
+      "ward": "Ghole Road Ward Office (Ward 1)",
+      "responsibilities": "Supervising water pipeline maintenance, valve operations, leakage repairs, and free municipal water tanker dispatches for Shivajinagar.",
+      "address": "1187/5, Ghole Road, Main Ward Office Building, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.5255,
+        "longitude": 73.8445
+      },
+      "contact": {
+        "phone": "+91 20 2550 1405"
+      }
+    },
+    {
+      "id": "ZONE-WATER-AUNDH-BANER-02",
+      "name": "Aundh - Baner - Pashan Water Supply Division",
+      "ward": "Aundh - Baner Ward Office (Ward 2)",
+      "responsibilities": "Water distribution network monitoring, pressure regulation, and leak detection for Aundh, Baner, Balewadi, and Pashan.",
+      "address": "Bremen Chowk, Near Ambedkar Chowk, Aundh",
+      "locality": "Aundh",
+      "city": "Pune",
+      "pincode": "411007",
+      "coordinates": {
+        "latitude": 18.5605,
+        "longitude": 73.807
+      },
+      "contact": {
+        "phone": "+91 20 2550 1410"
+      }
+    },
+    {
+      "id": "ZONE-WATER-KOTHRUD-03",
+      "name": "Kothrud - Bavdhan Water Supply Division",
+      "ward": "Kothrud - Bavdhan Ward Office (Ward 3)",
+      "responsibilities": "Drinking water pipeline network upkeep, booster pump management, and tanker coordination for Kothrud and Bavdhan.",
+      "address": "Chhatrapati Shivaji Maharaj Smarak, Paud Road, Kothrud",
+      "locality": "Kothrud",
+      "city": "Pune",
+      "pincode": "411038",
+      "coordinates": {
+        "latitude": 18.5075,
+        "longitude": 73.805
+      },
+      "contact": {
+        "phone": "+91 20 2550 1415"
+      }
+    },
+    {
+      "id": "ZONE-WATER-SINHGADROAD-04",
+      "name": "Sinhgad Road - Vadgaon Water Supply Division",
+      "ward": "Sinhgad Road Ward Office (Ward 5)",
+      "responsibilities": "Managing water distribution along Sinhgad Road, Hingne, Vadgaon Budruk, Dhayari, and coordinating with Parvati/Vadgaon WTPs.",
+      "address": "Near Dandekar Bridge, PL Deshpande Garden Road, Sinhgad Road",
+      "locality": "Dattawadi / Parvati",
+      "city": "Pune",
+      "pincode": "411030",
+      "coordinates": {
+        "latitude": 18.4985,
+        "longitude": 73.842
+      },
+      "contact": {
+        "phone": "+91 20 2550 1425"
+      }
+    },
+    {
+      "id": "ZONE-WATER-KASBA-05",
+      "name": "Kasba - Vishrambaug Wada Water Supply Division",
+      "ward": "Kasba - Vishrambaug Wada Ward Office (Ward 7)",
+      "responsibilities": "Operating old city valve systems, heritage area water supply grids, and high-density peth water pressure balancing.",
+      "address": "Near Shanipar Chowk, Sadashiv Peth",
+      "locality": "Sadashiv Peth",
+      "city": "Pune",
+      "pincode": "411030",
+      "coordinates": {
+        "latitude": 18.514,
+        "longitude": 73.8525
+      },
+      "contact": {
+        "phone": "+91 20 2550 1435"
+      }
+    },
+    {
+      "id": "ZONE-WATER-BHAVANI-06",
+      "name": "Bhavani Peth Water Supply Division",
+      "ward": "Bhavani Peth Ward Office (Ward 8)",
+      "responsibilities": "Managing water distribution in Bhavani Peth, Nana Peth, timber market, and commercial wholesale zones.",
+      "address": "General Arunkumar Vaidya Stadium, Bhavani Peth",
+      "locality": "Bhavani Peth",
+      "city": "Pune",
+      "pincode": "411042",
+      "coordinates": {
+        "latitude": 18.5085,
+        "longitude": 73.869
+      },
+      "contact": {
+        "phone": "+91 20 2550 1440"
+      }
+    },
+    {
+      "id": "ZONE-WATER-HADAPSAR-07",
+      "name": "Hadapsar - Mundhwa Water Supply Division",
+      "ward": "Hadapsar - Mundhwa Ward Office (Ward 10)",
+      "responsibilities": "Regulating water supply in Eastern Pune, Ramtekdi reservoir supplies, Magarpatta, and municipal water tanker logistics.",
+      "address": "Pandit Jawaharlal Nehru Road, Gadital, Hadapsar",
+      "locality": "Hadapsar",
+      "city": "Pune",
+      "pincode": "411028",
+      "coordinates": {
+        "latitude": 18.5025,
+        "longitude": 73.9295
+      },
+      "contact": {
+        "phone": "+91 20 2550 1450"
+      }
+    },
+    {
+      "id": "ZONE-WATER-YERWADA-08",
+      "name": "Yerwada - Kalas - Dhanori Water Supply Division",
+      "ward": "Yerwada - Kalas - Dhanori Ward Office (Ward 12)",
+      "responsibilities": "Water supply oversight for Yerwada, Shastri Nagar, Vishrantwadi, Kalas, and Dhanori.",
+      "address": "Near Gunjan Talkies, Airport Road, Yerawada",
+      "locality": "Yerwada",
+      "city": "Pune",
+      "pincode": "411006",
+      "coordinates": {
+        "latitude": 18.552,
+        "longitude": 73.8825
+      },
+      "contact": {
+        "phone": "+91 20 2550 1460"
+      }
+    }
+  ]
+}

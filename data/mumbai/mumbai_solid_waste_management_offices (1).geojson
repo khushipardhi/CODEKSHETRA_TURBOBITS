@@ -1,0 +1,752 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_Solid_Waste_Management_Offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.818542,
+          18.993625
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-HQ-WORLI",
+        "name": "BMC SWM Head Office (Chief Engineer)",
+        "ward": "G/South",
+        "category": "Headquarters",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Love Grove Complex, Dr. Annie Besant Road, Worli, Mumbai",
+        "pincode": "400018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.823412,
+          18.994215
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-ENG-HUB",
+        "name": "BMC SWM Project & Planning Division (Engineering Hub)",
+        "ward": "G/South",
+        "category": "Administrative Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Worli Engineering Hub Building, Dr. E. Moses Road, Worli Naka, Mumbai",
+        "pincode": "400018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.82289,
+          18.99312
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-TRANSPORT-GARAGE",
+        "name": "BMC SWM Transport Division & Central Garage",
+        "ward": "G/South",
+        "category": "Transport & Operations",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Worli Garage Building, Dr. E. Moses Road, Worli, Mumbai",
+        "pincode": "400018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.833512,
+          18.933215
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-A",
+        "name": "Office of Assistant Engineer (SWM) - Ward A",
+        "ward": "A",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "134-E, Shahid Bhagat Singh Marg, Near RBI, Fort, Mumbai",
+        "pincode": "400001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.833062,
+          18.961437
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-B",
+        "name": "Office of Assistant Engineer (SWM) - Ward B",
+        "ward": "B",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "121, Ramchandra Bhatt Marg, Babula Tank Cross Lane, Dongri, Mumbai",
+        "pincode": "400009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.823914,
+          18.947728
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-C",
+        "name": "Office of Assistant Engineer (SWM) - Ward C",
+        "ward": "C",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "76, Shrikant Palekar Marg, Chandanwadi, Chira Bazaar, Kalbadevi, Mumbai",
+        "pincode": "400002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.81421,
+          18.96512
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-D",
+        "name": "Office of Assistant Engineer (SWM) - Ward D",
+        "ward": "D",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Jobanputra Compound, Javji Dadaji Marg, Nana Chowk, Grant Road (West), Mumbai",
+        "pincode": "400007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.827415,
+          18.96783
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-E",
+        "name": "Office of Assistant Engineer (SWM) - Ward E",
+        "ward": "E",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "10, Shaikh Hafizuddin Marg, Sankli Street, Byculla (West), Mumbai",
+        "pincode": "400008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.856942,
+          19.026418
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-FN",
+        "name": "Office of Assistant Engineer (SWM) - Ward F/North",
+        "ward": "F/North",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Plot No. 96, Bhau Daji Road, Near Maheshwari Circle, Matunga (East), Mumbai",
+        "pincode": "400019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.840415,
+          19.00312
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-FS",
+        "name": "Office of Assistant Engineer (SWM) - Ward F/South",
+        "ward": "F/South",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Dr. Babasaheb Ambedkar Road & Jagannath Bhatankar Marg Junction, Parel Naka, Mumbai",
+        "pincode": "400012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.841512,
+          19.018635
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-GN",
+        "name": "Office of Assistant Engineer (SWM) - Ward G/North",
+        "ward": "G/North",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Harishchandra Yelve Marg, Behind Plaza Cinema, Dadar (West), Mumbai",
+        "pincode": "400028"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.83152,
+          18.99841
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-GS",
+        "name": "Office of Assistant Engineer (SWM) - Ward G/South",
+        "ward": "G/South",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Dhanmill Naka, N.M. Joshi Marg, Lower Parel / Prabhadevi, Mumbai",
+        "pincode": "400013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.844562,
+          19.084937
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-HE",
+        "name": "Office of Assistant Engineer (SWM) - Ward H/East",
+        "ward": "H/East",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Plot No. 137, TPS-5, Road No. 2, Prabhat Colony, Santacruz (East), Mumbai",
+        "pincode": "400055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835518,
+          19.056425
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-HW",
+        "name": "Office of Assistant Engineer (SWM) - Ward H/West",
+        "ward": "H/West",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "St. Martin's Road, Behind Bandra Police Station, Bandra (West), Mumbai",
+        "pincode": "400050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.852312,
+          19.120313
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-KE",
+        "name": "Office of Assistant Engineer (SWM) - Ward K/East",
+        "ward": "K/East",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Azad Road, Gundavali Gaothan, Andheri (East), Mumbai",
+        "pincode": "400069"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.843615,
+          19.11912
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-KW",
+        "name": "Office of Assistant Engineer (SWM) - Ward K/West",
+        "ward": "K/West",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Paliram Road, Off S.V. Road, Opp. Andheri Railway Station, Andheri (West), Mumbai",
+        "pincode": "400058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.879688,
+          19.070437
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-L",
+        "name": "Office of Assistant Engineer (SWM) - Ward L",
+        "ward": "L",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "1, S.G. Barve Marg, Ambedkar Nagar, Kurla (West), Mumbai",
+        "pincode": "400070"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.924688,
+          19.052937
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-ME",
+        "name": "Office of Assistant Engineer (SWM) - Ward M/East",
+        "ward": "M/East",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Madhukar Tukaram Kadam Junction, Deonar Municipal Colony, Govandi, Mumbai",
+        "pincode": "400043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.898912,
+          19.058235
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-MW",
+        "name": "Office of Assistant Engineer (SWM) - Ward M/West",
+        "ward": "M/West",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "19B/20A, Sharadbhau Acharya Marg, Chembur Gaothan, Chembur, Mumbai",
+        "pincode": "400071"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.911425,
+          19.082618
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-N",
+        "name": "Office of Assistant Engineer (SWM) - Ward N",
+        "ward": "N",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Jawahar Road, Saibaba Nagar, Pant Nagar, Ghatkopar (East), Mumbai",
+        "pincode": "400077"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.842115,
+          19.18332
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-PN",
+        "name": "Office of Assistant Engineer (SWM) - Ward P/North",
+        "ward": "P/North",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "B.J. Patel Road, Mamledarwadi, Liberty Garden, Malad (West), Mumbai",
+        "pincode": "400064"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.84172,
+          19.162215
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-PS",
+        "name": "Office of Assistant Engineer (SWM) - Ward P/South",
+        "ward": "P/South",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "28-B, C.T.S. No. 746, S.V. Road, Jawahar Nagar, Goregaon (West), Mumbai",
+        "pincode": "400104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.855912,
+          19.22851
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-RC",
+        "name": "Office of Assistant Engineer (SWM) - Ward R/Central",
+        "ward": "R/Central",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Palika Mandai Building, Market Road, Sundar Nagar, Borivali (West), Mumbai",
+        "pincode": "400092"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.857062,
+          19.242937
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-RN",
+        "name": "Office of Assistant Engineer (SWM) - Ward R/North",
+        "ward": "R/North",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Rustom Irani Marg, Below Sudhir Phadke Flyover, Dahisar (West), Mumbai",
+        "pincode": "400068"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.845438,
+          19.203937
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-RS",
+        "name": "Office of Assistant Engineer (SWM) - Ward R/South",
+        "ward": "R/South",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Mahatma Gandhi Cross Road No. 2, Near SVP Swimming Pool, Kandivali (West), Mumbai",
+        "pincode": "400067"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.932915,
+          19.14812
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-S",
+        "name": "Office of Assistant Engineer (SWM) - Ward S",
+        "ward": "S",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "S Ward Municipal Building, L.B.S. Marg, Near Mangatram Petrol Pump, Bhandup (West), Mumbai",
+        "pincode": "400078"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.94791,
+          19.175515
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-WARD-T",
+        "name": "Office of Assistant Engineer (SWM) - Ward T",
+        "ward": "T",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Lala Devidayal Road, Panch Rasta, Mulund (West), Mumbai",
+        "pincode": "400080"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.82521,
+          18.98854
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-RTS-MAHALAXMI",
+        "name": "Mahalaxmi Refuse Transfer Station (RTS)",
+        "ward": "G/South",
+        "category": "Refuse Transfer Station",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Dr. E. Moses Road, Opp. Racecourse, Mahalaxmi, Mumbai",
+        "pincode": "400011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.894215,
+          19.07183
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-RTS-KURLA",
+        "name": "Kurla Refuse Transfer Station (RTS)",
+        "ward": "L",
+        "category": "Refuse Transfer Station",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "S.G. Barve Marg, Near Lokmanya Tilak Terminus, Kurla (East), Mumbai",
+        "pincode": "400070"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.81974,
+          19.13452
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-RTS-VERSOVA",
+        "name": "Versova Refuse Transfer Station (RTS)",
+        "ward": "K/West",
+        "category": "Refuse Transfer Station",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Versova Link Road, Andheri (West), Mumbai",
+        "pincode": "400053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.92481,
+          19.062015
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-DEONAR-LANDFILL",
+        "name": "Deonar Waste Management Facility & Processing Site",
+        "ward": "M/East",
+        "category": "Waste Processing & Disposal Facility",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Kachra Depot Road, Shivaji Nagar, Deonar, Govandi, Mumbai",
+        "pincode": "400043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.942318,
+          19.13621
+        ]
+      },
+      "properties": {
+        "id": "BMC-SWM-KANJURMARG-FACILITY",
+        "name": "Kanjurmarg Integrated Waste Management Facility",
+        "ward": "S",
+        "category": "Waste Processing & Disposal Facility",
+        "department": "Solid Waste Management",
+        "authority": "Brihanmumbai Municipal Corporation (BMC)",
+        "address": "Near Eastern Express Highway, Kanjurmarg (East), Mumbai",
+        "pincode": "400042"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.040115,
+          19.01662
+        ]
+      },
+      "properties": {
+        "id": "NMMC-SWM-HQ-BELAPUR",
+        "name": "NMMC SWM Head Office",
+        "ward": "Belapur",
+        "category": "Headquarters",
+        "department": "Solid Waste Management",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "address": "Plot No. 1 & 2, Sector 15A, Palm Beach Road, CBD Belapur, Navi Mumbai",
+        "pincode": "400614"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.023512,
+          19.072518
+        ]
+      },
+      "properties": {
+        "id": "NMMC-SWM-TURBHE-FACILITY",
+        "name": "NMMC Turbhe Integrated Solid Waste Management Facility",
+        "ward": "Turbhe",
+        "category": "Waste Processing & Disposal Facility",
+        "department": "Solid Waste Management",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "address": "TTC Industrial Area, MIDC Turbhe, Navi Mumbai",
+        "pincode": "400705"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.99841,
+          19.07562
+        ]
+      },
+      "properties": {
+        "id": "NMMC-SWM-WARD-VASHI",
+        "name": "NMMC Ward Office & SWM Unit - Vashi",
+        "ward": "Vashi",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "address": "Sector 5, Near Vashi Bus Depot, Vashi, Navi Mumbai",
+        "pincode": "400703"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.018215,
+          19.03241
+        ]
+      },
+      "properties": {
+        "id": "NMMC-SWM-WARD-NERUL",
+        "name": "NMMC Ward Office & SWM Unit - Nerul",
+        "ward": "Nerul",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "address": "Sector 20, Nerul (West), Navi Mumbai",
+        "pincode": "400706"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.996112,
+          19.15783
+        ]
+      },
+      "properties": {
+        "id": "NMMC-SWM-WARD-AIROLI",
+        "name": "NMMC Ward Office & SWM Unit - Airoli",
+        "ward": "Airoli",
+        "category": "Ward Office",
+        "department": "Solid Waste Management",
+        "authority": "Navi Mumbai Municipal Corporation (NMMC)",
+        "address": "Sector 5, Airoli, Navi Mumbai",
+        "pincode": "400708"
+      }
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Pune Traffic Departments & Traffic Police Divisions",
+    "city": "Pune, Maharashtra, India",
+    "total_features": 34,
+    "coordinate_system": "WGS 84 (EPSG:4326)",
+    "agencies_included": [
+      "Pune City Police – Traffic Branch (पुणे शहर वाहतूक शाखा)",
+      "Pimpri-Chinchwad Police – Traffic Branch",
+      "Maharashtra State Highway Police (Highway Safety Patrol - HSP)",
+      "Pune Municipal Corporation (PMC) – Traffic & Transportation Planning Department",
+      "Maharashtra Motor Vehicles Department (Regional Transport Office - RTO Pune MH-12 & MH-14)"
+    ],
+    "generated_timestamp": "2026-10-03T10:52:00+05:30"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "pune_traffic_hq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.891433,
+          18.557525
+        ]
+      },
+      "properties": {
+        "id": "pune_traffic_hq",
+        "name": "Pune City Police Traffic Branch Headquarters (DCP Traffic Office)",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Police Headquarters",
+        "area": "Yerawada",
+        "address": "Bungalow No. 6, Adjacent to GST Bhavan, Airport Road / Jail Road, Yerawada, Pune – 411006",
+        "role": "Central headquarters of the Deputy Commissioner of Police (Traffic), monitoring city traffic control, e-challans, signals, and policy",
+        "contact": "020-26685000 / 020-26208225 / Traffic Helpline: 8975283100",
+        "latitude": 18.557525,
+        "longitude": 73.891433
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pune_traffic_control_room",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.875788,
+          18.522057
+        ]
+      },
+      "properties": {
+        "id": "pune_traffic_control_room",
+        "name": "Pune City Police Commissionerate - Central Traffic Control Room",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Central Control Room",
+        "area": "Camp / Pune Station",
+        "address": "Police Commissioner Office, Sadhu Vaswani Chowk, Church Path, Agarkar Nagar, Pune – 411001",
+        "role": "Citywide 24x7 emergency traffic surveillance, CCTV traffic monitoring, VIP route management, and emergency response dispatch",
+        "contact": "020-26126296 / 020-26122880 / 112 / 100",
+        "latitude": 18.522057,
+        "longitude": 73.875788
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_shivajinagar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.848114,
+          18.525693
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_shivajinagar",
+        "name": "Shivajinagar Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Shivajinagar",
+        "address": "Modern Engineering College Road, Shivajinagar, Pune – 411005",
+        "role": "Traffic enforcement and regulation for JM Road, FC Road, Shivajinagar Court, and Sancheti Hospital junction",
+        "contact": "020-25536263 / 8975283100",
+        "latitude": 18.525693,
+        "longitude": 73.848114
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_deccan",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.840525,
+          18.514196
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_deccan",
+        "name": "Deccan Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Deccan Gymkhana",
+        "address": "759/5, Prabhat Road, Deccan Gymkhana, Pune – 411004",
+        "role": "Traffic regulation for Deccan Corner, Karve Road, Law College Road, and Sambhaji Bridge corridor",
+        "contact": "020-25675005 / 8975283100",
+        "latitude": 18.514196,
+        "longitude": 73.840525
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_swargate",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.859188,
+          18.500796
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_swargate",
+        "name": "Swargate Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Swargate",
+        "address": "Police Colony, Jedhe Chowk, Swargate, Pune – 411042",
+        "role": "High-density traffic management for Swargate ST Stand, Jedhe Chowk, Shivaji Road, and Tilak Road junction",
+        "contact": "020-24452769 / 8975283100",
+        "latitude": 18.500796,
+        "longitude": 73.859188
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_kothrud",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805381,
+          18.506782
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_kothrud",
+        "name": "Kothrud Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Kothrud",
+        "address": "Paud Road, Near Vanaz Metro Station, Shastri Nagar, Kothrud, Pune – 411038",
+        "role": "Traffic enforcement across Paud Road, Karve Road, Chandani Chowk bypass, and Kothrud depot",
+        "contact": "020-25380500 / 8975283100",
+        "latitude": 18.506782,
+        "longitude": 73.805381
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_hadapsar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.921654,
+          18.504212
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_hadapsar",
+        "name": "Hadapsar Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Hadapsar",
+        "address": "315, Pune-Solapur Road, Vaiduwadi, Hadapsar Industrial Estate, Hadapsar, Pune – 411013",
+        "role": "Traffic management for Pune-Solapur Highway, Magarpatta City, Gadital, and Saswad Road intersection",
+        "contact": "020-26877044 / 8975283100",
+        "latitude": 18.504212,
+        "longitude": 73.921654
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_bharati_vidyapeeth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.857738,
+          18.459024
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_bharati_vidyapeeth",
+        "name": "Bharati Vidyapeeth Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Katraj / Dhankawadi",
+        "address": "NH 4, Dhankawadi Road, Bharati Vidyapeeth Campus, Katraj, Pune – 411043",
+        "role": "Traffic monitoring along Pune-Satara Highway, Katraj Chowk, Navale Bridge bypass, and Ambegaon",
+        "contact": "020-24365100 / 8975283100",
+        "latitude": 18.459024,
+        "longitude": 73.857738
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_lashkar_camp",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.875399,
+          18.522207
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_lashkar_camp",
+        "name": "Lashkar (Camp) Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Pune Camp / Cantonment",
+        "address": "Dr. Annie Besant Road, Agarkar Nagar / Pune Camp, Pune – 411001",
+        "role": "Traffic regulation for MG Road, East Street, Moledina Road, and Pune Cantonment commercial areas",
+        "contact": "020-26208228 / 8975283100",
+        "latitude": 18.522207,
+        "longitude": 73.875399
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_bundgarden",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.876324,
+          18.525882
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_bundgarden",
+        "name": "Bund Garden Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Bund Garden / Pune Station",
+        "address": "Near Sadhu Vaswani Chowk, Agarkar Nagar, Bund Garden Road, Pune – 411001",
+        "role": "Traffic management around Pune Junction Railway Station, Bund Garden Bridge, and Council Hall area",
+        "contact": "+91 9311314001 / 8975283100",
+        "latitude": 18.525882,
+        "longitude": 73.876324
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_koregaon_park",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.895238,
+          18.53573
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_koregaon_park",
+        "name": "Koregaon Park Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Koregaon Park",
+        "address": "L-603, Lane Number 4A, Suyojana Society, Koregaon Park, Pune – 411001",
+        "role": "Traffic monitoring along North Main Road, South Main Road, and Kalyani Nagar connecting bridge",
+        "contact": "020-26152222 / 8975283100",
+        "latitude": 18.53573,
+        "longitude": 73.895238
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_vimantal",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.915328,
+          18.56607
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_vimantal",
+        "name": "Vimantal (Airport) Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Viman Nagar / Airport",
+        "address": "Building 10, Pune-Ahmednagar Highway, Satyam Marg, Clover Park, Viman Nagar, Pune – 411014",
+        "role": "Regulating traffic on Pune Airport approach road, Symbiosis corridor, and Phoenix Marketcity stretch",
+        "contact": "020-26126296 / 8975283100",
+        "latitude": 18.56607,
+        "longitude": 73.915328
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_yerawada_vishrantwadi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.877822,
+          18.56513
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_yerawada_vishrantwadi",
+        "name": "Yerawada & Vishrantwadi Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Yerawada / Vishrantwadi",
+        "address": "Samrat Ashok Path / Alandi Road, Near Tingre Nagar Phata, Yerawada, Pune – 411006",
+        "role": "Traffic regulation for Alandi Road, Vishrantwadi Chowk, Gunjan Talkies junction, and Yerawada bridge",
+        "contact": "020-26684456 / 8975283100",
+        "latitude": 18.56513,
+        "longitude": 73.877822
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_wagholi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.986909,
+          18.581294
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_wagholi",
+        "name": "Wagholi Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Wagholi",
+        "address": "Kesnand Road, Near Pune-Ahmednagar Highway, Wagholi, Pune – 412207",
+        "role": "Traffic enforcement on Pune-Ahmednagar Highway (SH-27), Kesnand Chowk, and eastern urban corridor",
+        "contact": "8975283100",
+        "latitude": 18.581294,
+        "longitude": 73.986909
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_chandannagar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.921603,
+          18.561478
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_chandannagar",
+        "name": "Chandan Nagar Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Chandan Nagar / Kharadi",
+        "address": "S No. 37, Old Mundhwa Road, Behind Sundarabai Marathe School, Chandan Nagar, Pune – 411014",
+        "role": "Traffic management for Kharadi Bypass, Nagar Road BRTS, and EON IT Park commuting routes",
+        "contact": "020-27012321 / 8975283100",
+        "latitude": 18.561478,
+        "longitude": 73.921603
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_mundhwa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.927688,
+          18.534688
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_mundhwa",
+        "name": "Mundhwa Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Mundhwa / Magarpatta",
+        "address": "Ghorpadi Road, Near Mundhwa Railway Crossing, Mundhwa, Pune – 411036",
+        "role": "Traffic regulation for Mundhwa-Kharadi Bridge, Magarpatta North Gate, and Ghorpadi link",
+        "contact": "+91 8975283100",
+        "latitude": 18.534688,
+        "longitude": 73.927688
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_wanowrie",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.917826,
+          18.507257
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_wanowrie",
+        "name": "Wanowrie Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Wanowrie / Fatima Nagar",
+        "address": "Hadapsar Industrial Estate, Near Bank of Maharashtra, Wanowrie / Hadapsar, Pune – 411013",
+        "role": "Traffic control on Prince of Wales Drive, Kedari Nagar, Salunke Vihar Road, and Fatima Nagar junction",
+        "contact": "020-26824981 / 8975283100",
+        "latitude": 18.507257,
+        "longitude": 73.917826
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_kondhwa",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.890562,
+          18.466063
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_kondhwa",
+        "name": "Kondhwa Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Kondhwa",
+        "address": "Katraj-Kondhwa Road, Kondhwa Budruk, Pune – 411048",
+        "role": "Managing heavy vehicle movement and arterial traffic along Katraj-Kondhwa Road, NIBM, and Khadi Machine Chowk",
+        "contact": "020-26930780 / 8975283100",
+        "latitude": 18.466063,
+        "longitude": 73.890562
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_sinhgad_road",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.813876,
+          18.473108
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_sinhgad_road",
+        "name": "Sinhgad Road Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Sinhgad Road / Wadgaon",
+        "address": "Daulat Nagar, Sun City Road, Anand Nagar, Wadgaon Budruk, Pune – 411051",
+        "role": "Traffic regulation on Sinhgad Road Flyover, Rajaram Bridge, Manik Baug, and Dhayari Phata",
+        "contact": "020-24348270 / 8975283100",
+        "latitude": 18.473108,
+        "longitude": 73.813876
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_warje",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801938,
+          18.481437
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_warje",
+        "name": "Warje Malwadi Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Warje",
+        "address": "FRJ2+HQ4, NDA Road, Giridhar Nagar, Warje, Pune – 411058",
+        "role": "Traffic management for Warje Flyover, Mumbai-Bangalore Highway bypass, and NDA Road",
+        "contact": "020-25237777 / 8975283100",
+        "latitude": 18.481437,
+        "longitude": 73.801938
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_sahakarnagar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.851562,
+          18.478313
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_sahakarnagar",
+        "name": "Sahakar Nagar Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Sahakar Nagar / Parvati",
+        "address": "638, Kambale Path, Navjeevan Society, Parvati Paytha, Pune – 411009",
+        "role": "Traffic enforcement for Pune-Satara Road, Padmavati, and Aranyeshwar areas",
+        "contact": "020-24226604 / 8975283100",
+        "latitude": 18.478313,
+        "longitude": 73.851562
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_chatushrungi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.825813,
+          18.546188
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_chatushrungi",
+        "name": "Chaturshringi Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Pune University / Ganeshkhind",
+        "address": "Vidhyapeeth Road, Ganeshkhind Road, Near Savitribai Phule Pune University, Pune – 411007",
+        "role": "Managing University Circle multi-level flyover, Aundh Road, Baner Road, and Pashan Road junction",
+        "contact": "020-25655335 / 8975283100",
+        "latitude": 18.546188,
+        "longitude": 73.825813
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_khadki",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.845312,
+          18.557187
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_khadki",
+        "name": "Khadki Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Khadki Cantonment",
+        "address": "Old Mumbai-Pune Highway, Near Khadki Railway Station, Khadki, Pune – 411003",
+        "role": "Traffic regulation for Old Mumbai-Pune Highway, Harris Bridge, and Khadki Cantonment bazaar area",
+        "contact": "020-25817000 / 8975283100",
+        "latitude": 18.557187,
+        "longitude": 73.845312
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_faraskhana",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.855688,
+          18.516437
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_faraskhana",
+        "name": "Faraskhana Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Budhwar Peth / Mandai",
+        "address": "NC Kelkar Road, Near Dagdusheth Temple, Budhwar Peth, Pune – 411002",
+        "role": "Managing dense commercial and pedestrian traffic around Mandai, Laxmi Road, and Shivaji Road",
+        "contact": "020-24452250 / 8975283100",
+        "latitude": 18.516437,
+        "longitude": 73.855688
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_vishrambaug",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.855781,
+          18.51645
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_vishrambaug",
+        "name": "Vishrambaug Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Narayan Peth / Laxmi Road",
+        "address": "P-160, Narayan Peth / Laxmi Road, Near Alka Talkies Chowk, Pune – 411002",
+        "role": "Traffic regulation on Alka Talkies Chowk, Tilak Road, and historical shopping streets",
+        "contact": "020-24457750 / 8975283100",
+        "latitude": 18.51645,
+        "longitude": 73.855781
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_samarth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.869688,
+          18.520312
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_samarth",
+        "name": "Samarth Traffic Police Division",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Somwar Peth / Rasta Peth",
+        "address": "Somwar Peth / Rasta Peth, Near KEM Hospital, Pune – 411002",
+        "role": "Traffic enforcement across Apollo Talkies chowk, Nana Peth, and Timber Market commercial corridors",
+        "contact": "020-26125000 / 8975283100",
+        "latitude": 18.520312,
+        "longitude": 73.869688
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_chowki_race_course",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.889562,
+          18.506312
+        ]
+      },
+      "properties": {
+        "id": "traffic_chowki_race_course",
+        "name": "Race Course Traffic Police Chowki",
+        "agency": "Pune City Police Traffic Branch",
+        "facility_type": "Traffic Police Chowki",
+        "area": "Pune Cantonment",
+        "address": "Pune-Solapur Road, Near Pune Race Course, Pune Cantonment, Pune – 411001",
+        "role": "Traffic management for Solapur Highway entry point and Turf Club roundabout",
+        "contact": "+91 9881361953",
+        "latitude": 18.506312,
+        "longitude": 73.889562
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hsp_pune_division",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.768188,
+          18.518812
+        ]
+      },
+      "properties": {
+        "id": "hsp_pune_division",
+        "name": "Highway Safety Patrol (HSP) Pune Division (SP Office)",
+        "agency": "Maharashtra State Highway Police",
+        "facility_type": "State Highway Police Division",
+        "area": "Bavdhan",
+        "address": "GQ99+G76, Bhunde Vasti, Near Mumbai-Bangalore Highway, Bavdhan, Pune – 411021",
+        "role": "State highway traffic headquarters monitoring the Yashwantrao Chavan Mumbai-Pune Expressway, NH-48, and national highways",
+        "contact": "020-22952100 / Highway Helpline: 9822498224",
+        "latitude": 18.518812,
+        "longitude": 73.768188
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_div_hinjawadi",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.757562,
+          18.592062
+        ]
+      },
+      "properties": {
+        "id": "traffic_div_hinjawadi",
+        "name": "Hinjawadi Traffic Police Division",
+        "agency": "Pimpri-Chinchwad Police Traffic Branch",
+        "facility_type": "Traffic Division",
+        "area": "Hinjawadi / Wakad",
+        "address": "HQR5+R2H, Bhujbal Vasti, Wakad / Hinjawadi Road, Pune – 411057",
+        "role": "Traffic regulation for Hinjawadi IT Park Phase 1-3, Bhumkar Chowk, and Shivaji Chowk bottleneck junctions",
+        "contact": "020-22933806 / 112",
+        "latitude": 18.592062,
+        "longitude": 73.757562
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pcmc_traffic_police_hq",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.782333,
+          18.627956
+        ]
+      },
+      "properties": {
+        "id": "pcmc_traffic_police_hq",
+        "name": "Pimpri-Chinchwad Police Traffic Branch Headquarters (DCP Traffic)",
+        "agency": "Pimpri-Chinchwad Police Traffic Branch",
+        "facility_type": "Traffic Police Headquarters (PCMC)",
+        "area": "Chinchwad",
+        "address": "Prabhat Colony, Gandhi Peth, Chinchwad Gaon, Chinchwad, Pune – 411033",
+        "role": "DCP and ACP Traffic headquarters managing traffic planning and divisions across the Pimpri-Chinchwad commissionerate",
+        "contact": "020-27650100 / 112",
+        "latitude": 18.627956,
+        "longitude": 73.782333
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "pmc_traffic_planning_dept",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.854392,
+          18.524398
+        ]
+      },
+      "properties": {
+        "id": "pmc_traffic_planning_dept",
+        "name": "PMC Traffic & Transportation Planning Department (वाहतूक व वाहतूक नियोजन विभाग)",
+        "agency": "Pune Municipal Corporation (PMC)",
+        "facility_type": "Municipal Traffic Planning Department",
+        "area": "Shivajinagar",
+        "address": "PMC Main Administrative Building, Shivajinagar, Near Mangala Multiplex, Pune – 411005",
+        "role": "Municipal department in charge of Comprehensive Mobility Plan, road widening, signals, pedestrian bridges, and BRTS infrastructure",
+        "contact": "020-25501000 / 020-25501269",
+        "latitude": 18.524398,
+        "longitude": 73.854392
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rto_pune_central",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.863612,
+          18.53047
+        ]
+      },
+      "properties": {
+        "id": "rto_pune_central",
+        "name": "Regional Transport Office (RTO) Pune Central (MH-12)",
+        "agency": "Maharashtra Motor Vehicles Department (RTO)",
+        "facility_type": "Regional Transport Office (Headquarters)",
+        "area": "Sangamvadi / RTO Chowk",
+        "address": "38, Dr. Ambedkar Road, Near Sangam Bridge, Sangamvadi, Pune – 411001",
+        "role": "Principal transport department authority for vehicle registration (MH-12), driver licensing, motor taxation, and transport permits",
+        "contact": "020-26058080 / 1800-120-8040",
+        "latitude": 18.53047,
+        "longitude": 73.863612
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rto_pune_alandi_road",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.876683,
+          18.557033
+        ]
+      },
+      "properties": {
+        "id": "rto_pune_alandi_road",
+        "name": "RTO Pune Vehicle Testing & Inspection Ground",
+        "agency": "Maharashtra Motor Vehicles Department (RTO)",
+        "facility_type": "RTO Testing & Fitness Division",
+        "area": "Yerawada / Phule Nagar",
+        "address": "S. No. 120/A-2, Alandi Road, Phule Nagar, Yerawada, Pune – 411006",
+        "role": "Automated vehicle fitness inspection tracks, commercial brake tests, and permanent driving test tracks",
+        "contact": "020-26681010 / 1800-120-8040",
+        "latitude": 18.557033,
+        "longitude": 73.876683
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rto_pimpri_chinchwad",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.844209,
+          18.655065
+        ]
+      },
+      "properties": {
+        "id": "rto_pimpri_chinchwad",
+        "name": "Regional Transport Office (RTO) Pimpri-Chinchwad (MH-14)",
+        "agency": "Maharashtra Motor Vehicles Department (RTO)",
+        "facility_type": "Regional Transport Office (PCMC)",
+        "area": "Moshi / Pradhikaran",
+        "address": "Mahadev Balaji Landge Road, Sector 6, Moshi / Pradhikaran, Pimpri-Chinchwad, Pune – 411070",
+        "role": "Regional transport authority for vehicle registration (MH-14), commercial permits, and driver licensing for Pimpri-Chinchwad",
+        "contact": "020-27123300 / 1800-120-8040",
+        "latitude": 18.655065,
+        "longitude": 73.844209
+      }
+    }
+  ]
+}

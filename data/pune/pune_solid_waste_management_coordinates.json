@@ -1,0 +1,422 @@
+{
+  "organization": "Pune Municipal Corporation (PMC) / पुणे महानगरपालिका",
+  "department": "Solid Waste Management Department / Health Department (घनकचरा व्यवस्थापन विभाग)",
+  "portal": "https://www.pmc.gov.in/",
+  "city": "Pune",
+  "state": "Maharashtra",
+  "country": "India",
+  "description": "Geographical coordinates, addresses, and details of Pune Municipal Corporation (PMC) Solid Waste Management Department Headquarters, 15 Zonal Ward Offices (क्षेत्रीय कार्यालये), central waste processing/landfill facilities, and refuse transfer stations (RTS/Ramps).",
+  "central_headquarters": {
+    "facility_id": "PMC_SWM_HQ",
+    "name": "PMC Central Head Office - Solid Waste Management Department (घनकचरा व्यवस्थापन विभाग मुख्यालय)",
+    "role": "Central Administrative & Operational Headquarters of SWM Department",
+    "address": "3rd Floor, Main Building, Pune Municipal Corporation, Near Mangala Theatre, Shivajinagar, Pune, Maharashtra 411005",
+    "coordinates": {
+      "latitude": 18.523438,
+      "longitude": 73.853062
+    },
+    "plus_code": "7JCMGVF3+96",
+    "contact_phone": "+91-20-25501000",
+    "toll_free": "1800-1030-222",
+    "email": "swm@punecorporation.org",
+    "website": "https://www.pmc.gov.in/en/d/solid-waste-management"
+  },
+  "zonal_and_ward_swm_offices": [
+    {
+      "ward_number": 1,
+      "ward_name": "Yerwada - Kalas - Dhanori Ward Office (येरवडा - कळस - धानोरी क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 1",
+      "areas_covered": [
+        "Yerwada",
+        "Kalas",
+        "Dhanori",
+        "Tingre Nagar",
+        "Vishrantwadi"
+      ],
+      "address": "Near Gunjan Chowk, Pune - Nagar Road, Opposite Indian Oil Petrol Pump, Kashmiri Colony, Yerwada, Pune, Maharashtra 411006",
+      "coordinates": {
+        "latitude": 18.5532,
+        "longitude": 73.8845
+      },
+      "plus_code": "7JCMHV3M+7R",
+      "contact_phone": "+91-20-25509100",
+      "email": "yerwada_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 2,
+      "ward_name": "Nagar Road - Vadgaonsheri Ward Office (नगर रोड - वडगाव शेरी क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 1",
+      "areas_covered": [
+        "Vadgaon Sheri",
+        "Kharadi",
+        "Viman Nagar",
+        "Ramwadi",
+        "Kalyani Nagar"
+      ],
+      "address": "Survey No. 30/7, Pune - Nagar Road, Ramwadi, Wadgaon Sheri, Pune, Maharashtra 411014",
+      "coordinates": {
+        "latitude": 18.558,
+        "longitude": 73.918
+      },
+      "plus_code": "7JCMHW59+56",
+      "contact_phone": "+91-20-25509000",
+      "email": "nagarroad_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 3,
+      "ward_name": "Dhole Patil Road Ward Office (ढोले पाटील रोड क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 1",
+      "areas_covered": [
+        "Dhole Patil Road",
+        "Koregaon Park",
+        "Bund Garden",
+        "Sangamwadi",
+        "Naidu Hospital Area"
+      ],
+      "address": "Near Madhuban Hotel, Dhole Patil Road, Sangamwadi, Pune, Maharashtra 411001",
+      "coordinates": {
+        "latitude": 18.536,
+        "longitude": 73.8785
+      },
+      "plus_code": "7JCMGVPH+CC",
+      "contact_phone": "+91-1800-103-0222",
+      "email": "dholepatil_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 4,
+      "ward_name": "Shivajinagar - Ghole Road Ward Office (शिवाजीनगर - घोले रोड क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 2",
+      "areas_covered": [
+        "Shivajinagar",
+        "Model Colony",
+        "Gokhale Nagar",
+        "Wakadewadi",
+        "FC Road",
+        "JM Road"
+      ],
+      "address": "1187/5, Main Building, Vamanrao Malhar Joshi Marg, Ghole Road, Sumukh Society, Shivajinagar, Pune, Maharashtra 411005",
+      "coordinates": {
+        "latitude": 18.5245,
+        "longitude": 73.844
+      },
+      "plus_code": "7JCMGRFV+RH",
+      "contact_phone": "+91-20-25501405",
+      "email": "gholeroad_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 5,
+      "ward_name": "Aundh - Baner Ward Office (औंध - बाणेर क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 2",
+      "areas_covered": [
+        "Aundh",
+        "Baner",
+        "Balewadi",
+        "Pashan",
+        "Bopodi",
+        "Sutarwadi"
+      ],
+      "address": "Ward No. 8, Ganeshkhind Udyog Bhavan, Near Bremen Chowk, Aundh Gaon, Pune, Maharashtra 411007",
+      "coordinates": {
+        "latitude": 18.5615,
+        "longitude": 73.8055
+      },
+      "plus_code": "7JCMHR64+H5",
+      "contact_phone": "+91-20-25597100",
+      "email": "aundh_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 6,
+      "ward_name": "Kothrud - Bavdhan Ward Office (कोथरूड - बावधन क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 2",
+      "areas_covered": [
+        "Kothrud",
+        "Bavdhan",
+        "Paud Road",
+        "Mayur Colony",
+        "Bhusari Colony",
+        "Gujarat Colony"
+      ],
+      "address": "Golden Hind Building, Behind Paranjape School, Bhelkenagar Chowk, D.P. Road, Kothrud, Pune, Maharashtra 411038",
+      "coordinates": {
+        "latitude": 18.5035,
+        "longitude": 73.8115
+      },
+      "plus_code": "7JCMGR36+CH",
+      "contact_phone": "+91-20-25501600",
+      "email": "kothrud_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 7,
+      "ward_name": "Dhankawadi - Sahakarnagar Ward Office (धनकवडी - सहकारनगर क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 3",
+      "areas_covered": [
+        "Dhankawadi",
+        "Sahakar Nagar",
+        "Katraj",
+        "Ambegaon",
+        "Balaji Nagar",
+        "Padmavati"
+      ],
+      "address": "Late H.B.P. Madhavrao Shankarrao Kadam Bhavan, S.No. 130 to 133, In front of Rajiv Gandhi Zoological Park, Satara Road, Katraj, Pune, Maharashtra 411046",
+      "coordinates": {
+        "latitude": 18.4555,
+        "longitude": 73.861
+      },
+      "plus_code": "7JCMFV46+69",
+      "contact_phone": "+91-20-25508900",
+      "email": "dhankawadi_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 8,
+      "ward_name": "Sinhagad Road (Vadgaon) Ward Office (सिंहगड रोड क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 3",
+      "areas_covered": [
+        "Vadgaon Budruk",
+        "Hingne Khurd",
+        "Anand Nagar",
+        "Dhayari",
+        "Nanded Fata",
+        "Manik Baug"
+      ],
+      "address": "Rajmata Jijau Multi-purpose Centre, Vadgaon Budruk, Near Goyal Ganga Society / Niranjan Park, Sinhagad Road, Pune, Maharashtra 411051",
+      "coordinates": {
+        "latitude": 18.4715,
+        "longitude": 73.8245
+      },
+      "plus_code": "7JCMFRCF+HR",
+      "contact_phone": "+91-20-24350100",
+      "email": "sinhgadroad_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 9,
+      "ward_name": "Warje - Karvenagar Ward Office (वारजे - कर्वेनगर क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 3",
+      "areas_covered": [
+        "Warje",
+        "Karve Nagar",
+        "Hingne Budruk",
+        "Cummins College Area",
+        "Dahanukar Colony"
+      ],
+      "address": "Swapnashilp Commercial Building, S.No. 19/2, Opposite Tara Residency, Near City Pride, Karve Nagar, Pune, Maharashtra 411038",
+      "coordinates": {
+        "latitude": 18.4905,
+        "longitude": 73.8155
+      },
+      "plus_code": "7JCMFRR8+55",
+      "contact_phone": "+91-20-25432192",
+      "email": "warje_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 10,
+      "ward_name": "Hadapsar - Mundhwa Ward Office (हडपसर - मुंढवा क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 4",
+      "areas_covered": [
+        "Hadapsar",
+        "Mundhwa",
+        "Magarpatta",
+        "Sadesatara Nali",
+        "Malwadi",
+        "Amanora"
+      ],
+      "address": "Kshetriya Karyalay, Mantri Market Road, Near Gadital, Hadapsar Gaon, Hadapsar, Pune, Maharashtra 411028",
+      "coordinates": {
+        "latitude": 18.5025,
+        "longitude": 73.9315
+      },
+      "plus_code": "7JCMGW2J+XH",
+      "contact_phone": "+91-20-26821092",
+      "email": "hadapsar_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 11,
+      "ward_name": "Wanawadi - Ramtekdi Ward Office (वानवडी - रामटेकडी क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 4",
+      "areas_covered": [
+        "Wanowrie",
+        "Ramtekdi",
+        "Fatima Nagar",
+        "Salunke Vihar",
+        "Lullanagar",
+        "Kedari Nagar"
+      ],
+      "address": "Vitthalrao Shivarkar Road, KPCT Mall, Behind Vishal Mega Mart, Near Inamdar Hospital, Wanowrie, Pune, Maharashtra 411040",
+      "coordinates": {
+        "latitude": 18.489,
+        "longitude": 73.8965
+      },
+      "plus_code": "7JCMFVQW+JJ",
+      "contact_phone": "+91-20-26804500",
+      "email": "wanawadi_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 12,
+      "ward_name": "Kondhwa - Yewalewadi Ward Office (कोंढवा - येवलेवाडी क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 4",
+      "areas_covered": [
+        "Kondhwa Khurd",
+        "Kondhwa Budruk",
+        "Yewalewadi",
+        "Undri",
+        "NIBM Road",
+        "Santosh Nagar"
+      ],
+      "address": "Sawant Vihar Building, Near Katraj - Kondhwa Road / Katraj Chowk, Kondhwa, Pune, Maharashtra 411046",
+      "coordinates": {
+        "latitude": 18.4485,
+        "longitude": 73.8685
+      },
+      "plus_code": "7JCMCVX9+99",
+      "contact_phone": "+91-20-26930050",
+      "email": "kondhwa_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 13,
+      "ward_name": "Kasba - Vishrambaugwada Ward Office (कसबा - विश्रामबागवाडा क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 5",
+      "areas_covered": [
+        "Kasba Peth",
+        "Sadashiv Peth",
+        "Narayan Peth",
+        "Shaniwar Peth",
+        "Budhwar Peth",
+        "Ravivar Peth"
+      ],
+      "address": "PMC Commercial Building, House No. 787/802, Vedacharya Phatak Guruji Road, Sadashiv Peth, Near Shanipar, Pune, Maharashtra 411030",
+      "coordinates": {
+        "latitude": 18.514,
+        "longitude": 73.852
+      },
+      "plus_code": "7JCMGV72+HR",
+      "contact_phone": "+91-20-25432620",
+      "email": "kasba_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 14,
+      "ward_name": "Bhavani Peth Ward Office (भवानी पेठ क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 5",
+      "areas_covered": [
+        "Bhavani Peth",
+        "Nana Peth",
+        "Rasta Peth",
+        "Ganj Peth",
+        "Timber Market"
+      ],
+      "address": "General Arun Kumar Vaidya Stadium Building, Sapika Path, Mamunji Colony, Bhavani Peth, Pune, Maharashtra 411042",
+      "coordinates": {
+        "latitude": 18.5115,
+        "longitude": 73.871
+      },
+      "plus_code": "7JCMGV6C+H9",
+      "contact_phone": "+91-20-26385000",
+      "email": "bhavanipeth_ward@punecorporation.org"
+    },
+    {
+      "ward_number": 15,
+      "ward_name": "Bibwewadi Ward Office (बिबवेवाडी क्षेत्रीय कार्यालय)",
+      "zone": "Zone No. 5",
+      "areas_covered": [
+        "Bibwewadi",
+        "Market Yard",
+        "Salisbury Park",
+        "Gultekdi",
+        "Maharshi Nagar",
+        "Lower Indira Nagar"
+      ],
+      "address": "Utsav Building, Shivneri Path, Adinath Society, Near K.K. Market / City Pride, Maharshi Nagar, Bibwewadi, Pune, Maharashtra 411037",
+      "coordinates": {
+        "latitude": 18.4885,
+        "longitude": 73.8615
+      },
+      "plus_code": "7JCMFVQ6+CJ",
+      "contact_phone": "+91-20-24268000",
+      "email": "bibwewadi_ward@punecorporation.org"
+    }
+  ],
+  "central_waste_processing_and_disposal_facilities": [
+    {
+      "facility_id": "URULI_DEVACHI_DEPOT",
+      "name": "Uruli Devachi & Phursungi Solid Waste Depot & Processing Facility (उरुळी देवाची / फुरसुंगी कचरा डेपो)",
+      "facility_type": "Primary MSW Processing Complex, Legacy Dumpsite Biomining & 300 TPD Bio-CNG Plant",
+      "operational_status": "Active (Biomining & scientific processing underway; open dumping ceased)",
+      "address": "Survey No. 17 & 18, Saswad Road, Uruli Devachi / Phursungi, Taluka Haveli, Pune, Maharashtra 412308",
+      "coordinates": {
+        "latitude": 18.459,
+        "longitude": 73.966
+      },
+      "plus_code": "7JCMFX58+JC"
+    },
+    {
+      "facility_id": "RAMTEKDI_WTE_PLANT",
+      "name": "Ramtekdi Solid Waste Processing & Waste-to-Energy (WTE) Facility",
+      "facility_type": "750 TPD MSW Processing, Refuse Derived Fuel (RDF) & 10 MW Waste-to-Energy Plant",
+      "operational_status": "Active (Centralized mechanical and thermal processing plant)",
+      "address": "Samarth Nagar, Ramtekdi Industrial Area, Hadapsar, Pune, Maharashtra 411013",
+      "coordinates": {
+        "latitude": 18.4985,
+        "longitude": 73.9215
+      },
+      "plus_code": "7JCMFWXC+CH"
+    },
+    {
+      "facility_id": "SWACH_PUNE_COOP",
+      "name": "SWaCH Cooperative Central Administrative Office (स्वच्छ संस्था - पुणे)",
+      "facility_type": "Authorized Door-to-Door Waste Collection & Segregation Partner of PMC",
+      "operational_status": "Active (Partner cooperative managing citywide primary door-to-door waste collection)",
+      "address": "3rd Floor, Ward Office Building, Old Tilak Road, Near Hirabag Ganpati Mandal, Shukrawar Peth, Pune, Maharashtra 411002",
+      "coordinates": {
+        "latitude": 18.508,
+        "longitude": 73.8545
+      },
+      "plus_code": "7JCMGV53+5R",
+      "contact_phone": "+91-9765999500",
+      "website": "https://swachcoop.com/"
+    }
+  ],
+  "refuse_transfer_stations_and_ramps": [
+    {
+      "station_id": "KOTHRUD_RTS",
+      "name": "Kothrud Garbage Transfer Station & Ramp (कोथरूड कचरा रॅम्प)",
+      "role": "Garbage transfer, compaction and transshipment station for Western Pune (Kothrud/Bavdhan/Warje)",
+      "address": "Paud Road, Near Kothrud PMPML Bus Depot, Kothrud, Pune, Maharashtra 411038",
+      "coordinates": {
+        "latitude": 18.505,
+        "longitude": 73.804
+      },
+      "plus_code": "7JCMGR33+XJ"
+    },
+    {
+      "station_id": "HADAPSAR_RTS",
+      "name": "Hadapsar Garbage Transfer Depot & Ramp (हडपसर कचरा रॅम्प)",
+      "role": "Secondary waste transfer station for Eastern Pune (Hadapsar/Mundhwa/Magarpatta)",
+      "address": "63, B Takar Path, Swami Vivekanand Nagar, Hadapsar Industrial Estate, Hadapsar, Pune, Maharashtra 411013",
+      "coordinates": {
+        "latitude": 18.502,
+        "longitude": 73.9185
+      },
+      "plus_code": "7JCMGW29+Q9"
+    },
+    {
+      "station_id": "YERWADA_RTS",
+      "name": "Yerwada Refuse Transfer Station (येरवडा कचरा हस्तांतरण केंद्र)",
+      "role": "Waste transfer and transshipment for North-Eastern Pune (Yerwada/Nagar Road/Dhanori)",
+      "address": "Pune - Nagar Road, Near Yerwada Bridge, Yerwada, Pune, Maharashtra 411006",
+      "coordinates": {
+        "latitude": 18.548,
+        "longitude": 73.882
+      },
+      "plus_code": "7JCMGVXJ+6R"
+    },
+    {
+      "station_id": "KATRAJ_RTS",
+      "name": "Katraj Refuse Transfer Ramp (कात्रज कचरा रॅम्प)",
+      "role": "Waste transfer station for Southern Pune (Katraj/Dhankawadi/Kondhwa)",
+      "address": "Katraj Dairy Road, Near Rajiv Gandhi Zoological Park, Katraj, Pune, Maharashtra 411046",
+      "coordinates": {
+        "latitude": 18.452,
+        "longitude": 73.858
+      },
+      "plus_code": "7JCMFV25+Q6"
+    }
+  ]
+}

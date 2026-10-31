@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "title": "Women and Child Safety Departments & Facilities in Pune",
+    "region": "Pune Metropolitan Area, Maharashtra, India",
+    "generated_date": "2026-10-03",
+    "description": "Geographical coordinates, contact details, jurisdictions, and operational roles of government administrative offices, police safety cells, judicial bodies, crisis intervention centers, and emergency helplines for women and child safety in Pune.",
+    "key_emergency_numbers": {
+      "National Emergency Response Number": "112",
+      "Women Helpline (Domestic Abuse / Violence - 24x7)": "181",
+      "Pune Police Women Helpline": "1091",
+      "Child Helpline (Mission Vatsalya - 24x7)": "1098",
+      "Maharashtra State Commission for Women Helpline": "7477722424",
+      "Pune Police WhatsApp Women Safety Helpline": "+91 89752 83100"
+    },
+    "total_departments_and_centers": 18
+  },
+  "departments": [
+    {
+      "id": "WCD-MAHA-HQ-01",
+      "name": "Commissionerate of Women and Child Development (WCD), Government of Maharashtra",
+      "department_category": "State Administrative & Apex Policy",
+      "governing_body": "Department of Women & Child Development, Government of Maharashtra",
+      "role_and_responsibilities": "State apex headquarters responsible for the formulation, implementation, and monitoring of policies, legislation, and welfare schemes for women and children across Maharashtra, including Mission Shakti, Mission Vatsalya, and POSH Act compliance.",
+      "facility_type": "State Directorate Headquarters",
+      "address": "28, Queen's Garden, near Old Circuit House, Camp",
+      "locality": "Camp",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.52961,
+        "longitude": 73.885859
+      },
+      "contact": {
+        "phone": "+91 20 2636 0063",
+        "alternate_phone": "+91 20 2636 1424",
+        "emergency_helpline": "181 / 112",
+        "email": "comm.wcd@maharashtra.gov.in"
+      },
+      "website": "https://womenchild.maharashtra.gov.in"
+    },
+    {
+      "id": "WCD-SARA-MAHA-02",
+      "name": "State Adoption Resource Agency (SARA), Maharashtra",
+      "department_category": "State Administrative & Apex Policy",
+      "governing_body": "Commissionerate of Women and Child Development, Maharashtra",
+      "role_and_responsibilities": "State nodal statutory body coordinating, regulating, and monitoring in-country and inter-country adoption of orphaned, abandoned, and surrendered children under CARA guidelines.",
+      "facility_type": "State Regulatory & Adoption Authority",
+      "address": "Commissionerate of Women and Child Development, 28 Queen's Garden, Camp",
+      "locality": "Camp",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.52961,
+        "longitude": 73.885859
+      },
+      "contact": {
+        "phone": "+91 20 2636 0063",
+        "emergency_helpline": "1098",
+        "email": "saramaharashtra@gmail.com"
+      },
+      "website": "https://cara.wcd.gov.in"
+    },
+    {
+      "id": "MSCW-DIV-PUNE-03",
+      "name": "Maharashtra State Commission for Women (Pune Regional Desk)",
+      "department_category": "State Administrative & Apex Policy",
+      "governing_body": "Maharashtra State Commission for Women (Statutory Body)",
+      "role_and_responsibilities": "Investigating violations of women rights, resolving complaints regarding violence, dowry harassment, sexual abuse, and providing free legal advice and family counseling.",
+      "facility_type": "Statutory Human Rights / Women Commission Office",
+      "address": "Divisional Commissioner Office Complex, Council Hall, Camp",
+      "locality": "Camp",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.5242,
+        "longitude": 73.8765
+      },
+      "contact": {
+        "phone": "+91 20 2612 3377",
+        "emergency_helpline": "7477722424 / 112",
+        "email": "mscwmah@gmail.com"
+      },
+      "website": "https://mscw.org.in"
+    },
+    {
+      "id": "DWCDO-PUNE-04",
+      "name": "District Women and Child Development Office (DWCDO), Pune",
+      "department_category": "District Child Protection & Welfare",
+      "governing_body": "Revenue & Forest / WCD Department, Government of Maharashtra",
+      "role_and_responsibilities": "District-level executive machinery overseeing women safety shelters, anti-child marriage enforcement, POSH Internal Committees inspections, child institutions registration, and child protection programs.",
+      "facility_type": "District Administrative Office",
+      "address": "Chunawala Chambers, Abdul Ajiz Memon Path, Tophakhana, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.5265,
+        "longitude": 73.8518
+      },
+      "contact": {
+        "phone": "+91 20 2553 6871",
+        "emergency_helpline": "181 / 1098",
+        "email": "dwcdopune@gmail.com"
+      },
+      "website": "https://pune.gov.in"
+    },
+    {
+      "id": "DCPU-PUNE-05",
+      "name": "District Child Protection Unit (DCPU), Pune",
+      "department_category": "District Child Protection & Welfare",
+      "governing_body": "Women and Child Development Department / Mission Vatsalya",
+      "role_and_responsibilities": "Field-level child protection body managing rescue operations for children in distress, street children, child laborers, child abuse victims, foster care, sponsorship, and institutional rehabilitation.",
+      "facility_type": "Child Protection & Emergency Intervention Unit",
+      "address": "Bungalow No. 5, Param Anand, near Old Circuit House, Queen's Garden, Camp",
+      "locality": "Camp",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.5301,
+        "longitude": 73.8845
+      },
+      "contact": {
+        "phone": "+91 20 2553 6871",
+        "emergency_helpline": "1098 / 112",
+        "email": "pune.dcpu@gmail.com"
+      },
+      "website": "https://missionvatsalya.wcd.gov.in"
+    },
+    {
+      "id": "POLICE-BHAROSA-06",
+      "name": "Pune City Police - Bharosa Cell Headquarters (Cops Hub)",
+      "department_category": "Police & Emergency Response",
+      "governing_body": "Crime Branch, Pune City Police",
+      "role_and_responsibilities": "Pioneering integrated police center offering crisis support, legal consultation, psychiatric counseling, and dispute resolution for women, children, and senior citizens under one roof.",
+      "facility_type": "Integrated Police Crisis & Counseling Facility",
+      "address": "Old CID Office Building, Sangam Bridge, near Sangamwadi Road, Shivajinagar",
+      "locality": "Shivajinagar / Sangamwadi",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.52945,
+        "longitude": 73.858448
+      },
+      "contact": {
+        "phone": "+91 20 2620 8341",
+        "alternate_phone": "+91 20 2612 3377",
+        "emergency_helpline": "1091 / 112",
+        "email": "bharosacell.pune@mahapolice.gov.in"
+      },
+      "website": "http://www.punepolice.gov.in"
+    },
+    {
+      "id": "POLICE-DAMINI-HQ-07",
+      "name": "Pune City Police Headquarters - Women Safety Desk & Damini Squad HQ",
+      "department_category": "Police & Emergency Response",
+      "governing_body": "Pune City Police Commissionerate",
+      "role_and_responsibilities": "Headquarters of the dedicated all-women rapid intervention bike/patrol squad (Damini Pathak) securing schools, colleges, IT parks, bus stands, and public spaces, alongside the 24x7 Women Control Room.",
+      "facility_type": "City Police Commissionerate & Quick Response Unit",
+      "address": "Police Commissioner Office, 2 Sadhu Vaswani Road, Agarkar Nagar, Camp",
+      "locality": "Camp",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.522057,
+        "longitude": 73.875788
+      },
+      "contact": {
+        "phone": "+91 20 2612 6296",
+        "alternate_phone": "+91 20 2612 2880",
+        "emergency_helpline": "1091 / 112",
+        "whatsapp_helpline": "+91 89752 83100",
+        "email": "cp.pune@mahapolice.gov.in"
+      },
+      "website": "http://www.punepolice.gov.in"
+    },
+    {
+      "id": "POLICE-SJPU-08",
+      "name": "Special Juvenile Police Unit (SJPU), Pune City Police",
+      "department_category": "Police & Emergency Response",
+      "governing_body": "Crime Branch, Pune City Police",
+      "role_and_responsibilities": "Specialized juvenile protection police unit enforcing the Juvenile Justice Act, investigating POCSO cases, missing children complaints, and coordinating with CWC and juvenile homes.",
+      "facility_type": "Specialized Juvenile Law Enforcement Unit",
+      "address": "Crime Branch, Police Commissioner Office, Sadhu Vaswani Road, Camp",
+      "locality": "Camp",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.522057,
+        "longitude": 73.875788
+      },
+      "contact": {
+        "phone": "+91 20 2612 6296",
+        "emergency_helpline": "1098 / 112",
+        "email": "crimebranch.pune@mahapolice.gov.in"
+      },
+      "website": "http://www.punepolice.gov.in"
+    },
+    {
+      "id": "POLICE-PCMC-BHAROSA-09",
+      "name": "Pimpri Chinchwad Police - Bharosa Cell & Women Safety Wing",
+      "department_category": "Police & Emergency Response",
+      "governing_body": "Pimpri Chinchwad Police Commissionerate",
+      "role_and_responsibilities": "Comprehensive women and child protection desk, domestic counseling, and emergency intervention for the industrial twin cities of Pimpri-Chinchwad and surrounding suburban zones.",
+      "facility_type": "Police Commissionerate & Women Safety Cell",
+      "address": "Police Commissioner Office, Premlok Park Road, Indira Nagar, Bhoirnagar, Akurdi / Chinchwad",
+      "locality": "Chinchwad / Akurdi",
+      "city": "Pimpri-Chinchwad, Pune",
+      "pincode": "411033",
+      "coordinates": {
+        "latitude": 18.639713,
+        "longitude": 73.781446
+      },
+      "contact": {
+        "phone": "+91 20 2735 2500",
+        "alternate_phone": "+91 20 2765 2400",
+        "emergency_helpline": "112 / 1091",
+        "email": "cp.pcpc@mahapolice.gov.in"
+      },
+      "website": "https://pcpc.gov.in"
+    },
+    {
+      "id": "CWC-PUNE-10",
+      "name": "Child Welfare Committee (CWC), Pune District",
+      "department_category": "Judicial & Statutory Tribunals",
+      "governing_body": "Department of Women & Child Development / Judicial Bench",
+      "role_and_responsibilities": "Statutory bench with powers of a First Class Judicial Magistrate to decide the care, custody, rehabilitation, and long-term protection of children in need of care and protection (CNCP).",
+      "facility_type": "Quasi-Judicial Child Protection Bench",
+      "address": "Pandit Jawaharlal Nehru Udyog Kendra (PJNUK) Campus, M10, Golf Club Road, Ashok Nagar, Yerawada",
+      "locality": "Yerwada",
+      "city": "Pune",
+      "pincode": "411006",
+      "coordinates": {
+        "latitude": 18.553783,
+        "longitude": 73.884159
+      },
+      "contact": {
+        "phone": "+91 20 2017 1629",
+        "emergency_helpline": "1098",
+        "email": "cwc.pune@gmail.com"
+      },
+      "website": "https://womenchild.maharashtra.gov.in"
+    },
+    {
+      "id": "JJB-PUNE-11",
+      "name": "Juvenile Justice Board (JJB) & Juvenile Court, Pune",
+      "department_category": "Judicial & Statutory Tribunals",
+      "governing_body": "District & Sessions Court / Women & Child Development",
+      "role_and_responsibilities": "Special judicial tribunal comprising a Principal Magistrate and two social workers adjudicating cases involving Children in Conflict with Law (CCL), focusing on counseling, reform, and rehabilitation.",
+      "facility_type": "Juvenile Court & Adjudication Board",
+      "address": "M10, Golf Club Road, Ashok Nagar, Yerawada",
+      "locality": "Yerwada",
+      "city": "Pune",
+      "pincode": "411006",
+      "coordinates": {
+        "latitude": 18.553783,
+        "longitude": 73.884159
+      },
+      "contact": {
+        "phone": "+91 20 2017 1629",
+        "emergency_helpline": "1098 / 112",
+        "email": "jjbpune@gmail.com"
+      },
+      "website": "https://districts.ecourts.gov.in/pune"
+    },
+    {
+      "id": "BAL-KALYAN-YERWADA-12",
+      "name": "Government Observation Home & Children's Home (PJNUK Bal Kalyan Sankul)",
+      "department_category": "Judicial & Statutory Tribunals",
+      "governing_body": "Commissionerate of Women and Child Development, Maharashtra",
+      "role_and_responsibilities": "State-run residential care, protective shelter, schooling, and vocational rehabilitation facility for juveniles undergoing inquiry and children requiring emergency state protection.",
+      "facility_type": "Government Juvenile Observation & Children Shelter Home",
+      "address": "Pandit Jawaharlal Nehru Udyog Kendra, Golf Club Road, Ashok Nagar, Yerawada",
+      "locality": "Yerwada",
+      "city": "Pune",
+      "pincode": "411006",
+      "coordinates": {
+        "latitude": 18.553783,
+        "longitude": 73.884159
+      },
+      "contact": {
+        "phone": "+91 20 2017 1629",
+        "emergency_helpline": "1098",
+        "email": "pjnuk.yerwada@gmail.com"
+      },
+      "website": "https://womenchild.maharashtra.gov.in"
+    },
+    {
+      "id": "COURT-FAMILY-PUNE-13",
+      "name": "Family Court, Pune (Matrimonial & Child Custody Center)",
+      "department_category": "Judicial & Statutory Tribunals",
+      "governing_body": "Judiciary of Maharashtra / High Court of Bombay",
+      "role_and_responsibilities": "Adjudicating matrimonial disputes, granting domestic violence protection orders, maintenance, divorce, child custody, and conducting mandatory family mediation with trained counselors.",
+      "facility_type": "Specialized Judicial Family Court",
+      "address": "Husseny Building, 89, 107/2, Nyaymurti Ranade Path, Tophakhana, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.5283,
+        "longitude": 73.852
+      },
+      "contact": {
+        "phone": "+91 20 2433 2034",
+        "emergency_helpline": "112",
+        "email": "familycourt-pune@gov.in"
+      },
+      "website": "https://districts.ecourts.gov.in/pune"
+    },
+    {
+      "id": "CRISIS-OSC-SAKHI-14",
+      "name": "Sakhi One Stop Centre (OSC), Pune",
+      "department_category": "Crisis Intervention & Helplines",
+      "governing_body": "Ministry of Women and Child Development (GoI) / Chaitanya Mahila Mandal",
+      "role_and_responsibilities": "24x7 emergency one-stop crisis shelter for women facing domestic violence, sexual assault, harassment, or distress, providing integrated emergency medical care, police reporting, legal counseling, and temporary lodging.",
+      "facility_type": "Integrated One-Stop Crisis Center (Mission Shakti)",
+      "address": "1st Floor, Bharat Ratna Late Rajeev Gandhi Hospital, Deccan College Road, Nawanagar, Salwe Nagar, Yerawada",
+      "locality": "Yerwada",
+      "city": "Pune",
+      "pincode": "411006",
+      "coordinates": {
+        "latitude": 18.5525,
+        "longitude": 73.8785
+      },
+      "contact": {
+        "phone": "+91 75077 71612",
+        "alternate_phone": "+91 93703 46499",
+        "emergency_helpline": "181 / 112",
+        "email": "sakhioscpune@gmail.com"
+      },
+      "website": "https://missionshakti.wcd.gov.in"
+    },
+    {
+      "id": "CRISIS-CHILDLINE-KARVE-15",
+      "name": "Childline 1098 Nodal Centre Pune (Karve Institute of Social Service)",
+      "department_category": "Crisis Intervention & Helplines",
+      "governing_body": "Childline India Foundation / Ministry of WCD / Karve Institute",
+      "role_and_responsibilities": "Nodal coordinating center for 1098 Child Helpline in Pune, executing field rescues for runaway, abused, child-labor, and child-marriage victims, legal follow-ups, and psychological rehabilitation.",
+      "facility_type": "Nodal Child Helpline & Intervention Agency",
+      "address": "Karve Institute of Social Service, 18, Hill Side, Hingane Home Colony, Karvenagar",
+      "locality": "Karvenagar",
+      "city": "Pune",
+      "pincode": "411052",
+      "coordinates": {
+        "latitude": 18.492005,
+        "longitude": 73.812128
+      },
+      "contact": {
+        "phone": "+91 20 2543 4208",
+        "alternate_phone": "+91 75178 35431",
+        "emergency_helpline": "1098 / 112",
+        "email": "kinss@karve-institute.org"
+      },
+      "website": "http://www.karveinstitute.edu.in"
+    },
+    {
+      "id": "CRISIS-CHILDLINE-DEEPGRIHA-16",
+      "name": "Childline Collaborative Outreach Centre (Deep Griha Society)",
+      "department_category": "Crisis Intervention & Helplines",
+      "governing_body": "Deep Griha Society / Mission Vatsalya Childline",
+      "role_and_responsibilities": "Outreach collaborative partner for Childline Pune focusing on high-risk vulnerable zones, railway station surveillance for runaway children, slum outreach, child health support, and cr\u00e8ches.",
+      "facility_type": "Child Protection Collaborative Support Center",
+      "address": "13, Tadiwala Road, Lumbini Nagar, Sangamvadi, near Pune Railway Station",
+      "locality": "Sangamwadi / Pune Station",
+      "city": "Pune",
+      "pincode": "411001",
+      "coordinates": {
+        "latitude": 18.5332,
+        "longitude": 73.8795
+      },
+      "contact": {
+        "phone": "+91 20 4018 7373",
+        "emergency_helpline": "1098",
+        "email": "deepgriha@gmail.com"
+      },
+      "website": "http://deepgriha.org"
+    },
+    {
+      "id": "MUNICIPAL-PMC-WCD-17",
+      "name": "Pune Municipal Corporation - Social Development & Women Welfare Department",
+      "department_category": "Municipal Welfare Departments",
+      "governing_body": "Pune Municipal Corporation (PMC)",
+      "role_and_responsibilities": "Planning and executing civic women welfare schemes, women self-help groups (SHG / Bachat Gat) financial assistance, mother & child nutritional support, girl-child education subsidies, and free vocational centers.",
+      "facility_type": "Municipal Social Development Headquarters",
+      "address": "3rd Floor, PMC Main Building, Shivajinagar",
+      "locality": "Shivajinagar",
+      "city": "Pune",
+      "pincode": "411005",
+      "coordinates": {
+        "latitude": 18.523438,
+        "longitude": 73.853062
+      },
+      "contact": {
+        "phone": "+91 20 2550 1000",
+        "toll_free": "1800 103 0222",
+        "emergency_helpline": "112",
+        "email": "info@punecorporation.org"
+      },
+      "website": "https://pmc.gov.in"
+    },
+    {
+      "id": "MUNICIPAL-PCMC-WCD-18",
+      "name": "Pimpri Chinchwad Municipal Corporation - Women and Child Welfare Department",
+      "department_category": "Municipal Welfare Departments",
+      "governing_body": "Pimpri Chinchwad Municipal Corporation (PCMC)",
+      "role_and_responsibilities": "Civic department administrating women empowerment programs, maternity benefit schemes, day-care cr\u00e8ches for children of working women, and specialized child nutrition centers in PCMC limits.",
+      "facility_type": "Municipal Welfare Department Headquarters",
+      "address": "PCMC Main Administrative Building, Mumbai - Pune Road, Pimpri Colony",
+      "locality": "Pimpri",
+      "city": "Pimpri-Chinchwad, Pune",
+      "pincode": "411018",
+      "coordinates": {
+        "latitude": 18.6275,
+        "longitude": 73.801
+      },
+      "contact": {
+        "phone": "+91 20 6733 3333",
+        "emergency_helpline": "112",
+        "email": "contact@pcmcindia.gov.in"
+      },
+      "website": "https://www.pcmcindia.gov.in"
+    }
+  ]
+}

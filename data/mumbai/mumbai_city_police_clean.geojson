@@ -1,0 +1,474 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mumbai_City_Police_Commissionerate_and_Zonal_Offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "POL-MUM-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8342,
+          18.9465
+        ]
+      },
+      "properties": {
+        "name": "Office of the Commissioner of Police, Greater Mumbai (Headquarters)",
+        "agency": "Mumbai Police (Maharashtra Police)",
+        "facility_type": "Apex Metropolitan Police Commissionerate Headquarters",
+        "jurisdiction": "Greater Mumbai Police Commissionerate Area",
+        "address": "Opposite Crawford Market, Dr. D.N. Road, Dhobi Talao, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Commissioner of Police (CP), Greater Mumbai",
+        "designation": "Commissioner of Police",
+        "phone": "+91-22-22620111",
+        "email": "cp.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8342,
+          18.9465
+        ]
+      },
+      "properties": {
+        "name": "Mumbai Police Main Control Room (Dial 112 / 100 Command Center)",
+        "agency": "Mumbai Police (Maharashtra Police)",
+        "facility_type": "24x7 Emergency Police Dispatch & Citywide Surveillance Command",
+        "jurisdiction": "Greater Mumbai (Emergency Dial 112 Dispatch & Rapid Response)",
+        "address": "1st Floor, Police Commissionerate Building, Dr. D.N. Road, Fort, Mumbai, Maharashtra 400001",
+        "officer": "DCP (Operations) / In-Charge Control Room",
+        "designation": "DCP (Operations)",
+        "phone": "+91-22-22625000",
+        "email": "controlroom.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8342,
+          18.9465
+        ]
+      },
+      "properties": {
+        "name": "Crime Branch CID Headquarters (Detection Department)",
+        "agency": "Mumbai Police (Crime Branch)",
+        "facility_type": "Metropolitan Crime Investigation & Intelligence Headquarters",
+        "jurisdiction": "Greater Mumbai",
+        "address": "Annex Building, Police Commissioner Office Complex, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Joint Commissioner of Police (Crime)",
+        "designation": "Joint CP (Crime)",
+        "phone": "+91-22-22620775",
+        "email": "crimebranch.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8645,
+          19.0668
+        ]
+      },
+      "properties": {
+        "name": "Cyber Crime Police Station (BKC)",
+        "agency": "Mumbai Police (Cyber Cell)",
+        "facility_type": "Specialized Cyber Crime Investigation Police Station",
+        "jurisdiction": "Greater Mumbai (Cyber Terrorism, Financial Fraud & Digital Crimes)",
+        "address": "Police Station Building, G-Block, Bandra Kurla Complex Road, Opposite ICICI Bank, Bandra East, Mumbai, Maharashtra 400051",
+        "officer": "Deputy Commissioner of Police (Cyber Crime)",
+        "designation": "DCP (Cyber)",
+        "phone": "+91-22-26504481",
+        "email": "cybercell.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8288,
+          18.9668
+        ]
+      },
+      "properties": {
+        "name": "Office of the Additional Commissioner of Police - South Region",
+        "agency": "Mumbai Police (South Region)",
+        "facility_type": "Regional Police Headquarters",
+        "jurisdiction": "South Mumbai (Colaba, Fort, Marine Drive, Malabar Hill, Byculla)",
+        "address": "Nagpada Police Hospital Campus, Bellasis Road, Nagpada, Mumbai, Maharashtra 400008",
+        "officer": "Additional Commissioner of Police (South Region)",
+        "designation": "Addl. CP (South)",
+        "phone": "+91-22-23075555",
+        "email": "addlcp.south@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8335,
+          18.9412
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 1",
+        "agency": "Mumbai Police (Zone 1)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 1 (Colaba, Cuffe Parade, Marine Drive, Azad Maidan, MRA Marg)",
+        "address": "Azad Maidan Police Station Complex, Mahapalika Marg, Fort, Mumbai, Maharashtra 400001",
+        "officer": "Deputy Commissioner of Police (Zone 1)",
+        "designation": "DCP (Zone 1)",
+        "phone": "+91-22-22620697",
+        "email": "dcpzone1.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8165,
+          18.9615
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 2",
+        "agency": "Mumbai Police (Zone 2)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 2 (D.B. Marg, Gamdevi, Malabar Hill, Pydhonie, L.T. Marg)",
+        "address": "D.B. Marg Police Station Complex, 397/A, Lamington Road, Grant Road East, Mumbai, Maharashtra 400007",
+        "officer": "Deputy Commissioner of Police (Zone 2)",
+        "designation": "DCP (Zone 2)",
+        "phone": "+91-22-23867873",
+        "email": "dcpzone2.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.818,
+          19.002
+        ]
+      },
+      "properties": {
+        "name": "Office of the Additional Commissioner of Police - Central Region",
+        "agency": "Mumbai Police (Central Region)",
+        "facility_type": "Regional Police Headquarters",
+        "jurisdiction": "Central Mumbai (Worli, Tardeo, Dadar, Parel, Matunga, Wadala, Dharavi)",
+        "address": "Worli Police Camp, Sir Pochkhanawala Road, Worli, Mumbai, Maharashtra 400030",
+        "officer": "Additional Commissioner of Police (Central Region)",
+        "designation": "Addl. CP (Central)",
+        "phone": "+91-22-24941234",
+        "email": "addlcp.central@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8184,
+          19.0062
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 3",
+        "agency": "Mumbai Police (Zone 3)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 3 (Worli, Tardeo, Nagpada, Byculla, Agripada)",
+        "address": "Worli Police Station Complex, Ganpatrao Kadam Marg, Worli, Mumbai, Maharashtra 400018",
+        "officer": "Deputy Commissioner of Police (Zone 3)",
+        "designation": "DCP (Zone 3)",
+        "phone": "+91-22-24939352",
+        "email": "dcpzone3.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.0028
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 4",
+        "agency": "Mumbai Police (Zone 4)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 4 (Bhoiwada, Kalachowki, Antop Hill, Wadala, Matunga)",
+        "address": "Bhoiwada Police Station Complex, Jerbai Wadia Road, Parel, Mumbai, Maharashtra 400012",
+        "officer": "Deputy Commissioner of Police (Zone 4)",
+        "designation": "DCP (Zone 4)",
+        "phone": "+91-22-24141234",
+        "email": "dcpzone4.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8532,
+          19.0435
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 5",
+        "agency": "Mumbai Police (Zone 5)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 5 (Dharavi, Shahu Nagar, Mahim, Dadar, Shivaji Park)",
+        "address": "Dharavi Police Station Complex, 90 Feet Road, Dharavi, Mumbai, Maharashtra 400017",
+        "officer": "Deputy Commissioner of Police (Zone 5)",
+        "designation": "DCP (Zone 5)",
+        "phone": "+91-22-24072345",
+        "email": "dcpzone5.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8368,
+          19.0552
+        ]
+      },
+      "properties": {
+        "name": "Office of the Additional Commissioner of Police - Western Region",
+        "agency": "Mumbai Police (Western Region)",
+        "facility_type": "Regional Police Headquarters",
+        "jurisdiction": "Western Suburbs (Bandra, Khar, Santacruz, Andheri, Juhu, Versova, Airport)",
+        "address": "Bandra Police Station Complex, 3 Master Vinayak Cross Road, Hill Road, Bandra West, Mumbai, Maharashtra 400050",
+        "officer": "Additional Commissioner of Police (Western Region)",
+        "designation": "Addl. CP (West)",
+        "phone": "+91-22-26402122",
+        "email": "addlcp.west@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8512,
+          19.0632
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 8",
+        "agency": "Mumbai Police (Zone 8)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 8 (Kherwadi, BKC, Vakola, Vile Parle, Airport, Sahar)",
+        "address": "Kherwadi Police Station Complex, Building No. 5, Government Colony, Bandra East, Mumbai, Maharashtra 400051",
+        "officer": "Deputy Commissioner of Police (Zone 8)",
+        "designation": "DCP (Zone 8)",
+        "phone": "+91-22-26479372",
+        "email": "dcpzone8.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8368,
+          19.0552
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 9",
+        "agency": "Mumbai Police (Zone 9)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 9 (Bandra West, Khar West, Santacruz West, Juhu, D.N. Nagar, Versova, Oshiwara)",
+        "address": "Bandra Police Station Complex, Hill Road, Bandra West, Mumbai, Maharashtra 400050",
+        "officer": "Deputy Commissioner of Police (Zone 9)",
+        "designation": "DCP (Zone 9)",
+        "phone": "+91-22-26422345",
+        "email": "dcpzone9.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8482,
+          19.2062
+        ]
+      },
+      "properties": {
+        "name": "Office of the Additional Commissioner of Police - North Region",
+        "agency": "Mumbai Police (North Region)",
+        "facility_type": "Regional Police Headquarters",
+        "jurisdiction": "North Mumbai (Goregaon, Malad, Kandivali, Borivali, Dahisar, Dindoshi)",
+        "address": "Kandivali Police Station Complex, S.V. Road, Kandivali West, Mumbai, Maharashtra 400067",
+        "officer": "Additional Commissioner of Police (North Region)",
+        "designation": "Addl. CP (North)",
+        "phone": "+91-22-28051234",
+        "email": "addlcp.north@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8532,
+          19.2307
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 11",
+        "agency": "Mumbai Police (Zone 11)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 11 (Borivali, Kandivali, Charkop, Gorai, Malad, Bangur Nagar, MHB Colony)",
+        "address": "Borivali Police Station Complex, S.V. Road, Borivali West, Mumbai, Maharashtra 400092",
+        "officer": "Deputy Commissioner of Police (Zone 11)",
+        "designation": "DCP (Zone 11)",
+        "phone": "+91-22-28923456",
+        "email": "dcpzone11.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8682,
+          19.1765
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 12",
+        "agency": "Mumbai Police (Zone 12)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 12 (Dindoshi, Kurar, Vanrai, Samta Nagar, Kasturba Marg, Dahisar, Aarey)",
+        "address": "Dindoshi Police Station Complex, Gen. A.K. Vaidya Marg, Malad East, Mumbai, Maharashtra 400097",
+        "officer": "Deputy Commissioner of Police (Zone 12)",
+        "designation": "DCP (Zone 12)",
+        "phone": "+91-22-28401234",
+        "email": "dcpzone12.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8988,
+          19.0585
+        ]
+      },
+      "properties": {
+        "name": "Office of the Additional Commissioner of Police - Eastern Region",
+        "agency": "Mumbai Police (Eastern Region)",
+        "facility_type": "Regional Police Headquarters",
+        "jurisdiction": "Eastern Suburbs (Kurla, Chembur, Govandi, Ghatkopar, Vikhroli, Mulund)",
+        "address": "Chembur Police Station Complex, Sion-Trombay Road, Chembur, Mumbai, Maharashtra 400071",
+        "officer": "Additional Commissioner of Police (Eastern Region)",
+        "designation": "Addl. CP (East)",
+        "phone": "+91-22-25222345",
+        "email": "addlcp.east@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8988,
+          19.0585
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 6",
+        "agency": "Mumbai Police (Zone 6)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 6 (Chembur, Tilak Nagar, Trombay, Govandi, Mankhurd, Deonar, Chunabhatti, RCF)",
+        "address": "Chembur Police Station Complex, Near Chembur Naka, Chembur, Mumbai, Maharashtra 400071",
+        "officer": "Deputy Commissioner of Police (Zone 6)",
+        "designation": "DCP (Zone 6)",
+        "phone": "+91-22-25221234",
+        "email": "dcpzone6.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9512,
+          19.1724
+        ]
+      },
+      "properties": {
+        "name": "Office of the Deputy Commissioner of Police - Zone 7",
+        "agency": "Mumbai Police (Zone 7)",
+        "facility_type": "Zonal Police Headquarters",
+        "jurisdiction": "Zone 7 (Ghatkopar, Pant Nagar, Vikhroli, Kanjurmarg, Bhandup, Mulund, Navghar)",
+        "address": "Mulund Police Station Complex, L.B.S. Marg, Mulund West, Mumbai, Maharashtra 400080",
+        "officer": "Deputy Commissioner of Police (Zone 7)",
+        "designation": "DCP (Zone 7)",
+        "phone": "+91-22-25641234",
+        "email": "dcpzone7.mumbai@mahapolice.gov.in"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "POL-MUM-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0368,
+          19.0185
+        ]
+      },
+      "properties": {
+        "name": "Office of the Commissioner of Police, Navi Mumbai",
+        "agency": "Navi Mumbai Police (Maharashtra Police)",
+        "facility_type": "Regional Police Commissionerate Headquarters",
+        "jurisdiction": "Navi Mumbai Commissionerate Area (Belapur, Vashi, Panvel, Airoli)",
+        "address": "Plot No. 1, Sector 10, Near CBD Belapur Railway Station, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+        "officer": "Commissioner of Police, Navi Mumbai",
+        "designation": "Commissioner of Police (Navi Mumbai)",
+        "phone": "+91-22-27572224",
+        "email": "cp.navimumbai@mahapolice.gov.in"
+      }
+    }
+  ]
+}

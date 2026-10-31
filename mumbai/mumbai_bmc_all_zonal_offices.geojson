@@ -1,0 +1,876 @@
+{
+  "type": "FeatureCollection",
+  "name": "mumbai_bmc_all_zonal_offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-HQ-01",
+        "name": "Brihanmumbai Municipal Corporation (BMC) Headquarters",
+        "name_mr": "बृहन्मुंबई महानगरपालिका मुख्यालय",
+        "office_type": "BMC Central Headquarters",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "A",
+        "ward_name": "A Ward",
+        "address": "Mahapalika Marg, Opp. Chhatrapati Shivaji Maharaj Terminus (CSMT), Fort",
+        "locality": "Fort / CSMT",
+        "pincode": "400001",
+        "phone": "+91-22-22620251",
+        "emergency_helpline": "1916",
+        "email": "mc@mcgm.gov.in",
+        "jurisdiction_areas": "Apex Municipal Headquarters for entire Greater Mumbai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351,
+          18.9405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z1",
+        "name": "Office of Deputy Municipal Commissioner (Zone-I)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ १)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "E",
+        "ward_name": "E Ward (Co-located)",
+        "address": "10, Shaikh Hafizuddin Marg, Saakhali Street, Byculla (West)",
+        "locality": "Byculla",
+        "pincode": "400008",
+        "phone": "+91-22-23081471",
+        "emergency_helpline": "1916",
+        "email": "dmc.z1@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards A, B, C, D, and E (South Mumbai)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8274,
+          18.9715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z2",
+        "name": "Office of Deputy Municipal Commissioner (Zone-II)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ २)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 2,
+        "zone_code": "ZONE-II",
+        "ward_id": "F/South",
+        "ward_name": "F/South Ward (Co-located)",
+        "address": "F/South Ward Office Building, 3rd Floor, Jagannath Bhatankar Marg & Dr. B.A. Ambedkar Road Junction, Parel",
+        "locality": "Parel",
+        "pincode": "400012",
+        "phone": "+91-22-24150400",
+        "emergency_helpline": "1916",
+        "email": "dmc.z2@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards F/South, F/North, G/South, and G/North (South-Central Mumbai)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8406,
+          18.9984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z3",
+        "name": "Office of Deputy Municipal Commissioner (Zone-III)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ ३)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 3,
+        "zone_code": "ZONE-III",
+        "ward_id": "K/East",
+        "ward_name": "K/East Ward (Co-located)",
+        "address": "K/East Ward Office Building, 3rd Floor, Azad Road, Gundavali, Andheri (East)",
+        "locality": "Andheri East",
+        "pincode": "400069",
+        "phone": "+91-22-26840103",
+        "emergency_helpline": "1916",
+        "email": "dmc.z3@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards H/East, H/West, and K/East (Western Suburbs South)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8571,
+          19.1172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z4",
+        "name": "Office of Deputy Municipal Commissioner (Zone-IV)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ ४)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 4,
+        "zone_code": "ZONE-IV",
+        "ward_id": "K/West",
+        "ward_name": "K/West Ward (Co-located)",
+        "address": "K/West Ward Office Building, 3rd Floor, Paliram Road, Off S.V. Road, Andheri (West)",
+        "locality": "Andheri West",
+        "pincode": "400058",
+        "phone": "+91-22-26232969",
+        "emergency_helpline": "1916",
+        "email": "dmc.z4@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards K/West, P/South, and P/North (Western Suburbs Central)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.1205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z5",
+        "name": "Office of Deputy Municipal Commissioner (Zone-V)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ ५)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 5,
+        "zone_code": "ZONE-V",
+        "ward_id": "L",
+        "ward_name": "L Ward (Co-located)",
+        "address": "L Ward Office Building, 2nd Floor, Laxmanrao Yadav Market Building, S.G. Barve Marg, Kurla (West)",
+        "locality": "Kurla West",
+        "pincode": "400070",
+        "phone": "+91-22-26507250",
+        "emergency_helpline": "1916",
+        "email": "dmc.z5@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards L, M/East, and M/West (Eastern Suburbs South)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8795,
+          19.0664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z6",
+        "name": "Office of Deputy Municipal Commissioner (Zone-VI)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ ६)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 6,
+        "zone_code": "ZONE-VI",
+        "ward_id": "N",
+        "ward_name": "N Ward (Co-located)",
+        "address": "N Ward Office Building, 3rd Floor, Jawahar Road, Ghatkopar (East)",
+        "locality": "Ghatkopar East",
+        "pincode": "400077",
+        "phone": "+91-22-25010161",
+        "emergency_helpline": "1916",
+        "email": "dmc.z6@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards N, S, and T (Eastern Suburbs North)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9094,
+          19.0862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-DMC-Z7",
+        "name": "Office of Deputy Municipal Commissioner (Zone-VII)",
+        "name_mr": "उप आयुक्त कार्यालय (परिमंडळ ७)",
+        "office_type": "DMC Zonal Headquarters",
+        "zone_id": 7,
+        "zone_code": "ZONE-VII",
+        "ward_id": "R/South",
+        "ward_name": "R/South Ward (Co-located)",
+        "address": "R/South Ward Office Building, 3rd Floor, Mahatma Gandhi Cross Road No. 2, Near Sardar Patel Swimming Pool, Kandivali (West)",
+        "locality": "Kandivali West",
+        "pincode": "400067",
+        "phone": "+91-22-28056000",
+        "emergency_helpline": "1916",
+        "email": "dmc.z7@mcgm.gov.in",
+        "jurisdiction_areas": "Administrative supervision over Wards R/South, R/Central, and R/North (Western Suburbs North)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8488,
+          19.2064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-A",
+        "name": "BMC 'A' Ward Administrative Office",
+        "name_mr": "मनपा 'ए' विभाग कार्यालय (कुलाबा / फोर्ट)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "A",
+        "ward_name": "A Ward",
+        "address": "134 'E', Shahid Bhagat Singh Marg, Near Reserve Bank of India (RBI), Fort",
+        "locality": "Fort",
+        "pincode": "400001",
+        "phone": "+91-22-22661353",
+        "emergency_helpline": "1916",
+        "email": "ac.a@mcgm.gov.in",
+        "jurisdiction_areas": "Colaba, Navy Nagar, Cuffe Parade, Nariman Point, Churchgate, Fort, Ballard Estate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8364,
+          18.9328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-B",
+        "name": "BMC 'B' Ward Administrative Office",
+        "name_mr": "मनपा 'बी' विभाग कार्यालय (डोंगरी / मस्जिद)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "B",
+        "ward_name": "B Ward",
+        "address": "121, Ramchandra Bhatt Marg, Babula Tank Cross Lane, Opp. J.J. Hospital, Dongri",
+        "locality": "Dongri",
+        "pincode": "400009",
+        "phone": "+91-22-23736622",
+        "emergency_helpline": "1916",
+        "email": "ac.b@mcgm.gov.in",
+        "jurisdiction_areas": "Dongri, Masjid Bunder, Bhendi Bazaar, Mandvi, Umerkhadi, Chinchbunder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358,
+          18.9602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-C",
+        "name": "BMC 'C' Ward Administrative Office",
+        "name_mr": "मनपा 'सी' विभाग कार्यालय (काळबादेवी / चंदनवाडी)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "C",
+        "ward_name": "C Ward",
+        "address": "76, Shrikant Palekar Marg, Chandanwadi, Chira Bazar, Marine Lines (East)",
+        "locality": "Marine Lines East",
+        "pincode": "400002",
+        "phone": "+91-22-22014022",
+        "emergency_helpline": "1916",
+        "email": "ac.c@mcgm.gov.in",
+        "jurisdiction_areas": "Kalbadevi, Bhuleshwar, Chira Bazar, Dhobi Talao, Pydhonie, Mumbadevi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8258,
+          18.9465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-D",
+        "name": "BMC 'D' Ward Administrative Office",
+        "name_mr": "मनपा 'डी' विभाग कार्यालय (ग्रांट रोड / मलबार हिल)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "D",
+        "ward_name": "D Ward",
+        "address": "Jobanputra Compound, Nana Chowk, Grant Road (West)",
+        "locality": "Grant Road",
+        "pincode": "400007",
+        "phone": "+91-22-23861426",
+        "emergency_helpline": "1916",
+        "email": "ac.d@mcgm.gov.in",
+        "jurisdiction_areas": "Malabar Hill, Walkeshwar, Breach Candy, Pedder Road, Tardeo, Girgaon, Khetwadi, Haji Ali south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8139,
+          18.9632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-E",
+        "name": "BMC 'E' Ward Administrative Office",
+        "name_mr": "मनपा 'ई' विभाग कार्यालय (भायखळा / माझगाव)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "ward_id": "E",
+        "ward_name": "E Ward",
+        "address": "10, Shaikh Hafizuddin Marg (Sankli Street), Byculla (West)",
+        "locality": "Byculla",
+        "pincode": "400008",
+        "phone": "+91-22-23081471",
+        "emergency_helpline": "1916",
+        "email": "ac.e@mcgm.gov.in",
+        "jurisdiction_areas": "Byculla, Nagpada, Agripada, Madanpura, Kamathipura, Mazgaon, Dockyard Road, Reay Road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8274,
+          18.9715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-FS",
+        "name": "BMC 'F/South' Ward Administrative Office",
+        "name_mr": "मनपा 'एफ/दक्षिण' विभाग कार्यालय (परळ / शिवडी)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-II",
+        "ward_id": "F/South",
+        "ward_name": "F/South Ward",
+        "address": "Jagannath Bhatankar Marg & Dr. Babasaheb Ambedkar Road Junction, Parel",
+        "locality": "Parel",
+        "pincode": "400012",
+        "phone": "+91-22-24134560",
+        "emergency_helpline": "1916",
+        "email": "ac.fs@mcgm.gov.in",
+        "jurisdiction_areas": "Parel, Sewri, Lalbaug, Kalachowki, Naigaon, Cotton Green"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8406,
+          18.9984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-FN",
+        "name": "BMC 'F/North' Ward Administrative Office",
+        "name_mr": "मनपा 'एफ/उत्तर' विभाग कार्यालय (माटुंगा / शीव)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-II",
+        "ward_id": "F/North",
+        "ward_name": "F/North Ward",
+        "address": "Plot No. 96, Bhau Daji Marg, Near Maheshwari Udyan / Kings Circle, Matunga (East)",
+        "locality": "Matunga East",
+        "pincode": "400019",
+        "phone": "+91-22-24024353",
+        "emergency_helpline": "1916",
+        "email": "ac.fn@mcgm.gov.in",
+        "jurisdiction_areas": "Matunga East, Sion, Wadala, Hindu Colony, Antop Hill, GTB Nagar, Wadala Truck Terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8576,
+          19.0289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-GS",
+        "name": "BMC 'G/South' Ward Administrative Office",
+        "name_mr": "मनपा 'जी/दक्षिण' विभाग कार्यालय (वरळी / लोअर परळ)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-II",
+        "ward_id": "G/South",
+        "ward_name": "G/South Ward",
+        "address": "Dhanmill Naka, N.M. Joshi Marg, Lower Parel / Prabhadevi",
+        "locality": "Lower Parel",
+        "pincode": "400013",
+        "phone": "+91-22-24305031",
+        "emergency_helpline": "1916",
+        "email": "ac.gs@mcgm.gov.in",
+        "jurisdiction_areas": "Worli, Worli Sea Face, Prabhadevi, Lower Parel, Mahalaxmi Racecourse, Currey Road"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8291,
+          19.0042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-GN",
+        "name": "BMC 'G/North' Ward Administrative Office",
+        "name_mr": "मनपा 'जी/उत्तर' विभाग कार्यालय (दादर / माहीम / धारावी)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 2,
+        "zone_code": "ZONE-II",
+        "ward_id": "G/North",
+        "ward_name": "G/North Ward",
+        "address": "Harishchandra Yewale Marg, Behind Plaza Cinema, Dadar (West)",
+        "locality": "Dadar West",
+        "pincode": "400028",
+        "phone": "+91-22-24397800",
+        "emergency_helpline": "1916",
+        "email": "ac.gn@mcgm.gov.in",
+        "jurisdiction_areas": "Dadar West, Shivaji Park, Mahim, Dharavi, Shahu Nagar, Matunga Labour Camp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8415,
+          19.0218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-HE",
+        "name": "BMC 'H/East' Ward Administrative Office",
+        "name_mr": "मनपा 'एच/पूर्व' विभाग कार्यालय (सांताक्रूझ पूर्व / वांद्रे पूर्व)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 3,
+        "zone_code": "ZONE-III",
+        "ward_id": "H/East",
+        "ward_name": "H/East Ward",
+        "address": "Plot No. 137, TPS-5, Prabhat Colony, Santacruz (East)",
+        "locality": "Santacruz East",
+        "pincode": "400055",
+        "phone": "+91-22-26182218",
+        "emergency_helpline": "1916",
+        "email": "ac.heast@mcgm.gov.in",
+        "jurisdiction_areas": "Santacruz East, Bandra East, Khar East, Kalina, Vakola, Bandra-Kurla Complex (BKC)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8492,
+          19.0821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-HW",
+        "name": "BMC 'H/West' Ward Administrative Office",
+        "name_mr": "मनपा 'एच/पश्चिम' विभाग कार्यालय (वांद्रे पश्चिम / खार पश्चिम)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 3,
+        "zone_code": "ZONE-III",
+        "ward_id": "H/West",
+        "ward_name": "H/West Ward",
+        "address": "St. Martin's Road, Behind Bandra Police Station, Off Turner Road, Bandra (West)",
+        "locality": "Bandra West",
+        "pincode": "400050",
+        "phone": "+91-22-26421271",
+        "emergency_helpline": "1916",
+        "email": "ac.hw@mcgm.gov.in",
+        "jurisdiction_areas": "Bandra West, Khar West, Santacruz West, Bandstand, Carter Road, Pali Hill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8368,
+          19.0573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-KE",
+        "name": "BMC 'K/East' Ward Administrative Office",
+        "name_mr": "मनपा 'के/पूर्व' विभाग कार्यालय (अंधेरी पूर्व / विलेपार्ले पूर्व)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 3,
+        "zone_code": "ZONE-III",
+        "ward_id": "K/East",
+        "ward_name": "K/East Ward",
+        "address": "Azad Road, Gundavali, Andheri (East)",
+        "locality": "Andheri East",
+        "pincode": "400069",
+        "phone": "+91-22-26840103",
+        "emergency_helpline": "1916",
+        "email": "ac.ke@mcgm.gov.in",
+        "jurisdiction_areas": "Andheri East, Jogeshwari East, Vile Parle East, Marol, Chakala, MIDC Andheri, SEEPZ, CSMI Airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8571,
+          19.1172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-KW",
+        "name": "BMC 'K/West' Ward Administrative Office",
+        "name_mr": "मनपा 'के/पश्चिम' विभाग कार्यालय (अंधेरी पश्चिम / जुहू)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 4,
+        "zone_code": "ZONE-IV",
+        "ward_id": "K/West",
+        "ward_name": "K/West Ward",
+        "address": "Paliram Road, Off S.V. Road, Opp. Andheri Railway Station, Andheri (West)",
+        "locality": "Andheri West",
+        "pincode": "400058",
+        "phone": "+91-22-26232969",
+        "emergency_helpline": "1916",
+        "email": "ac.kw@mcgm.gov.in",
+        "jurisdiction_areas": "Andheri West, Juhu, Versova, Lokhandwala Complex, Oshiwara, Model Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8427,
+          19.1205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-PS",
+        "name": "BMC 'P/South' Ward Administrative Office",
+        "name_mr": "मनपा 'पी/दक्षिण' विभाग कार्यालय (गोरेगाव)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 4,
+        "zone_code": "ZONE-IV",
+        "ward_id": "P/South",
+        "ward_name": "P/South Ward",
+        "address": "Opp. City Centre Mall, S.V. Road, Goregaon (West)",
+        "locality": "Goregaon West",
+        "pincode": "400104",
+        "phone": "+91-22-28721186",
+        "emergency_helpline": "1916",
+        "email": "ac.ps@mcgm.gov.in",
+        "jurisdiction_areas": "Goregaon West, Goregaon East, Aarey Milk Colony, Bangur Nagar, Motilal Nagar, Dindoshi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8441,
+          19.1582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-PN",
+        "name": "BMC 'P/North' Ward Administrative Office",
+        "name_mr": "मनपा 'पी/उत्तर' विभाग कार्यालय (मालाड / मढ)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 4,
+        "zone_code": "ZONE-IV",
+        "ward_id": "P/North",
+        "ward_name": "P/North Ward",
+        "address": "Liberty Garden, Mamletdarwadi Marg, Malad (West)",
+        "locality": "Malad West",
+        "pincode": "400064",
+        "phone": "+91-22-28823266",
+        "emergency_helpline": "1916",
+        "email": "ac.pn@mcgm.gov.in",
+        "jurisdiction_areas": "Malad West, Malad East, Marve, Aksa, Madh Island, Manori, Dindoshi north, Kurar Village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8465,
+          19.1868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-L",
+        "name": "BMC 'L' Ward Administrative Office",
+        "name_mr": "मनपा 'एल' विभाग कार्यालय (कुर्ला / साकीनाका)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 5,
+        "zone_code": "ZONE-V",
+        "ward_id": "L",
+        "ward_name": "L Ward",
+        "address": "Laxmanrao Yadav Market Building, S.G. Barve Marg, Kurla (West)",
+        "locality": "Kurla West",
+        "pincode": "400070",
+        "phone": "+91-22-26507250",
+        "emergency_helpline": "1916",
+        "email": "ac.l@mcgm.gov.in",
+        "jurisdiction_areas": "Kurla West, Kurla East, Sakinaka, Chandivali, Asalpha, Chunabhatti, Nehru Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8795,
+          19.0664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-ME",
+        "name": "BMC 'M/East' Ward Administrative Office",
+        "name_mr": "मनपा 'एम/पूर्व' विभाग कार्यालय (गोवंडी / मानखुर्द)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 5,
+        "zone_code": "ZONE-V",
+        "ward_id": "M/East",
+        "ward_name": "M/East Ward",
+        "address": "MTNL Building, Near Deonar Bus Depot, V.N. Purav Marg, Deonar, Chembur",
+        "locality": "Deonar",
+        "pincode": "400088",
+        "phone": "+91-22-25558110",
+        "emergency_helpline": "1916",
+        "email": "ac.me@mcgm.gov.in",
+        "jurisdiction_areas": "Govandi, Mankhurd, Shivaji Nagar, Deonar, Cheetah Camp, Baiganwadi, Anushakti Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9158,
+          19.0568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-MW",
+        "name": "BMC 'M/West' Ward Administrative Office",
+        "name_mr": "मनपा 'एम/पश्चिम' विभाग कार्यालय (चेंबर)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 5,
+        "zone_code": "ZONE-V",
+        "ward_id": "M/West",
+        "ward_name": "M/West Ward",
+        "address": "Sharadbhau Acharya Marg, Near Natraj Cinema, Chembur",
+        "locality": "Chembur",
+        "pincode": "400071",
+        "phone": "+91-22-25284619",
+        "emergency_helpline": "1916",
+        "email": "ac.mw@mcgm.gov.in",
+        "jurisdiction_areas": "Chembur, Tilak Nagar, Pestom Sagar, Sindhi Society, Chheda Nagar, Mahul, Trombay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8982,
+          19.0601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-N",
+        "name": "BMC 'N' Ward Administrative Office",
+        "name_mr": "मनपा 'एन' विभाग कार्यालय (घाटकोपर / विद्याविहार)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 6,
+        "zone_code": "ZONE-VI",
+        "ward_id": "N",
+        "ward_name": "N Ward",
+        "address": "N Ward Annex Building, Jawahar Road, Ghatkopar (East)",
+        "locality": "Ghatkopar East",
+        "pincode": "400077",
+        "phone": "+91-22-25010161",
+        "emergency_helpline": "1916",
+        "email": "ac.n@mcgm.gov.in",
+        "jurisdiction_areas": "Ghatkopar East, Ghatkopar West, Vidyavihar, Pant Nagar, Garodia Nagar, Kirol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9094,
+          19.0862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-S",
+        "name": "BMC 'S' Ward Administrative Office",
+        "name_mr": "मनपा 'एस' विभाग कार्यालय (भांडुप / पवई / विक्रोळी)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 6,
+        "zone_code": "ZONE-VI",
+        "ward_id": "S",
+        "ward_name": "S Ward",
+        "address": "Lal Bahadur Shastri (LBS) Marg, Near Mangatram Petrol Pump, Bhandup (West)",
+        "locality": "Bhandup West",
+        "pincode": "400078",
+        "phone": "+91-22-25947571",
+        "emergency_helpline": "1916",
+        "email": "ac.s@mcgm.gov.in",
+        "jurisdiction_areas": "Bhandup West & East, Powai, IIT Bombay, Kanjurmarg West & East, Vikhroli West & East, Tagor Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9348,
+          19.1512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-T",
+        "name": "BMC 'T' Ward Administrative Office",
+        "name_mr": "मनपा 'टी' विभाग कार्यालय (मुलुंड)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 6,
+        "zone_code": "ZONE-VI",
+        "ward_id": "T",
+        "ward_name": "T Ward",
+        "address": "Lala Devi Dayal Marg, Paanch Rasta, Mulund (West)",
+        "locality": "Mulund West",
+        "pincode": "400080",
+        "phone": "+91-22-25645289",
+        "emergency_helpline": "1916",
+        "email": "ac.t@mcgm.gov.in",
+        "jurisdiction_areas": "Mulund West, Mulund East, Nahur, Yogi Hills, Mithagar, up to Mulund Check Naka (Thane Border)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9526,
+          19.1729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-RS",
+        "name": "BMC 'R/South' Ward Administrative Office",
+        "name_mr": "मनपा 'आर/दक्षिण' विभाग कार्यालय (कांदिवली)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 7,
+        "zone_code": "ZONE-VII",
+        "ward_id": "R/South",
+        "ward_name": "R/South Ward",
+        "address": "Mahatma Gandhi Cross Road No. 2, Near Sardar Patel Swimming Pool, Kandivali (West)",
+        "locality": "Kandivali West",
+        "pincode": "400067",
+        "phone": "+91-22-28056000",
+        "emergency_helpline": "1916",
+        "email": "ac.rs@mcgm.gov.in",
+        "jurisdiction_areas": "Kandivali West, Kandivali East, Charkop, Mahavir Nagar, Lokhandwala Township, Samata Nagar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8488,
+          19.2064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-RC",
+        "name": "BMC 'R/Central' Ward Administrative Office",
+        "name_mr": "मनपा 'आर/मध्य' विभाग कार्यालय (बोरिवली)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 7,
+        "zone_code": "ZONE-VII",
+        "ward_id": "R/Central",
+        "ward_name": "R/Central Ward",
+        "address": "Palika Mandai Building, S.V. Road, Near Borivali Railway Station, Borivali (West)",
+        "locality": "Borivali West",
+        "pincode": "400092",
+        "phone": "+91-22-28946000",
+        "emergency_helpline": "1916",
+        "email": "ac.rc@mcgm.gov.in",
+        "jurisdiction_areas": "Borivali West, Borivali East, Gorai, Shimpoli, Vazira Naka, IC Colony, Magathane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8542,
+          19.2312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BMC-WARD-RN",
+        "name": "BMC 'R/North' Ward Administrative Office",
+        "name_mr": "मनपा 'आर/उत्तर' विभाग कार्यालय (दहिसर)",
+        "office_type": "Administrative Ward Office",
+        "zone_id": 7,
+        "zone_code": "ZONE-VII",
+        "ward_id": "R/North",
+        "ward_name": "R/North Ward",
+        "address": "Sangeetkar Sudhir Phadke Flyover Bridge, Jaywant Sawant Marg, Dahisar (West)",
+        "locality": "Dahisar West",
+        "pincode": "400068",
+        "phone": "+91-22-28920950",
+        "emergency_helpline": "1916",
+        "email": "ac.rn@mcgm.gov.in",
+        "jurisdiction_areas": "Dahisar West, Dahisar East, Rawalpada, Ketkipada, Anand Nagar, up to Dahisar Toll Naka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8584,
+          19.2559
+        ]
+      }
+    }
+  ]
+}

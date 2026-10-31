@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "name": "District_Women_and_Child_Development_Offices_Nagpur",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-HQ",
+      "properties": {
+        "name": "District Women and Child Development Office (DWCD), Nagpur",
+        "facility_type": "District Administrative Headquarters",
+        "jurisdiction": "Women & Child Development Department, Govt. of Maharashtra",
+        "address": "Administrative Building No. 2, 6th Floor, Civil Lines, Near Collector Office, Nagpur - 440001",
+        "officer": "District Women and Child Development Officer (DWCDO)",
+        "designation": "Head of District Office",
+        "phone": "0712-2569991",
+        "email": "dwcdonagpur@gmail.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0765, 21.1519]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-DCPU",
+      "properties": {
+        "name": "District Child Protection Unit (DCPU), Nagpur",
+        "facility_type": "Child Protection & Mission Vatsalya Monitoring Cell",
+        "jurisdiction": "DWCD Nagpur / Mission Vatsalya",
+        "address": "Administrative Building No. 2, Civil Lines, Nagpur - 440001",
+        "officer": "District Child Protection Officer (DCPO)",
+        "designation": "In-charge DCPO",
+        "phone": "0712-2569991",
+        "email": "dcpu.nagpur@gmail.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0768, 21.1521]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-OSC",
+      "properties": {
+        "name": "Sakhi One Stop Centre (OSC), Nagpur",
+        "facility_type": "24x7 Integrated Crisis & Support Centre for Women",
+        "jurisdiction": "Mission Shakti / DWCD Nagpur",
+        "address": "Dalal Compound, 5, Katol Road, Rajnagar, Sadar, Nagpur - 440013",
+        "officer": "Centre Administrator (Sakhi OSC)",
+        "designation": "Operations Head",
+        "phone": "0712-2580100",
+        "emergency_helpline": "181 / 1098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0732, 21.1685]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-CWC",
+      "properties": {
+        "name": "Child Welfare Committee (CWC), Nagpur",
+        "facility_type": "Statutory Juvenile Child Welfare Authority",
+        "jurisdiction": "Juvenile Justice Act / DWCD Nagpur",
+        "address": "Government Children's Complex, Patankar Square, Kamptee Road, Nagpur - 440017",
+        "officer": "Chairperson & Members, CWC Nagpur",
+        "designation": "Statutory Bench",
+        "phone": "0712-2640150",
+        "email": "cwcnagpur@gmail.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.1022, 21.1825]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-JJB",
+      "properties": {
+        "name": "Juvenile Justice Board (JJB), Nagpur",
+        "facility_type": "Juvenile Justice Judicial Bench",
+        "jurisdiction": "Judicial / Juvenile Justice Act / DWCD",
+        "address": "Observation Home Premises, Patankar Square, Jaripatka, Nagpur - 440017",
+        "officer": "Principal Magistrate & Board Members",
+        "designation": "Juvenile Court",
+        "phone": "0712-2640150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.102, 21.1828]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-GOH-B",
+      "properties": {
+        "name": "Government Observation Home & Children's Home for Boys",
+        "facility_type": "Government Child Care & Observation Institution",
+        "jurisdiction": "DWCD Maharashtra / Juvenile Justice Board",
+        "address": "Patankar Chowk, Kamptee Road, Nari Road, Nagpur - 440017",
+        "officer": "Superintendent, Boys Observation Home",
+        "designation": "Institutional In-charge",
+        "phone": "0712-2640150"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.1025, 21.1822]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-GOH-G",
+      "properties": {
+        "name": "Government State Protective Home & Observation Home for Girls",
+        "facility_type": "Government Protective Shelter & Care Home",
+        "jurisdiction": "DWCD Maharashtra / CWC Nagpur",
+        "address": "Katol Road, Chhaoni / Rajnagar, Nagpur - 440013",
+        "officer": "Superintendent, Girls Protective Home",
+        "designation": "Institutional In-charge",
+        "phone": "0712-2580100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0685, 21.1695]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NMC-WCW-COMM",
+      "properties": {
+        "name": "NMC Women and Child Welfare Special Committee & Cell",
+        "facility_type": "Municipal Welfare Committee & Administrative Wing",
+        "jurisdiction": "Nagpur Municipal Corporation (NMC)",
+        "address": "Chhatrapati Shivaji Maharaj Administrative Building, Civil Lines, Nagpur - 440001",
+        "officer": "Deputy Municipal Commissioner (Social Welfare & WCD)",
+        "designation": "Municipal Committee Lead",
+        "phone": "0712-2567035",
+        "email": "nmcnagpur@gmail.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.077082, 21.154153]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-SAA-SHR",
+      "properties": {
+        "name": "Shradhanand Anathalaya (Specialised Adoption Agency & Child Care)",
+        "facility_type": "Recognized Child Care Institution (CCI) & CARA Adoption Agency",
+        "jurisdiction": "CARA / DWCD Nagpur Recognized",
+        "address": "Plot No. 123, Abhyankar Nagar Road, Shradhanand Peth, Nagpur - 440022",
+        "officer": "Superintendent / Secretary",
+        "designation": "Adoption & Welfare Lead",
+        "phone": "0712-2244199"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0642, 21.1275]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DWCD-NGP-MSS-CTR",
+      "properties": {
+        "name": "Matru Sewa Sangh Child Welfare & Maternity Support Centre",
+        "facility_type": "Maternal & Child Health Welfare Facility",
+        "jurisdiction": "Recognized Institutional Partner",
+        "address": "North Ambazari Road, Sitabuldi, Nagpur - 440012",
+        "officer": "Medical Superintendent / Welfare Officer",
+        "designation": "Centre In-charge",
+        "phone": "0712-2522271"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0768, 21.1415]
+      }
+    }
+  ]
+}

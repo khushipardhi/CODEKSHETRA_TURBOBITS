@@ -1,0 +1,1010 @@
+{
+  "type": "FeatureCollection",
+  "name": "mumbai_bmc_zonal_boundaries_complete_coastal",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 1,
+        "zone_code": "ZONE-I",
+        "name": "Zone I (South Mumbai / Island City South)",
+        "name_mr": "परिमंडळ १ (दक्षिण मुंबई)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-I) Office, Byculla East / E Ward Building",
+        "dmc_address": "10, Shaikh Hafizuddin Marg, Byculla (W), Mumbai - 400008",
+        "constituent_wards": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "num_wards": 5,
+        "coastal_features": "Colaba Point (Prongs Reef), Back Bay, Marine Drive, Nariman Point, Cuffe Parade, Malabar Hill, Walkeshwar, Girgaon Chowpatty, Gateway of India, Ballard Pier, Ferry Wharf, Mazgaon",
+        "key_localities": "Colaba, Fort, Marine Drive, Nariman Point, Churchgate, CST, Ballard Estate, Dongri, Masjid Bunder, Kalbadevi, Bhuleshwar, Malabar Hill, Walkeshwar, Girgaon, Grant Road, Tardeo, Byculla, Nagpada, Agripada, Mazgaon, Dockyard Road",
+        "area_sq_km": 27.68,
+        "population_est": 1350000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.808,
+              18.978
+            ],
+            [
+              72.804,
+              18.972
+            ],
+            [
+              72.8015,
+              18.964
+            ],
+            [
+              72.799,
+              18.956
+            ],
+            [
+              72.796,
+              18.949
+            ],
+            [
+              72.7915,
+              18.943
+            ],
+            [
+              72.791,
+              18.939
+            ],
+            [
+              72.794,
+              18.934
+            ],
+            [
+              72.8,
+              18.94
+            ],
+            [
+              72.81,
+              18.951
+            ],
+            [
+              72.818,
+              18.948
+            ],
+            [
+              72.8225,
+              18.938
+            ],
+            [
+              72.8245,
+              18.928
+            ],
+            [
+              72.821,
+              18.919
+            ],
+            [
+              72.816,
+              18.911
+            ],
+            [
+              72.812,
+              18.902
+            ],
+            [
+              72.813,
+              18.892
+            ],
+            [
+              72.818,
+              18.893
+            ],
+            [
+              72.826,
+              18.905
+            ],
+            [
+              72.833,
+              18.916
+            ],
+            [
+              72.836,
+              18.922
+            ],
+            [
+              72.842,
+              18.932
+            ],
+            [
+              72.848,
+              18.945
+            ],
+            [
+              72.852,
+              18.955
+            ],
+            [
+              72.85,
+              18.963
+            ],
+            [
+              72.8475,
+              18.968
+            ],
+            [
+              72.8465,
+              18.971
+            ],
+            [
+              72.841,
+              18.973
+            ],
+            [
+              72.835,
+              18.975
+            ],
+            [
+              72.828,
+              18.978
+            ],
+            [
+              72.822,
+              18.9795
+            ],
+            [
+              72.815,
+              18.979
+            ],
+            [
+              72.808,
+              18.978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 2,
+        "zone_code": "ZONE-II",
+        "name": "Zone II (South-Central Mumbai / Island City North)",
+        "name_mr": "परिमंडळ २ (मध्य मुंबई)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-II) Office, F/South Ward Building",
+        "dmc_address": "Dr. Babasaheb Ambedkar Road & Jagannath Bhatankar Marg Junction, Parel, Mumbai - 400012",
+        "constituent_wards": [
+          "F/South",
+          "F/North",
+          "G/South",
+          "G/North"
+        ],
+        "num_wards": 4,
+        "coastal_features": "Worli Sea Face, Worli Point, Worli Koliwada (BWSL landing), Prabhadevi coast, Dadar Chowpatty, Mahim Bay, Sewri Mudflats (Flamingo Sanctuary), Wadala Salt Pans",
+        "key_localities": "Parel, Sewri, Lalbaug, Naigaon, Wadala, Matunga, Sion, Hindu Colony, Antop Hill, Worli, Prabhadevi, Lower Parel, Mahalaxmi Racecourse, Dadar West, Mahim, Dharavi",
+        "area_sq_km": 39.99,
+        "population_est": 1850000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.808,
+              18.978
+            ],
+            [
+              72.815,
+              18.979
+            ],
+            [
+              72.822,
+              18.9795
+            ],
+            [
+              72.828,
+              18.978
+            ],
+            [
+              72.835,
+              18.975
+            ],
+            [
+              72.841,
+              18.973
+            ],
+            [
+              72.8465,
+              18.971
+            ],
+            [
+              72.852,
+              18.98
+            ],
+            [
+              72.858,
+              18.995
+            ],
+            [
+              72.865,
+              19.01
+            ],
+            [
+              72.873,
+              19.02
+            ],
+            [
+              72.885,
+              19.03
+            ],
+            [
+              72.881,
+              19.034
+            ],
+            [
+              72.875,
+              19.04
+            ],
+            [
+              72.869,
+              19.047
+            ],
+            [
+              72.863,
+              19.052
+            ],
+            [
+              72.858,
+              19.055
+            ],
+            [
+              72.852,
+              19.051
+            ],
+            [
+              72.845,
+              19.046
+            ],
+            [
+              72.839,
+              19.041
+            ],
+            [
+              72.8375,
+              19.036
+            ],
+            [
+              72.834,
+              19.03
+            ],
+            [
+              72.829,
+              19.026
+            ],
+            [
+              72.824,
+              19.024
+            ],
+            [
+              72.818,
+              19.023
+            ],
+            [
+              72.8135,
+              19.018
+            ],
+            [
+              72.812,
+              19.01
+            ],
+            [
+              72.8105,
+              18.997
+            ],
+            [
+              72.809,
+              18.986
+            ],
+            [
+              72.808,
+              18.978
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 3,
+        "zone_code": "ZONE-III",
+        "name": "Zone III (Western Suburbs South)",
+        "name_mr": "परिमंडळ ३ (पश्चिम उपनगर दक्षिण)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-III) Office, K/East Ward Building",
+        "dmc_address": "Azad Road, Gundavali, Andheri (East), Mumbai - 400069",
+        "constituent_wards": [
+          "H/East",
+          "H/West",
+          "K/East"
+        ],
+        "num_wards": 3,
+        "coastal_features": "Bandra Reclamation, Bandra Fort / Land's End, Bandra Bandstand, Carter Road Promenade, Khar Danda coast, Juhu Koliwada, Juhu Beach (JW Marriott south)",
+        "key_localities": "Bandra West, Bandra East, Khar West & East, Santacruz West & East, Kalina, Bandra-Kurla Complex (BKC), Vile Parle East, Andheri East, Marol, MIDC Andheri, SEEPZ, CSMI Airport Corridor, Chakala",
+        "area_sq_km": 43.21,
+        "population_est": 1950000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.839,
+              19.041
+            ],
+            [
+              72.83,
+              19.044
+            ],
+            [
+              72.818,
+              19.042
+            ],
+            [
+              72.816,
+              19.048
+            ],
+            [
+              72.819,
+              19.058
+            ],
+            [
+              72.822,
+              19.068
+            ],
+            [
+              72.8235,
+              19.078
+            ],
+            [
+              72.824,
+              19.088
+            ],
+            [
+              72.8245,
+              19.1
+            ],
+            [
+              72.825,
+              19.102
+            ],
+            [
+              72.833,
+              19.107
+            ],
+            [
+              72.842,
+              19.112
+            ],
+            [
+              72.85,
+              19.118
+            ],
+            [
+              72.862,
+              19.122
+            ],
+            [
+              72.872,
+              19.125
+            ],
+            [
+              72.88,
+              19.128
+            ],
+            [
+              72.881,
+              19.122
+            ],
+            [
+              72.883,
+              19.115
+            ],
+            [
+              72.885,
+              19.106
+            ],
+            [
+              72.888,
+              19.098
+            ],
+            [
+              72.884,
+              19.092
+            ],
+            [
+              72.88,
+              19.086
+            ],
+            [
+              72.874,
+              19.078
+            ],
+            [
+              72.868,
+              19.07
+            ],
+            [
+              72.863,
+              19.063
+            ],
+            [
+              72.858,
+              19.055
+            ],
+            [
+              72.852,
+              19.051
+            ],
+            [
+              72.845,
+              19.046
+            ],
+            [
+              72.839,
+              19.041
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 4,
+        "zone_code": "ZONE-IV",
+        "name": "Zone IV (Western Suburbs Central)",
+        "name_mr": "परिमंडळ ४ (पश्चिम उपनगर मध्य)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-IV) Office, K/West Ward Building",
+        "dmc_address": "Paliram Road, Off S.V. Road, Opp. Andheri Station, Andheri (West), Mumbai - 400058",
+        "constituent_wards": [
+          "K/West",
+          "P/South",
+          "P/North"
+        ],
+        "num_wards": 3,
+        "coastal_features": "Silver Beach, Versova Beach, Versova Village & Creek, entire Madh Island (Madh Fort, Erangal Beach, Bhati, Danapani Beach), Aksa Beach, INS Hamla coast, Marve Beach",
+        "key_localities": "Juhu, Andheri West, Versova, Lokhandwala Complex, Oshiwara, Goregaon West & East, Aarey Milk Colony, Malad West & East, Marve Beach, Aksa Beach, Madh Island, Dindoshi",
+        "area_sq_km": 72.64,
+        "population_est": 2650000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.825,
+              19.102
+            ],
+            [
+              72.823,
+              19.112
+            ],
+            [
+              72.818,
+              19.124
+            ],
+            [
+              72.812,
+              19.135
+            ],
+            [
+              72.806,
+              19.14
+            ],
+            [
+              72.795,
+              19.145
+            ],
+            [
+              72.788,
+              19.15
+            ],
+            [
+              72.784,
+              19.16
+            ],
+            [
+              72.786,
+              19.17
+            ],
+            [
+              72.791,
+              19.18
+            ],
+            [
+              72.798,
+              19.19
+            ],
+            [
+              72.806,
+              19.196
+            ],
+            [
+              72.812,
+              19.198
+            ],
+            [
+              72.822,
+              19.196
+            ],
+            [
+              72.836,
+              19.194
+            ],
+            [
+              72.848,
+              19.19
+            ],
+            [
+              72.86,
+              19.182
+            ],
+            [
+              72.875,
+              19.172
+            ],
+            [
+              72.89,
+              19.165
+            ],
+            [
+              72.89,
+              19.145
+            ],
+            [
+              72.885,
+              19.135
+            ],
+            [
+              72.88,
+              19.128
+            ],
+            [
+              72.872,
+              19.125
+            ],
+            [
+              72.862,
+              19.122
+            ],
+            [
+              72.85,
+              19.118
+            ],
+            [
+              72.842,
+              19.112
+            ],
+            [
+              72.833,
+              19.107
+            ],
+            [
+              72.825,
+              19.102
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 5,
+        "zone_code": "ZONE-V",
+        "name": "Zone V (Eastern Suburbs South)",
+        "name_mr": "परिमंडळ ५ (पूर्व उपनगर दक्षिण)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-V) Office, L Ward Building",
+        "dmc_address": "Laxmanrao Yadav Market Building, S.G. Barve Marg, Kurla (West), Mumbai - 400070",
+        "constituent_wards": [
+          "L",
+          "M/East",
+          "M/West"
+        ],
+        "num_wards": 3,
+        "coastal_features": "Mahul Village coast, BPCL/HPCL waterfront, Pir Pau Jetty, Trombay Hill coastline, BARC coastal perimeter, Cheetah Camp waterfront, Mankhurd shoreline to Vashi Bridge",
+        "key_localities": "Kurla West & East, Sakinaka South, Chunabhatti, Chembur, Tilak Nagar, Pestom Sagar, Mahul, Trombay, BARC, Govandi, Mankhurd, Shivaji Nagar, Deonar, Anushakti Nagar, Cheetah Camp",
+        "area_sq_km": 49.83,
+        "population_est": 2200000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.858,
+              19.055
+            ],
+            [
+              72.863,
+              19.052
+            ],
+            [
+              72.869,
+              19.047
+            ],
+            [
+              72.875,
+              19.04
+            ],
+            [
+              72.881,
+              19.034
+            ],
+            [
+              72.885,
+              19.03
+            ],
+            [
+              72.892,
+              19.021
+            ],
+            [
+              72.898,
+              19.013
+            ],
+            [
+              72.906,
+              19.006
+            ],
+            [
+              72.916,
+              19.009
+            ],
+            [
+              72.924,
+              19.017
+            ],
+            [
+              72.93,
+              19.028
+            ],
+            [
+              72.936,
+              19.04
+            ],
+            [
+              72.94,
+              19.053
+            ],
+            [
+              72.942,
+              19.062
+            ],
+            [
+              72.943,
+              19.07
+            ],
+            [
+              72.928,
+              19.073
+            ],
+            [
+              72.915,
+              19.077
+            ],
+            [
+              72.905,
+              19.083
+            ],
+            [
+              72.898,
+              19.09
+            ],
+            [
+              72.888,
+              19.098
+            ],
+            [
+              72.884,
+              19.092
+            ],
+            [
+              72.88,
+              19.086
+            ],
+            [
+              72.874,
+              19.078
+            ],
+            [
+              72.868,
+              19.07
+            ],
+            [
+              72.863,
+              19.063
+            ],
+            [
+              72.858,
+              19.055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 6,
+        "zone_code": "ZONE-VI",
+        "name": "Zone VI (Eastern Suburbs North)",
+        "name_mr": "परिमंडळ ६ (पूर्व उपनगर उत्तर)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-VI) Office, N Ward Building",
+        "dmc_address": "Jawahar Road, Near Ghatkopar Station, Ghatkopar (East), Mumbai - 400077",
+        "constituent_wards": [
+          "N",
+          "S",
+          "T"
+        ],
+        "num_wards": 3,
+        "coastal_features": "Thane Creek mangrove sanctuary, Vikhroli coastal wetlands, Godrej Mangrove Reserve, Kanjurmarg East bunds, Bhandup & Mulund salt pans up to Mulund Check Naka",
+        "key_localities": "Ghatkopar West & East, Vidyavihar, Pant Nagar, Vikhroli West & East, Kannamwar Nagar, Kanjurmarg, Powai, IIT Bombay, Powai Lake, Bhandup West & East, Nahur, Mulund West & East up to Mulund Check Naka (Thane Border)",
+        "area_sq_km": 73.47,
+        "population_est": 2100000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.888,
+              19.098
+            ],
+            [
+              72.898,
+              19.09
+            ],
+            [
+              72.905,
+              19.083
+            ],
+            [
+              72.915,
+              19.077
+            ],
+            [
+              72.928,
+              19.073
+            ],
+            [
+              72.943,
+              19.07
+            ],
+            [
+              72.943,
+              19.085
+            ],
+            [
+              72.943,
+              19.1
+            ],
+            [
+              72.946,
+              19.118
+            ],
+            [
+              72.951,
+              19.135
+            ],
+            [
+              72.959,
+              19.15
+            ],
+            [
+              72.966,
+              19.166
+            ],
+            [
+              72.964,
+              19.174
+            ],
+            [
+              72.955,
+              19.179
+            ],
+            [
+              72.946,
+              19.1815
+            ],
+            [
+              72.932,
+              19.184
+            ],
+            [
+              72.92,
+              19.178
+            ],
+            [
+              72.905,
+              19.172
+            ],
+            [
+              72.89,
+              19.165
+            ],
+            [
+              72.89,
+              19.145
+            ],
+            [
+              72.885,
+              19.135
+            ],
+            [
+              72.88,
+              19.128
+            ],
+            [
+              72.881,
+              19.122
+            ],
+            [
+              72.883,
+              19.115
+            ],
+            [
+              72.885,
+              19.106
+            ],
+            [
+              72.888,
+              19.098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": 7,
+        "zone_code": "ZONE-VII",
+        "name": "Zone VII (Western Suburbs North)",
+        "name_mr": "परिमंडळ ७ (पश्चिम उपनगर उत्तर)",
+        "dmc_office": "Deputy Municipal Commissioner (Zone-VII) Office, R/South Ward Building",
+        "dmc_address": "Mahatma Gandhi Cross Road No. 2, Near Sardar Patel Swimming Pool, Kandivali (West), Mumbai - 400067",
+        "constituent_wards": [
+          "R/South",
+          "R/Central",
+          "R/North"
+        ],
+        "num_wards": 3,
+        "coastal_features": "Manori Beach & Village, Gorai Beach, Global Vipassana Pagoda & EsselWorld peninsula, Culvem, Vasai Creek south shoreline, Dahisar River mouth",
+        "key_localities": "Kandivali West & East, Charkop, Mahavir Nagar, Lokhandwala Township (Kandivali), Borivali West & East, Shimpoli, Gorai Beach, Manori, Dahisar West & East, Rawalpada, Ketkipada, Sanjay Gandhi National Park (Kanheri/Tulsi) up to Dahisar Check Naka (Mira-Bhayandar Border)",
+        "area_sq_km": 116.31,
+        "population_est": 2350000,
+        "helpline": "1916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.812,
+              19.198
+            ],
+            [
+              72.822,
+              19.196
+            ],
+            [
+              72.836,
+              19.194
+            ],
+            [
+              72.848,
+              19.19
+            ],
+            [
+              72.86,
+              19.182
+            ],
+            [
+              72.875,
+              19.172
+            ],
+            [
+              72.89,
+              19.165
+            ],
+            [
+              72.905,
+              19.172
+            ],
+            [
+              72.92,
+              19.178
+            ],
+            [
+              72.932,
+              19.184
+            ],
+            [
+              72.928,
+              19.205
+            ],
+            [
+              72.922,
+              19.225
+            ],
+            [
+              72.915,
+              19.245
+            ],
+            [
+              72.905,
+              19.26
+            ],
+            [
+              72.884,
+              19.264
+            ],
+            [
+              72.866,
+              19.262
+            ],
+            [
+              72.845,
+              19.268
+            ],
+            [
+              72.825,
+              19.266
+            ],
+            [
+              72.808,
+              19.255
+            ],
+            [
+              72.795,
+              19.245
+            ],
+            [
+              72.789,
+              19.235
+            ],
+            [
+              72.788,
+              19.224
+            ],
+            [
+              72.793,
+              19.214
+            ],
+            [
+              72.802,
+              19.206
+            ],
+            [
+              72.812,
+              19.198
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

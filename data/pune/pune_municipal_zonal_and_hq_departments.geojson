@@ -1,0 +1,770 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Municipal Corporation Zonal & Headquarters (HQ) Departments Dataset",
+    "query": "Co-ordinate of all NMC zonal and hq department of Pune in json file",
+    "clarification_note": "The query requests coordinates for \"NMC zonal and hq department of Pune\". In Maharashtra administrative nomenclature, municipal affairs in Pune are governed by the Pune Municipal Corporation (PMC), which operates 1 Central Headquarters, 5 Zonal Headquarters, and 15 Ward Offices, alongside the Pimpri Chinchwad Municipal Corporation (PCMC) in the twin-city metropolitan region (8 Zonal Offices). The acronym \"NMC\" officially denotes the Nagpur Municipal Corporation (comprising 1 Central HQ and 10 Zonal Offices). Both the complete Pune municipal administrative framework (PMC & PCMC) and the NMC Nagpur zonal framework are comprehensively indexed below.",
+    "generated_date": "2026-10-03",
+    "pune_pmc_total_headquarters_and_zonal_offices": 16,
+    "pune_pcmc_total_headquarters_and_zonal_offices": 9,
+    "nagpur_nmc_total_headquarters_and_zonal_offices": 11
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.853062,
+          18.523438
+        ]
+      },
+      "properties": {
+        "id": "PMC-HQ-MAIN",
+        "name": "Pune Municipal Corporation (PMC) Central Headquarters",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "PMC Main Building Complex, Near Mangala Theatre, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1000",
+        "email": "info@punecorporation.org",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8445,
+          18.5255
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-1-HQ",
+        "name": "PMC Zone 1 Headquarters & Shivajinagar - Ghole Road Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "1187/5, Ghole Road, Main Ward Office Building, Off JM Road, Shivajinagar",
+        "locality": "Shivajinagar",
+        "phone": "+91 20 2550 1405",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.807,
+          18.5605
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-AUNDH-BANER",
+        "name": "PMC Aundh - Baner Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Bremen Chowk, Spicer College Road, Near Ambedkar Chowk, Aundh",
+        "locality": "Aundh",
+        "phone": "+91 20 2550 1410",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.869,
+          18.5085
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-2-HQ",
+        "name": "PMC Zone 2 Headquarters & Bhavani Peth Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "General Arunkumar Vaidya Stadium Complex, Bhavani Peth",
+        "locality": "Bhavani Peth",
+        "phone": "+91 20 2550 1440",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8525,
+          18.514
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-KASBA-VISHRAMBAUG",
+        "name": "PMC Kasba - Vishrambaug Wada Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Near Shanipar Chowk, Sadashiv Peth",
+        "locality": "Sadashiv Peth",
+        "phone": "+91 20 2550 1435",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.879,
+          18.534
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-DHOLEPATIL",
+        "name": "PMC Dhole Patil Road Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Dhole Patil Road Ward Office, Near Ruby Hall Clinic, Sangamvadi",
+        "locality": "Sangamwadi",
+        "phone": "+91 20 2550 1445",
+        "email": "",
+        "role": "Civic amenities maintenance, commercial area licensing, property tax, and sanitation along the riverfront and Koregaon Park."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805,
+          18.5075
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-3-HQ",
+        "name": "PMC Zone 3 Headquarters & Kothrud - Bavdhan Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Chhatrapati Shivaji Maharaj Smarak, Paud Road, Kothrud",
+        "locality": "Kothrud",
+        "phone": "+91 20 2550 1415",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801,
+          18.4815
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-WARJE-KARVENAGAR",
+        "name": "PMC Warje - Karvenagar Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Near Karve Putala, Kothrud / Warje Hillock Road, Warje",
+        "locality": "Warje",
+        "phone": "+91 20 2550 1420",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.842,
+          18.4985
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-SINHGADROAD",
+        "name": "PMC Sinhgad Road Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Near Dandekar Bridge, PL Deshpande Garden Road, Sinhgad Road, Parvati",
+        "locality": "Dattawadi / Parvati",
+        "phone": "+91 20 2550 1425",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8595,
+          18.5005
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-4-HQ",
+        "name": "PMC Zone 4 Headquarters & Sahakarnagar - Tilak Road Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Near Nehru Stadium, Swargate, Shukrawar Peth",
+        "locality": "Swargate",
+        "phone": "+91 20 2550 1430",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.861,
+          18.489
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-BIBWEWADI",
+        "name": "PMC Bibwewadi Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Utsav Hall Building, Near Adinath Shopping Centre, Pune-Satara Road, Bibwewadi",
+        "locality": "Bibwewadi",
+        "phone": "+91 20 2550 1432",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8565,
+          18.4685
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-DHANKAWADI",
+        "name": "PMC Dhankawadi - Sahakarnagar Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Sambhajinagar, Near Katraj Dairy / Pune-Satara Road, Dhankawadi",
+        "locality": "Dhankawadi",
+        "phone": "+91 20 2550 1434",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.891,
+          18.4765
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-KONDHWA",
+        "name": "PMC Kondhwa - Yewalewadi Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Near Kausar Baugh Masjid, Kondhwa Khurd",
+        "locality": "Kondhwa Khurd",
+        "phone": "+91 20 2550 1438",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9295,
+          18.5025
+        ]
+      },
+      "properties": {
+        "id": "PMC-ZONE-5-HQ",
+        "name": "PMC Zone 5 Headquarters & Hadapsar - Mundhwa Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Pandit Jawaharlal Nehru Road, Gadital, Hadapsar",
+        "locality": "Hadapsar",
+        "phone": "+91 20 2550 1450",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8825,
+          18.552
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-YERWADA",
+        "name": "PMC Yerwada - Kalas - Dhanori Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Near Gunjan Talkies, Airport Road, Yerawada",
+        "locality": "Yerwada",
+        "phone": "+91 20 2550 1460",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.918,
+          18.555
+        ]
+      },
+      "properties": {
+        "id": "PMC-WARD-NAGARROAD",
+        "name": "PMC Nagar Road - Vadgaon Sheri Ward Office",
+        "category": "pune_municipal_corporation_pmc_hq_and_zonal_departments",
+        "department": "PMC",
+        "address": "Pune - Ahmednagar Road, Near Inorbit Mall, Vadgaon Sheri",
+        "locality": "Vadgaon Sheri",
+        "phone": "+91 20 2550 1465",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801,
+          18.6275
+        ]
+      },
+      "properties": {
+        "id": "PCMC-HQ-MAIN",
+        "name": "PCMC Main Administrative Headquarters",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "PCMC Main Building, Old Mumbai - Pune Highway, Pimpri",
+        "locality": "Pimpri",
+        "phone": "+91 20 6733 3333",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.768,
+          18.656
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-A",
+        "name": "PCMC Zonal Office A (Nigdi / Pradhikaran)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Sant Tukaram Vyapari Sankul, Sector 24, Pradhikaran, Nigdi",
+        "locality": "Nigdi",
+        "phone": "+91 20 2765 4608",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.791,
+          18.629
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-B",
+        "name": "PCMC Zonal Office B (Chinchwad)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Near Elpro Mall, Chinchwad Station Road, Chinchwad",
+        "locality": "Chinchwad",
+        "phone": "+91 20 2735 6767",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.848,
+          18.621
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-C",
+        "name": "PCMC Zonal Office C (Bhosari)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Bhosari Ward Building, Pune - Nashik Road, Bhosari",
+        "locality": "Bhosari",
+        "phone": "+91 20 2712 2500",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.792,
+          18.599
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-D",
+        "name": "PCMC Zonal Office D (Pimple Saudagar / Rahatani)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Near Shivar Garden, Pimple Saudagar - Rahatani Road",
+        "locality": "Pimple Saudagar",
+        "phone": "+91 20 2740 3300",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.874,
+          18.6185
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-E",
+        "name": "PCMC Zonal Office E (Dighi / Charholi)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Alandi Road, Near Dighi Octroi Post, Dighi",
+        "locality": "Dighi",
+        "phone": "+91 20 2715 0000",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.805,
+          18.665
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-F",
+        "name": "PCMC Zonal Office F (Chikhali / Rupeenagar)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Moshi High Street / Chikhali Road, Chikhali",
+        "locality": "Chikhali",
+        "phone": "+91 20 2749 0000",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.781,
+          18.608
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-G",
+        "name": "PCMC Zonal Office G (Thergaon / Wakad)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "Dange Chowk - Thergaon Road, Near Municipal Hospital, Thergaon",
+        "locality": "Thergaon",
+        "phone": "+91 20 2727 0000",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.815,
+          18.578
+        ]
+      },
+      "properties": {
+        "id": "PCMC-ZONE-H",
+        "name": "PCMC Zonal Office H (Sangvi / Dapodi / Pimple Gurav)",
+        "category": "pimpri_chinchwad_municipal_corporation_pcmc_zonal_offices",
+        "department": "PMC",
+        "address": "PWD Road, Near Sangvi Phata, Old Sangvi",
+        "locality": "Old Sangvi",
+        "phone": "+91 20 2728 0000",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0805,
+          21.1525
+        ]
+      },
+      "properties": {
+        "id": "NMC-HQ-MAIN",
+        "name": "Nagpur Municipal Corporation (NMC) Central Headquarters",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Mahanagar Palika Marg, Civil Lines, Nagpur",
+        "locality": "Civil Lines",
+        "phone": "+91 712 256 7035",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.068,
+          21.118
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-1",
+        "name": "NMC Laxmi Nagar Zonal Office (Zone No. 1)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Water Tank, Laxmi Nagar, Nagpur",
+        "locality": "Laxmi Nagar",
+        "phone": "+91 712 222 2100",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.064,
+          21.143
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-2",
+        "name": "NMC Dharampeth Zonal Office (Zone No. 2)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "West High Court Road, Near Coffee House, Dharampeth, Nagpur",
+        "locality": "Dharampeth",
+        "phone": "+91 712 253 1100",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.098,
+          21.126
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-3",
+        "name": "NMC Hanuman Nagar Zonal Office (Zone No. 3)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Medical Square, Hanuman Nagar, Nagpur",
+        "locality": "Hanuman Nagar",
+        "phone": "+91 712 274 5600",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.083,
+          21.135
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-4",
+        "name": "NMC Dhantoli Zonal Office (Zone No. 4)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Dhantoli Park, Congress Nagar Road, Dhantoli, Nagpur",
+        "locality": "Dhantoli",
+        "phone": "+91 712 242 3400",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.119,
+          21.121
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-5",
+        "name": "NMC Nehru Nagar Zonal Office (Zone No. 5)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Sakkardara Lake, Umred Road, Nehru Nagar, Nagpur",
+        "locality": "Nehru Nagar / Sakkardara",
+        "phone": "+91 712 274 1200",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.102,
+          21.151
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-6",
+        "name": "NMC Gandhibagh Zonal Office (Zone No. 6)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Gandhibagh Garden, Central Avenue, Gandhibagh, Nagpur",
+        "locality": "Gandhibagh",
+        "phone": "+91 712 276 5400",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.112,
+          21.162
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-7",
+        "name": "NMC Satranjipura Zonal Office (Zone No. 7)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Itwari Market, Satranjipura, Nagpur",
+        "locality": "Satranjipura",
+        "phone": "+91 712 276 8900",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.128,
+          21.152
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-8",
+        "name": "NMC Lakadganj Zonal Office (Zone No. 8)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Old Bhandara Road, Lakadganj, Nagpur",
+        "locality": "Lakadganj",
+        "phone": "+91 712 273 1500",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.114,
+          21.182
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-9",
+        "name": "NMC Ashi Nagar Zonal Office (Zone No. 9)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Kamal Chowk, Uppalwadi Road, Ashi Nagar, Nagpur",
+        "locality": "Ashi Nagar",
+        "phone": "+91 712 264 2200",
+        "email": "",
+        "role": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.076,
+          21.168
+        ]
+      },
+      "properties": {
+        "id": "NMC-ZONE-10",
+        "name": "NMC Mangalwari Zonal Office (Zone No. 10)",
+        "category": "nagpur_municipal_corporation_nmc_hq_and_zonal_offices",
+        "department": "PMC",
+        "address": "Near Katol Road Square, Sadar / Mangalwari, Nagpur",
+        "locality": "Mangalwari / Sadar",
+        "phone": "+91 712 259 8700",
+        "email": "",
+        "role": ""
+      }
+    }
+  ]
+}
