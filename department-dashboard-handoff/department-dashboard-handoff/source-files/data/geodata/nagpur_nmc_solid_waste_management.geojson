@@ -1,0 +1,711 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_Solid_Waste_Management_Offices_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "5. NMC Solid Waste Management",
+    "department_id": 5,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 22,
+    "categories": [
+      {
+        "category": "Garbage Collection",
+        "sub_categories": [
+          "Garbage collection vehicles not visiting regularly"
+        ]
+      },
+      {
+        "category": "Public Waste Dumping",
+        "sub_categories": [
+          "Overflowing community dustbins",
+          "People illegally dumping waste in empty plots"
+        ]
+      },
+      {
+        "category": "Waste Hazards",
+        "sub_categories": [
+          "Burning of garbage in public spaces",
+          "Dead animal removal requests"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-HQ01",
+        "name": "NMC Solid Waste Management Department (Central Headquarters)",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Municipal Department Headquarters",
+        "zone": "Central Administration",
+        "division": "NMC Health & Sanitation Department",
+        "address": "1st Floor, NMC Central Administrative Building, Mahanagar Palika Marg, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "Citywide solid waste management policy, door-to-door collection contracting (BVG/AG Enviro), mechanized sweeping oversight, landfill monitoring",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-HQ02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0758,
+          21.1548
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-HQ02",
+        "name": "NMC Swachh Bharat Mission & Sanitation Command Centre",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Sanitation Command & Control Centre",
+        "zone": "Central Administration",
+        "division": "Swachh Nagpur Monitoring Cell",
+        "address": "NMC Administrative Complex, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567029",
+        "emergency_number": "1800-233-3333 / 112",
+        "jurisdiction_area": "Real-time GPS tracking of waste tippers/compactors, missed collection escalation, zero-garbage city surveillance",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-NDS01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0792,
+          21.1624
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-NDS01",
+        "name": "NMC Nuisance Detection Squad (NDS) Headquarters (Anti-Dumping & Anti-Burning Enforcement Cell)",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Enforcement & Flying Squad Headquarters",
+        "zone": "Citywide Enforcement",
+        "division": "NDS Enforcement Wing",
+        "address": "NMC Old Town Planning Campus, Sadar, Nagpur, Maharashtra 440001",
+        "locality": "Sadar",
+        "pincode": "440001",
+        "contact_number": "+91-712-2591200",
+        "emergency_number": "+91-7030972200 / 112",
+        "jurisdiction_area": "Citywide penalization of open garbage burning, illegal debris dumping on public plots, plastic ban enforcement and commercial waste violations",
+        "handling_categories": [
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0628,
+          21.1215
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z01",
+        "name": "NMC Laxmi Nagar Zone No. 1 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Laxmi Nagar Zone (Zone 1)",
+        "division": "Chief Sanitary Inspector (CSI) Division 1",
+        "address": "Hingna Road, Near Laxmi Nagar Square, Nagpur, Maharashtra 440022",
+        "locality": "Laxmi Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2245833",
+        "emergency_number": "+91-9130616734 / 112",
+        "jurisdiction_area": "Laxmi Nagar, Pratap Nagar, Bajaj Nagar, Trimurti Nagar, VNIT, Khamla (Daily waste vehicle monitoring, open plot dumping clearance, dead animal removal)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0575,
+          21.1448
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z02",
+        "name": "NMC Dharampeth Zone No. 2 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Dharampeth Zone (Zone 2)",
+        "division": "Chief Sanitary Inspector (CSI) Division 2",
+        "address": "90, Gokulpeth Market Road, Dharampeth, Nagpur, Maharashtra 440010",
+        "locality": "Gokulpeth / Dharampeth",
+        "pincode": "440010",
+        "contact_number": "+91-712-2565589",
+        "emergency_number": "+91-9823245671 / 112",
+        "jurisdiction_area": "Dharampeth, Ram Nagar, Ambazari, Ravi Nagar, Civil Lines, Seminary Hills (Door-to-door tipper tracking, market dustbin clearance, leaf/garbage burning prevention)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0985,
+          21.1212
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z03",
+        "name": "NMC Hanuman Nagar Zone No. 3 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Hanuman Nagar Zone (Zone 3)",
+        "division": "Chief Sanitary Inspector (CSI) Division 3",
+        "address": "Tukdoji Putla Square, Manewada Road, Hanuman Nagar, Nagpur, Maharashtra 440009",
+        "locality": "Hanuman Nagar",
+        "pincode": "440009",
+        "contact_number": "+91-712-2755589",
+        "emergency_number": "+91-9823245673 / 112",
+        "latitude": 21.1212,
+        "longitude": 79.0985,
+        "jurisdiction_area": "Hanuman Nagar, Medical Square, Manewada, Besa border, Bhagwan Nagar, Rameshwari (Community bin emptying, open plot garbage accumulation checks, dead dog/animal disposal)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0825,
+          21.1378
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z04",
+        "name": "NMC Dhantoli Zone No. 4 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Dhantoli Zone (Zone 4)",
+        "division": "Chief Sanitary Inspector (CSI) Division 4",
+        "address": "Yashwant Stadium Commercial Complex, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2465299",
+        "emergency_number": "+91-9823350242 / 112",
+        "jurisdiction_area": "Dhantoli, Congress Nagar, Rahate Colony, Sitabuldi Market south, Imamwada (Hospital zone waste monitoring, garbage vehicle timing compliance, night sweeping enforcement)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1182,
+          21.1225
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z05",
+        "name": "NMC Nehru Nagar Zone No. 5 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Nehru Nagar Zone (Zone 5)",
+        "division": "Chief Sanitary Inspector (CSI) Division 5",
+        "address": "Near Sakkardara Lake, Nehru Nagar Road, Nagpur, Maharashtra 440024",
+        "locality": "Nehru Nagar / Sakkardara",
+        "pincode": "440024",
+        "contact_number": "+91-712-2700090",
+        "emergency_number": "+91-9823313064 / 112",
+        "jurisdiction_area": "Nehru Nagar, Sakkardara, Nandanvan, Dighori, Tajbagh, Hasanbagh (Dump yard blackspot elimination, waste collection vehicle arrival tracking, carcass removal squad)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1068,
+          21.1438
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z06",
+        "name": "NMC Gandhi Mahal / Gandhibagh Zone No. 6 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Gandhibagh Zone (Zone 6)",
+        "division": "Chief Sanitary Inspector (CSI) Division 6",
+        "address": "Town Hall Premises, Mahal, Nagpur, Maharashtra 440002",
+        "locality": "Mahal / Gandhibagh",
+        "pincode": "440002",
+        "contact_number": "+91-712-2735599",
+        "emergency_number": "+91-9823313086 / 112",
+        "jurisdiction_area": "Mahal, Gandhibagh, Itwari market, Badkas Chowk, Tilak Putla (Commercial market waste lifting, tight-alley garbage collection vehicles, public dustbin clearance)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1125,
+          21.1592
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z07",
+        "name": "NMC Satranjipura Zone No. 7 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Satranjipura Zone (Zone 7)",
+        "division": "Chief Sanitary Inspector (CSI) Division 7",
+        "address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur, Maharashtra 440002",
+        "locality": "Satranjipura",
+        "pincode": "440002",
+        "contact_number": "+91-7030577650",
+        "emergency_number": "+91-9823313105 / 112",
+        "jurisdiction_area": "Satranjipura, Tandapeth, Hansapuri, Wholesale Grain Market (Wholesale market organic waste clearance, garbage dumping spot monitoring, illegal plastic bag disposal)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1265,
+          21.1515
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z08",
+        "name": "NMC Lakadganj Zone No. 8 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Lakadganj Zone (Zone 8)",
+        "division": "Chief Sanitary Inspector (CSI) Division 8",
+        "address": "Old Bhandara Road, Near Queta Colony, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2737599",
+        "emergency_number": "+91-9850342942 / 112",
+        "jurisdiction_area": "Lakadganj, Wardhaman Nagar, Pardi, Surya Nagar, HB Town, Timber Market (Industrial wood waste burning prevention, empty plot dumping enforcement, daily collection)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1785
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z09",
+        "name": "NMC Ashi Nagar Zone No. 9 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Ashi Nagar Zone (Zone 9)",
+        "division": "Chief Sanitary Inspector (CSI) Division 9",
+        "address": "Kamal Chowk Road, Near Panchpaoli Overbridge, Ashi Nagar, Nagpur, Maharashtra 440017",
+        "locality": "Ashi Nagar / Kamal Chowk",
+        "pincode": "440017",
+        "contact_number": "+91-712-2653476",
+        "emergency_number": "+91-9923799884 / 112",
+        "jurisdiction_area": "Ashi Nagar, Panchpaoli, Lashkaribagh, Uppalwadi, Yashodhara Nagar (Door-to-door vehicle irregularity rectification, open garbage burning crackdown, animal carcass disposal)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-Z10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0762,
+          21.1685
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-Z10",
+        "name": "NMC Mangalwari Zone No. 10 Sanitation & SWM Office",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Zonal Sanitation & CSI Office",
+        "zone": "Mangalwari Zone (Zone 10)",
+        "division": "Chief Sanitary Inspector (CSI) Division 10",
+        "address": "408, New Colony, Koradi Road, Sadar, Nagpur, Maharashtra 440013",
+        "locality": "New Colony / Sadar",
+        "pincode": "440013",
+        "contact_number": "+91-712-2598800",
+        "emergency_number": "+91-9823245679 / 112",
+        "jurisdiction_area": "Mangalwari, Sadar, Mankapur, Gittikhadan, Zingabai Takli, Koradi fringe (Residential waste collection schedules, meat/market waste disposal, illegal open plot dumping)",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-FAC01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1685,
+          21.1412
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-FAC01",
+        "name": "Bhandewadi Central Solid Waste Processing & Waste-to-Energy Plant (1000 TPD)",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Central Waste Processing & Energy Facility",
+        "zone": "Central Processing Grid",
+        "division": "NMC Solid Waste Processing Division",
+        "address": "Bhandewadi Waste Processing Campus, Old Bhandara Road, Bhandewadi, Nagpur, Maharashtra 440035",
+        "locality": "Bhandewadi",
+        "pincode": "440035",
+        "contact_number": "+91-712-2782200",
+        "emergency_number": "112",
+        "jurisdiction_area": "Citywide primary municipal solid waste (MSW) reception, automated segregation, refuse-derived fuel (RDF) generation and waste-to-energy power production",
+        "handling_categories": [
+          "Garbage Collection",
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-FAC02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1724,
+          21.1385
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-FAC02",
+        "name": "Bhandewadi Scientific Sanitary Landfill & Bio-Mining Facility",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Sanitary Landfill & Legacy Waste Remediation",
+        "zone": "Central Processing Grid",
+        "division": "NMC Environmental Remediation Wing",
+        "address": "Bhandewadi Dumping Yard, Bhandewadi, Nagpur, Maharashtra 440035",
+        "locality": "Bhandewadi",
+        "pincode": "440035",
+        "contact_number": "+91-712-2782250",
+        "emergency_number": "112",
+        "jurisdiction_area": "Engineered sanitary landfill cell operation, legacy dump bio-mining, leachate treatment plant and methane capture system",
+        "handling_categories": [
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-FAC03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1662,
+          21.1435
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-FAC03",
+        "name": "NMC Construction & Demolition (C&D) Waste Recycling Plant",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Debris & C&D Waste Processing Plant",
+        "zone": "Central Processing Grid",
+        "division": "NMC C&D Waste Division",
+        "address": "Near Bhandewadi Treatment Area, Bhandewadi, Nagpur, Maharashtra 440035",
+        "locality": "Bhandewadi",
+        "pincode": "440035",
+        "contact_number": "+91-712-2782300",
+        "emergency_number": "0712-2567029 / 112",
+        "jurisdiction_area": "Processing and recycling of building debris, concrete rubble, and stone waste illegally dumped on streets and vacant city plots",
+        "handling_categories": [
+          "Public Waste Dumping"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-INC01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1702,
+          21.1365
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-INC01",
+        "name": "NMC Central Dead Animal Incinerator & Scientific Carcass Disposal Plant",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Animal Carcass Incineration & Disposal Facility",
+        "zone": "Central Sanitation Grid",
+        "division": "NMC Veterinary & Sanitation Wing",
+        "address": "Animal Incineration Complex, Bhandewadi, Nagpur, Maharashtra 440035",
+        "locality": "Bhandewadi",
+        "pincode": "440035",
+        "contact_number": "+91-712-2782400",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "High-temperature smokeless electric/gas incineration for dead stray cattle, dogs, horses, and rapid carcass pickup logistics citywide",
+        "handling_categories": [
+          "Waste Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-MTS01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0512,
+          21.1395
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-MTS01",
+        "name": "Dharampeth Modern Mechanized Garbage Transfer Station (MTS)",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Mechanized Refuse Transfer Station",
+        "zone": "West Zone",
+        "division": "NMC Solid Waste Logistics Wing",
+        "address": "Near Ambazari Overflow / Gokulpeth Service Area, Ambazari Road, Nagpur, Maharashtra 440010",
+        "locality": "Dharampeth / Ambazari",
+        "pincode": "440010",
+        "contact_number": "+91-712-2561120",
+        "emergency_number": "112",
+        "jurisdiction_area": "Hydraulic compactor loading station transferring waste from small collection tippers to heavy hermetic haulers for West Nagpur",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-MTS02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0924,
+          21.1458
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-MTS02",
+        "name": "Cotton Market Central Refuse Transfer Station (MTS)",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Mechanized Refuse Transfer Station",
+        "zone": "Central Zone",
+        "division": "NMC Solid Waste Logistics Wing",
+        "address": "Beside NMC Central Stores, Subhash Road, Cotton Market, Nagpur, Maharashtra 440018",
+        "locality": "Cotton Market / Ganeshpeth",
+        "pincode": "440018",
+        "contact_number": "+91-712-2724450",
+        "emergency_number": "112",
+        "jurisdiction_area": "Compacts and transfers large volumes of market vegetable waste and commercial garbage from Central Nagpur market hubs",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-MTS03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1158,
+          21.1218
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-MTS03",
+        "name": "Sakkardara Mechanized Solid Waste Transfer Station (MTS)",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Mechanized Refuse Transfer Station",
+        "zone": "South-East Zone",
+        "division": "NMC Solid Waste Logistics Wing",
+        "address": "Umred Road Transfer Yard, Near Sakkardara Lake, Nagpur, Maharashtra 440009",
+        "locality": "Sakkardara",
+        "pincode": "440009",
+        "contact_number": "+91-712-2748850",
+        "emergency_number": "112",
+        "jurisdiction_area": "Compact transfer hub serving Nehru Nagar and Hanuman Nagar collection vehicles to prevent open street transfer",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-MTS04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0775,
+          21.1892
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-MTS04",
+        "name": "Mankapur / Koradi Road Garbage Transfer & Compactor Depot",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Mechanized Refuse Transfer Station",
+        "zone": "North Zone",
+        "division": "NMC Solid Waste Logistics Wing",
+        "address": "Koradi Road Service Compound, Near Mankapur Ring Road, Nagpur, Maharashtra 440030",
+        "locality": "Mankapur",
+        "pincode": "440030",
+        "contact_number": "+91-712-2598850",
+        "emergency_number": "112",
+        "jurisdiction_area": "North Nagpur primary compactor station receiving door-to-door waste from Mankapur, Sadar, and Zingabai Takli",
+        "handling_categories": [
+          "Garbage Collection",
+          "Public Waste Dumping"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-SWM-OPR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0515,
+          21.1775
+        ]
+      },
+      "properties": {
+        "id": "NGP-SWM-OPR01",
+        "name": "NMC Central Sanitation Machinery & Hydraulic Compactor Workshop",
+        "department": "NMC Solid Waste Management",
+        "department_id": 5,
+        "facility_type": "Sanitation Fleet Workshop & Maintenance Base",
+        "zone": "Central Workshop Grid",
+        "division": "NMC Mechanical Engineering Cell",
+        "address": "Gittikhadan Municipal Workshop Campus, Katol Road, Nagpur, Maharashtra 440013",
+        "locality": "Gittikhadan",
+        "pincode": "440013",
+        "contact_number": "+91-712-2583350",
+        "emergency_number": "112",
+        "jurisdiction_area": "Maintenance, hydraulic repair, and spare parts depot for NMC road sweeping machines, dumper placers, and refuse compactor trucks",
+        "handling_categories": [
+          "Garbage Collection"
+        ]
+      }
+    }
+  ]
+}

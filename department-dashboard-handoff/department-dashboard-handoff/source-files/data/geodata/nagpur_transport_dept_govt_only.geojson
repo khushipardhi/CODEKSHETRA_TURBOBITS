@@ -1,0 +1,428 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_Transport_Dept_Govt_Buildings_and_Offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "2. Transport Dept",
+    "department_id": 2,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 13,
+    "categories": [
+      {
+        "category": "Public Transit (Buses)",
+        "sub_categories": [
+          "Rash driving",
+          "Bus delays",
+          "Rude conductor behavior"
+        ]
+      },
+      {
+        "category": "Auto-Rickshaws",
+        "sub_categories": [
+          "Refusing fares",
+          "Overcharging or tampering with meters"
+        ]
+      },
+      {
+        "category": "Commercial Vehicles",
+        "sub_categories": [
+          "Violating permit rules",
+          "Overloading"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-RTO01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0688,
+          21.1512
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-RTO01",
+        "name": "Regional Transport Office (RTO Nagpur City - MH-31)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Regional Transport Office (RTO)",
+        "zone": "City Zone (Central & West)",
+        "division": "Nagpur City RTO Division",
+        "address": "Opposite Bal Bhavan, Giripeth, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Giripeth / Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2561695",
+        "emergency_number": "1800-22-0110 / 112",
+        "jurisdiction_area": "Nagpur City MH-31 Jurisdiction (Driver licenses, vehicle permits, public auto/bus permits, fitness certification)",
+        "handling_categories": [
+          "Public Transit (Buses)",
+          "Auto-Rickshaws",
+          "Commercial Vehicles"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-RTO02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1462,
+          21.1715
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-RTO02",
+        "name": "Deputy Regional Transport Office (RTO Nagpur East - MH-49)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Regional Transport Office (RTO)",
+        "zone": "East Zone",
+        "division": "Nagpur East RTO Division",
+        "address": "Kalamna Market Road, Near Chikhali Layout, Sharda Chowk, Nagpur, Maharashtra 440035",
+        "locality": "Chikhali / Kalamna",
+        "pincode": "440035",
+        "contact_number": "+91-712-2681500",
+        "emergency_number": "1800-22-0110 / 112",
+        "jurisdiction_area": "East Nagpur MH-49 Jurisdiction (Commercial vehicle registration, auto-rickshaw licensing, freight permits)",
+        "handling_categories": [
+          "Public Transit (Buses)",
+          "Auto-Rickshaws",
+          "Commercial Vehicles"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-RTO03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1082,
+          21.1915
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-RTO03",
+        "name": "Regional Transport Office (RTO Nagpur Rural - MH-40)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Regional Transport Office (RTO)",
+        "zone": "Rural / North Zone",
+        "division": "Nagpur Rural RTO Division",
+        "address": "Lal Godam No. 9, Beside Rural Police HQ, Teka Naka, Kamptee Road, Nagpur, Maharashtra 440026",
+        "locality": "Teka Naka / Indora",
+        "pincode": "440026",
+        "contact_number": "+91-712-2641400",
+        "emergency_number": "1800-22-0110 / 112",
+        "jurisdiction_area": "Nagpur Rural MH-40 & National Highway Freight Corridor (Interstate permits, heavy commercial carrier fitness)",
+        "handling_categories": [
+          "Commercial Vehicles",
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-ADM01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-ADM01",
+        "name": "NMC Transport Department (Urban Mass Transit Wing)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Municipal Transport Authority Headquarters",
+        "zone": "Central Zone",
+        "division": "Urban Mass Transit Wing",
+        "address": "2nd Floor, NMC Central Administrative Building, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567035 / 112",
+        "jurisdiction_area": "Citywide Aapli Bus fleet operations, timetable management, conductor grievance resolution & concession passes",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-ADM02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0962,
+          21.1448
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-ADM02",
+        "name": "MSRTC Divisional Office Nagpur",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "State Transport Divisional Office",
+        "zone": "Central Zone",
+        "division": "MSRTC Nagpur Division",
+        "address": "MSRTC Divisional Office Building, Ganeshpeth, Nagpur, Maharashtra 440018",
+        "locality": "Ganeshpeth",
+        "pincode": "440018",
+        "contact_number": "+91-712-2726221",
+        "emergency_number": "1800-22-1251",
+        "jurisdiction_area": "Intercity and rural state transport bus scheduling, driver disciplinary enforcement & regional connectivity",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-DEP01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9865,
+          21.1512
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-DEP01",
+        "name": "NMC Municipal Fleet Operation & Maintenance Depot (Wadi)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Government Transit Fleet Depot & Workshop",
+        "zone": "West Zone",
+        "division": "Aapli Bus West Operations",
+        "address": "Near Wadi Naka, Amravati Road, Wadi, Nagpur, Maharashtra 440023",
+        "locality": "Wadi",
+        "pincode": "440023",
+        "contact_number": "+91-7104-221500",
+        "emergency_number": "112",
+        "jurisdiction_area": "West Nagpur city bus fleet dispatch, EV bus charging station, mechanical inspection & driver duty rosters",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-DEP02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0042,
+          21.1085
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-DEP02",
+        "name": "NMC Municipal Fleet Operation & Maintenance Depot (Hingna)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Government Transit Fleet Depot & Workshop",
+        "zone": "South-West Zone",
+        "division": "Aapli Bus South Operations",
+        "address": "Electronic Zone, MIDC Industrial Area, Hingna Road, Nagpur, Maharashtra 440016",
+        "locality": "MIDC Hingna",
+        "pincode": "440016",
+        "contact_number": "+91-7104-236800",
+        "emergency_number": "112",
+        "latitude": 21.1085,
+        "longitude": 79.0042,
+        "jurisdiction_area": "Fleet maintenance and route control for Hingna, VNIT, Trimurti Nagar and Isasani public transit routes",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-DEP03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0962,
+          21.2385
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-DEP03",
+        "name": "NMC Municipal Fleet Operation & Maintenance Depot (Koradi)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Government Transit Fleet Depot & Workshop",
+        "zone": "North Zone",
+        "division": "Aapli Bus North Operations",
+        "address": "Near KTPS Colony, Koradi Road, Nagpur, Maharashtra 441111",
+        "locality": "Koradi",
+        "pincode": "441111",
+        "contact_number": "+91-712-262333",
+        "emergency_number": "112",
+        "jurisdiction_area": "North Nagpur suburban bus routes fleet base and electric bus rapid charging infrastructure",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-DEP04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0612,
+          21.0425
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-DEP04",
+        "name": "NMC Municipal Fleet Operation & Maintenance Depot (Khapri)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Government Transit Fleet Depot & Workshop",
+        "zone": "South Zone",
+        "division": "Aapli Bus South Operations",
+        "address": "Opposite MIHAN SEZ, Wardha Road, Khapri, Nagpur, Maharashtra 441108",
+        "locality": "Khapri / MIHAN",
+        "pincode": "441108",
+        "contact_number": "+91-712-2811200",
+        "emergency_number": "112",
+        "jurisdiction_area": "MIHAN and South Nagpur feeder services fleet depot and maintenance base",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-DEP05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1572,
+          21.1465
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-DEP05",
+        "name": "NMC Municipal Fleet Operation & Maintenance Depot (Pardi)",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Government Transit Fleet Depot & Workshop",
+        "zone": "East Zone",
+        "division": "Aapli Bus East Operations",
+        "address": "Old Bhandara Road, Near HB Town, Pardi, Nagpur, Maharashtra 440035",
+        "locality": "Pardi / HB Town",
+        "pincode": "440035",
+        "contact_number": "+91-712-2785500",
+        "emergency_number": "112",
+        "jurisdiction_area": "East Nagpur transit fleet depot covering Wardhaman Nagar, Kapsi, Pardi, and Bhandara Road corridors",
+        "handling_categories": [
+          "Public Transit (Buses)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-COM01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9815,
+          21.1525
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-COM01",
+        "name": "Wadi RTO Flying Squad & Commercial Vehicle Testing Ground",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Commercial Vehicle Inspection & Testing Ground",
+        "zone": "West Zone",
+        "division": "RTO Enforcement Wing",
+        "address": "Off Amravati Road (NH-53), Near MIDC Boundary, Wadi, Nagpur, Maharashtra 440023",
+        "locality": "Wadi",
+        "pincode": "440023",
+        "contact_number": "+91-7104-222400",
+        "emergency_number": "1800-22-0110 / 112",
+        "jurisdiction_area": "Heavy commercial vehicles fitness testing, pollution checking, overloading inspection and national highway enforcement",
+        "handling_categories": [
+          "Commercial Vehicles"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-COM02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1485,
+          21.1735
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-COM02",
+        "name": "Chikhali Automated Commercial Vehicle Inspection & Brake Track",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Commercial Vehicle Fitness Testing Centre",
+        "zone": "East Zone",
+        "division": "RTO Nagpur East Division",
+        "address": "Near East RTO Office, Chikhali Industrial Area, Kalamna, Nagpur, Maharashtra 440035",
+        "locality": "Chikhali",
+        "pincode": "440035",
+        "contact_number": "+91-712-2682200",
+        "emergency_number": "1800-22-0110 / 112",
+        "jurisdiction_area": "Automated fitness testing, brake efficiency testing, speed governor certification and commercial vehicle permit verification",
+        "handling_categories": [
+          "Commercial Vehicles"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-TRN-COM03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2085,
+          21.2312
+        ]
+      },
+      "properties": {
+        "id": "NGP-TRN-COM03",
+        "name": "Kamptee Border RTO Commercial Weighbridge & Checkpost",
+        "department": "Transport Dept",
+        "department_id": 2,
+        "facility_type": "Commercial Vehicle Weighbridge & Border Checkpost",
+        "zone": "North Highway Corridor",
+        "division": "RTO Highway Flying Squad",
+        "address": "NH-44 (Nagpur-Jabalpur Highway), Beyond Kanhan Bridge, Kamptee, Maharashtra 441002",
+        "locality": "Kamptee Border",
+        "pincode": "441002",
+        "contact_number": "+91-7109-284100",
+        "emergency_number": "1800-22-0110 / 112",
+        "jurisdiction_area": "Interstate freight carrier permit checking, gross vehicle weight (GVW) weighbridge compliance & anti-overloading enforcement",
+        "handling_categories": [
+          "Commercial Vehicles"
+        ]
+      }
+    }
+  ]
+}

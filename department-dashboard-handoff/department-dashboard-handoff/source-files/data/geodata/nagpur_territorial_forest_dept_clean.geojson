@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_Territorial_Forest_Department_Offices",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-PCCF",
+      "properties": {
+        "name": "Office of Principal Chief Conservator of Forests (HoFF) & Van Bhavan",
+        "facility_type": "State Forest Headquarters & Apex Directorate",
+        "circle_division": "Maharashtra State Forest Directorate",
+        "address": "Van Bhavan, Ramgiri Road, Civil Lines, Nagpur - 440001",
+        "officer": "Principal Chief Conservator of Forests (HoFF)",
+        "designation": "Head of Forest Force, Maharashtra State",
+        "phone": "0712-2560505",
+        "email": "pccfhoff@mahaforest.gov.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0685, 21.1562]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-CCF",
+      "properties": {
+        "name": "Office of the Chief Conservator of Forests (Territorial), Nagpur Circle",
+        "facility_type": "Circle Headquarters (Territorial)",
+        "circle_division": "Nagpur Forest Circle (Territorial)",
+        "address": "Van Bhavan, Near Zero Mile & Government Press, Civil Lines, Nagpur - 440001",
+        "officer": "Chief Conservator of Forests (Territorial)",
+        "designation": "Head of Nagpur Territorial Circle",
+        "phone": "0712-2562250",
+        "email": "ccftnagpur@mahaforest.gov.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0762, 21.1525]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-DCF",
+      "properties": {
+        "name": "Office of the Deputy Conservator of Forests (Territorial), Nagpur Forest Division",
+        "facility_type": "Divisional Forest Headquarters (Territorial)",
+        "circle_division": "Nagpur Forest Division (Territorial)",
+        "address": "3rd Floor, Van Bhavan, Near Zero Mile, Civil Lines, Nagpur - 440001",
+        "officer": "Deputy Conservator of Forests (DCF Territorial)",
+        "designation": "Head of Nagpur Territorial Division",
+        "phone": "0712-2564569",
+        "email": "dycfnagpur@mahaforest.gov.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0765, 21.1528]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-RFO-SEM",
+      "properties": {
+        "name": "Range Forest Office (RFO) - Seminary Hills Range",
+        "facility_type": "Range Forest Office (Territorial)",
+        "circle_division": "Nagpur Forest Division (Territorial)",
+        "forest_range": "Seminary Hills Range",
+        "address": "Forest Office Campus, Seminary Hills, Sadar, Nagpur - 440006",
+        "officer": "Range Forest Officer (Seminary Hills)",
+        "designation": "Range In-charge",
+        "phone": "0712-2510255"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0552, 21.1628]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-RFO-AMB",
+      "properties": {
+        "name": "Range Forest Office (RFO) - Ambazari Range",
+        "facility_type": "Range Forest Office (Territorial)",
+        "circle_division": "Nagpur Forest Division (Territorial)",
+        "forest_range": "Ambazari Range & Biodiversity Park",
+        "address": "Ambazari Forest Complex, Hingna Road, Ambazari, Nagpur - 440033",
+        "officer": "Range Forest Officer (Ambazari)",
+        "designation": "Range In-charge",
+        "phone": "0712-2567035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0282, 21.1215]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-RFO-HNG",
+      "properties": {
+        "name": "Range Forest Office (RFO) - Hingna Range",
+        "facility_type": "Range Forest Office (Territorial)",
+        "circle_division": "Nagpur Forest Division (Territorial)",
+        "forest_range": "Hingna Forest Range",
+        "address": "MIDC Hingna Road, Industrial Area, Hingna, Nagpur - 440016",
+        "officer": "Range Forest Officer (Hingna)",
+        "designation": "Range In-charge",
+        "phone": "0712-2564569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.9885, 21.1095]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-RFO-BTI",
+      "properties": {
+        "name": "Range Forest Office (RFO) - Butibori Range",
+        "facility_type": "Range Forest Office (Territorial)",
+        "circle_division": "Nagpur Forest Division (Territorial)",
+        "forest_range": "Butibori Forest Range",
+        "address": "Old National Highway 44, Butibori, Nagpur - 441108",
+        "officer": "Range Forest Officer (Butibori)",
+        "designation": "Range In-charge",
+        "phone": "0712-2564569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.9962, 20.9255]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-RFO-KMP",
+      "properties": {
+        "name": "Range Forest Office (RFO) - Kamptee Range",
+        "facility_type": "Range Forest Office (Territorial)",
+        "circle_division": "Nagpur Forest Division (Territorial)",
+        "forest_range": "Kamptee Forest Range",
+        "address": "Kamptee Road, Near Cantonment, Kamptee, Nagpur - 441002",
+        "officer": "Range Forest Officer (Kamptee)",
+        "designation": "Range In-charge",
+        "phone": "0712-2564569"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.1965, 21.2225]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-FDCM-HQ",
+      "properties": {
+        "name": "Forest Development Corporation of Maharashtra (FDCM) Headquarters",
+        "facility_type": "State Forestry Corporation Headquarters",
+        "circle_division": "FDCM Head Office & Eco-Tourism Cell",
+        "address": "FDCM Bhavan, 359/B, Hingna Road, Ambazari, Nagpur - 440033",
+        "officer": "Managing Director, FDCM",
+        "designation": "Head of Corporation",
+        "phone": "0712-2226456",
+        "email": "md@fdcm.nic.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0392, 21.1255]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-TTC",
+      "properties": {
+        "name": "Wildlife Transit Treatment Centre (TTC) & Emergency Rescue Cell",
+        "facility_type": "24x7 Wildlife Emergency, Rescue & Trauma Hospital",
+        "circle_division": "Nagpur Territorial Division & Wildlife Rescue Wing",
+        "forest_range": "Seminary Hills Range",
+        "address": "Forest Office Compound, Seminary Hills, Nagpur - 440006",
+        "officer": "Range Forest Officer & Wildlife Veterinarian",
+        "designation": "Rescue & Trauma Head",
+        "phone": "0712-2510255",
+        "emergency_helpline": "1926"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0558, 21.1631]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TFD-NGP-GOR-BIO",
+      "properties": {
+        "name": "Gorewada Project & Territorial Forest Protection Range",
+        "facility_type": "Forest Protection Range & Bio-Reserve Office",
+        "circle_division": "Nagpur Forest Division & FDCM",
+        "forest_range": "Gorewada Range",
+        "address": "Mahurzari Road, Gorewada Forest, Nagpur - 441501",
+        "officer": "Divisional Manager / RFO Gorewada",
+        "designation": "Project & Range In-charge",
+        "phone": "0712-2970520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0345, 21.1965]
+      }
+    }
+  ]
+}

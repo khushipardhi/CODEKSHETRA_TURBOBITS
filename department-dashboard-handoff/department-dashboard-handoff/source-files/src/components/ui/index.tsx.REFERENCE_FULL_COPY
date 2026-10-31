@@ -1,0 +1,543 @@
+/* ════════════════════════════════════════════════════════
+   Nagpur Connect — UI Component Library
+   Accessible, dark-themed primitives
+   ════════════════════════════════════════════════════════ */
+
+"use client";
+
+import React from "react";
+
+/* ─── Button ─── */
+type ButtonVariant = "primary" | "secondary" | "ghost" | "danger" | "accent";
+type ButtonSize = "sm" | "md" | "lg";
+
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+  loading?: boolean;
+  icon?: React.ReactNode;
+  fullWidth?: boolean;
+}
+
+const buttonStyles: Record<ButtonVariant, string> = {
+  primary:
+    "bg-text-primary text-canvas hover:bg-[#d8d8db] active:bg-[#c0c0c4]",
+  secondary:
+    "bg-surface-2 text-text-primary border border-border hover:bg-surface-3 hover:border-border-hover active:bg-surface-4",
+  ghost:
+    "bg-transparent text-text-secondary hover:text-text-primary hover:bg-surface-1 active:bg-surface-2",
+  danger:
+    "bg-error-bg text-error border border-error-border hover:bg-[rgba(239,68,68,0.18)] active:bg-[rgba(239,68,68,0.25)]",
+  accent:
+    "bg-accent text-white hover:bg-accent-hover active:bg-[#3b7ae3]",
+};
+
+const buttonSizes: Record<ButtonSize, string> = {
+  sm: "px-3 py-1.5 text-xs gap-1.5 min-h-[32px]",
+  md: "px-5 py-2.5 text-sm gap-2 min-h-[44px]",
+  lg: "px-7 py-3 text-base gap-2.5 min-h-[52px]",
+};
+
+export function Button({
+  variant = "primary",
+  size = "md",
+  loading = false,
+  icon,
+  fullWidth = false,
+  children,
+  disabled,
+  className = "",
+  ...props
+}: ButtonProps) {
+  return (
+    <button
+      disabled={disabled || loading}
+      className={`
+        inline-flex items-center justify-center font-medium
+        rounded-pill transition-all duration-[var(--transition-fast)]
+        focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-2
+        disabled:opacity-40 disabled:cursor-not-allowed
+        cursor-pointer select-none
+        ${buttonStyles[variant]}
+        ${buttonSizes[size]}
+        ${fullWidth ? "w-full" : ""}
+        ${className}
+      `}
+      {...props}
+    >
+      {loading ? (
+        <svg
+          className="animate-spin h-4 w-4"
+          fill="none"
+          viewBox="0 0 24 24"
+          aria-label="Loading"
+        >
+          <circle
+            className="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            strokeWidth="4"
+          />
+          <path
+            className="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+          />
+        </svg>
+      ) : icon ? (
+        <span className="flex-shrink-0">{icon}</span>
+      ) : null}
+      {children}
+    </button>
+  );
+}
+
+/* ─── Badge ─── */
+type BadgeVariant =
+  | "default"
+  | "critical"
+  | "high"
+  | "medium"
+  | "low"
+  | "success"
+  | "warning"
+  | "error"
+  | "accent";
+
+interface BadgeProps {
+  variant?: BadgeVariant;
+  children: React.ReactNode;
+  icon?: React.ReactNode;
+  className?: string;
+}
+
+const badgeStyles: Record<BadgeVariant, string> = {
+  default: "bg-surface-2 text-text-secondary border-border",
+  critical: "bg-critical-bg text-critical border-critical-border",
+  high: "bg-high-bg text-high border-high-border",
+  medium: "bg-medium-bg text-medium border-medium-border",
+  low: "bg-low-bg text-low border-low-border",
+  success: "bg-success-bg text-success border-success-border",
+  warning: "bg-warning-bg text-warning border-warning-border",
+  error: "bg-error-bg text-error border-error-border",
+  accent: "bg-accent-muted text-accent border-[rgba(77,140,245,0.25)]",
+};
+
+export function Badge({
+  variant = "default",
+  children,
+  icon,
+  className = "",
+}: BadgeProps) {
+  return (
+    <span
+      className={`
+        inline-flex items-center gap-1.5 px-2.5 py-1
+        text-xs font-medium rounded-pill border
+        ${badgeStyles[variant]}
+        ${className}
+      `}
+    >
+      {icon && <span className="flex-shrink-0 w-3 h-3">{icon}</span>}
+      {children}
+    </span>
+  );
+}
+
+/* ─── Card ─── */
+interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
+  variant?: "default" | "elevated" | "gradient" | "interactive";
+  padding?: "none" | "sm" | "md" | "lg";
+}
+
+const cardPadding = {
+  none: "",
+  sm: "p-4",
+  md: "p-6",
+  lg: "p-8",
+};
+
+export function Card({
+  variant = "default",
+  padding = "md",
+  children,
+  className = "",
+  ...props
+}: CardProps) {
+  const variantClass = {
+    default: "bg-surface-1 border border-border rounded-card",
+    elevated:
+      "bg-surface-1 border border-border rounded-card shadow-md",
+    gradient: "gradient-card",
+    interactive:
+      "bg-surface-1 border border-border rounded-card hover:border-border-hover hover:bg-surface-2 transition-all duration-[var(--transition-base)] cursor-pointer",
+  }[variant];
+
+  return (
+    <div className={`${variantClass} ${cardPadding[padding]} ${className}`} {...props}>
+      {children}
+    </div>
+  );
+}
+
+/* ─── Input ─── */
+interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+  label?: string;
+  error?: string;
+  hint?: string;
+  icon?: React.ReactNode;
+}
+
+export const Input = React.forwardRef<HTMLInputElement, InputProps>(
+  ({ label, error, hint, icon, className = "", id, ...props }, ref) => {
+    const inputId = id || `input-${label?.toLowerCase().replace(/\s/g, "-")}`;
+    return (
+      <div className="flex flex-col gap-1.5">
+        {label && (
+          <label
+            htmlFor={inputId}
+            className="text-sm font-medium text-text-secondary"
+          >
+            {label}
+          </label>
+        )}
+        <div className="relative">
+          {icon && (
+            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-text-tertiary">
+              {icon}
+            </span>
+          )}
+          <input
+            ref={ref}
+            id={inputId}
+            className={`
+              w-full bg-surface-1 border rounded-md
+              px-4 py-2.5 text-sm text-text-primary
+              placeholder:text-text-tertiary
+              transition-colors duration-[var(--transition-fast)]
+              focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent
+              disabled:opacity-40 disabled:cursor-not-allowed
+              ${icon ? "pl-10" : ""}
+              ${error ? "border-error" : "border-border hover:border-border-hover"}
+              ${className}
+            `}
+            aria-invalid={!!error}
+            aria-describedby={
+              error ? `${inputId}-error` : hint ? `${inputId}-hint` : undefined
+            }
+            {...props}
+          />
+        </div>
+        {error && (
+          <p id={`${inputId}-error`} className="text-xs text-error" role="alert">
+            {error}
+          </p>
+        )}
+        {hint && !error && (
+          <p id={`${inputId}-hint`} className="text-xs text-text-tertiary">
+            {hint}
+          </p>
+        )}
+      </div>
+    );
+  }
+);
+
+Input.displayName = "Input";
+
+/* ─── Textarea ─── */
+interface TextareaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
+  label?: string;
+  error?: string;
+  hint?: string;
+}
+
+export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
+  ({ label, error, hint, className = "", id, ...props }, ref) => {
+    const inputId = id || `textarea-${label?.toLowerCase().replace(/\s/g, "-")}`;
+    return (
+      <div className="flex flex-col gap-1.5">
+        {label && (
+          <label
+            htmlFor={inputId}
+            className="text-sm font-medium text-text-secondary"
+          >
+            {label}
+          </label>
+        )}
+        <textarea
+          ref={ref}
+          id={inputId}
+          className={`
+            w-full bg-surface-1 border rounded-md
+            px-4 py-2.5 text-sm text-text-primary resize-y min-h-[100px]
+            placeholder:text-text-tertiary
+            transition-colors duration-[var(--transition-fast)]
+            focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent
+            disabled:opacity-40 disabled:cursor-not-allowed
+            ${error ? "border-error" : "border-border hover:border-border-hover"}
+            ${className}
+          `}
+          aria-invalid={!!error}
+          aria-describedby={
+            error ? `${inputId}-error` : hint ? `${inputId}-hint` : undefined
+          }
+          {...props}
+        />
+        {error && (
+          <p id={`${inputId}-error`} className="text-xs text-error" role="alert">
+            {error}
+          </p>
+        )}
+        {hint && !error && (
+          <p id={`${inputId}-hint`} className="text-xs text-text-tertiary">
+            {hint}
+          </p>
+        )}
+      </div>
+    );
+  }
+);
+
+Textarea.displayName = "Textarea";
+
+/* ─── Dialog / Modal ─── */
+interface DialogProps {
+  open: boolean;
+  onClose: () => void;
+  title?: string;
+  description?: string;
+  children: React.ReactNode;
+  size?: "sm" | "md" | "lg";
+}
+
+const dialogSizes = {
+  sm: "max-w-sm",
+  md: "max-w-lg",
+  lg: "max-w-2xl",
+};
+
+export function Dialog({
+  open,
+  onClose,
+  title,
+  description,
+  children,
+  size = "md",
+}: DialogProps) {
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  React.useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+      const handleEscape = (e: KeyboardEvent) => {
+        if (e.key === "Escape") onClose();
+      };
+      document.addEventListener("keydown", handleEscape);
+      return () => {
+        document.body.style.overflow = "";
+        document.removeEventListener("keydown", handleEscape);
+      };
+    }
+  }, [open, onClose]);
+
+  if (!open || !mounted) return null;
+
+  const content = (
+    <div
+      className="fixed inset-0 z-[var(--z-modal)] flex items-center justify-center p-4"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby={title ? "dialog-title" : undefined}
+      aria-describedby={description ? "dialog-desc" : undefined}
+    >
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity"
+        onClick={onClose}
+        aria-hidden="true"
+      />
+      {/* Panel */}
+      <div
+        className={`
+          relative w-full ${dialogSizes[size]}
+          bg-white border border-slate-200 rounded-2xl
+          shadow-2xl p-6 z-10 max-h-[90vh] overflow-y-auto
+        `}
+      >
+        {title && (
+          <h2 id="dialog-title" className="text-lg font-bold text-slate-900 mb-1">
+            {title}
+          </h2>
+        )}
+        {description && (
+          <p id="dialog-desc" className="text-sm text-slate-500 mb-4">
+            {description}
+          </p>
+        )}
+        {children}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 p-2 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors"
+          aria-label="Close dialog"
+        >
+          <svg width="16" height="16" fill="none" viewBox="0 0 24 24">
+            <path
+              d="M18 6L6 18M6 6l12 12"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+
+  return typeof document !== "undefined"
+    ? require("react-dom").createPortal(content, document.body)
+    : content;
+}
+
+/* ─── Toast ─── */
+interface ToastProps {
+  message: string;
+  variant?: "info" | "success" | "warning" | "error";
+  visible: boolean;
+  onDismiss?: () => void;
+}
+
+export function Toast({
+  message,
+  variant = "info",
+  visible,
+  onDismiss,
+}: ToastProps) {
+  const variantStyle = {
+    info: "border-accent bg-accent-muted text-accent",
+    success: "border-success-border bg-success-bg text-success",
+    warning: "border-warning-border bg-warning-bg text-warning",
+    error: "border-error-border bg-error-bg text-error",
+  }[variant];
+
+  if (!visible) return null;
+
+  return (
+    <div
+      role="status"
+      aria-live="polite"
+      className={`
+        fixed bottom-6 right-6 z-[var(--z-toast)]
+        flex items-center gap-3 px-4 py-3
+        rounded-lg border shadow-lg backdrop-blur-sm
+        slide-up ${variantStyle}
+      `}
+    >
+      <span className="text-sm font-medium">{message}</span>
+      {onDismiss && (
+        <button
+          onClick={onDismiss}
+          className="p-1 rounded hover:bg-white/10 transition-colors"
+          aria-label="Dismiss"
+        >
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24">
+            <path
+              d="M18 6L6 18M6 6l12 12"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
+        </button>
+      )}
+    </div>
+  );
+}
+
+/* ─── Empty State ─── */
+interface EmptyStateProps {
+  icon?: React.ReactNode;
+  title: string;
+  description?: string;
+  action?: React.ReactNode;
+}
+
+export function EmptyState({ icon, title, description, action }: EmptyStateProps) {
+  return (
+    <div className="flex flex-col items-center justify-center py-16 px-4 text-center fade-in">
+      {icon && (
+        <div className="w-16 h-16 rounded-2xl bg-surface-2 flex items-center justify-center mb-4 text-text-tertiary">
+          {icon}
+        </div>
+      )}
+      <h3 className="text-lg font-semibold text-text-primary mb-1">{title}</h3>
+      {description && (
+        <p className="text-sm text-text-tertiary max-w-sm mb-4">{description}</p>
+      )}
+      {action}
+    </div>
+  );
+}
+
+/* ─── Loading Skeleton ─── */
+interface SkeletonProps {
+  width?: string;
+  height?: string;
+  className?: string;
+  variant?: "text" | "circle" | "rect";
+}
+
+export function Skeleton({
+  width,
+  height = "16px",
+  className = "",
+  variant = "text",
+}: SkeletonProps) {
+  const shape = {
+    text: "rounded",
+    circle: "rounded-full",
+    rect: "rounded-md",
+  }[variant];
+
+  return (
+    <div
+      className={`skeleton ${shape} ${className}`}
+      style={{ width: width || "100%", height }}
+      aria-hidden="true"
+    />
+  );
+}
+
+/* ─── Divider ─── */
+export function Divider({ className = "" }: { className?: string }) {
+  return (
+    <div
+      className={`w-full h-px bg-divider ${className}`}
+      role="separator"
+    />
+  );
+}
+
+/* ─── Icon wrapper for consistent sizing ─── */
+interface IconProps {
+  children: React.ReactNode;
+  size?: number;
+  className?: string;
+}
+
+export function Icon({ children, size = 20, className = "" }: IconProps) {
+  return (
+    <span
+      className={`inline-flex items-center justify-center flex-shrink-0 ${className}`}
+      style={{ width: size, height: size }}
+    >
+      {children}
+    </span>
+  );
+}

@@ -1,0 +1,62 @@
+# Department Dashboard — File Index
+# Every file created/modified by the Department Dashboard Builder
+
+## PAGES (Next.js App Router - Route Group: (department))
+src/app/(department)/department/layout.tsx
+src/app/(department)/department/page.tsx
+src/app/(department)/department/[code]/page.tsx
+src/app/(department)/department/[code]/incidents/page.tsx
+src/app/(department)/department/[code]/tasks/page.tsx
+src/app/(department)/department/[code]/workers/page.tsx
+src/app/(department)/department/[code]/analytics/page.tsx
+
+## COMPONENTS
+src/components/department/CriticalIncidentPanel.tsx
+src/components/department/DepartmentHeader.tsx
+src/components/department/DepartmentNotifications.tsx
+src/components/department/DepartmentOpsModule.tsx
+src/components/department/DepartmentSidebar.tsx
+src/components/department/DepartmentStats.tsx
+src/components/department/DepartmentSubNav.tsx
+src/components/department/IncidentCard.tsx
+src/components/department/IncidentDetail.tsx
+src/components/department/IncidentFeed.tsx
+src/components/department/IncidentFilters.tsx
+src/components/department/TaskAssignmentPanel.tsx
+
+## API ROUTES
+src/app/api/department/[code]/incidents/route.ts
+src/app/api/department/[code]/stats/route.ts
+src/app/api/department/[code]/facilities/route.ts
+src/app/api/department/[code]/analytics/route.ts
+src/app/api/department/[code]/tasks/route.ts
+src/app/api/department/[code]/workers/route.ts
+
+## CORE MODULES
+src/lib/department-registry.ts
+src/modules/geo/dept-mapping.ts
+src/modules/geo/normalizer.ts
+src/modules/geo/loader.ts
+src/modules/geo/types.ts
+src/modules/geo/distance.ts
+src/modules/geo/jurisdiction.ts
+src/modules/geo/router.ts
+
+## GEODATA (Official Nagpur GeoJSON)
+data/geodata/nagpur_city_police.geojson
+data/geodata/nagpur_fire_department.geojson
+data/geodata/nagpur_nmc_all_zonal_offices.geojson
+data/geodata/nagpur_nmc_water_works.geojson
+data/geodata/nagpur_nmc_pwd.geojson
+data/geodata/nagpur_nmc_solid_waste_management.geojson
+data/geodata/nagpur_nmc_electrical.geojson
+data/geodata/nagpur_nmc_garden_environment.geojson
+data/geodata/nagpur_nmc_zonal_boundaries.geojson
+data/geodata/nagpur_territorial_forest_dept_clean.geojson
+data/geodata/nagpur_transport_dept_govt_only.geojson
+data/geodata/district_women_and_child_development_nagpur.geojson
+
+## MODIFIED EXISTING FILES (check diffs)
+src/app/globals.css              # Added .dept-portal scope + .font-display utility
+src/app/layout.tsx               # Added Plus_Jakarta_Sans font import
+src/components/ui/index.tsx      # Updated Dialog component with createPortal

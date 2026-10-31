@@ -1,0 +1,596 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_PWD_Offices_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "3. NMC Public Works Dept (PWD)",
+    "department_id": 3,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 18,
+    "categories": [
+      {
+        "category": "Road Conditions",
+        "sub_categories": [
+          "Potholes",
+          "Broken roads",
+          "Stalled road construction"
+        ]
+      },
+      {
+        "category": "Pedestrian Infrastructure",
+        "sub_categories": [
+          "Damaged or broken footpaths",
+          "Missing manhole covers"
+        ]
+      },
+      {
+        "category": "Encroachments",
+        "sub_categories": [
+          "Illegal encroachments",
+          "Unauthorized construction on public property and sidewalks"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-HQ01",
+        "name": "NMC Public Works Department (Central PWD Headquarters)",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Municipal Department Headquarters",
+        "zone": "Central Administration",
+        "division": "NMC Chief Engineer Office",
+        "address": "2nd Floor, NMC Administrative Building, Mahanagar Palika Marg, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "Citywide major asphalt/concrete road construction, flyovers, central pedestrian footpaths, citywide anti-encroachment strategy",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0628,
+          21.1215
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z01",
+        "name": "NMC Laxmi Nagar Zone No. 1 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Laxmi Nagar Zone (Zone 1)",
+        "division": "Zone 1 Engineering Division",
+        "address": "Near Water Tank, Hingna Road, Laxmi Nagar, Nagpur, Maharashtra 440022",
+        "locality": "Laxmi Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2245833",
+        "emergency_number": "+91-9130616734 / 112",
+        "jurisdiction_area": "Laxmi Nagar, Pratap Nagar, Bajaj Nagar, Trimurti Nagar, VNIT area, Khamla (Road repairs, manhole cover replacement, footpaths, encroachment clearance)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0575,
+          21.1448
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z02",
+        "name": "NMC Dharampeth Zone No. 2 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Dharampeth Zone (Zone 2)",
+        "division": "Zone 2 Engineering Division",
+        "address": "90, Gokulpeth Market Road, Dharampeth, Nagpur, Maharashtra 440010",
+        "locality": "Gokulpeth / Dharampeth",
+        "pincode": "440010",
+        "contact_number": "+91-712-2565589",
+        "emergency_number": "+91-9823245671 / 112",
+        "jurisdiction_area": "Dharampeth, Ram Nagar, Ambazari, Ravi Nagar, Civil Lines, Seminary Hills (Pothole maintenance, footpath reconstruction, sidewalk vendor regulation)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0985,
+          21.1212
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z03",
+        "name": "NMC Hanuman Nagar Zone No. 3 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Hanuman Nagar Zone (Zone 3)",
+        "division": "Zone 3 Engineering Division",
+        "address": "Near Tukdoji Putla Square, Manewada Road, Hanuman Nagar, Nagpur, Maharashtra 440009",
+        "locality": "Hanuman Nagar",
+        "pincode": "440009",
+        "contact_number": "+91-712-2755589",
+        "emergency_number": "+91-9823245673 / 112",
+        "jurisdiction_area": "Hanuman Nagar, Medical Square, Manewada, Besa fringe, Chandan Nagar (Road paving, open drain/manhole cover maintenance, encroachment removal)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0825,
+          21.1378
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z04",
+        "name": "NMC Dhantoli Zone No. 4 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Dhantoli Zone (Zone 4)",
+        "division": "Zone 4 Engineering Division",
+        "address": "Yashwant Stadium Commercial Complex, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2465299",
+        "emergency_number": "+91-9823350242 / 112",
+        "jurisdiction_area": "Dhantoli, Congress Nagar, Rahate Colony, Sitabuldi Market south, Imamwada (Road repairs, pedestrian walkway upkeep, anti-encroachment drives)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1182,
+          21.1225
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z05",
+        "name": "NMC Nehru Nagar Zone No. 5 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Nehru Nagar Zone (Zone 5)",
+        "division": "Zone 5 Engineering Division",
+        "address": "Near Sakkardara Lake, Nehru Nagar Road, Nagpur, Maharashtra 440024",
+        "locality": "Nehru Nagar / Sakkardara",
+        "pincode": "440024",
+        "contact_number": "+91-712-2700090",
+        "emergency_number": "+91-9823313064 / 112",
+        "latitude": 21.1225,
+        "longitude": 79.1182,
+        "jurisdiction_area": "Nehru Nagar, Sakkardara, Nandanvan, Dighori, Tajbagh (Suburban road widening, storm-drain cover repairs, sidewalk encroachment demolition)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1068,
+          21.1438
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z06",
+        "name": "NMC Gandhi Mahal / Gandhibagh Zone No. 6 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Gandhibagh Zone (Zone 6)",
+        "division": "Zone 6 Engineering Division",
+        "address": "Town Hall Premises, Mahal, Nagpur, Maharashtra 440002",
+        "locality": "Mahal / Gandhibagh",
+        "pincode": "440002",
+        "contact_number": "+91-712-2735599",
+        "emergency_number": "+91-9823313086 / 112",
+        "jurisdiction_area": "Mahal, Gandhibagh, Itwari market core, Badkas Chowk, Tilak Putla (Historic street paving, stone footpath restoration, market alley encroachment clearing)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1125,
+          21.1592
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z07",
+        "name": "NMC Satranjipura Zone No. 7 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Satranjipura Zone (Zone 7)",
+        "division": "Zone 7 Engineering Division",
+        "address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur, Maharashtra 440002",
+        "locality": "Satranjipura / Itwari",
+        "pincode": "440002",
+        "contact_number": "+91-7030577650",
+        "emergency_number": "+91-9823313105 / 112",
+        "jurisdiction_area": "Satranjipura, Tandapeth, Hansapuri, Wholesale Cloth & Grain Market lanes (Pothole resurfacing, drainage slab repairs, street obstruction removal)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1265,
+          21.1515
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z08",
+        "name": "NMC Lakadganj Zone No. 8 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Lakadganj Zone (Zone 8)",
+        "division": "Zone 8 Engineering Division",
+        "address": "Old Bhandara Road, Near Queta Colony, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2737599",
+        "emergency_number": "+91-9850342942 / 112",
+        "jurisdiction_area": "Lakadganj, Wardhaman Nagar, Pardi, Surya Nagar, HB Town (Heavy transit road upkeep, footpath slab replacements, industrial corridor encroachment checks)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1785
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z09",
+        "name": "NMC Ashi Nagar Zone No. 9 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Ashi Nagar Zone (Zone 9)",
+        "division": "Zone 9 Engineering Division",
+        "address": "Near Kamal Talkies, Kamal Chowk, Ashi Nagar, Nagpur, Maharashtra 440017",
+        "locality": "Ashi Nagar / Kamal Chowk",
+        "pincode": "440017",
+        "contact_number": "+91-712-2653476",
+        "emergency_number": "+91-9923799884 / 112",
+        "jurisdiction_area": "Ashi Nagar, Panchpaoli, Lashkaribagh, Uppalwadi, Yashodhara Nagar (Road tarring, open chamber repairs, pedestrian safety infrastructure, unauthorized structure removal)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-Z10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0762,
+          21.1685
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-Z10",
+        "name": "NMC Mangalwari Zone No. 10 Office & PWD Engineering Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Zonal PWD Engineering Office",
+        "zone": "Mangalwari Zone (Zone 10)",
+        "division": "Zone 10 Engineering Division",
+        "address": "408, New Colony, Koradi Road, Sadar, Nagpur, Maharashtra 440013",
+        "locality": "New Colony / Sadar",
+        "pincode": "440013",
+        "contact_number": "+91-712-2598800",
+        "emergency_number": "+91-9823245679 / 112",
+        "jurisdiction_area": "Mangalwari, Sadar Bazar, Mankapur, Gittikhadan, Zingabai Takli, Koradi Road (Arterial road maintenance, stormwater drain coverings, market footpath encroachment removal)",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-STE01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0715,
+          21.1535
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-STE01",
+        "name": "Maharashtra State PWD Chief Engineer Office (Bandhkam Bhavan)",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "State Government PWD Regional Headquarters",
+        "zone": "State PWD Nagpur Region",
+        "division": "Chief Engineer PWD Nagpur",
+        "address": "Bandhkam Bhavan, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2560505",
+        "emergency_number": "112",
+        "jurisdiction_area": "State Highways, major district roads (MDRs), government administrative complexes, VIP roads and state infrastructure projects across Nagpur",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-STE02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0722,
+          21.1542
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-STE02",
+        "name": "State PWD Nagpur National Highway & Special Projects Division",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Highway & Heavy Infrastructure Office",
+        "zone": "National Highway Division",
+        "division": "PWD NH Division Nagpur",
+        "address": "PWD Complex, Near Collector Office, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2564200",
+        "emergency_number": "112",
+        "jurisdiction_area": "National Highway pass-through corridors (NH-44, NH-53), elevated flyovers, major bridge spans and highway service road maintenance",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-OPR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9985,
+          21.1072
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-OPR01",
+        "name": "NMC Hot-Mix Asphalt & Rapid Pothole Response Plant",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Asphalt Production & Emergency Repair Depot",
+        "zone": "Industrial & Central Supply",
+        "division": "NMC Road Materials Production Unit",
+        "address": "Plot D-12, MIDC Industrial Area, Hingna Road, Nagpur, Maharashtra 440016",
+        "locality": "MIDC Hingna",
+        "pincode": "440016",
+        "contact_number": "+91-7104-235100",
+        "emergency_number": "0712-2567777",
+        "jurisdiction_area": "Central asphalt batching plant supplying bitumen/asphalt mixtures for emergency pothole filling and jetpatcher road restoration citywide",
+        "handling_categories": [
+          "Road Conditions"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-OPR02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0542,
+          21.1748
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-OPR02",
+        "name": "NMC Central Materials Testing & Infrastructure Quality Control Lab",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Civil Engineering & Materials Testing Lab",
+        "zone": "Quality Control & Standards",
+        "division": "NMC QC & Vigilance Wing",
+        "address": "Katol Road Quarry Premises, Gittikhadan, Nagpur, Maharashtra 440013",
+        "locality": "Gittikhadan",
+        "pincode": "440013",
+        "contact_number": "+91-712-2581200",
+        "emergency_number": "112",
+        "jurisdiction_area": "Quality assurance and core-sampling verification of road concrete, paver blocks, asphalt aggregates, and manhole load-bearing strength",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-OPR03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0915,
+          21.1462
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-OPR03",
+        "name": "NMC Encroachment Removal Squad Headquarters & Seized Goods Yard",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Encroachment Removal Squad Headquarters",
+        "zone": "Citywide Enforcement",
+        "division": "NMC Encroachment & Demolition Wing",
+        "address": "NMC Central Stores Campus, Near Cotton Market Square, Subhash Road, Nagpur, Maharashtra 440018",
+        "locality": "Cotton Market / Ganeshpeth",
+        "pincode": "440018",
+        "contact_number": "+91-712-2724400",
+        "emergency_number": "0712-2567029 / 112",
+        "jurisdiction_area": "Central coordination base for citywide anti-encroachment bulldozers, sidewalk clearance squads, and storage yard for seized unauthorized structures",
+        "handling_categories": [
+          "Encroachments",
+          "Pedestrian Infrastructure"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-OPR04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0495,
+          21.1782
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-OPR04",
+        "name": "NMC Central Road Maintenance & Heavy Equipment Yard",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Heavy Machinery & Maintenance Depot",
+        "zone": "Operations & Equipment",
+        "division": "NMC Mechanical & PWD Workshop",
+        "address": "Gittikhadan Quarry Grounds, Borgaon Road, Nagpur, Maharashtra 440013",
+        "locality": "Gittikhadan / Borgaon",
+        "pincode": "440013",
+        "contact_number": "+91-712-2583300",
+        "emergency_number": "112",
+        "jurisdiction_area": "Road rollers, asphalt pavers, jetpatcher machines, JCBs, and mobile road breakdown response machinery fleet base",
+        "handling_categories": [
+          "Road Conditions"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-PWD-NIT01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0815,
+          21.1568
+        ]
+      },
+      "properties": {
+        "id": "NGP-PWD-NIT01",
+        "name": "Nagpur Improvement Trust (NIT) Civil Engineering & PWD Technical Wing",
+        "department": "NMC Public Works Dept (PWD)",
+        "department_id": 3,
+        "facility_type": "Urban Planning & Development Authority Office",
+        "zone": "NIT Urban Infrastructure",
+        "division": "NIT Technical & Engineering Wing",
+        "address": "NIT Headquarters Building, Station Road, Sadar, Nagpur, Maharashtra 440001",
+        "locality": "Sadar",
+        "pincode": "440001",
+        "contact_number": "+91-712-2595500",
+        "emergency_number": "112",
+        "jurisdiction_area": "NIT layout road construction, ring road development, public amenity infrastructure, and town planning scheme road networks",
+        "handling_categories": [
+          "Road Conditions",
+          "Pedestrian Infrastructure",
+          "Encroachments"
+        ]
+      }
+    }
+  ]
+}

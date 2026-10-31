@@ -1,0 +1,610 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nagpur_NMC_Garden_and_Environment_Offices_and_Facilities",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "department": "7. NMC G&E Dept (Garden & Environment)",
+    "department_id": 7,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "country": "India",
+    "total_features": 18,
+    "categories": [
+      {
+        "category": "Tree & Plant Management",
+        "sub_categories": [
+          "Illegal cutting of trees",
+          "Unauthorized pruning of trees"
+        ]
+      },
+      {
+        "category": "Environmental Hazards",
+        "sub_categories": [
+          "Overgrown tree branches touching electrical wires",
+          "Fallen trees blocking the road"
+        ]
+      },
+      {
+        "category": "Public Parks Maintenance",
+        "sub_categories": [
+          "Lack of general maintenance",
+          "Broken equipment",
+          "Anti-social elements gathering in parks"
+        ]
+      }
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-HQ01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0765,
+          21.1552
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-HQ01",
+        "name": "NMC Garden & Environment Department (Central Headquarters)",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Municipal Department Headquarters",
+        "zone": "Central Administration",
+        "division": "NMC Garden Superintendent Office",
+        "address": "2nd Floor, NMC Central Administrative Building, Mahanagar Palika Marg, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567035",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "Citywide urban biodiversity conservation, public garden infrastructure development, municipal nursery network, park security & anti-social deterrence policy",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-HQ02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0758,
+          21.1548
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-HQ02",
+        "name": "NMC Tree Authority & Urban Forestry Directorate",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Tree Protection & Regulatory Directorate",
+        "zone": "Central Administration",
+        "division": "Tree Authority Officer Wing",
+        "address": "NMC Administrative Complex, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2567029",
+        "emergency_number": "0712-2567777 / 112",
+        "jurisdiction_area": "Permits and legal prosecution for tree felling, illegal tree hacking/pruning investigations, tree census and heritage tree preservation citywide",
+        "handling_categories": [
+          "Tree & Plant Management"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-STE01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0685,
+          21.1522
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-STE01",
+        "name": "Maharashtra State Social Forestry Directorate (Nagpur Circle)",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "State Government Forestry Department Office",
+        "zone": "State Forestry Circle",
+        "division": "Social Forestry Division Nagpur",
+        "address": "Van Bhavan Compound, Palm Road, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2560700",
+        "emergency_number": "1926 (Forest Department Helpline)",
+        "jurisdiction_area": "Urban green belt expansion, avenue plantation along state/national highways, government institution afforestation and sapling distribution",
+        "handling_categories": [
+          "Tree & Plant Management"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-STE02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0735,
+          21.1545
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-STE02",
+        "name": "Maharashtra Pollution Control Board (MPCB) Regional Office Nagpur",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "State Environmental Regulatory Office",
+        "zone": "Environmental Oversight",
+        "division": "MPCB Nagpur Region",
+        "address": "5th Floor, Udyog Bhavan, East Wing, Civil Lines, Nagpur, Maharashtra 440001",
+        "locality": "Civil Lines",
+        "pincode": "440001",
+        "contact_number": "+91-712-2560155",
+        "emergency_number": "112",
+        "jurisdiction_area": "Environmental pollution hazard monitoring, industrial tree belt mandates, ambient air quality tracking, and ecological non-compliance penalties",
+        "handling_categories": [
+          "Environmental Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0628,
+          21.1215
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z01",
+        "name": "NMC Laxmi Nagar Zone No. 1 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Laxmi Nagar Zone (Zone 1)",
+        "division": "Zone 1 Horticulture Division",
+        "address": "Hingna Road, Near Laxmi Nagar Square, Nagpur, Maharashtra 440022",
+        "locality": "Laxmi Nagar",
+        "pincode": "440022",
+        "contact_number": "+91-712-2245833",
+        "emergency_number": "+91-9130616734 / 112",
+        "jurisdiction_area": "Laxmi Nagar, Pratap Nagar, Bajaj Nagar, Trimurti Nagar, VNIT, Khamla (Pruning trees near overhead cables, park broken benches/play equipment repairs, park patrol coordination)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0575,
+          21.1448
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z02",
+        "name": "NMC Dharampeth Zone No. 2 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Dharampeth Zone (Zone 2)",
+        "division": "Zone 2 Horticulture Division",
+        "address": "90, Gokulpeth Market Road, Dharampeth, Nagpur, Maharashtra 440010",
+        "locality": "Gokulpeth / Dharampeth",
+        "pincode": "440010",
+        "contact_number": "+91-712-2565589",
+        "emergency_number": "+91-9823245671 / 112",
+        "jurisdiction_area": "Dharampeth, Ram Nagar, Ambazari, Ravi Nagar, Civil Lines, Seminary Hills (Japanese garden maintenance, storm fallen tree clearing, illegal pruning prevention)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0985,
+          21.1212
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z03",
+        "name": "NMC Hanuman Nagar Zone No. 3 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Hanuman Nagar Zone (Zone 3)",
+        "division": "Zone 3 Horticulture Division",
+        "address": "Tukdoji Putla Square, Manewada Road, Hanuman Nagar, Nagpur, Maharashtra 440009",
+        "locality": "Hanuman Nagar",
+        "pincode": "440009",
+        "contact_number": "+91-712-2755589",
+        "emergency_number": "+91-9823245673 / 112",
+        "latitude": 21.1212,
+        "longitude": 79.0985,
+        "jurisdiction_area": "Hanuman Nagar, Medical Square, Manewada, Besa border, Bhagwan Nagar, Rameshwari (Overgrown branches touching power lines, public park lighting/lawn upkeep, illegal cutting penalties)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z04",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0825,
+          21.1378
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z04",
+        "name": "NMC Dhantoli Zone No. 4 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Dhantoli Zone (Zone 4)",
+        "division": "Zone 4 Horticulture Division",
+        "address": "Yashwant Stadium Commercial Complex, Dhantoli, Nagpur, Maharashtra 440012",
+        "locality": "Dhantoli",
+        "pincode": "440012",
+        "contact_number": "+91-712-2465299",
+        "emergency_number": "+91-9823350242 / 112",
+        "latitude": 21.1378,
+        "longitude": 79.0825,
+        "jurisdiction_area": "Dhantoli, Congress Nagar, Rahate Colony, Sitabuldi, Imamwada (Maharajbagh fringe upkeep, traffic-obstructing branches, park anti-social nuisance control)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z05",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1182,
+          21.1225
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z05",
+        "name": "NMC Nehru Nagar Zone No. 5 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Nehru Nagar Zone (Zone 5)",
+        "division": "Zone 5 Horticulture Division",
+        "address": "Near Sakkardara Lake, Nehru Nagar Road, Nagpur, Maharashtra 440024",
+        "locality": "Nehru Nagar / Sakkardara",
+        "pincode": "440024",
+        "contact_number": "+91-712-2700090",
+        "emergency_number": "+91-9823313064 / 112",
+        "latitude": 21.1225,
+        "longitude": 79.1182,
+        "jurisdiction_area": "Nehru Nagar, Sakkardara, Nandanvan, Dighori, Tajbagh, Hasanbagh (Sakkardara lake garden maintenance, tree branch trimming along bus corridors, park boundary fencing)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z06",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1068,
+          21.1438
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z06",
+        "name": "NMC Gandhi Mahal / Gandhibagh Zone No. 6 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Gandhibagh Zone (Zone 6)",
+        "division": "Zone 6 Horticulture Division",
+        "address": "Town Hall Premises, Mahal, Nagpur, Maharashtra 440002",
+        "locality": "Mahal / Gandhibagh",
+        "pincode": "440002",
+        "contact_number": "+91-712-2735599",
+        "emergency_number": "+91-9823313086 / 112",
+        "latitude": 21.1438,
+        "longitude": 79.1068,
+        "jurisdiction_area": "Mahal, Gandhibagh, Itwari market, Badkas Chowk, Tilak Putla (Gandhibagh central garden upkeep, dense-alley fallen tree emergency removal, children play equipment upkeep)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z07",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1125,
+          21.1592
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z07",
+        "name": "NMC Satranjipura Zone No. 7 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Satranjipura Zone (Zone 7)",
+        "division": "Zone 7 Horticulture Division",
+        "address": "Near Teen Nal Chowk, Satranjipura, Itwari, Nagpur, Maharashtra 440002",
+        "locality": "Satranjipura",
+        "pincode": "440002",
+        "contact_number": "+91-7030577650",
+        "emergency_number": "+91-9823313105 / 112",
+        "latitude": 21.1592,
+        "longitude": 79.1125,
+        "jurisdiction_area": "Satranjipura, Tandapeth, Hansapuri, Wholesale Grain Market (Tree pruning on narrow streets, community open ground greening, tree hazard inspections)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z08",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1265,
+          21.1515
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z08",
+        "name": "NMC Lakadganj Zone No. 8 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Lakadganj Zone (Zone 8)",
+        "division": "Zone 8 Horticulture Division",
+        "address": "Old Bhandara Road, Near Queta Colony, Lakadganj, Nagpur, Maharashtra 440008",
+        "locality": "Lakadganj",
+        "pincode": "440008",
+        "contact_number": "+91-712-2737599",
+        "emergency_number": "+91-9850342942 / 112",
+        "latitude": 21.1515,
+        "longitude": 79.1265,
+        "jurisdiction_area": "Lakadganj, Wardhaman Nagar, Pardi, Surya Nagar, HB Town (Colony park maintenance, industrial buffer tree plantation, illegal roadside tree axing checks)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z09",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1025,
+          21.1785
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z09",
+        "name": "NMC Ashi Nagar Zone No. 9 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Ashi Nagar Zone (Zone 9)",
+        "division": "Zone 9 Horticulture Division",
+        "address": "Kamal Chowk Road, Near Panchpaoli Overbridge, Ashi Nagar, Nagpur, Maharashtra 440017",
+        "locality": "Ashi Nagar / Kamal Chowk",
+        "pincode": "440017",
+        "contact_number": "+91-712-2653476",
+        "emergency_number": "+91-9923799884 / 112",
+        "latitude": 21.1785,
+        "longitude": 79.1025,
+        "jurisdiction_area": "Ashi Nagar, Panchpaoli, Lashkaribagh, Uppalwadi, Yashodhara Nagar (Avenue trees touching HT lines, neighborhood park upkeep, tree survival audit)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-Z10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0762,
+          21.1685
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-Z10",
+        "name": "NMC Mangalwari Zone No. 10 Garden & Horticulture Office",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Zonal Garden & Horticulture Office",
+        "zone": "Mangalwari Zone (Zone 10)",
+        "division": "Zone 10 Horticulture Division",
+        "address": "408, New Colony, Koradi Road, Sadar, Nagpur, Maharashtra 440013",
+        "locality": "New Colony / Sadar",
+        "pincode": "440013",
+        "contact_number": "+91-712-2598800",
+        "emergency_number": "+91-9823245679 / 112",
+        "latitude": 21.1685,
+        "longitude": 79.0762,
+        "jurisdiction_area": "Mangalwari, Sadar, Mankapur, Gittikhadan, Zingabai Takli, Koradi fringe (Koradi highway tree canopy maintenance, park equipment upkeep, road obstruction tree clearance)",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-NUR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0525,
+          21.1635
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-NUR01",
+        "name": "NMC Central Municipal Plant Nursery & Horticulture Research Centre",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Central Municipal Plant Nursery & Research Centre",
+        "zone": "Central Horticulture Grid",
+        "division": "NMC Central Nursery Wing",
+        "address": "Seminary Hills Botanical Campus, TV Tower Road, Seminary Hills, Nagpur, Maharashtra 440006",
+        "locality": "Seminary Hills",
+        "pincode": "440006",
+        "contact_number": "+91-712-2511400",
+        "emergency_number": "112",
+        "jurisdiction_area": "Central sapling propagation, indigenous tree cultivation, subsidized plant distribution for citizen greening drives, public garden floral supply",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Public Parks Maintenance"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-NUR02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0435,
+          21.1512
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-NUR02",
+        "name": "State Social Forestry Central Nursery (Telangkhedi)",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "State Forestry Nursery & Distribution Centre",
+        "zone": "West Forestry Grid",
+        "division": "Social Forestry Seedling Production",
+        "address": "Telangkhedi Garden Compound, Near Futala Lake, Nagpur, Maharashtra 440001",
+        "locality": "Telangkhedi / Futala",
+        "pincode": "440001",
+        "contact_number": "+91-712-2561450",
+        "emergency_number": "1926 / 112",
+        "latitude": 21.1512,
+        "longitude": 79.0435,
+        "jurisdiction_area": "Production of native timber and shade trees (Neem, Peepal, Banyan, Gulmohar, Karanj) for civic re-plantation compensatory programs",
+        "handling_categories": [
+          "Tree & Plant Management"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-OPR01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0518,
+          21.1762
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-OPR01",
+        "name": "NMC Emergency Fallen Tree Clearance & Heavy Hydraulic Wood Log Yard",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Emergency Tree Disaster & Heavy Machinery Depot",
+        "zone": "Emergency Response Grid",
+        "division": "NMC Tree Disaster Rapid Response Cell",
+        "address": "Gittikhadan Municipal Workshop Campus, Katol Road, Nagpur, Maharashtra 440013",
+        "locality": "Gittikhadan",
+        "pincode": "440013",
+        "contact_number": "+91-712-2583340",
+        "emergency_number": "0712-2567777 (24x7 Tree Fall Helpline) / 112",
+        "jurisdiction_area": "Monsoon/storm tree-fall rapid response base, mechanized chain-saw teams, hydraulic tree-transplanters, wood log transportation and road unblocking squad",
+        "handling_categories": [
+          "Environmental Hazards"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "NGP-GNE-OPR02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0485,
+          21.1352
+        ]
+      },
+      "properties": {
+        "id": "NGP-GNE-OPR02",
+        "name": "NMC Central Green Waste & Tree Trimming Biomass Composting Depot",
+        "department": "NMC G&E Dept (Garden & Environment)",
+        "department_id": 7,
+        "facility_type": "Horticulture Waste & Biomass Processing Depot",
+        "zone": "West Processing Grid",
+        "division": "NMC Green Waste Recycling Wing",
+        "address": "Ambazari Nursery Campus, Near Overflow Canal, Ambazari Road, Nagpur, Maharashtra 440010",
+        "locality": "Ambazari",
+        "pincode": "440010",
+        "contact_number": "+91-712-2562100",
+        "emergency_number": "112",
+        "latitude": 21.1352,
+        "longitude": 79.0485,
+        "jurisdiction_area": "Wood chipper station, scientific composting of municipal pruned branches and dry park foliage to prevent illegal open burning in public spaces",
+        "handling_categories": [
+          "Tree & Plant Management",
+          "Environmental Hazards"
+        ]
+      }
+    }
+  ]
+}

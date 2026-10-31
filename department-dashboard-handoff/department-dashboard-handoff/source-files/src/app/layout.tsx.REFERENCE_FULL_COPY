@@ -1,0 +1,47 @@
+import type { Metadata } from "next";
+import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider, ThemeScript } from "@/components/ui/theme-provider";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-jakarta",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+export const metadata: Metadata = {
+  title: "Nagpur Connect — AI-Powered Civic Response",
+  description:
+    "Report civic issues and emergencies in Nagpur. AI-powered platform that understands your problem and connects you with the right government departments.",
+  keywords: ["Nagpur", "civic", "emergency", "AI", "government", "report"],
+  authors: [{ name: "Nagpur Connect" }],
+  openGraph: {
+    title: "Nagpur Connect",
+    description: "AI-powered civic and emergency response coordination for Nagpur",
+    type: "website",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={`${inter.variable} ${jakarta.variable}`} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
+      <body className="antialiased">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
+    </html>
+  );
+}
