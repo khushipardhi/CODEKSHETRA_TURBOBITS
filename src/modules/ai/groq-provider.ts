@@ -138,9 +138,9 @@ const DEPARTMENT_DEFINITIONS: Record<string, {
   drainage: {
     name: "Drainage Department",
     icon: "🌊",
-    scope: "Stormwater drainage, sewage overflow, blocked gutters/drains, open sewage, foul odor from sewer, monsoon waterlogging.",
-    keywords: ["sewage", "gutter", "drain overflow", "blocked drain", "waterlogging", "stinking sewer", "open nullah", "choked drainage"],
-    criticalParams: ["Drain blockage location", "Sewage entering premises", "Water level depth", "Foul smell intensity"],
+    scope: "Stormwater drainage, sewage overflow, blocked gutters/drains, open sewage, foul odor from sewer, monsoon waterlogging, rainwater entering residential premises or basements.",
+    keywords: ["sewage", "gutter", "drain overflow", "blocked drain", "waterlogging", "stinking sewer", "open nullah", "choked drainage", "rain in house", "water in house", "rain entering", "water entering house", "flooding inside"],
+    criticalParams: ["Drain blockage location", "Sewage/water entering premises", "Water level depth", "Foul smell intensity"],
     notInScope: "Drinking water pipeline leak (Water Supply), road potholes (Road Maintenance).",
   },
   road_maintenance: {
@@ -276,7 +276,8 @@ RULES FOR INCIDENT ANALYSIS:
 2. One incident CAN route to multiple departments in "requiredDepartments".
 3. Extract specific locations (landmarks, areas in the reporting city such as Sitabuldi/Dharampeth in Nagpur, Kothrud/Shivajinagar in Pune, Bandra/Andheri/Colaba in Mumbai, etc.).
 4. If the user query is medical/health-related (e.g. "my head is paining", "fever", "accident"), route to "ambulance" or "health_dept".
-5. Always generate a clear, empathetic 1-2 sentence "summary" for the citizen.
+5. If the citizen reports rainwater entering their house, indoor waterlogging, or rain in house (e.g. "Why is there rain in my house"), recognize this as residential water ingress or drainage overflow. Route primarily to "drainage" (or "disaster_management" if severe flooding), assign medium or high severity, and formulate questions to check water depth, entry point, and immediate electrical hazard.
+6. Always generate a clear, empathetic 1-2 sentence "summary" for the citizen.
 
 You MUST respond ONLY with a valid JSON object using this EXACT schema:
 {
@@ -420,15 +421,13 @@ export class GroqIncidentAnalysisProvider {
   private primaryModels = [
     "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
-    "qwen/qwen3.6-27b",
-    "groq/compound",
+    "qwen/qwen3.8-27b",
   ];
 
   private fastModels = [
     "openai/gpt-oss-20b",
     "openai/gpt-oss-120b",
-    "qwen/qwen3.6-27b",
-    "groq/compound-mini",
+    "qwen/qwen3.8-27b",
   ];
 
   constructor() {
