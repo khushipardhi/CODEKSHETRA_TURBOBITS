@@ -131,6 +131,28 @@ Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
+## ⏰ Autonomous Monitoring & Cron Scheduling
+
+### Vercel Hobby Plan Compatibility Note
+- **Current Schedule**: `0 3 * * *` (Daily at 03:00 UTC).
+- **Temporary Deployment Compromise**: The Vercel Hobby tier strictly limits Cron jobs to **at most once per day** (24-hour interval) with UTC-based hourly timing variance. Because of this platform constraint, the scheduled cron in `vercel.json` runs daily rather than continuously.
+- **Continuous Monitoring in Production**:
+  - The in-app Agent Command Centre (`/admin/mumbai/agents`) maintains real-time monitoring and allows on-demand telemetry synchronization.
+  - To restore high-frequency autonomous execution (e.g., every 5–15 minutes) without paying for Vercel Pro, hook an external scheduler (such as [cron-job.org](https://cron-job.org), GitHub Actions, or AWS EventBridge) to trigger:
+    ```bash
+    curl -X POST https://agentone-turbobits.vercel.app/api/agents/autonomous-monitor \
+      -H "Authorization: Bearer <CRON_SECRET>" \
+      -H "Content-Type: application/json" \
+      -d '{"city":"mumbai"}'
+    ```
+  - On Vercel Pro or external schedulers, simply update `schedule` in `vercel.json` back to `*/10 * * * *`.
+  - The internal cadence is fully configurable via `MONITOR_SYNC_INTERVAL_MINUTES` (default 15m) and `INVESTIGATION_COOLDOWN_MINUTES` (default 30m).
+- **Idempotency & Deduplication**: Repeated or duplicate invocations are strictly idempotent: telemetry sync events are throttled and duplicate investigation tasks are blocked by active cooldown logic.
+- **Security**: The `/api/agents/autonomous-monitor` endpoint verifies `CRON_SECRET` when triggered by Vercel or external webhooks via `Authorization: Bearer <CRON_SECRET>` or `?key=<CRON_SECRET>`.
+
+---
+
 ## 🛡️ License
 
 Private and confidential. Built for municipal disaster management and urban civic resilience.
+

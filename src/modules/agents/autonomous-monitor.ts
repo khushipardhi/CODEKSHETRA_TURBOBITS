@@ -50,9 +50,12 @@ export interface OperationalCycleResult {
 // In-memory fallback event store if DB unavailable
 const eventMemoryStore: OperationalEvent[] = [];
 
-// Cooldown tracking for autonomous task deduplication (30 minutes)
+// Configurable Cooldown and Sync Intervals (supports restore to high frequency via env)
+export const MONITOR_SYNC_INTERVAL_MS = parseInt(process.env.MONITOR_SYNC_INTERVAL_MINUTES || "15", 10) * 60 * 1000;
+export const INVESTIGATION_COOLDOWN_MS = parseInt(process.env.INVESTIGATION_COOLDOWN_MINUTES || "30", 10) * 60 * 1000;
+
+// Cooldown tracking for autonomous task deduplication
 let lastAutonomousInvestigationTime: number = 0;
-const INVESTIGATION_COOLDOWN_MS = 30 * 60 * 1000;
 
 /** Record an operational event in TiDB Cloud */
 export async function recordOperationalEvent(event: {
@@ -285,9 +288,9 @@ export async function runAutonomousOperationsCycle(
     syncSeverity = "INFO";
   }
 
-  // Deduplication check: at most once every 15 minutes unless high/critical anomaly occurs
+  // Deduplication check: at most once every MONITOR_SYNC_INTERVAL_MS unless high/critical anomaly occurs
   const recentSyncEvents = eventMemoryStore.filter(
-    (e) => e.eventType === "TELEMETRY_SYNC" && now.getTime() - new Date(e.createdAt).getTime() < 15 * 60 * 1000
+    (e) => e.eventType === "TELEMETRY_SYNC" && now.getTime() - new Date(e.createdAt).getTime() < MONITOR_SYNC_INTERVAL_MS
   );
 
   if (recentSyncEvents.length === 0 || syncSeverity === "CRITICAL") {

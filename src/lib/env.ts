@@ -226,6 +226,9 @@ export const env = {
   nextAuthSecret: optionalEnv("NEXTAUTH_SECRET", optionalEnv("SESSION_SECRET", "dev-secret-change-me")),
   nextAuthUrl: optionalEnv("NEXTAUTH_URL", "http://localhost:3000"),
 
+  // ─── Cron / Scheduled Tasks ───
+  cronSecret: optionalEnv("CRON_SECRET", ""),
+
   // ─── App ───
   appUrl: optionalEnv("NEXT_PUBLIC_APP_URL", "http://localhost:3000"),
   nodeEnv: optionalEnv("NODE_ENV", "development"),
