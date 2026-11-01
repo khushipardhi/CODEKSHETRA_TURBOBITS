@@ -56,6 +56,7 @@ export default function AdminLayout({
 
   const adminNav = [
     { href: `/admin/${activeCity}`, label: BRANDING.modules.commandCentre, icon: <HomeIcon size={18} /> },
+    { href: `/admin/${activeCity}/agents`, label: BRANDING.modules.agentCommandCentre, icon: <ShieldIcon size={18} /> },
     { href: `/admin/${activeCity}/map`, label: BRANDING.modules.hazardMap, icon: <MapIcon size={18} /> },
     { href: `/admin/${activeCity}/telemetry-lab`, label: BRANDING.modules.telemetryLab, icon: <ActivityIcon size={18} /> },
     { href: `/admin/${activeCity}/simulation`, label: BRANDING.modules.spatialSimulation, icon: <SlidersIcon size={18} /> },
@@ -100,8 +101,11 @@ export default function AdminLayout({
             <img src={BRANDING.assets.logo} alt={BRANDING.name} className="w-full h-full object-contain rounded-xl" />
           </div>
           <div>
-            <span className="text-sm font-bold block text-text-primary tracking-tight leading-tight">{BRANDING.name}</span>
-            <span className="text-[10px] text-text-tertiary font-semibold uppercase tracking-wider">Command Operations</span>
+            <div className="flex items-center gap-1.5">
+              <span className="text-sm font-extrabold block text-text-primary tracking-tight leading-tight">AGENTONE</span>
+              <span className="text-[9px] font-bold px-1.5 py-0.2 rounded bg-accent/15 text-accent border border-accent/25">CivicOS</span>
+            </div>
+            <span className="text-[10px] text-text-tertiary font-medium tracking-wide">City Operations & Intelligence</span>
           </div>
         </div>
         <ThemeToggle />
@@ -220,7 +224,17 @@ export default function AdminLayout({
         </header>
 
         {/* Page Content */}
-        <main className="flex-1 p-4 lg:p-8 overflow-x-hidden">{children}</main>
+        <main
+          className={`flex-1 min-w-0 ${
+            pathname?.includes("/agents") ||
+            pathname?.includes("/simulation") ||
+            pathname?.includes("/map")
+              ? "p-0 overflow-hidden flex flex-col"
+              : "p-4 lg:p-8 overflow-x-hidden"
+          }`}
+        >
+          {children}
+        </main>
       </div>
     </div>
   );

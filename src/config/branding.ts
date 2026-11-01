@@ -7,17 +7,18 @@
 
 export const BRANDING = {
   // Product Identity
-  name: "Sentinel City Intelligence",
-  compactName: "Sentinel",
-  badge: "City Intelligence",
-  tagline: "Multi-Hazard Spatial Simulation & Environmental Telemetry",
+  name: "AGENTONE",
+  compactName: "CivicOS",
+  badge: "City Intelligence & Operations",
+  tagline: "Autonomous City Intelligence & Multi-Agent Operations System",
   description:
-    "Integrated municipal risk intelligence, spatial simulation, and civic response platform for Greater Mumbai, Pune, and Nagpur.",
-  copyright: `© ${new Date().getFullYear()} Sentinel City Intelligence. Municipal Administration.`,
+    "Integrated municipal risk intelligence, spatial simulation, and autonomous operations platform for Greater Mumbai, Pune, and Nagpur.",
+  copyright: `© ${new Date().getFullYear()} AGENTONE CivicOS. Municipal Administration.`,
 
   // Standardized Module Labels (Strict Requirement)
   modules: {
-    commandCentre: "Sentinel Command Centre",
+    commandCentre: "CivicOS Command Centre",
+    agentCommandCentre: "CivicOS Agent Network",
     hazardMap: "Hazard & Incident Map",
     telemetryLab: "Telemetry Lab",
     spatialSimulation: "Spatial Simulation Lab",

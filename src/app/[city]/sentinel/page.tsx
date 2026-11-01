@@ -68,6 +68,38 @@ interface ChatMessage {
     status: "OPERATIONAL" | "FALLBACK_DETERMINISTIC" | "FAILED_AUTH";
     sourceCount: number;
   };
+  agentSimulation?: {
+    plan: {
+      intent: "simulate" | "compare" | "explain" | "data_query" | "unknown";
+      scenarioId: string | null;
+      parameters: Record<string, number>;
+      baselineMode: string;
+      timeStepHours: number;
+      compareWith?: string;
+      datasetQuery?: string;
+      reasoning: string;
+    };
+    interpretation: string;
+    wardHighlights: Array<{
+      wardName: string;
+      severity: string;
+      metric: string;
+      action: string;
+    }>;
+    dataSummary?: {
+      datasetName: string;
+      featureCount: number;
+      description: string;
+    };
+    suggestedFollowUps: string[];
+    executionTimeMs: number;
+    simulationSummary?: {
+      scenarioId: string;
+      scenarioTitle: string;
+      modelTier: string;
+      summary?: any;
+    };
+  };
 }
 
 export default function CitizenSentinelHubPage({
@@ -182,6 +214,7 @@ export default function CitizenSentinelHubPage({
 
   const [inputVal, setInputVal] = useState("");
   const [chatLoading, setChatLoading] = useState(false);
+  const [chatMode, setChatMode] = useState<"assistant" | "simulation">("assistant");
   const [expandedSources, setExpandedSources] = useState<Record<string, boolean>>({});
   const chatEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -194,6 +227,15 @@ export default function CitizenSentinelHubPage({
     `Where is the nearest verified emergency shelter?`,
     `Are any official municipal alerts active?`,
     `How does low-lying saucer topography affect my ward?`,
+  ];
+
+  const simulationSuggestionChips = [
+    `Simulate monsoon rainfall at 65mm/h for 3 hours`,
+    `What happens if 2005 cloudburst hits Mumbai today?`,
+    `Compare waterlogging vs coastal storm surge risks`,
+    `Which wards are most vulnerable to drainage blockage?`,
+    `Simulate 4.8m spring tide with outfall lockout`,
+    `How many chronic waterlogging hotspots does the platform track?`,
   ];
 
   /* Load live hazard feed */
@@ -272,7 +314,81 @@ export default function CitizenSentinelHubPage({
     const controller = new AbortController();
     abortControllerRef.current = controller;
 
+    // Detect if this is a simulation query (either in simulation mode or explicit keywords)
+    const isSimulationQuery =
+      citySlug === "mumbai" &&
+      (chatMode === "simulation" ||
+        /\b(simulat|scenario|what if|cloudburst|2005|2024|monsoon downpour|inundat|storm surge|spring tide|waterlogg|siltation|drainage blockage|heat island|stagnation|compare scenario|model)\b/i.test(
+          text
+        ));
+
     try {
+      if (isSimulationQuery) {
+        // Route to Autonomous Simulation Agent API
+        const res = await fetch(`/api/hazards/agent`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          signal: controller.signal,
+          body: JSON.stringify({
+            message: text,
+            city: "mumbai",
+            conversationHistory: messages.slice(-4).map((m) => ({
+              role: m.role,
+              content: m.content,
+            })),
+          }),
+        });
+
+        if (res.ok) {
+          const json = await res.json();
+          if (json.success && json.data) {
+            const agentData = json.data;
+            const plan = agentData.plan;
+            const scenarioId = plan?.scenarioId || "rainfall_waterlogging";
+            const paramsQuery = plan?.parameters
+              ? Object.entries(plan.parameters)
+                  .map(([k, v]) => `&${encodeURIComponent(k)}=${encodeURIComponent(String(v))}`)
+                  .join("")
+              : "";
+            const labUrl = `/admin/mumbai/simulation?scenario=${encodeURIComponent(scenarioId)}&baseline=${encodeURIComponent(plan?.baselineMode || "current_live")}${paramsQuery}`;
+
+            const assistantMessage: ChatMessage = {
+              id: `agent-${Date.now()}`,
+              role: "assistant",
+              timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+              content: agentData.interpretation,
+              agentSimulation: agentData,
+              roleAudit: {
+                roleName: "Agentic AI Simulation Engine",
+                modelUsed: "Groq (llama-3.3-70b-versatile)",
+                executionTimeMs: agentData.executionTimeMs || 420,
+                status: "OPERATIONAL",
+                sourceCount: agentData.wardHighlights?.length || 5,
+              },
+              validatedActions: [
+                {
+                  type: "OPEN_SIMULATION_LAB",
+                  label: "Open in Spatial Simulation Lab",
+                  description: "Inspect continuous isobands, 24 BMC ward boundaries, and run time playback.",
+                  targetUrl: labUrl,
+                  icon: "🧪",
+                },
+                {
+                  type: "VIEW_WARD",
+                  label: "Inspect City Hazard Map",
+                  description: "View low-lying saucer terrain and real-time AWS rain gauges.",
+                  targetUrl: `/${citySlug}/dashboard#hazard-map`,
+                  icon: "🗺️",
+                },
+              ],
+            };
+            setMessages((prev) => [...prev, assistantMessage]);
+            return;
+          }
+        }
+      }
+
+      // Default: Route to Citizen Grounded Assistant API
       const res = await fetch(`/api/hazards/assistant`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -478,6 +594,135 @@ export default function CitizenSentinelHubPage({
                 <MarkdownView content={m.content} onRetry={handleRetryLast} />
               )}
 
+              {/* Agentic Simulation Interactive Visual Card */}
+              {m.agentSimulation && (
+                <div className="mt-3.5 space-y-3 pt-3 border-t border-border/70">
+                  {/* Plan Summary Header */}
+                  <div className="p-3.5 rounded-2xl bg-gradient-to-r from-primary/10 via-accent/10 to-transparent border border-primary/25 space-y-2.5">
+                    <div className="flex items-center justify-between flex-wrap gap-2">
+                      <div className="flex items-center gap-2">
+                        <span className="w-6 h-6 rounded-lg bg-primary/20 text-primary flex items-center justify-center text-xs font-bold">
+                          🤖
+                        </span>
+                        <span className="uppercase tracking-wider font-mono text-[10px] font-black px-2 py-0.5 rounded-full bg-primary/20 text-primary border border-primary/30">
+                          {m.agentSimulation.plan.intent}
+                        </span>
+                        <span className="font-bold text-xs text-text-primary">
+                          {m.agentSimulation.simulationSummary?.scenarioTitle || m.agentSimulation.plan.scenarioId || "Hazard Scenario"}
+                        </span>
+                      </div>
+                      <span className="text-[9px] font-mono font-bold text-text-tertiary px-2 py-0.5 rounded bg-surface-2 border border-border">
+                        {m.agentSimulation.simulationSummary?.modelTier || "TIER_2_SCREENING"}
+                      </span>
+                    </div>
+
+                    {/* Extracted Parameters */}
+                    {m.agentSimulation.plan.parameters && Object.keys(m.agentSimulation.plan.parameters).length > 0 && (
+                      <div className="flex items-center gap-1.5 flex-wrap pt-2 border-t border-primary/15 text-[10px]">
+                        <span className="font-bold text-text-tertiary uppercase font-mono">Parameters:</span>
+                        {Object.entries(m.agentSimulation.plan.parameters).map(([k, v]) => (
+                          <span key={k} className="px-2 py-0.5 rounded-md bg-surface-1/90 border border-border font-mono text-text-secondary">
+                            <span className="text-text-tertiary">{k}:</span> <strong className="text-primary font-bold">{v}</strong>
+                          </span>
+                        ))}
+                        <span className="px-2 py-0.5 rounded-md bg-surface-1/90 border border-border font-mono text-text-secondary">
+                          <span className="text-text-tertiary">baseline:</span> <strong className="text-text-primary">{m.agentSimulation.plan.baselineMode}</strong>
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Agent Reasoning */}
+                    {m.agentSimulation.plan.reasoning && (
+                      <p className="text-[11px] text-text-secondary italic leading-relaxed bg-surface-1/50 p-2 rounded-xl border border-border/40">
+                        &ldquo;{m.agentSimulation.plan.reasoning}&rdquo;
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Ward Highlights Priority Table */}
+                  {m.agentSimulation.wardHighlights && m.agentSimulation.wardHighlights.length > 0 && (
+                    <div className="p-3 rounded-2xl bg-surface-1 border border-border space-y-2">
+                      <div className="flex items-center justify-between">
+                        <span className="font-bold text-text-primary text-[11px] flex items-center gap-1.5">
+                          <span>📍</span>
+                          <span>Priority Impacted BMC Wards ({m.agentSimulation.wardHighlights.length})</span>
+                        </span>
+                        <span className="text-[9px] font-mono text-emerald-600 dark:text-emerald-400 font-bold uppercase">
+                          Deterministic Multi-Variable Index
+                        </span>
+                      </div>
+                      <div className="divide-y divide-border/50 text-xs">
+                        {m.agentSimulation.wardHighlights.map((w, wIdx) => {
+                          const isCritical = w.severity?.toLowerCase() === "critical";
+                          const isHigh = w.severity?.toLowerCase() === "high";
+                          return (
+                            <div key={wIdx} className="py-2 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+                              <div className="flex items-center gap-2 min-w-0">
+                                <span
+                                  className={`px-1.5 py-0.5 rounded text-[9px] font-mono font-black uppercase shrink-0 ${
+                                    isCritical
+                                      ? "bg-rose-500/20 text-rose-600 dark:text-rose-400 border border-rose-500/30"
+                                      : isHigh
+                                      ? "bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30"
+                                      : "bg-blue-500/20 text-blue-600 dark:text-blue-400 border border-blue-500/30"
+                                  }`}
+                                >
+                                  {w.severity}
+                                </span>
+                                <div className="truncate">
+                                  <p className="font-bold text-text-primary text-xs truncate">{w.wardName}</p>
+                                  <p className="text-[11px] text-text-secondary">{w.metric}</p>
+                                </div>
+                              </div>
+                              <span className="text-[10px] font-medium text-text-tertiary sm:text-right shrink-0 bg-surface-2 px-2 py-0.5 rounded-md border border-border">
+                                ⚡ {w.action}
+                              </span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Dataset Summary */}
+                  {m.agentSimulation.dataSummary && (
+                    <div className="p-3 rounded-2xl bg-surface-1 border border-border text-xs space-y-1">
+                      <div className="flex items-center justify-between font-bold text-text-primary text-[11px]">
+                        <span className="flex items-center gap-1.5">
+                          <span>📁</span>
+                          <span>Integrated Dataset: {m.agentSimulation.dataSummary.datasetName}</span>
+                        </span>
+                        <span className="text-[10px] font-mono text-emerald-600 dark:text-emerald-400 font-bold">
+                          {m.agentSimulation.dataSummary.featureCount} records
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-text-secondary">{m.agentSimulation.dataSummary.description}</p>
+                    </div>
+                  )}
+
+                  {/* Suggested Follow-Ups */}
+                  {m.agentSimulation.suggestedFollowUps && m.agentSimulation.suggestedFollowUps.length > 0 && (
+                    <div className="space-y-1.5 pt-1">
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
+                        Suggested Scenario Variations:
+                      </span>
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        {m.agentSimulation.suggestedFollowUps.map((prompt, pIdx) => (
+                          <button
+                            key={pIdx}
+                            type="button"
+                            onClick={() => handleSendMessage(prompt)}
+                            className="text-[11px] px-2.5 py-1 rounded-full bg-surface-2 hover:bg-surface-3 text-text-secondary hover:text-text-primary border border-border font-medium transition-colors cursor-pointer text-left"
+                          >
+                            💬 {prompt}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+
               {/* Nearest Shelters Card (if present) */}
               {m.nearestShelters && m.nearestShelters.length > 0 && (
                 <div className="mt-3 p-3 rounded-xl bg-surface-1 border border-border/80 space-y-1.5 text-xs">
@@ -641,18 +886,63 @@ export default function CitizenSentinelHubPage({
         className="shrink-0 z-30 border-t border-border bg-surface-0/95 dark:bg-[#161b22]/95 backdrop-blur-md px-3 sm:px-6 py-2 sm:py-3 mb-[60px] sm:mb-0"
       >
         <div className="max-w-4xl mx-auto w-full space-y-2">
+          {/* Mode Switcher Bar */}
+          <div className="flex items-center justify-between pb-0.5">
+            <div className="flex items-center gap-1 bg-surface-1 p-0.5 rounded-xl border border-border text-[11px] font-semibold">
+              <button
+                type="button"
+                onClick={() => setChatMode("assistant")}
+                className={`px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                  chatMode === "assistant"
+                    ? "bg-surface-0 dark:bg-slate-800 text-text-primary shadow-xs border border-border"
+                    : "text-text-tertiary hover:text-text-secondary"
+                }`}
+              >
+                <span>🛡️</span>
+                <span>Civic Safety</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setChatMode("simulation")}
+                className={`px-2.5 py-1 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                  chatMode === "simulation"
+                    ? "bg-primary text-primary-foreground shadow-xs font-black"
+                    : "text-text-tertiary hover:text-text-secondary"
+                }`}
+              >
+                <span>🤖</span>
+                <span>AI Simulation Agent</span>
+                {citySlug === "mumbai" && (
+                  <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-white/20 text-white font-black">
+                    MUMBAI
+                  </span>
+                )}
+              </button>
+            </div>
+
+            {chatMode === "simulation" && (
+              <span className="hidden sm:inline text-[10px] text-text-tertiary font-mono">
+                Autonomous Natural Language Simulation Engine
+              </span>
+            )}
+          </div>
+
           {/* Suggestion Chips (Visible when not actively loading) */}
           {!chatLoading && (
             <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
               <span className="text-[10px] font-bold text-text-tertiary uppercase tracking-wider shrink-0 font-mono">
-                Suggestions:
+                {chatMode === "simulation" ? "⚡ Simulation Prompts:" : "Suggestions:"}
               </span>
-              {suggestionChips.map((chip, idx) => (
+              {(chatMode === "simulation" ? simulationSuggestionChips : suggestionChips).map((chip, idx) => (
                 <button
                   key={idx}
                   type="button"
                   onClick={() => handleSendMessage(chip)}
-                  className="px-2.5 py-1 rounded-full text-[11px] font-medium bg-surface-1 hover:bg-surface-2 text-text-secondary hover:text-text-primary border border-border whitespace-nowrap transition-colors cursor-pointer"
+                  className={`px-2.5 py-1 rounded-full text-[11px] font-medium border whitespace-nowrap transition-colors cursor-pointer ${
+                    chatMode === "simulation"
+                      ? "bg-primary/10 hover:bg-primary/20 text-primary border-primary/25"
+                      : "bg-surface-1 hover:bg-surface-2 text-text-secondary hover:text-text-primary border-border"
+                  }`}
                 >
                   {chip}
                 </button>
@@ -674,7 +964,11 @@ export default function CitizenSentinelHubPage({
                   handleSendMessage();
                 }
               }}
-              placeholder={`Ask Sentinel AI about waterlogging, weather, or shelters in ${selectedArea}...`}
+              placeholder={
+                chatMode === "simulation"
+                  ? `Ask AI Agent to simulate: e.g. 'Simulate monsoon downpour 65mm/h for 3h' or 'Compare waterlogging vs surge' in ${cityConfig.name}...`
+                  : `Ask Sentinel AI about waterlogging, weather, or shelters in ${selectedArea}...`
+              }
               disabled={chatLoading}
               className="flex-1 max-h-32 bg-transparent text-xs sm:text-sm text-text-primary placeholder:text-text-tertiary resize-none focus:outline-none p-1.5 leading-relaxed"
             />

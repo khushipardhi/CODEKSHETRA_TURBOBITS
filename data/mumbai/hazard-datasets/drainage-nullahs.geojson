@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "mumbai_major_drainage_nullahs",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "nullah_id": "NUL01", "name": "Dharavi Nullah", "ward": "G/N", "length_m": 3200, "avg_width_m": 18.0, "type": "Open RCC / Masonry" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.862, 19.048 ], [ 72.852, 19.042 ], [ 72.842, 19.038 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL02", "name": "Cleave Land Bunder Main Nullah", "ward": "G/S", "length_m": 2800, "avg_width_m": 22.0, "type": "Open RCC Channel" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.835, 19.012 ], [ 72.825, 19.014 ], [ 72.818, 19.0145 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL03", "name": "Lovegrove Nullah", "ward": "G/S", "length_m": 3500, "avg_width_m": 25.0, "type": "Open RCC Channel" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.832, 18.998 ], [ 72.822, 19.001 ], [ 72.816, 19.0025 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL04", "name": "Irla Nullah", "ward": "K/W", "length_m": 4200, "avg_width_m": 16.0, "type": "Open Lined Channel" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.848, 19.118 ], [ 72.835, 19.112 ], [ 72.825, 19.108 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL05", "name": "Gazdarband Nullah", "ward": "H/W", "length_m": 3100, "avg_width_m": 15.0, "type": "Open Lined Channel" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.842, 19.08 ], [ 72.832, 19.076 ], [ 72.824, 19.0745 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL06", "name": "Mogra Nullah", "ward": "K/E to K/W", "length_m": 5400, "avg_width_m": 14.0, "type": "Concrete Box Culvert & Open Channel" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.865, 19.128 ], [ 72.845, 19.13 ], [ 72.828, 19.132 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL07", "name": "Chembur Nullah", "ward": "M/W", "length_m": 4100, "avg_width_m": 12.0, "type": "Masonry Channel" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.89, 19.068 ], [ 72.898, 19.055 ], [ 72.905, 19.035 ] ] } },
+{ "type": "Feature", "properties": { "nullah_id": "NUL08", "name": "Ghatkopar (N) Nullah", "ward": "N", "length_m": 3800, "avg_width_m": 14.0, "type": "Open RCC" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.902, 19.098 ], [ 72.915, 19.092 ], [ 72.932, 19.088 ] ] } }
+]
+}

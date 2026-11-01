@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "mumbai_primary_river_channels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "river_id": "RIV01", "name": "Mithi River", "length_km": 17.8, "catchment_ha": 7295, "origin": "Vihar Lake Overflow", "outfall": "Mahim Creek / Arabian Sea" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.905, 19.145 ], [ 72.892, 19.115 ], [ 72.88, 19.085 ], [ 72.865, 19.068 ], [ 72.845, 19.05 ], [ 72.835, 19.04 ] ] } },
+{ "type": "Feature", "properties": { "river_id": "RIV02", "name": "Dahisar River", "length_km": 12.0, "catchment_ha": 3488, "origin": "Sanjay Gandhi National Park", "outfall": "Manori Creek" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.9, 19.24 ], [ 72.875, 19.25 ], [ 72.85, 19.255 ], [ 72.835, 19.25 ] ] } },
+{ "type": "Feature", "properties": { "river_id": "RIV03", "name": "Poisar River", "length_km": 7.0, "catchment_ha": 1900, "origin": "Kandivali SGNP Hills", "outfall": "Marve Creek" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.875, 19.215 ], [ 72.855, 19.21 ], [ 72.83, 19.205 ] ] } },
+{ "type": "Feature", "properties": { "river_id": "RIV04", "name": "Oshiwara River", "length_km": 7.3, "catchment_ha": 2200, "origin": "Aarey Milk Colony Hills", "outfall": "Malad Creek" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.87, 19.155 ], [ 72.845, 19.15 ], [ 72.825, 19.145 ] ] } },
+{ "type": "Feature", "properties": { "river_id": "RIV05", "name": "Vakola Nullah", "length_km": 5.5, "catchment_ha": 1400, "origin": "Santacruz East Hills", "outfall": "Mithi River (BKC Confluence)" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.865, 19.08 ], [ 72.858, 19.07 ], [ 72.85, 19.065 ] ] } }
+]
+}

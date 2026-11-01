@@ -84,6 +84,21 @@ export const env = {
     return this.groqSentinelApiKey || this.groqReportingApiKey;
   },
 
+  /** Dedicated Key for Central City Orchestrator AI Engine */
+  get groqOrchestratorApiKey(): string {
+    return process.env["GROQ_ORCHESTRATOR_API_KEY"] || "";
+  },
+
+  /** Groq model for Central City Orchestrator (default: openai/gpt-oss-120b) */
+  get groqOrchestratorModel(): string {
+    return process.env["GROQ_ORCHESTRATOR_MODEL"] || "openai/gpt-oss-120b";
+  },
+
+  /** Groq model for general reporting / specialist synthesis */
+  get groqDefaultModel(): string {
+    return process.env["GROQ_DEFAULT_MODEL"] || "openai/gpt-oss-120b";
+  },
+
   /** Role 1 — Evidence Analyst API Key */
   get groqRole1ApiKey(): string {
     return (
@@ -115,6 +130,20 @@ export const env = {
       process.env["GROQ_THIRD_API_KEY"] ||
       ""
     );
+  },
+
+  /** Dedicated Key for Hazard Intelligence Agent */
+  get groqHazardApiKey(): string {
+    return (
+      process.env["GROQ_THIRD_API_KEY"] ||
+      process.env["GROQ_ROLE3_API_KEY"] ||
+      process.env["GROQ_LLAMA_API_KEY"] ||
+      ""
+    );
+  },
+
+  get groqThirdApiKey(): string {
+    return process.env["GROQ_THIRD_API_KEY"] || "";
   },
 
   /**

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "mumbai_coastal_stormwater_outfalls",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "outfall_id": "OUTF01", "name": "Lovegrove Arabian Sea Outfall", "ward": "G/S", "lat": 19.0025, "lon": 72.816, "invert_thd_m": 24.0, "invert_msl_m": -1.33, "gates": "Automatic Flap Gates", "tidal_locking_threshold_m": 4.2 }, "geometry": { "type": "Point", "coordinates": [ 72.816, 19.0025 ] } },
+{ "type": "Feature", "properties": { "outfall_id": "OUTF02", "name": "Cleveland Bunder Sea Outfall", "ward": "G/S", "lat": 19.0145, "lon": 72.818, "invert_thd_m": 23.8, "invert_msl_m": -1.53, "gates": "Gravity Flap Gates", "tidal_locking_threshold_m": 4.1 }, "geometry": { "type": "Point", "coordinates": [ 72.818, 19.0145 ] } },
+{ "type": "Feature", "properties": { "outfall_id": "OUTF03", "name": "Haji Ali Bay Outfall", "ward": "D", "lat": 18.9785, "lon": 72.812, "invert_thd_m": 24.2, "invert_msl_m": -1.13, "gates": "Flap Gates + Sluice", "tidal_locking_threshold_m": 4.3 }, "geometry": { "type": "Point", "coordinates": [ 72.812, 18.9785 ] } },
+{ "type": "Feature", "properties": { "outfall_id": "OUTF04", "name": "Mahim Creek Mithi Outfall", "ward": "G/N", "lat": 19.038, "lon": 72.835, "invert_thd_m": 25.2, "invert_msl_m": -0.13, "gates": "Natural Estuarine Opening", "tidal_locking_threshold_m": 4.5 }, "geometry": { "type": "Point", "coordinates": [ 72.835, 19.038 ] } },
+{ "type": "Feature", "properties": { "outfall_id": "OUTF05", "name": "Juhu Gazdarband Outfall", "ward": "H/W", "lat": 19.0745, "lon": 72.824, "invert_thd_m": 24.8, "invert_msl_m": -0.53, "gates": "Electrically Operated Sluice Gates", "tidal_locking_threshold_m": 4.4 }, "geometry": { "type": "Point", "coordinates": [ 72.824, 19.0745 ] } },
+{ "type": "Feature", "properties": { "outfall_id": "OUTF06", "name": "Britannia Reay Road Outfall", "ward": "E", "lat": 18.9682, "lon": 72.8485, "invert_thd_m": 24.5, "invert_msl_m": -0.83, "gates": "Dual Sluice Gates", "tidal_locking_threshold_m": 4.3 }, "geometry": { "type": "Point", "coordinates": [ 72.8485, 18.9682 ] } }
+]
+}

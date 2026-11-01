@@ -53,4 +53,17 @@ test_telemetry_out.pdf
 /*.pdf
 .quarantine_cleanup/
 public/screenshots/tmp/
+public/screenshots/agent_command_centre/
+public/screenshots/agentic_simulation/
+public/screenshots/control_room/
+public/screenshots/final_verification/
 *.tmp
+GeoNexus_Mumbai_Data_Package/
+
+# testing and capture scripts not needed for production deployment
+scripts/capture-*.mjs
+scripts/test-*.mjs
+scripts/check-*.mjs
+scripts/init-*.mjs
+test-connections.mjs
+

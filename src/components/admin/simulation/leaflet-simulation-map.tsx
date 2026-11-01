@@ -190,8 +190,9 @@ function MapWardFocusController({
   return null;
 }
 
-// Resizes Leaflet map when drawers open/close or window resizes
-function MapResizeWatcher({
+// Comprehensive Leaflet Lifecycle & Container Size Controller
+// Fixes map canvas refresh shrinking into a small box and ensures seamless responsive resizing
+function MapLifecycleController({
   controlsOpen,
   drawerOpen,
 }: {
@@ -200,16 +201,60 @@ function MapResizeWatcher({
 }) {
   const map = useMap();
 
+  // 1. Staggered mount-time invalidation to handle late flexbox hydration
+  useEffect(() => {
+    const timeouts = [50, 150, 300, 600, 1200].map((delay) =>
+      setTimeout(() => {
+        try {
+          map.invalidateSize({ animate: false });
+        } catch {}
+      }, delay)
+    );
+
+    return () => {
+      timeouts.forEach(clearTimeout);
+    };
+  }, [map]);
+
+  // 2. Continuous ResizeObserver on the container DOM element
+  useEffect(() => {
+    const container = map.getContainer();
+    if (!container || typeof ResizeObserver === "undefined") return;
+
+    let rafId: number;
+    const observer = new ResizeObserver(() => {
+      cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        try {
+          map.invalidateSize({ animate: false });
+        } catch {}
+      });
+    });
+
+    observer.observe(container);
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      observer.disconnect();
+    };
+  }, [map]);
+
+  // 3. Immediate invalidation on drawer open/close
   useEffect(() => {
     const timer = setTimeout(() => {
-      map.invalidateSize({ animate: false });
+      try {
+        map.invalidateSize({ animate: false });
+      } catch {}
     }, 280);
     return () => clearTimeout(timer);
   }, [controlsOpen, drawerOpen, map]);
 
+  // 4. Window resize listener
   useEffect(() => {
     const handleResize = () => {
-      map.invalidateSize({ animate: false });
+      try {
+        map.invalidateSize({ animate: false });
+      } catch {}
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
@@ -1087,8 +1132,8 @@ export default function LeafletSimulationMap({
           wardsGeoJSON={wardsData}
         />
 
-        {/* Dynamic Resize Watcher for Panel Drawer Transitions */}
-        <MapResizeWatcher
+        {/* Dynamic Lifecycle & Resize Controller */}
+        <MapLifecycleController
           controlsOpen={controlsOpen}
           drawerOpen={drawerOpen}
         />

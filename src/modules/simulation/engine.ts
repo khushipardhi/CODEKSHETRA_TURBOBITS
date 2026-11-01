@@ -341,9 +341,9 @@ export class SimulationEngine {
     ).length;
 
     let overallAlert: "GREEN_NORMAL" | "YELLOW_WATCH" | "ORANGE_ALERT" | "RED_WARNING" = "GREEN_NORMAL";
-    if (severeCount >= 2 || peakVal >= 80) overallAlert = "RED_WARNING";
-    else if (highCount >= 3 || peakVal >= 60) overallAlert = "ORANGE_ALERT";
-    else if (modCount >= 4 || peakVal >= 35) overallAlert = "YELLOW_WATCH";
+    if (severeCount >= 6 || (severeCount >= 2 && peakVal >= 120)) overallAlert = "RED_WARNING";
+    else if (severeCount >= 1 || highCount >= 3) overallAlert = "ORANGE_ALERT";
+    else if (highCount >= 1 || modCount >= 4) overallAlert = "YELLOW_WATCH";
 
     const executionTimeMs = Date.now() - startTime;
 
@@ -691,30 +691,36 @@ export class SimulationEngine {
         metricLabel = "Peak Wind Gusts";
 
         const sustained = params.sustainedWindKmH || 45;
-        const gustFactor = params.gustFactor || 1.6;
+        const gustFactor = params.gustFactor || 1.4;
 
         // Coastal unsheltered exposure factor
-        const coastalFactor = ward.isCoastal ? 1.25 : 0.95;
-        const timeFactor = 0.8 + 0.4 * Math.sin((Math.PI * timeStep) / 6);
+        const coastalFactor = ward.isCoastal ? 1.08 : 0.95;
+        const timeFactor = 0.85 + 0.25 * Math.sin((Math.PI * timeStep) / 6);
 
         metricValue = Math.round(sustained * gustFactor * coastalFactor * timeFactor * 10) / 10;
         baselineValue = 22.0;
 
         calculationTrace = `Gust = Sustained(${sustained} km/h) × GustRatio(${gustFactor}) × CoastalShelter(${coastalFactor}) × TimeCurve(${timeFactor.toFixed(2)}) = ${metricValue} km/h`;
 
-        if (metricValue >= 70) {
-          tierLabel = "Severe Gale Warning (>70 km/h)";
+        if (metricValue >= 118) {
+          tierLabel = "Severe Gale Hazard (>118 km/h)";
           severityColor = "#991b1b";
           isExceeded = true;
-          thresholdSource = "IMD Cyclonic Gale Warning (>70 km/h)";
+          thresholdSource = "IMD Cyclonic Gale Warning (>118 km/h / 64 kt)";
           recommendedAction = "Halt construction cranes; secure billboards and tin roofs across the ward.";
-        } else if (metricValue >= 50) {
-          tierLabel = "Gale Advisory (50-70 km/h)";
-          severityColor = "#ef4444";
-          thresholdSource = "Coastal Squall Watch (>50 km/h)";
+        } else if (metricValue >= 70) {
+          tierLabel = "High Gale Watch (70-118 km/h)";
+          severityColor = "#f97316";
+          isExceeded = true;
+          thresholdSource = "Coastal Squall Watch (70-118 km/h)";
           recommendedAction = "Restrict access to promenades, piers, and beaches.";
+        } else if (metricValue >= 45) {
+          tierLabel = "Moderate Squall Advisory (45-70 km/h)";
+          severityColor = "#eab308";
+          thresholdSource = "IMD Coastal Wind Advisory (>45 km/h)";
+          recommendedAction = "Precautionary marine and seafront advisory.";
         } else {
-          tierLabel = "Moderate Breeze (<50 km/h)";
+          tierLabel = "Normal Coastal Wind (<45 km/h)";
           severityColor = "#22c55e";
           recommendedAction = "Routine coastal surveillance.";
         }

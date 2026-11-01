@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "mumbai_arterial_road_network",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "road_id": "R01", "name": "Western Express Highway (WEH)", "class": "Expressway / National Highway", "lanes": 8, "surface": "Asphalt / Concrete" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.842, 19.055 ], [ 72.852, 19.085 ], [ 72.858, 19.115 ], [ 72.86, 19.165 ], [ 72.862, 19.215 ], [ 72.865, 19.265 ] ] } },
+{ "type": "Feature", "properties": { "road_id": "R02", "name": "Eastern Express Highway (EEH)", "class": "Expressway / National Highway", "lanes": 8, "surface": "Asphalt" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.875, 19.04 ], [ 72.895, 19.075 ], [ 72.92, 19.115 ], [ 72.945, 19.155 ], [ 72.965, 19.195 ] ] } },
+{ "type": "Feature", "properties": { "road_id": "R03", "name": "Swami Vivekanand (SV) Road", "class": "Arterial Road", "lanes": 4, "surface": "Asphalt" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.835, 19.055 ], [ 72.838, 19.095 ], [ 72.842, 19.135 ], [ 72.845, 19.175 ], [ 72.85, 19.235 ] ] } },
+{ "type": "Feature", "properties": { "road_id": "R04", "name": "Lal Bahadur Shastri (LBS) Marg", "class": "Arterial Road", "lanes": 4, "surface": "Asphalt" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.875, 19.065 ], [ 72.89, 19.095 ], [ 72.915, 19.135 ], [ 72.935, 19.175 ] ] } },
+{ "type": "Feature", "properties": { "road_id": "R05", "name": "Eastern Freeway", "class": "Elevated Expressway", "lanes": 4, "surface": "Concrete" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.84, 18.94 ], [ 72.85, 18.98 ], [ 72.865, 19.02 ], [ 72.895, 19.05 ] ] } },
+{ "type": "Feature", "properties": { "road_id": "R06", "name": "Bandra-Worli Sea Link & Coastal Road", "class": "Coastal Expressway", "lanes": 8, "surface": "Concrete" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.812, 18.96 ], [ 72.81, 19.005 ], [ 72.818, 19.035 ], [ 72.825, 19.05 ] ] } },
+{ "type": "Feature", "properties": { "road_id": "R07", "name": "Dr. Babasaheb Ambedkar Road", "class": "Arterial Road", "lanes": 6, "surface": "Asphalt" }, "geometry": { "type": "LineString", "coordinates": [ [ 72.835, 18.96 ], [ 72.842, 18.995 ], [ 72.855, 19.035 ] ] } }
+]
+}

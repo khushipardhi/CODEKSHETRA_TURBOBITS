@@ -43,6 +43,8 @@ import {
 import { useCityContext } from "@/components/providers/city-provider";
 import { CITIES, DEFAULT_CITY, type CityConfig } from "@/lib/city-context";
 import { SCENARIO_REGISTRY, HISTORICAL_EVENTS, type ScenarioDefinition } from "@/modules/simulation/scenario-registry";
+import { SCENARIO_DATASETS } from "@/modules/simulation/scenario-datasets";
+import { MarkdownView } from "@/components/ui/markdown-view";
 import type { SimulationResult } from "@/modules/simulation/engine";
 import type { WardImpactRecord, StructuredScenarioReport, DataQualityStatus, SimulationTimeStepOutput } from "@/modules/simulation/contracts";
 import { SimulationDossierPanel } from "./simulation-dossier-panel";
@@ -152,6 +154,22 @@ function UnsupportedCitySimulationState({ cityConfig }: { cityConfig: CityConfig
   );
 }
 
+export interface CopilotChatMessage {
+  id: string;
+  role: "user" | "assistant";
+  content: string;
+  timestamp: string;
+  plan?: any;
+  executionStages?: any[];
+  comparisonSeries?: any[];
+  infrastructureResults?: any;
+  datasetResults?: any;
+  verifiedDatasets?: any[];
+  toolsExecuted?: any[];
+  wardHighlights?: any[];
+  agentMode?: "groq_llm" | "deterministic_fallback";
+}
+
 function SimulationWorkspaceInner() {
   const routeParams = useParams();
   const searchParams = useSearchParams();
@@ -184,16 +202,27 @@ function SimulationWorkspaceInner() {
   const activeScenario = SCENARIO_REGISTRY[selectedScenarioId] || SCENARIO_REGISTRY.rainfall_waterlogging;
   const [params, setParams] = useState<Record<string, number>>({});
   const [simulateMissingInputs, setSimulateMissingInputs] = useState<boolean>(qMissing);
+  const pendingCopilotParamsRef = useRef<Record<string, number> | null>(null);
 
-  // Initialize parameters when scenario changes
+  // Initialize parameters when scenario changes without wiping copilot overrides
   useEffect(() => {
     const initialParams: Record<string, number> = {};
     for (const input of activeScenario.inputs) {
       const qVal = searchParams?.get(input.key);
-      initialParams[input.key] = qVal !== null && qVal !== undefined && !isNaN(Number(qVal)) ? Number(qVal) : input.defaultValue;
+      initialParams[input.key] =
+        qVal !== null && qVal !== undefined && !isNaN(Number(qVal))
+          ? Number(qVal)
+          : input.defaultValue;
     }
-    setParams(initialParams);
-  }, [selectedScenarioId, searchParams]);
+
+    if (pendingCopilotParamsRef.current) {
+      const merged = { ...initialParams, ...pendingCopilotParamsRef.current };
+      pendingCopilotParamsRef.current = null;
+      setParams(merged);
+    } else {
+      setParams(initialParams);
+    }
+  }, [selectedScenarioId, searchParams, activeScenario.inputs]);
 
   // Selected Ward for Deep Inspection & Canonical Navigation
   const [selectedWardId, setSelectedWardId] = useState<string>(qWard || "L");
@@ -221,6 +250,33 @@ function SimulationWorkspaceInner() {
   // UI Drawer Toggles
   const [controlsOpen, setControlsOpen] = useState<boolean>(true);
   const [drawerOpen, setDrawerOpen] = useState<boolean>(true);
+
+  // ─── Agentic AI Copilot State ───
+  const [panelMode, setPanelMode] = useState<"copilot" | "manual">("copilot");
+  const [showExecutionDetails, setShowExecutionDetails] = useState<boolean>(true);
+  const [showActiveConfig, setShowActiveConfig] = useState<boolean>(true);
+  const [showResultsCard, setShowResultsCard] = useState<boolean>(true);
+  const [showDatasetsCard, setShowDatasetsCard] = useState<boolean>(false);
+  const [copilotOpen, setCopilotOpen] = useState<boolean>(true);
+  const [copilotPrompt, setCopilotPrompt] = useState<string>("");
+  const [copilotLoading, setCopilotLoading] = useState<boolean>(false);
+  const [copilotResult, setCopilotResult] = useState<any | null>(null);
+  const [copilotError, setCopilotError] = useState<string | null>(null);
+  const [copilotMessages, setCopilotMessages] = useState<CopilotChatMessage[]>([
+    {
+      id: "copilot-welcome",
+      role: "assistant",
+      content:
+        "**CivicOS AI Simulation Copilot Active.**\nI can configure multi-hazard scenarios, calibrate sliders, execute numerical simulations, control timeline playback, inspect vulnerable infrastructure (hospitals, pumps, nullahs), and compare what-if variations.\n\nTry asking: *'Simulate monsoon rainfall at 65 mm/h for 3 hours'* or *'Compare drainage blockage at 20%, 40% and 60%'*.",
+      timestamp: "Now",
+    },
+  ]);
+
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [copilotMessages, copilotLoading]);
 
   // Auto-close drawers on mobile on initial mount
   useEffect(() => {
@@ -289,6 +345,162 @@ function SimulationWorkspaceInner() {
   });
 
   const { timeStep, simResult, isLoading: loading } = playback;
+
+  // ─── Authoritative Copilot Execution Operator ───
+  const handleRunCopilot = async (customPrompt?: string) => {
+    const promptText = (customPrompt || copilotPrompt).trim();
+    if (!promptText || copilotLoading) return;
+
+    setCopilotLoading(true);
+    setCopilotError(null);
+
+    const userMsg: CopilotChatMessage = {
+      id: `usr-${Date.now()}`,
+      role: "user",
+      content: promptText,
+      timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+    };
+    setCopilotMessages((prev) => [...prev, userMsg]);
+    setCopilotPrompt("");
+
+    try {
+      const res = await fetch("/api/hazards/agent", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: promptText,
+          city: "mumbai",
+          workspaceState: {
+            scenarioId: selectedScenarioId,
+            parameters: params,
+            baselineMode,
+            selectedWardId,
+            timeStepHours: playback.timeStep,
+            playbackSpeed: playback.playbackSpeed,
+          },
+        }),
+      });
+
+      const json = await res.json();
+      if (json.success && json.data) {
+        const data = json.data;
+        const plan = data.plan;
+        setCopilotResult(data);
+
+        // 1. Synchronize Scenario Dropdown & Parameters simultaneously
+        const nextScenarioId =
+          plan?.scenarioId && SCENARIO_REGISTRY[plan.scenarioId]
+            ? plan.scenarioId
+            : selectedScenarioId;
+
+        if (nextScenarioId !== selectedScenarioId) {
+          const nextDef = SCENARIO_REGISTRY[nextScenarioId];
+          const newParams: Record<string, number> = {};
+          for (const inp of nextDef.inputs) {
+            newParams[inp.key] = inp.defaultValue;
+          }
+          if (plan?.parameters && Object.keys(plan.parameters).length > 0) {
+            Object.assign(newParams, plan.parameters);
+          }
+          pendingCopilotParamsRef.current = newParams;
+          setParams(newParams);
+          setSelectedScenarioId(nextScenarioId);
+        } else if (plan?.parameters && Object.keys(plan.parameters).length > 0) {
+          pendingCopilotParamsRef.current = plan.parameters;
+          setParams((prev) => ({
+            ...prev,
+            ...plan.parameters,
+          }));
+        }
+
+        // 2. Synchronize Baseline
+        if (plan?.baselineMode) {
+          setBaselineMode(plan.baselineMode);
+        }
+
+        // 3. Synchronize Geographic Ward Focus
+        if (plan?.selectedWard) {
+          handleSelectWard(plan.selectedWard, true);
+        }
+
+        // 4. Synchronize Playback Controls
+        if (plan?.playbackAction) {
+          const pb = plan.playbackAction;
+          if (pb.action === "play") {
+            if (pb.speed) playback.setSpeed(pb.speed);
+            if (pb.timeHours !== undefined) playback.scrub(pb.timeHours);
+            playback.play();
+          } else if (pb.action === "pause") {
+            if (pb.timeHours !== undefined) playback.scrub(pb.timeHours);
+            playback.pause();
+          } else if (pb.action === "reset") {
+            playback.reset();
+          } else if (pb.action === "set_speed" && pb.speed) {
+            playback.setSpeed(pb.speed);
+          } else if (pb.action === "set_time" && pb.timeHours !== undefined) {
+            playback.scrub(pb.timeHours);
+          } else if (pb.action === "step_next") {
+            playback.stepNext();
+          } else if (pb.action === "step_prev") {
+            playback.stepPrev();
+          }
+        }
+
+        // 5. Report Studio Integration
+        if (plan?.openReportStudio) {
+          setIsDossierModalOpen(true);
+        }
+
+        // 6. Push Assistant Response to Feed
+        const aiMsg: CopilotChatMessage = {
+          id: `ai-${Date.now()}`,
+          role: "assistant",
+          content: data.interpretation,
+          timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+          plan,
+          executionStages: plan?.executionStages,
+          comparisonSeries: data.comparisonSeries,
+          infrastructureResults: data.infrastructureResults,
+          datasetResults: data.datasetResults,
+          verifiedDatasets: data.verifiedDatasets,
+          toolsExecuted: data.toolsExecuted,
+          wardHighlights: data.wardHighlights,
+          agentMode: data.agentMode,
+        };
+        setCopilotMessages((prev) => [...prev, aiMsg]);
+      } else {
+        setCopilotError(json.error || "Failed to execute agent simulation.");
+      }
+    } catch (err: any) {
+      setCopilotError(err.message || "Network error querying simulation agent.");
+    } finally {
+      setCopilotLoading(false);
+    }
+  };
+
+  const handleResetCopilotSession = () => {
+    setCopilotMessages([
+      {
+        id: "reset-welcome",
+        role: "assistant",
+        content:
+          "Simulation conversation session reset. Workspace parameters and Leaflet canvas are ready for new directives.",
+        timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+      },
+    ]);
+    setCopilotResult(null);
+    setCopilotError(null);
+  };
+
+  // Latest assistant message for extraction of execution stages, tools, datasets, and infrastructure
+  const latestAssistantMsg = useMemo<CopilotChatMessage | null>(() => {
+    for (let i = copilotMessages.length - 1; i >= 0; i--) {
+      if (copilotMessages[i].role === "assistant" && copilotMessages[i].executionStages) {
+        return copilotMessages[i];
+      }
+    }
+    return copilotMessages.filter((m) => m.role === "assistant").pop() || null;
+  }, [copilotMessages]);
 
   // Selected ward record from result matching canonical identity
   const selectedWardRecord: WardImpactRecord | undefined = useMemo(() => {
@@ -463,7 +675,7 @@ function SimulationWorkspaceInner() {
             </div>
           </div>
 
-          <div className="hidden 2xl:flex items-center gap-2 whitespace-nowrap shrink-0">
+          <div className="hidden min-[1800px]:flex items-center gap-2 whitespace-nowrap shrink-0">
             <span className="text-divider">/</span>
             {simResult?.modelTier === "TIER_1_OBSERVED_FORECAST" && (
               <span className="px-2 py-0.5 rounded-full text-[10px] font-mono font-bold bg-emerald-500/10 text-emerald-600 border border-emerald-500/20">
@@ -1131,319 +1343,944 @@ function SimulationWorkspaceInner() {
           </button>
         )}
 
-        {/* ─── LEFT FLOATING PANEL: SCENARIO PARAMETERS ─────────── */}
+        {/* ─── LEFT FLOATING PANEL: AI SIMULATION COPILOT & WORKSPACE CONTROLS ─── */}
         {controlsOpen && (
-          <aside className="absolute top-4 left-4 w-[calc(100%-32px)] md:w-84 max-h-[calc(100%-80px)] bg-white/98 dark:bg-slate-900/98 rounded-3xl border border-slate-200/90 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col z-10 transition-all">
-            <div className="p-4 border-b border-divider flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <SlidersIcon size={14} className="text-primary" />
-                <h2 className="text-xs font-black tracking-tight text-text-primary uppercase font-mono">
-                  Scenario Parameters
-                </h2>
+          <aside className="absolute top-4 left-4 w-[calc(100%-32px)] md:w-96 lg:w-[420px] max-h-[calc(100%-80px)] bg-white/98 dark:bg-slate-900/98 rounded-3xl border border-slate-200/90 dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col z-10 transition-all">
+            {/* Header: Segmented Mode Switcher */}
+            <div className="p-3 border-b border-divider flex items-center justify-between bg-surface/50">
+              <div className="flex items-center gap-1 p-0.5 rounded-xl bg-surface border border-divider">
+                <button
+                  type="button"
+                  onClick={() => setPanelMode("copilot")}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
+                    panelMode === "copilot"
+                      ? "bg-primary text-primary-foreground shadow-xs"
+                      : "text-text-secondary hover:text-text-primary"
+                  }`}
+                >
+                  <span>🤖</span>
+                  <span>AI Copilot</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPanelMode("manual")}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
+                    panelMode === "manual"
+                      ? "bg-primary text-primary-foreground shadow-xs"
+                      : "text-text-secondary hover:text-text-primary"
+                  }`}
+                >
+                  <SlidersIcon size={12} />
+                  <span>Manual Inputs</span>
+                </button>
               </div>
-              <button
-                onClick={() => setControlsOpen(false)}
-                className="text-text-tertiary hover:text-text-primary text-xs"
-              >
-                ✕
-              </button>
+
+              <div className="flex items-center gap-1">
+                {panelMode === "copilot" && (
+                  <button
+                    type="button"
+                    onClick={handleResetCopilotSession}
+                    title="Reset Conversation Session"
+                    className="px-2 py-1 rounded-lg text-[10px] font-mono font-bold text-text-tertiary hover:text-text-primary hover:bg-surface-elevated transition-colors cursor-pointer"
+                  >
+                    ↺ New
+                  </button>
+                )}
+                <button
+                  onClick={() => setControlsOpen(false)}
+                  className="w-6 h-6 flex items-center justify-center text-text-tertiary hover:text-text-primary text-xs rounded-lg hover:bg-surface-elevated cursor-pointer"
+                >
+                  ✕
+                </button>
+              </div>
             </div>
 
-            <div className="p-4 pb-12 space-y-4 overflow-y-auto scrollbar-none text-xs flex-1">
-              {/* Scenario Selection */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold text-text-secondary uppercase tracking-wider">
-                  Hazard Scenario
-                </label>
-                <select
-                  value={selectedScenarioId}
-                  onChange={(e) => setSelectedScenarioId(e.target.value)}
-                  className="w-full px-3 py-2 rounded-xl border border-divider bg-surface text-text-primary font-semibold text-xs focus:outline-hidden"
-                >
-                  {Object.values(SCENARIO_REGISTRY).map((sc) => (
-                    <option key={sc.id} value={sc.id}>
-                      {sc.title}
-                    </option>
-                  ))}
-                </select>
-                <p className="text-[10px] text-text-tertiary leading-tight">{activeScenario.description}</p>
-              </div>
+            {panelMode === "copilot" ? (
+              <div className="p-3.5 pb-12 space-y-3.5 overflow-y-auto scrollbar-thin text-xs flex-1">
+                {/* ─── SECTION A: CONVERSATION FEED ─────────────────── */}
+                <div className="rounded-2xl border border-divider bg-card shadow-sm overflow-hidden flex flex-col">
+                  <div className="px-3 py-2 bg-surface/70 border-b border-divider flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                      <span className="font-mono text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+                        A. Operational Dialogue
+                      </span>
+                    </div>
+                    {latestAssistantMsg?.agentMode && (
+                      <span className="text-[9px] font-mono px-1.5 py-0.5 rounded-md bg-primary/10 text-primary font-bold">
+                        {latestAssistantMsg.agentMode === "groq_llm" ? "⚡ GROQ LLaMA-3.3 70B" : "DETERMINISTIC FALLBACK"}
+                      </span>
+                    )}
+                  </div>
 
-              {/* Baseline Selection */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold text-text-secondary uppercase tracking-wider">
-                  Baseline Context
-                </label>
-                <select
-                  value={baselineMode}
-                  onChange={(e) => {
-                    const mode = e.target.value;
-                    setBaselineMode(mode);
-                    if (mode.startsWith("historical")) {
-                      const ev = HISTORICAL_EVENTS.find((h) => h.id === mode);
-                      if (ev) setParams(ev.defaultParameters);
+                  {/* Conversation Message List */}
+                  <div className="p-3 max-h-72 overflow-y-auto space-y-3 scrollbar-thin">
+                    {copilotMessages.map((msg) => (
+                      <div
+                        key={msg.id}
+                        className={`flex flex-col space-y-1 ${
+                          msg.role === "user" ? "items-end" : "items-start"
+                        }`}
+                      >
+                        <div className="flex items-center gap-1.5 text-[9px] text-text-tertiary font-mono">
+                          <span>{msg.role === "user" ? "City Operator" : "Simulation Copilot"}</span>
+                          <span>•</span>
+                          <span>{msg.timestamp}</span>
+                        </div>
+
+                        <div
+                          className={`p-3 rounded-2xl max-w-[95%] leading-relaxed ${
+                            msg.role === "user"
+                              ? "bg-primary text-primary-foreground rounded-br-xs font-medium text-xs shadow-xs"
+                              : "bg-surface border border-divider text-text-primary rounded-bl-xs shadow-xs"
+                          }`}
+                        >
+                          {msg.role === "user" ? (
+                            <p className="text-xs whitespace-pre-wrap">{msg.content}</p>
+                          ) : (
+                            <div className="space-y-2">
+                              <MarkdownView content={msg.content} className="text-xs text-text-primary" />
+
+                              {/* Multi-Run Variations Comparison Chips */}
+                              {msg.comparisonSeries && msg.comparisonSeries.length > 0 && (
+                                <div className="mt-2.5 pt-2 border-t border-divider space-y-1.5">
+                                  <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-text-tertiary block">
+                                    Switch Active Run on Canvas:
+                                  </span>
+                                  <div className="grid grid-cols-1 gap-1">
+                                    {msg.comparisonSeries.map((comp: any, cIdx: number) => (
+                                      <button
+                                        key={cIdx}
+                                        type="button"
+                                        onClick={() => {
+                                          pendingCopilotParamsRef.current = comp.parameters;
+                                          setParams(comp.parameters);
+                                        }}
+                                        className="p-1.5 rounded-lg bg-card border border-divider hover:border-primary/40 text-left transition-all cursor-pointer flex items-center justify-between text-[10px]"
+                                      >
+                                        <div className="truncate">
+                                          <strong className="text-primary">{comp.label}</strong>
+                                          <span className="text-text-secondary ml-1">
+                                            (Peak: {comp.topWard?.name} {comp.topWard?.value?.toFixed(1)})
+                                          </span>
+                                        </div>
+                                        <span className="text-[9px] px-1 rounded bg-primary/10 text-primary font-bold shrink-0">
+                                          Apply
+                                        </span>
+                                      </button>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+
+                              {/* Interactive Affected Wards Focus Chips */}
+                              {msg.wardHighlights && msg.wardHighlights.length > 0 && (
+                                <div className="mt-2 pt-2 border-t border-divider/60 space-y-1 text-[10px]">
+                                  <span className="text-[9px] font-mono font-bold uppercase tracking-wider text-text-tertiary block">
+                                    Inspect Wards:
+                                  </span>
+                                  <div className="flex flex-wrap gap-1">
+                                    {msg.wardHighlights.slice(0, 4).map((w: any, idx: number) => {
+                                      const wardIdClean = w.wardName?.split(" ")[1]?.replace(/[^a-zA-Z0-9/]/g, "") || "L";
+                                      return (
+                                        <button
+                                          key={idx}
+                                          type="button"
+                                          onClick={() => handleSelectWard(wardIdClean, true)}
+                                          className="px-2 py-0.5 rounded-md bg-card border border-divider hover:border-primary text-text-primary text-[9px] font-bold transition-all cursor-pointer flex items-center gap-1 shadow-xs"
+                                        >
+                                          <span>📍</span>
+                                          <span>{w.wardName}</span>
+                                        </button>
+                                      );
+                                    })}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+
+                    {copilotLoading && (
+                      <div className="flex items-center gap-2 p-2.5 rounded-xl bg-card border border-primary/20 text-xs text-text-secondary animate-pulse">
+                        <span className="animate-spin text-primary">⏳</span>
+                        <span>Agent executing 10-stage simulation workflow (routing, calculation & map sync)...</span>
+                      </div>
+                    )}
+                    <div ref={messagesEndRef} />
+                  </div>
+
+                  {/* Input Box & Directives */}
+                  <div className="p-2.5 bg-surface/50 border-t border-divider space-y-2">
+                    <div className="relative">
+                      <input
+                        type="text"
+                        value={copilotPrompt}
+                        onChange={(e) => setCopilotPrompt(e.target.value)}
+                        onKeyDown={(e) => {
+                          if (e.key === "Enter") {
+                            e.preventDefault();
+                            handleRunCopilot();
+                          }
+                        }}
+                        placeholder="Ask Copilot (e.g. 'Simulate strong coastal winds across Mumbai wards')"
+                        disabled={copilotLoading}
+                        className="w-full pl-3 pr-20 py-2 rounded-xl border border-divider bg-card text-xs text-text-primary placeholder:text-text-tertiary focus:outline-hidden focus:border-primary shadow-inner"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => handleRunCopilot()}
+                        disabled={!copilotPrompt.trim() || copilotLoading}
+                        className="absolute right-1 top-1 bottom-1 px-3 rounded-lg bg-primary hover:bg-primary/90 text-primary-foreground text-xs font-bold disabled:opacity-40 transition-all cursor-pointer flex items-center gap-1 shadow-xs"
+                      >
+                        {copilotLoading ? (
+                          <span className="animate-spin text-xs">⏳</span>
+                        ) : (
+                          <>
+                            <span>Run</span>
+                            <span>⚡</span>
+                          </>
+                        )}
+                      </button>
+                    </div>
+
+                    {/* Quick Presets */}
+                    <div className="flex items-center gap-1 flex-wrap">
+                      <span className="text-[9px] text-text-tertiary uppercase font-mono font-bold">Directives:</span>
+                      {[
+                        { label: "Stronger Winds", q: "Simulate stronger-than-normal coastal winds across Mumbai wards" },
+                        { label: "65mm/h Downpour", q: "Simulate monsoon rainfall at 65 mm/h for 3 hours" },
+                        { label: "4.8m Surge", q: "Simulate coastal surge with 4.8m high tide" },
+                        { label: "50% Blockage", q: "Increase drainage blockage to 50%" },
+                        { label: "Play 2x", q: "Play the simulation at 2x speed" },
+                        { label: "Exposed Assets", q: "Which hospitals and pumping stations are exposed?" },
+                      ].map((pr, pIdx) => (
+                        <button
+                          key={pIdx}
+                          type="button"
+                          onClick={() => {
+                            setCopilotPrompt(pr.q);
+                            handleRunCopilot(pr.q);
+                          }}
+                          disabled={copilotLoading}
+                          className="text-[9px] px-2 py-0.5 rounded-lg bg-surface-elevated hover:bg-primary/10 text-text-secondary hover:text-primary border border-divider transition-colors cursor-pointer"
+                        >
+                          {pr.label}
+                        </button>
+                      ))}
+                    </div>
+
+                    {copilotError && (
+                      <p className="text-[10px] text-rose-500 bg-rose-500/10 p-2 rounded-lg border border-rose-500/20">
+                        {copilotError}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                {/* ─── SECTION B: AGENT EXECUTION PIPELINE ───────────── */}
+                <div className="rounded-2xl border border-divider bg-card shadow-sm overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => setShowExecutionDetails(!showExecutionDetails)}
+                    className="w-full px-3 py-2 bg-surface/70 border-b border-divider flex items-center justify-between text-left cursor-pointer hover:bg-surface transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="text-primary font-bold">⚡</span>
+                      <span className="font-mono text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+                        B. 10-Stage Execution Pipeline
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[9px] font-mono px-1.5 py-0.2 rounded-full bg-emerald-500/10 text-emerald-600 font-bold">
+                        {latestAssistantMsg?.executionStages ? "10/10 Verified" : "Standby"}
+                      </span>
+                      <span className="text-text-tertiary text-xs">
+                        {showExecutionDetails ? "▴" : "▾"}
+                      </span>
+                    </div>
+                  </button>
+
+                  {showExecutionDetails && (
+                    <div className="p-3 space-y-2 text-[10px] font-mono">
+                      {latestAssistantMsg?.executionStages && latestAssistantMsg.executionStages.length > 0 ? (
+                        <div className="space-y-1 max-h-48 overflow-y-auto pr-1 scrollbar-thin">
+                          {latestAssistantMsg.executionStages.map((stg: any, sIdx: number) => (
+                            <div key={sIdx} className="flex items-start gap-1.5 p-1 rounded-md bg-surface/60">
+                              <span className="text-emerald-500 font-bold shrink-0">✓</span>
+                              <div className="min-w-0">
+                                <span className="font-bold text-text-primary uppercase tracking-tight block">
+                                  {stg.name}
+                                </span>
+                                {stg.detail && (
+                                  <span className="text-text-tertiary block leading-tight">{stg.detail}</span>
+                                )}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="text-text-tertiary italic text-center py-2">
+                          Ready for execution. Directives trigger multi-stage agentic workflow.
+                        </p>
+                      )}
+
+                      {/* Structured Tools Invocations Trace */}
+                      {latestAssistantMsg?.toolsExecuted && latestAssistantMsg.toolsExecuted.length > 0 && (
+                        <div className="pt-2 border-t border-divider/60 space-y-1">
+                          <span className="text-[9px] uppercase tracking-wider text-text-tertiary font-bold block">
+                            Tools Executed ({latestAssistantMsg.toolsExecuted.length}):
+                          </span>
+                          <div className="flex flex-wrap gap-1">
+                            {latestAssistantMsg.toolsExecuted.map((t: any, idx: number) => (
+                              <span
+                                key={idx}
+                                className="px-1.5 py-0.5 rounded bg-surface border border-divider text-[9px] text-text-secondary"
+                                title={JSON.stringify(t.input || {})}
+                              >
+                                🔧 {t.tool}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+
+                {/* ─── SECTION C: ACTIVE SIMULATION CONFIGURATION CARD ─ */}
+                <div className="rounded-2xl border border-divider bg-card shadow-sm overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => setShowActiveConfig(!showActiveConfig)}
+                    className="w-full px-3 py-2 bg-surface/70 border-b border-divider flex items-center justify-between text-left cursor-pointer hover:bg-surface transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="text-primary font-bold">⚙️</span>
+                      <span className="font-mono text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+                        C. Active Configuration
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[9px] font-mono px-1.5 py-0.2 rounded-full bg-primary/10 text-primary font-bold">
+                        {selectedScenarioId === "rainfall_waterlogging" ? "A" : selectedScenarioId === "rainfall_accumulation" ? "B" : selectedScenarioId === "coastal_monsoon_surge" ? "C" : selectedScenarioId === "drainage_stress_blockage" ? "D" : selectedScenarioId === "extreme_heat_stress" ? "E" : selectedScenarioId === "cyclonic_wind_squall" ? "F" : "G"}
+                      </span>
+                      <span className="text-text-tertiary text-xs">
+                        {showActiveConfig ? "▴" : "▾"}
+                      </span>
+                    </div>
+                  </button>
+
+                  {showActiveConfig && (
+                    <div className="p-3 space-y-2.5 text-xs">
+                      <div className="grid grid-cols-2 gap-2 text-[10px]">
+                        <div className="p-2 rounded-xl bg-surface border border-divider">
+                          <span className="text-text-tertiary block font-mono">SCENARIO</span>
+                          <strong className="text-text-primary text-[11px] truncate block">
+                            {activeScenario.title}
+                          </strong>
+                        </div>
+                        <div className="p-2 rounded-xl bg-surface border border-divider">
+                          <span className="text-text-tertiary block font-mono">GEOGRAPHIC SCOPE</span>
+                          <strong className="text-text-primary text-[11px] block">
+                            BMC 24 Wards
+                          </strong>
+                        </div>
+                        <div className="p-2 rounded-xl bg-surface border border-divider">
+                          <span className="text-text-tertiary block font-mono">TIMELINE HORIZON</span>
+                          <strong className="text-primary font-mono text-[11px] block">
+                            T={playback.timeStep.toFixed(1)}h / {maxDuration}h
+                          </strong>
+                        </div>
+                        <div className="p-2 rounded-xl bg-surface border border-divider">
+                          <span className="text-text-tertiary block font-mono">BASELINE CONTEXT</span>
+                          <strong className="text-text-primary text-[11px] truncate block">
+                            {baselineMode === "current_live" ? "Live Numerical" : baselineMode}
+                          </strong>
+                        </div>
+                      </div>
+
+                      {/* Scenario Applied Parameters Table */}
+                      <div className="p-2 rounded-xl bg-surface border border-divider space-y-1">
+                        <span className="text-[9px] font-mono uppercase font-bold text-text-tertiary block">
+                          Calibrated Input Parameters:
+                        </span>
+                        <div className="grid grid-cols-2 gap-1 text-[10px] font-mono">
+                          {Object.entries(params).map(([k, v]) => (
+                            <div key={k} className="flex justify-between p-1 rounded bg-card border border-divider/40">
+                              <span className="text-text-secondary truncate">{k}:</span>
+                              <strong className="text-primary font-bold">{v}</strong>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+
+                      {/* Modify in Manual Controls Button */}
+                      <button
+                        type="button"
+                        onClick={() => setPanelMode("manual")}
+                        className="w-full py-1.5 px-2 rounded-xl bg-surface-elevated hover:bg-primary/10 border border-divider hover:border-primary/40 text-text-secondary hover:text-primary text-[10px] font-bold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
+                      >
+                        <SlidersIcon size={12} />
+                        <span>Inspect or Modify in Manual Sliders →</span>
+                      </button>
+                    </div>
+                  )}
+                </div>
+
+                {/* ─── SECTION D: SIMULATION RESULT CARD ─────────────── */}
+                <div className="rounded-2xl border border-divider bg-card shadow-sm overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => setShowResultsCard(!showResultsCard)}
+                    className="w-full px-3 py-2 bg-surface/70 border-b border-divider flex items-center justify-between text-left cursor-pointer hover:bg-surface transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="text-primary font-bold">📊</span>
+                      <span className="font-mono text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+                        D. Simulation Output & Risk
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span
+                        className="text-[9px] font-mono px-1.5 py-0.2 rounded-full font-bold"
+                        style={{
+                          backgroundColor:
+                            simResult?.summary.overallAlertLevel === "RED_WARNING"
+                              ? "#ef444420"
+                              : simResult?.summary.overallAlertLevel === "ORANGE_ALERT"
+                              ? "#f9731620"
+                              : "#10b98120",
+                          color:
+                            simResult?.summary.overallAlertLevel === "RED_WARNING"
+                              ? "#ef4444"
+                              : simResult?.summary.overallAlertLevel === "ORANGE_ALERT"
+                              ? "#f97316"
+                              : "#10b981",
+                        }}
+                      >
+                        {simResult?.summary.overallAlertLevel?.replace("_", " ") || "NORMAL"}
+                      </span>
+                      <span className="text-text-tertiary text-xs">
+                        {showResultsCard ? "▴" : "▾"}
+                      </span>
+                    </div>
+                  </button>
+
+                  {showResultsCard && (
+                    <div className="p-3 space-y-2.5 text-xs">
+                      {/* Metric & Severity Highlights */}
+                      <div className="grid grid-cols-2 gap-2 text-[10px]">
+                        <div className="p-2 rounded-xl bg-surface border border-divider">
+                          <span className="text-text-tertiary block font-mono">PEAK HAZARD METRIC</span>
+                          <strong className="text-primary font-mono text-xs block">
+                            {simResult?.summary.peakCityValue?.toFixed(1) ?? "—"} {simResult?.rankedWards[0]?.metricUnit || ""}
+                          </strong>
+                        </div>
+                        <div className="p-2 rounded-xl bg-surface border border-divider">
+                          <span className="text-text-tertiary block font-mono">CRITICAL WARDS</span>
+                          <strong className="text-rose-500 font-mono text-xs block">
+                            {simResult?.summary.wardsInSevereTier ?? 0} High Severity
+                          </strong>
+                        </div>
+                      </div>
+
+                      {/* Top Affected Wards Interactive Chips */}
+                      {simResult?.rankedWards && simResult.rankedWards.length > 0 && (
+                        <div className="p-2 rounded-xl bg-surface border border-divider space-y-1">
+                          <span className="text-[9px] font-mono uppercase font-bold text-text-tertiary block">
+                            Top 3 Exposed Wards (Click to Focus):
+                          </span>
+                          <div className="grid grid-cols-3 gap-1">
+                            {simResult.rankedWards.slice(0, 3).map((w, idx) => (
+                              <button
+                                key={idx}
+                                type="button"
+                                onClick={() => handleSelectWard(w.wardId, true)}
+                                className="p-1 rounded-lg bg-card border border-divider hover:border-primary text-center transition-all cursor-pointer"
+                              >
+                                <span className="font-bold text-[10px] text-text-primary block truncate">
+                                  Ward {w.wardId}
+                                </span>
+                                <span
+                                  className="text-[9px] font-mono font-bold block"
+                                  style={{ color: w.severityColor || "#3b82f6" }}
+                                >
+                                  {w.metricValue.toFixed(1)}
+                                </span>
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Exposed Infrastructure Summary */}
+                      {latestAssistantMsg?.infrastructureResults && (
+                        <div className="p-2 rounded-xl bg-surface border border-divider space-y-1 text-[10px]">
+                          <div className="flex items-center justify-between">
+                            <span className="font-mono uppercase font-bold text-amber-600 dark:text-amber-400">
+                              Exposed Infrastructure:
+                            </span>
+                            <span className="font-mono font-bold text-text-secondary">
+                              {latestAssistantMsg.infrastructureResults.exposedCount} Total
+                            </span>
+                          </div>
+                          <div className="space-y-0.5 max-h-20 overflow-y-auto">
+                            {latestAssistantMsg.infrastructureResults.hospitals?.slice(0, 2).map((h: any, hIdx: number) => (
+                              <div key={hIdx} className="flex justify-between text-[9px] p-0.5 rounded bg-card">
+                                <span className="text-text-primary truncate">🏥 {h.name}</span>
+                                <span className="text-text-tertiary font-mono">Ward {h.wardId}</span>
+                              </div>
+                            ))}
+                            {latestAssistantMsg.infrastructureResults.pumpingStations?.slice(0, 2).map((p: any, pIdx: number) => (
+                              <div key={pIdx} className="flex justify-between text-[9px] p-0.5 rounded bg-card">
+                                <span className="text-text-primary truncate">⚙️ {p.name}</span>
+                                <span className="text-text-tertiary font-mono">PUMP</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      <p className="text-[9px] text-text-tertiary leading-tight italic">
+                        Model classification: Tier 2 Screening — numerical IDW / 0.01° grid proxy. For municipal advisory review.
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                {/* ─── SECTION E: DATASETS & EVIDENCE CARD ──────────── */}
+                <div className="rounded-2xl border border-divider bg-card shadow-sm overflow-hidden">
+                  <button
+                    type="button"
+                    onClick={() => setShowDatasetsCard(!showDatasetsCard)}
+                    className="w-full px-3 py-2 bg-surface/70 border-b border-divider flex items-center justify-between text-left cursor-pointer hover:bg-surface transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="text-primary font-bold">📂</span>
+                      <span className="font-mono text-[10px] font-bold text-text-secondary uppercase tracking-wider">
+                        E. Verified Datasets & Evidence
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-[9px] font-mono px-1.5 py-0.2 rounded-full bg-surface border border-divider text-text-secondary font-bold">
+                        {(latestAssistantMsg?.verifiedDatasets || SCENARIO_DATASETS[selectedScenarioId] || []).length} Sources
+                      </span>
+                      <span className="text-text-tertiary text-xs">
+                        {showDatasetsCard ? "▴" : "▾"}
+                      </span>
+                    </div>
+                  </button>
+
+                  {showDatasetsCard && (
+                    <div className="p-3 space-y-2 text-[10px]">
+                      <div className="space-y-1.5 max-h-48 overflow-y-auto pr-1 scrollbar-thin">
+                        {(latestAssistantMsg?.verifiedDatasets || SCENARIO_DATASETS[selectedScenarioId] || []).map(
+                          (ds: any, dIdx: number) => (
+                            <div key={dIdx} className="p-2 rounded-xl bg-surface border border-divider space-y-1">
+                              <div className="flex items-center justify-between">
+                                <strong className="text-text-primary font-bold text-[11px] truncate">
+                                  {ds.name}
+                                </strong>
+                                <span className="text-[8px] font-mono px-1 py-0.2 rounded bg-emerald-500/10 text-emerald-600 font-bold shrink-0">
+                                  {ds.status || "VERIFIED"}
+                                </span>
+                              </div>
+                              <div className="grid grid-cols-2 gap-1 text-[9px] text-text-tertiary font-mono">
+                                <div>Source: <span className="text-text-secondary">{ds.source}</span></div>
+                                <div>Resolution: <span className="text-text-secondary">{ds.resolution}</span></div>
+                                <div>Type: <span className="text-text-secondary">{ds.type}</span></div>
+                                <div>Coverage: <span className="text-text-secondary">{ds.coverage || "Greater Mumbai"}</span></div>
+                              </div>
+                              {ds.limitations && (
+                                <p className="text-[8px] text-text-tertiary italic">{ds.limitations}</p>
+                              )}
+                            </div>
+                          )
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* ─── SECTION F: SUGGESTED NEXT ACTIONS ────────────── */}
+                <div className="rounded-2xl border border-divider bg-card shadow-sm p-3 space-y-2">
+                  <div className="flex items-center gap-1.5 text-text-secondary">
+                    <span className="text-primary font-bold">🎯</span>
+                    <span className="font-mono text-[10px] font-bold uppercase tracking-wider">
+                      F. Suggested Next Operations
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 gap-1.5 text-[10px]">
+                    {selectedScenarioId === "cyclonic_wind_squall" ? (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Increase sustained wind speed to 75 km/h with 1.8x gusts")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>💨 Increase Sustained Wind Speed to 75 km/h</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Which coastal assets and pumping stations have highest wind squall risk?")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>🏥 Inspect Exposed Coastal Assets & Pumps</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Compare wind speeds at 40 km/h, 65 km/h and 85 km/h")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>📊 Compare 3 Wind Gust Variations</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Now simulate monsoon rainfall downpour at 70 mm/h")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>🌧️ Switch to Monsoon Downpour (Scenario A)</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                      </>
+                    ) : (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Simulate stronger than normal coastal winds across Mumbai wards")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>💨 Switch to Coastal Gale & Wind Squall (Scenario F)</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Increase rainfall rate to 85 mm/h")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>🌧️ Increase Downpour to 85 mm/h</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Which hospitals and pumping stations are exposed?")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>🏥 Inspect Exposed Hospitals & Pumps</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRunCopilot("Compare drainage blockage at 20%, 50% and 80%")}
+                          className="p-2 rounded-xl bg-surface hover:bg-primary/10 border border-divider hover:border-primary/40 text-left transition-colors cursor-pointer flex items-center justify-between font-semibold text-text-primary"
+                        >
+                          <span>📊 Compare Drainage Blockage Variations</span>
+                          <span className="text-primary">→</span>
+                        </button>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="p-4 pb-12 space-y-4 overflow-y-auto scrollbar-none text-xs flex-1">
+                {/* 🎛️ MANUAL SCENARIO PARAMETERS CONTROLS */}
+                {/* Scenario Selection */}
+                <div className="space-y-1.5">
+                  <label className="text-[11px] font-bold text-text-secondary uppercase tracking-wider">
+                    Hazard Scenario
+                  </label>
+                  <select
+                    value={selectedScenarioId}
+                    onChange={(e) => setSelectedScenarioId(e.target.value)}
+                    className="w-full px-3 py-2 rounded-xl border border-divider bg-surface text-text-primary font-semibold text-xs focus:outline-hidden"
+                  >
+                    {Object.values(SCENARIO_REGISTRY).map((sc) => (
+                      <option key={sc.id} value={sc.id}>
+                        {sc.title}
+                      </option>
+                    ))}
+                  </select>
+                  <p className="text-[10px] text-text-tertiary leading-tight">{activeScenario.description}</p>
+                </div>
+
+                {/* Baseline Selection */}
+                <div className="space-y-1.5">
+                  <label className="text-[11px] font-bold text-text-secondary uppercase tracking-wider">
+                    Baseline Context
+                  </label>
+                  <select
+                    value={baselineMode}
+                    onChange={(e) => {
+                      const mode = e.target.value;
+                      setBaselineMode(mode);
+                      if (mode.startsWith("historical")) {
+                        const ev = HISTORICAL_EVENTS.find((h) => h.id === mode);
+                        if (ev) setParams(ev.defaultParameters);
+                      }
+                    }}
+                    className="w-full px-3 py-2 rounded-xl border border-divider bg-surface text-text-primary font-semibold text-xs focus:outline-hidden"
+                  >
+                    <option value="current_live">Current Live Numerical Forecast</option>
+                    <option value="dry_baseline">Dry Meteorological Baseline (0 mm)</option>
+                    <option value="historical_july2005">26 July 2005 Extreme Cloudburst (944 mm)</option>
+                    <option value="historical_july2024">8 July 2024 Monsoon Downpour (268 mm)</option>
+                  </select>
+                </div>
+
+                {/* Dynamic Parameter Sliders */}
+                <div className="pt-2 border-t border-divider space-y-3.5">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
+                    Controlled Inputs & Variables
+                  </span>
+
+                  {activeScenario.inputs.map((inp) => {
+                    const val = params[inp.key] ?? inp.defaultValue;
+
+                    if (inp.key === "rainfallProfile") {
+                      return (
+                        <div key={inp.key} className="space-y-1">
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="font-semibold text-text-primary">{inp.label}</span>
+                            <span className="text-[10px] font-mono text-primary font-bold">Hyetograph</span>
+                          </div>
+                          <select
+                            value={val}
+                            onChange={(e) =>
+                              setParams((prev) => ({
+                                ...prev,
+                                [inp.key]: parseInt(e.target.value, 10),
+                              }))
+                            }
+                            className="w-full text-xs p-2 rounded-xl border border-divider bg-surface font-semibold text-text-primary focus:outline-hidden focus:ring-2 focus:ring-primary/20 cursor-pointer"
+                          >
+                            <option value="0">Constant Rate What-If (Uniform)</option>
+                            <option value="1">Chicago Convective Peak (Burst at T=2h)</option>
+                            <option value="2">26 July 2005 Cloudburst Benchmark</option>
+                          </select>
+                          <p className="text-[10px] text-text-tertiary leading-tight">{inp.description}</p>
+                        </div>
+                      );
                     }
-                  }}
-                  className="w-full px-3 py-2 rounded-xl border border-divider bg-surface text-text-primary font-semibold text-xs focus:outline-hidden"
-                >
-                  <option value="current_live">Current Live Numerical Forecast</option>
-                  <option value="dry_baseline">Dry Meteorological Baseline (0 mm)</option>
-                  <option value="historical_july2005">26 July 2005 Extreme Cloudburst (944 mm)</option>
-                  <option value="historical_july2024">8 July 2024 Monsoon Downpour (268 mm)</option>
-                </select>
-              </div>
 
-              {/* Dynamic Parameter Sliders */}
-              <div className="pt-2 border-t border-divider space-y-3.5">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
-                  Controlled Inputs & Variables
-                </span>
-
-                {activeScenario.inputs.map((inp) => {
-                  const val = params[inp.key] ?? inp.defaultValue;
-
-                  if (inp.key === "rainfallProfile") {
                     return (
                       <div key={inp.key} className="space-y-1">
                         <div className="flex items-center justify-between text-xs">
                           <span className="font-semibold text-text-primary">{inp.label}</span>
-                          <span className="text-[10px] font-mono text-primary font-bold">Hyetograph</span>
+                          <span className="font-mono font-bold text-primary">
+                            {val} {inp.unit}
+                          </span>
                         </div>
-                        <select
+                        <input
+                          type="range"
+                          min={inp.min}
+                          max={inp.max}
+                          step={inp.step}
                           value={val}
                           onChange={(e) =>
                             setParams((prev) => ({
                               ...prev,
-                              [inp.key]: parseInt(e.target.value, 10),
+                              [inp.key]: parseFloat(e.target.value),
                             }))
                           }
-                          className="w-full text-xs p-2 rounded-xl border border-divider bg-surface font-semibold text-text-primary focus:outline-hidden focus:ring-2 focus:ring-primary/20 cursor-pointer"
-                        >
-                          <option value="0">Constant Rate What-If (Uniform)</option>
-                          <option value="1">Chicago Convective Peak (Burst at T=2h)</option>
-                          <option value="2">26 July 2005 Cloudburst Benchmark</option>
-                        </select>
+                          className="w-full accent-primary h-1.5 rounded-lg bg-surface cursor-pointer"
+                        />
                         <p className="text-[10px] text-text-tertiary leading-tight">{inp.description}</p>
                       </div>
                     );
-                  }
+                  })}
+                </div>
 
-                  return (
-                    <div key={inp.key} className="space-y-1">
-                      <div className="flex items-center justify-between text-xs">
-                        <span className="font-semibold text-text-primary">{inp.label}</span>
-                        <span className="font-mono font-bold text-primary">
-                          {val} {inp.unit}
-                        </span>
-                      </div>
-                      <input
-                        type="range"
-                        min={inp.min}
-                        max={inp.max}
-                        step={inp.step}
-                        value={val}
-                        onChange={(e) =>
-                          setParams((prev) => ({
-                            ...prev,
-                            [inp.key]: parseFloat(e.target.value),
-                          }))
-                        }
-                        className="w-full accent-primary h-1.5 rounded-lg bg-surface cursor-pointer"
-                      />
-                      <p className="text-[10px] text-text-tertiary leading-tight">{inp.description}</p>
-                    </div>
-                  );
-                })}
-              </div>
-
-              {/* Missing Inputs & Quality Stress Testing */}
-              <div className="pt-2 border-t border-divider space-y-2">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
-                  Data Contract Quality Testing
-                </span>
-                <label className="flex items-center gap-2 cursor-pointer bg-surface p-2 rounded-xl border border-divider">
-                  <input
-                    type="checkbox"
-                    checked={simulateMissingInputs}
-                    onChange={(e) => setSimulateMissingInputs(e.target.checked)}
-                    className="rounded accent-amber-500"
-                  />
-                  <div className="text-[11px] leading-tight">
-                    <span className="font-bold text-text-primary block">Simulate Missing Sensor Inputs</span>
-                    <span className="text-[10px] text-text-tertiary">
-                      Tests fallback handling and transparent PARTIALLY_CALIBRATED reporting.
-                    </span>
-                  </div>
-                </label>
-              </div>
-
-              {/* Representation Mode Selector */}
-              <div className="pt-2 border-t border-divider space-y-2">
-                <div className="flex items-center justify-between">
+                {/* Missing Inputs & Quality Stress Testing */}
+                <div className="pt-2 border-t border-divider space-y-2">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
-                    Representation Mode
+                    Data Contract Quality Testing
                   </span>
-                  <span className="text-[9px] font-mono text-primary font-bold">
-                    {surfaceMode === "isoband" ? "Continuous Grid" : surfaceMode === "choropleth" ? "Admin Choropleth" : "Dual Hybrid"}
-                  </span>
-                </div>
-                <div className="grid grid-cols-3 gap-1 p-1 bg-surface rounded-xl border border-divider text-[10px]">
-                  <button
-                    type="button"
-                    onClick={() => setSurfaceMode("isoband")}
-                    className={`py-1.5 px-2 rounded-lg font-bold transition-all text-center ${
-                      surfaceMode === "isoband"
-                        ? "bg-card text-primary shadow-xs"
-                        : "text-text-secondary hover:text-text-primary"
-                    }`}
-                    title="Interpolated continuous hazard surface (0.01° grid)"
-                  >
-                    Isobands
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setSurfaceMode("choropleth")}
-                    className={`py-1.5 px-2 rounded-lg font-bold transition-all text-center ${
-                      surfaceMode === "choropleth"
-                        ? "bg-card text-primary shadow-xs"
-                        : "text-text-secondary hover:text-text-primary"
-                    }`}
-                    title="Discrete administrative ward choropleth polygons"
-                  >
-                    Choropleth
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setSurfaceMode("hybrid")}
-                    className={`py-1.5 px-2 rounded-lg font-bold transition-all text-center ${
-                      surfaceMode === "hybrid"
-                        ? "bg-card text-primary shadow-xs"
-                        : "text-text-secondary hover:text-text-primary"
-                    }`}
-                    title="Dual continuous surface with translucent ward fills"
-                  >
-                    Hybrid
-                  </button>
-                </div>
-                <p className="text-[9px] text-text-tertiary leading-tight">
-                  {surfaceMode === "isoband" && "Continuous raster grid: Displays interpolated spatial variation across Greater Mumbai."}
-                  {surfaceMode === "choropleth" && "Administrative ward fills: Displays discrete municipal triage ranking per 24 BMC wards."}
-                  {surfaceMode === "hybrid" && "Hybrid: Continuous environmental gradient overlaid with translucent administrative severity fills."}
-                </p>
-              </div>
-
-              {/* Layer Toggles */}
-              <div className="pt-2 border-t border-divider space-y-2">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
-                  Map Spatial Layers
-                </span>
-                <div className="grid grid-cols-2 gap-2 text-[11px]">
-                  <label className="flex items-center gap-1.5 cursor-pointer">
+                  <label className="flex items-center gap-2 cursor-pointer bg-surface p-2 rounded-xl border border-divider">
                     <input
                       type="checkbox"
-                      checked={showSurface}
-                      onChange={(e) => setShowSurface(e.target.checked)}
-                      className="rounded accent-primary"
-                    />
-                    <span>Hazard Surface</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showWards}
-                      onChange={(e) => setShowWards(e.target.checked)}
-                      className="rounded accent-primary"
-                    />
-                    <span>BMC Wards</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showZones}
-                      onChange={(e) => setShowZones(e.target.checked)}
-                      className="rounded accent-purple-600"
-                    />
-                    <span>BMC Zones (I–VII)</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showRivers}
-                      onChange={(e) => setShowRivers(e.target.checked)}
-                      className="rounded accent-primary"
-                    />
-                    <span>Rivers & Nullahs</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showHotspots}
-                      onChange={(e) => setShowHotspots(e.target.checked)}
-                      className="rounded accent-primary"
-                    />
-                    <span>Hotspots (35)</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showPumps}
-                      onChange={(e) => setShowPumps(e.target.checked)}
-                      className="rounded accent-primary"
-                    />
-                    <span>Pumps (41)</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showRoads}
-                      onChange={(e) => setShowRoads(e.target.checked)}
+                      checked={simulateMissingInputs}
+                      onChange={(e) => setSimulateMissingInputs(e.target.checked)}
                       className="rounded accent-amber-500"
                     />
-                    <span>Arterial Roads (78)</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer">
-                    <input
-                      type="checkbox"
-                      checked={showDepressions}
-                      onChange={(e) => setShowDepressions(e.target.checked)}
-                      className="rounded accent-cyan-500"
-                    />
-                    <span>DEM Saucers (15)</span>
-                  </label>
-                  <label className="flex items-center gap-1.5 cursor-pointer col-span-2">
-                    <input
-                      type="checkbox"
-                      checked={showHospitals}
-                      onChange={(e) => setShowHospitals(e.target.checked)}
-                      className="rounded accent-rose-500"
-                    />
-                    <span>Emergency Hospitals (20)</span>
+                    <div className="text-[11px] leading-tight">
+                      <span className="font-bold text-text-primary block">Simulate Missing Sensor Inputs</span>
+                      <span className="text-[10px] text-text-tertiary">
+                        Tests fallback handling and transparent PARTIALLY_CALIBRATED reporting.
+                      </span>
+                    </div>
                   </label>
                 </div>
 
-                {/* Focus Filter Toggle */}
-                <label className="flex items-center gap-2 cursor-pointer bg-surface/80 p-2 rounded-xl border border-divider mt-2">
-                  <input
-                    type="checkbox"
-                    checked={filterToSelectedWard}
-                    onChange={(e) => setFilterToSelectedWard(e.target.checked)}
-                    className="rounded accent-primary"
-                  />
-                  <div className="text-[11px] leading-tight">
-                    <span className="font-bold text-text-primary block">Focus Markers on Ward {selectedWardId}</span>
-                    <span className="text-[10px] text-text-tertiary">
-                      Declutter map by filtering hotspots and pumps exclusively to the inspected ward.
+                {/* Representation Mode Selector */}
+                <div className="pt-2 border-t border-divider space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
+                      Representation Mode
+                    </span>
+                    <span className="text-[9px] font-mono text-primary font-bold">
+                      {surfaceMode === "isoband" ? "Continuous Grid" : surfaceMode === "choropleth" ? "Admin Choropleth" : "Dual Hybrid"}
                     </span>
                   </div>
-                </label>
+                  <div className="grid grid-cols-3 gap-1 p-1 bg-surface rounded-xl border border-divider text-[10px]">
+                    <button
+                      type="button"
+                      onClick={() => setSurfaceMode("isoband")}
+                      className={`py-1.5 px-2 rounded-lg font-bold transition-all text-center ${
+                        surfaceMode === "isoband"
+                          ? "bg-card text-primary shadow-xs"
+                          : "text-text-secondary hover:text-text-primary"
+                      }`}
+                      title="Interpolated continuous hazard surface (0.01° grid)"
+                    >
+                      Isobands
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setSurfaceMode("choropleth")}
+                      className={`py-1.5 px-2 rounded-lg font-bold transition-all text-center ${
+                        surfaceMode === "choropleth"
+                          ? "bg-card text-primary shadow-xs"
+                          : "text-text-secondary hover:text-text-primary"
+                      }`}
+                      title="Discrete administrative ward choropleth polygons"
+                    >
+                      Choropleth
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setSurfaceMode("hybrid")}
+                      className={`py-1.5 px-2 rounded-lg font-bold transition-all text-center ${
+                        surfaceMode === "hybrid"
+                          ? "bg-card text-primary shadow-xs"
+                          : "text-text-secondary hover:text-text-primary"
+                      }`}
+                      title="Dual continuous surface with translucent ward fills"
+                    >
+                      Hybrid
+                    </button>
+                  </div>
+                </div>
+
+                {/* Layer Toggles */}
+                <div className="pt-2 border-t border-divider space-y-2">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-text-tertiary block font-mono">
+                    Map Spatial Layers
+                  </span>
+                  <div className="grid grid-cols-2 gap-2 text-[11px]">
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showSurface}
+                        onChange={(e) => setShowSurface(e.target.checked)}
+                        className="rounded accent-primary"
+                      />
+                      <span>Hazard Surface</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showWards}
+                        onChange={(e) => setShowWards(e.target.checked)}
+                        className="rounded accent-primary"
+                      />
+                      <span>BMC Wards</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showZones}
+                        onChange={(e) => setShowZones(e.target.checked)}
+                        className="rounded accent-purple-600"
+                      />
+                      <span>BMC Zones (I–VII)</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showRivers}
+                        onChange={(e) => setShowRivers(e.target.checked)}
+                        className="rounded accent-primary"
+                      />
+                      <span>Rivers & Nullahs</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showHotspots}
+                        onChange={(e) => setShowHotspots(e.target.checked)}
+                        className="rounded accent-primary"
+                      />
+                      <span>Hotspots (35)</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showPumps}
+                        onChange={(e) => setShowPumps(e.target.checked)}
+                        className="rounded accent-primary"
+                      />
+                      <span>Pumps (41)</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showRoads}
+                        onChange={(e) => setShowRoads(e.target.checked)}
+                        className="rounded accent-amber-500"
+                      />
+                      <span>Arterial Roads (78)</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={showDepressions}
+                        onChange={(e) => setShowDepressions(e.target.checked)}
+                        className="rounded accent-cyan-500"
+                      />
+                      <span>DEM Saucers (15)</span>
+                    </label>
+                    <label className="flex items-center gap-1.5 cursor-pointer col-span-2">
+                      <input
+                        type="checkbox"
+                        checked={showHospitals}
+                        onChange={(e) => setShowHospitals(e.target.checked)}
+                        className="rounded accent-rose-500"
+                      />
+                      <span>Emergency Hospitals (20)</span>
+                    </label>
+                  </div>
+
+                  {/* Focus Filter Toggle */}
+                  <label className="flex items-center gap-2 cursor-pointer bg-surface/80 p-2 rounded-xl border border-divider mt-2">
+                    <input
+                      type="checkbox"
+                      checked={filterToSelectedWard}
+                      onChange={(e) => setFilterToSelectedWard(e.target.checked)}
+                      className="rounded accent-primary"
+                    />
+                    <div className="text-[11px] leading-tight">
+                      <span className="font-bold text-text-primary block">Focus Markers on Ward {selectedWardId}</span>
+                      <span className="text-[10px] text-text-tertiary">
+                        Declutter map by filtering hotspots and pumps exclusively to the inspected ward.
+                      </span>
+                    </div>
+                  </label>
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Quick Actions Footer */}
             <div className="p-3 border-t border-divider bg-surface/50 flex items-center justify-between">
               <button
                 onClick={handleExportCSV}
-                className="w-full px-3 py-2 rounded-xl text-xs font-bold bg-surface border border-divider hover:bg-surface-elevated text-text-primary flex items-center justify-center gap-2 transition-all shadow-xs"
+                className="w-full px-3 py-2 rounded-xl text-xs font-bold bg-surface border border-divider hover:bg-surface-elevated text-text-primary flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer"
               >
                 <DownloadIcon size={14} />
                 <span>Export Dossier (CSV)</span>

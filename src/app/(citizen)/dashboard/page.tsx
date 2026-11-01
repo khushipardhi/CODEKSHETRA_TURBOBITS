@@ -122,45 +122,35 @@ function CitizenHazardDashboardContent() {
         {/* 1. Official Weather & Hazard Advisory Banner */}
         <SentinelHazardBanner onOpenAssistant={() => setSentinelAssistantOpen(true)} />
 
-        {/* 2. Explicit Location Context Indicator Bar (Requirement 2) */}
-        <div className="p-3.5 rounded-2xl bg-surface-0 border border-border shadow-xs flex flex-wrap items-center justify-between gap-3 text-xs">
-          <div className="flex items-center gap-2.5 flex-wrap">
-            <div className="flex items-center gap-1.5 font-bold text-text-primary">
+        {/* 2. Explicit Location Context Indicator Bar */}
+        <div className="p-3 rounded-2xl bg-surface-0 dark:bg-surface-1 border border-border shadow-2xs flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 text-xs">
+          <div className="flex items-center justify-between sm:justify-start gap-2 flex-wrap">
+            <div className="flex items-center gap-2 font-bold text-text-primary">
               <span className="text-base">📍</span>
-              <span>{selectedArea}</span>
-              {selectedWard ? (
+              <span className="text-sm tracking-tight">{selectedArea}</span>
+              {selectedWard && (
                 <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-accent/15 text-accent border border-accent/25">
                   {city === "mumbai" ? `BMC Ward ${selectedWard.id}` : selectedWard.name}
-                </span>
-              ) : (
-                <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-surface-2 text-text-tertiary">
-                  {cityConfig.name} Jurisdiction
                 </span>
               )}
             </div>
 
-            <div className="flex items-center gap-2 text-[11px] text-text-tertiary">
-              <span className="hidden sm:inline">•</span>
-              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-1 border border-border font-mono text-[10px]">
-                {locationContext.selectionMethod === "GPS_DEVICE"
-                  ? "🛰️ Verified Device GPS"
-                  : locationContext.selectionMethod === "MANUAL_SELECTOR"
-                  ? "📍 Citizen Selected Locality"
-                  : "🏛️ City Baseline (Default)"}
-              </span>
-              <span className="hidden md:inline">•</span>
-              <span className="hidden md:inline font-mono text-[10px] text-text-secondary">
-                Grid: {locationContext.providerCoords[0].toFixed(2)}°N, {locationContext.providerCoords[1].toFixed(2)}°E (~1km ECMWF)
-              </span>
-            </div>
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-surface-2 border border-border/60 text-[10px] text-text-secondary font-medium">
+              {locationContext.selectionMethod === "GPS_DEVICE"
+                ? "🛰️ Verified Device GPS"
+                : locationContext.selectionMethod === "MANUAL_SELECTOR"
+                ? "📍 Citizen Locality"
+                : "🏛️ City Baseline"}
+            </span>
           </div>
 
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center justify-end gap-2 shrink-0 pt-1 sm:pt-0 border-t sm:border-t-0 border-border/40">
             <button
               onClick={openSelector}
-              className="px-3 py-1.5 rounded-xl bg-surface-1 hover:bg-surface-2 text-text-primary border border-border font-semibold text-xs transition-colors cursor-pointer shadow-2xs"
+              className="w-full sm:w-auto px-3 py-1.5 rounded-xl bg-surface-2 hover:bg-surface-3 text-text-primary text-xs font-semibold border border-border transition-colors flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs"
             >
-              Change Area ⇄
+              <span>Change Area</span>
+              <span className="text-[10px]">⇄</span>
             </button>
           </div>
         </div>

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "mumbai_transport_subways_underpasses",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "subway_id": "SUBW01", "name": "Milan Subway", "ward": "H/E - H/W", "lat": 19.088, "lon": 72.844, "road_level_m": 7.5, "invert_level_m": 5.1, "clearance_height_m": 3.8, "dedicated_dewatering_pumps": "4 x 50 HP Submersible Pumps" }, "geometry": { "type": "Point", "coordinates": [ 72.844, 19.088 ] } },
+{ "type": "Feature", "properties": { "subway_id": "SUBW02", "name": "Andheri Subway", "ward": "K/E - K/W", "lat": 19.1185, "lon": 72.8445, "road_level_m": 9.2, "invert_level_m": 6.8, "clearance_height_m": 3.6, "dedicated_dewatering_pumps": "6 x 75 HP Submersible Pumps" }, "geometry": { "type": "Point", "coordinates": [ 72.8445, 19.1185 ] } },
+{ "type": "Feature", "properties": { "subway_id": "SUBW03", "name": "Khar Subway", "ward": "H/W", "lat": 19.072, "lon": 72.839, "road_level_m": 6.8, "invert_level_m": 4.9, "clearance_height_m": 3.5, "dedicated_dewatering_pumps": "3 x 50 HP Pumps" }, "geometry": { "type": "Point", "coordinates": [ 72.839, 19.072 ] } },
+{ "type": "Feature", "properties": { "subway_id": "SUBW04", "name": "Malad Subway", "ward": "P/N", "lat": 19.186, "lon": 72.846, "road_level_m": 10.5, "invert_level_m": 7.8, "clearance_height_m": 3.7, "dedicated_dewatering_pumps": "4 x 50 HP Pumps" }, "geometry": { "type": "Point", "coordinates": [ 72.846, 19.186 ] } },
+{ "type": "Feature", "properties": { "subway_id": "SUBW05", "name": "Dahisar Subway", "ward": "R/N", "lat": 19.255, "lon": 72.858, "road_level_m": 14.0, "invert_level_m": 11.2, "clearance_height_m": 3.9, "dedicated_dewatering_pumps": "3 x 40 HP Pumps" }, "geometry": { "type": "Point", "coordinates": [ 72.858, 19.255 ] } }
+]
+}

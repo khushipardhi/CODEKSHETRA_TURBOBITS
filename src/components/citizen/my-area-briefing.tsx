@@ -261,85 +261,124 @@ export function MyAreaBriefing({
       {/* ── Key Metrics Bar ── */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {/* Precipitation */}
-        <div className="p-3.5 rounded-2xl bg-surface-1 border border-border/50">
-          <div className="flex items-center justify-between">
-            <p className="text-[10px] font-semibold text-text-tertiary uppercase">Precipitation</p>
-            {weather.precipitationProbabilityMax !== null && weather.precipitationProbabilityMax !== undefined && (
-              <span className="text-[10px] font-bold text-accent">
-                {weather.precipitationProbabilityMax}% prob
+        <div className="p-3.5 rounded-2xl bg-surface-0 dark:bg-surface-1 border border-border shadow-2xs flex flex-col justify-between min-h-[112px]">
+          <div>
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[10px] font-bold text-text-tertiary uppercase tracking-wider">Rainfall</span>
+              {weather.precipitationProbabilityMax !== null && weather.precipitationProbabilityMax !== undefined && (
+                <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-accent/10 text-accent">
+                  {weather.precipitationProbabilityMax}%
+                </span>
+              )}
+            </div>
+            <div className="flex items-baseline gap-1 mt-0.5">
+              <span className="text-2xl font-black text-text-primary tracking-tight">
+                {rainRateDisplay}
               </span>
-            )}
+              {!weather.isUnavailable && <span className="text-xs font-semibold text-text-tertiary">mm/h</span>}
+            </div>
           </div>
-          <div className="flex items-baseline gap-1 mt-1">
-            <span className="text-xl font-black text-text-primary">
-              {rainRateDisplay}
+          <div className="text-[11px] text-text-secondary font-medium pt-1 border-t border-border/40 flex items-center justify-between">
+            <span>24h Total</span>
+            <span className="font-semibold text-text-primary">
+              {weather.isUnavailable ? "Offline" : `${weather.forecast24hTotalMm || 0} mm`}
             </span>
-            {!weather.isUnavailable && <span className="text-xs text-text-tertiary">mm/h</span>}
           </div>
-          <p className="text-[11px] text-text-tertiary mt-0.5 truncate">
-            {weather.isUnavailable
-              ? "Feed offline"
-              : weather.forecast24hTotalMm > 0
-              ? `24h: ${weather.forecast24hTotalMm} mm accumulated`
-              : weather.weatherDescription}
-          </p>
         </div>
 
         {/* Temperature & Wind */}
-        <div className="p-3.5 rounded-2xl bg-surface-1 border border-border/50">
-          <p className="text-[10px] font-semibold text-text-tertiary uppercase">Temperature</p>
-          <div className="flex items-baseline gap-1 mt-1">
-            <span className="text-xl font-black text-text-primary">
-              {tempDisplay}
-            </span>
+        <div className="p-3.5 rounded-2xl bg-surface-0 dark:bg-surface-1 border border-border shadow-2xs flex flex-col justify-between min-h-[112px]">
+          <div>
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[10px] font-bold text-text-tertiary uppercase tracking-wider">Temperature</span>
+              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-surface-2 text-text-secondary">Air</span>
+            </div>
+            <div className="flex items-baseline gap-1 mt-0.5">
+              <span className="text-2xl font-black text-text-primary tracking-tight">
+                {tempDisplay}
+              </span>
+            </div>
           </div>
-          <p className="text-[11px] text-text-tertiary mt-0.5 truncate">
-            Wind: {windDisplay}
-          </p>
+          <div className="text-[11px] text-text-secondary font-medium pt-1 border-t border-border/40 flex items-center justify-between">
+            <span>Wind</span>
+            <span className="font-semibold text-text-primary truncate max-w-[100px]">{windDisplay}</span>
+          </div>
         </div>
 
         {/* Air Quality */}
-        <div className="p-3.5 rounded-2xl bg-surface-1 border border-border/50">
-          <p className="text-[10px] font-semibold text-text-tertiary uppercase">Air Quality</p>
-          <div className="flex items-baseline gap-1 mt-1">
-            <span className={`text-xl font-black ${
-              aqi.usAqi === null
-                ? "text-text-tertiary"
-                : aqi.usAqi <= 50
-                ? "text-emerald-500"
-                : aqi.usAqi <= 100
-                ? "text-amber-500"
-                : "text-rose-500"
-            }`}>
-              {aqiDisplay}
-            </span>
-            {aqi.usAqi !== null && <span className="text-xs text-text-tertiary">AQI</span>}
+        <div className="p-3.5 rounded-2xl bg-surface-0 dark:bg-surface-1 border border-border shadow-2xs flex flex-col justify-between min-h-[112px]">
+          <div>
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[10px] font-bold text-text-tertiary uppercase tracking-wider">Air Quality</span>
+              <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded ${
+                aqi.usAqi === null
+                  ? "bg-surface-2 text-text-tertiary"
+                  : aqi.usAqi <= 50
+                  ? "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400"
+                  : aqi.usAqi <= 100
+                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400"
+                  : "bg-rose-500/15 text-rose-600 dark:text-rose-400"
+              }`}>
+                {aqiCategory}
+              </span>
+            </div>
+            <div className="flex items-baseline gap-1 mt-0.5">
+              <span className={`text-2xl font-black tracking-tight ${
+                aqi.usAqi === null
+                  ? "text-text-tertiary"
+                  : aqi.usAqi <= 50
+                  ? "text-emerald-600 dark:text-emerald-400"
+                  : aqi.usAqi <= 100
+                  ? "text-amber-600 dark:text-amber-400"
+                  : "text-rose-600 dark:text-rose-400"
+              }`}>
+                {aqiDisplay}
+              </span>
+              {aqi.usAqi !== null && <span className="text-xs font-semibold text-text-tertiary">AQI</span>}
+            </div>
           </div>
-          <p className="text-[11px] text-text-tertiary mt-0.5 truncate">
-            {aqiCategory}
-          </p>
+          <div className="text-[11px] text-text-secondary font-medium pt-1 border-t border-border/40 flex items-center justify-between">
+            <span>PM2.5</span>
+            <span className="font-semibold text-text-primary">{aqi.pm25 !== null ? `${aqi.pm25} µg` : "N/A"}</span>
+          </div>
         </div>
 
         {/* Local Risk Index */}
-        <div className="p-3.5 rounded-2xl bg-surface-1 border border-border/50">
-          <p className="text-[10px] font-semibold text-text-tertiary uppercase">Neighborhood Risk</p>
-          <div className="flex items-baseline gap-1 mt-1">
-            <span className={`text-xl font-black ${
-              risk.level === "SEVERE"
-                ? "text-red-500"
-                : risk.level === "WARNING"
-                ? "text-amber-500"
-                : risk.level === "MODERATE"
-                ? "text-yellow-500"
-                : "text-emerald-500"
-            }`}>
-              {risk.score}
-            </span>
-            <span className="text-xs text-text-tertiary">/100</span>
+        <div className="p-3.5 rounded-2xl bg-surface-0 dark:bg-surface-1 border border-border shadow-2xs flex flex-col justify-between min-h-[112px]">
+          <div>
+            <div className="flex items-center justify-between gap-1 mb-1">
+              <span className="text-[10px] font-bold text-text-tertiary uppercase tracking-wider">Ward Risk</span>
+              <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded ${
+                risk.level === "SEVERE"
+                  ? "bg-rose-500/15 text-rose-600 dark:text-rose-400"
+                  : risk.level === "WARNING"
+                  ? "bg-amber-500/15 text-amber-600 dark:text-amber-400"
+                  : risk.level === "MODERATE"
+                  ? "bg-amber-500/10 text-amber-600 dark:text-amber-400"
+                  : "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400"
+              }`}>
+                {risk.level}
+              </span>
+            </div>
+            <div className="flex items-baseline gap-1 mt-0.5">
+              <span className={`text-2xl font-black tracking-tight ${
+                risk.level === "SEVERE"
+                  ? "text-rose-600 dark:text-rose-400"
+                  : risk.level === "WARNING"
+                  ? "text-amber-600 dark:text-amber-400"
+                  : risk.level === "MODERATE"
+                  ? "text-amber-600 dark:text-amber-400"
+                  : "text-emerald-600 dark:text-emerald-400"
+              }`}>
+                {risk.score}
+              </span>
+              <span className="text-xs font-semibold text-text-tertiary">/100</span>
+            </div>
           </div>
-          <p className="text-[11px] text-text-tertiary mt-0.5 truncate font-semibold">
-            {risk.level}
-          </p>
+          <div className="text-[11px] text-text-secondary font-medium pt-1 border-t border-border/40 flex items-center justify-between">
+            <span>Status</span>
+            <span className="font-semibold text-text-primary">{risk.score < 30 ? "Nominal" : "Monitored"}</span>
+          </div>
         </div>
       </div>
 

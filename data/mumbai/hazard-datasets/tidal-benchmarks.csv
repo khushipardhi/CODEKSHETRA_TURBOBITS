@@ -1,0 +1,9 @@
+datum_name,level_chart_datum_m,level_msl_m,level_thd_m,significance
+Highest Astronomical Tide (HAT),5.03,2.52,27.7,Maximum possible astronomical water level; closes all city outfalls
+Mean High Water Springs (MHWS),4.42,1.91,27.09,Spring high tide threshold; triggers BMC flap-gate locking warnings
+Mean High Water Neaps (MHWN),3.3,0.79,25.97,Neap high tide stage
+Mean Sea Level (MSL),2.51,0.0,25.18,Survey of India Geodetic Vertical Reference
+Mean Low Water Neaps (MLWN),1.86,-0.65,24.53,Neap low water stage
+Mean Low Water Springs (MLWS),0.76,-1.75,23.43,Spring low tide stage; maximum gravity discharge capacity
+Lowest Astronomical Tide (LAT),0.12,-2.39,22.79,Lowest possible astronomical tide
+Mumbai Town Hall Datum (THD) Base,-2.67,-5.18,20.0,Historical BMC engineering baseline (THD = MSL + 2.67m)

@@ -1,0 +1,4 @@
+cyclone_name,year,month,max_intensity,max_sustained_wind_kmh,min_pressure_hpa,peak_surge_m,closest_approach_km,rainfall_colaba_mm
+Cyclone Phyan,2009,November,Cyclonic Storm,85,988,0.8,40,105.0
+Cyclone Nisarga,2020,June,Severe Cyclonic Storm,115,984,1.2,75,72.5
+Cyclone Tauktae,2021,May,Extremely Severe Cyclonic Storm,185,950,1.8,120,214.0

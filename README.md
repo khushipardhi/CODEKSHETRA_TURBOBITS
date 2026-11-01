@@ -1,21 +1,62 @@
-# Sentinel City Intelligence — Multi-Hazard Early Warning & Civic Command Platform
+# AGENTONE (CivicOS) — City Intelligence & Autonomous Operations System
 
-> An AI-powered, multi-hazard early warning and urban intelligence platform extending **Urban Link** across **Mumbai (BMC)**, **Pune (PMC)**, and **Nagpur (NMC)**. Grounded in verified telemetry, municipal spatial assets, and official disaster control protocols.
+> **AGENTONE** is an enterprise city intelligence and autonomous operations platform. Built on **CivicOS**, it coordinates five specialized AI engines under the **CivicOS Central Orchestrator**, while powering **Sentinel AI** for citizen-facing safety, hazard briefings, and emergency guidance.
 
 ---
 
-## 🏛️ System Overview
+## 🏛️ Product Architecture & Identity Hierarchy
 
-**Sentinel City Intelligence** bridges real-time environmental earth observation (Doppler radar precipitation, air quality index, river discharge, coastal storm surge, seismology) with municipal emergency response and citizen civic management.
+- **Main Platform**: **AGENTONE** / **CivicOS** — Autonomous City Intelligence & Operations System
+- **Main Admin Experience**: **CivicOS Control Room** (`/admin/[city]/agents`)
+- **Multi-Agent Network**: **CivicOS Agent Network** — 5 autonomous specialized engines
+- **Central Orchestrator**: **CivicOS Central Orchestrator** (coordinates specialists, dispatches parallel child investigations, synthesizes city-wide intelligence)
+- **Domain Specialists**:
+  - **Simulation Agent**: Spatial digital twin & 7-scenario hydrological physical engine
+  - **Hazard Intelligence Agent**: Real-time environmental telemetry, marine swell, AQI, and 0-100 risk scoring
+  - **Incident Analysis Agent**: 319 live TiDB incidents triaged across 17 municipal departments with spatial clustering
+  - **Citizen Safety Agent**: Verified emergency shelter lookups, defensive monsoon travel advisories
+- **Citizen-Facing Product**: **Sentinel AI** (`/dashboard`, `/mumbai/sentinel`) — Civic safety and local area briefing assistant.
 
-### Key Capabilities
-- **Citizen Safety Hub (`/[city]/sentinel`)**: Real-time localized weather and environmental condition cards, direct hotlines to municipal emergency cells, verified disaster shelter locators, and a conversational **Sentinel Safety Assistant** powered by Groq (`openai/gpt-oss-120b`).
-- **Admin Command Centre (`/admin/[city]`)**: Unified city command overview with live multi-hazard risk scoring, connector health monitoring, and priority incident triage.
-- **Geospatial Incident & Hazard Map (`/admin/[city]/map`)**: Leaflet map supporting 5 basemap providers, live weather tickers, and toggleable vector layers (35 Mumbai recurrent flood hotspots, 15 terrain depression basins, 88 km arterial drainage nullahs, and coastal surge zones).
-- **Human-in-the-Loop Alert Review Modal (`?tab=alerts`)**: CAP-compliant administrative review and broadcast engine before sirens or push notifications are dispatched.
-- **Monsoon Downpour Simulation Engine (`?tab=simulation`)**: Hydrological stress-test module evaluating 25, 50, and 85 mm/h downpours against actual terrain slope and drainage bottlenecks, watermarked with `[SIMULATION SCENARIO]`.
-- **Department Operations Console (`/department/[city]/[dept]`)**: Tailored operational context (e.g. Drainage Roster Protocol, rainfall thresholds, and pumping station inspection rules) preserving existing ticket desks and shift dispatchers.
-- **Preserved Urban Link Core**: 53 original routes, citizen incident reporting wizard, AssemblyAI voice input, 17 department desks, and worker shift dispatch remain 100% operational with 0 regressions.
+---
+
+## 🚀 Key Capabilities
+
+- **Autonomous Multi-Agent Investigation Cockpit**: Real-time investigation tracking with live specialist activity cards, chronological execution timeline, individual specialist dossier inspection, and synthesized city reports.
+- **Citizen Mobile Experience (Sentinel AI)**: Perfectly balanced 5-slot bottom navigation with centered elevated `+ Report` FAB, unified area briefing indicators, and real-time localized weather telemetry.
+- **Geospatial Digital Twin & Map Workspace**: Multi-layer GIS boundaries (24 BMC wards), saucer depression hotspots, arterial drainage nullahs, and simulation controls.
+- **TiDB Cloud Serverless Connectivity**: Grounded in 319 real incident records, 24 municipal wards, and zero fabricated records.
+
+---
+
+## 🌐 Vercel Deployment Guide
+
+### 1. Google OAuth Setup
+In Google Cloud Console:
+1. Open **APIs & Services > Credentials**.
+2. Select your OAuth 2.0 Client ID.
+3. Add Authorized Redirect URI:
+   - For Local Development: `http://localhost:3000/api/auth/callback/google`
+   - For Production Vercel: `https://YOUR-VERCEL-DOMAIN.vercel.app/api/auth/callback/google`
+
+### 2. Required Production Environment Variables in Vercel
+- `DATABASE_HOST`: TiDB Cloud host (e.g. `gateway01.ap-southeast-1.prod.aws.tidbcloud.com`)
+- `DATABASE_PORT`: `4000`
+- `DATABASE_USER`: TiDB user
+- `DATABASE_PASSWORD`: TiDB password
+- `DATABASE_NAME`: `nagpur_connect`
+- `GROQ_ORCHESTRATOR_API_KEY`: Groq API Key for Central Orchestrator
+- `GROQ_ORCHESTRATOR_MODEL`: `openai/gpt-oss-120b`
+- `GROQ_LLAMA_API_KEY`: Groq key for reporting
+- `GROQ_API_KEY`: Groq key for Sentinel AI
+- `NEXT_PUBLIC_APP_URL`: `https://YOUR-VERCEL-DOMAIN.vercel.app`
+- `NEXTAUTH_URL`: `https://YOUR-VERCEL-DOMAIN.vercel.app`
+- `NEXTAUTH_SECRET`: Random 32-byte string (`openssl rand -base64 32`)
+- `AUTH_TRUST_HOST`: `true`
+- `GOOGLE_CLIENT_ID`: Your Google OAuth Client ID
+- `GOOGLE_CLIENT_SECRET`: Your Google OAuth Client Secret
+
+### 3. Serverless Background Monitoring
+Autonomous operations cycles are scheduled via Vercel Cron in `vercel.json` (`*/10 * * * *` invoking `/api/agents/autonomous-monitor?city=mumbai`), requiring no persistent node worker.
 
 ---
 

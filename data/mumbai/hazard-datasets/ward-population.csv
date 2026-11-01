@@ -1,0 +1,25 @@
+ward_id,ward_name,zone,census_2011_population,projected_2026_population,area_sqkm,density_per_sqkm,estimated_daytime_population,estimated_nighttime_population,slum_population_percentage
+A,Colaba / Fort,Zone 1 (City),185014,218316,12.5,17465.3,392968,218316,20.0
+B,Sandhurst Road / Dongri,Zone 1 (City),127290,150202,2.8,53643.6,270363,150202,20.0
+C,Marine Lines / Pydhonie,Zone 1 (City),166161,196069,1.9,103194.2,352924,196069,20.0
+D,Grant Road / Malabar Hill,Zone 1 (City),346866,409301,8.0,51162.6,736741,409301,20.0
+E,Byculla,Zone 1 (City),393286,464077,7.4,62713.1,835338,464077,20.0
+F/S,Parel / Sewri,Zone 2 (City),360972,425946,14.0,30424.7,468540,425946,20.0
+F/N,Matunga / Wadala / Sion,Zone 2 (City),529003,624223,13.0,48017.2,686645,624223,45.0
+G/S,Worli / Prabhadevi,Zone 2 (City),377749,445743,10.0,44574.3,490317,445743,20.0
+G/N,Dadar / Mahim / Dharavi,Zone 2 (City),599039,706866,9.1,77677.6,777552,706866,65.0
+H/E,Khar East / Santacruz East,Zone 3 (Western),557239,657542,13.5,48706.8,723296,657542,65.0
+H/W,Bandra West / Khar West,Zone 3 (Western),307581,362945,11.6,31288.4,399239,362945,20.0
+K/E,Andheri East / Vile Parle E,Zone 3 (Western),823885,972184,24.8,39201.0,1069402,972184,45.0
+K/W,Andheri West / Juhu / Versova,Zone 4 (Western),749345,884227,23.4,37787.5,972649,884227,20.0
+P/S,Goregaon,Zone 4 (Western),460175,543006,24.4,22254.3,597306,543006,20.0
+P/N,Malad / Marve / Madh,Zone 4 (Western),941366,1110811,46.7,23786.1,944189,1110811,45.0
+R/S,Kandivali / Charkop,Zone 4 (Western),691229,815650,17.8,45823.0,897215,815650,20.0
+R/C,Borivali / Gorai,Zone 7 (Western),562162,663351,50.0,13267.0,563848,663351,20.0
+R/N,Dahisar,Zone 7 (Western),431368,509014,18.0,28278.6,432661,509014,20.0
+L,Kurla / Chunabhatti / Sakinaka,Zone 5 (Eastern),902225,1064625,15.9,66957.5,1171087,1064625,65.0
+M/E,Govandi / Mankhurd / Deonar,Zone 5 (Eastern),807720,953109,32.5,29326.4,1048419,953109,65.0
+M/W,Chembur / Tilak Nagar,Zone 5 (Eastern),411893,486033,19.5,24924.8,534636,486033,20.0
+N,Ghatkopar / Vidyavihar,Zone 6 (Eastern),622997,735136,25.8,28493.6,808649,735136,20.0
+S,Bhandup / Powai / Vikhroli,Zone 6 (Eastern),743783,877663,64.0,13713.5,965429,877663,20.0
+T,Mulund,Zone 6 (Eastern),341463,402926,45.4,8875.0,342487,402926,20.0

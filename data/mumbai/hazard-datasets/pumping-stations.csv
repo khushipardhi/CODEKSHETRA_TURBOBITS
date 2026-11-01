@@ -1,0 +1,9 @@
+stn_id,name,location,ward,lat,lon,pumps_count,capacity_cumecs,capacity_litres_sec,outfall_waterbody,commissioned_year,invert_level_thd_m
+PUMP01,Britannia Stormwater Pumping Station,Reay Road / Dockyard,E,18.9682,72.8485,6,36.0,36000,Thane Creek / Harbour,2016,24.5
+PUMP02,Cleveland Bunder Pumping Station,Worli Dairy,G/S,19.0145,72.818,7,36.0,36000,Arabian Sea,2015,23.8
+PUMP03,Lovegrove Pumping Station,Worli Nullah Outfall,G/S,19.0025,72.816,8,45.0,45000,Arabian Sea,2014,24.0
+PUMP04,Haji Ali Pumping Station,Haji Ali Bay,D,18.9785,72.812,6,30.0,30000,Arabian Sea,2008,24.2
+PUMP05,Irla Pumping Station,Juhu / JVPD Scheme,K/W,19.108,72.825,5,24.0,24000,Arabian Sea via Juhu Beach,2010,25.1
+PUMP06,Gazdarband Pumping Station,Khar Danda,H/W,19.0745,72.824,6,36.0,36000,Arabian Sea,2019,24.8
+PUMP07,Mogra Pumping Station,Andheri West,K/W,19.132,72.828,5,24.0,24000,Malad Creek,2023,25.5
+PUMP08,Mahul Pumping Station,Mahul Creek,M/E,19.015,72.905,6,30.0,30000,Thane Creek,2024,24.2

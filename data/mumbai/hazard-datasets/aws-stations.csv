@@ -1,0 +1,61 @@
+station_id,name,ward,lat,lon,elevation_m,type
+BMC_AWS_01,Andheri Fire Station,K/W,19.1197,72.8464,12.0,Optical Disdrometer + Rain Gauge
+BMC_AWS_02,B Ward Office,B,18.9546,72.8379,5.0,Tipping Bucket
+BMC_AWS_03,Bandra Fire Station,H/W,19.0544,72.8402,8.0,Tipping Bucket
+BMC_AWS_04,Bhandup Complex,S,19.1523,72.9254,32.0,Tipping Bucket
+BMC_AWS_05,BKC Fire Station,H/E,19.0664,72.8647,6.5,Tipping Bucket
+BMC_AWS_06,Borivali Fire Station,R/C,19.2295,72.8573,14.0,Tipping Bucket
+BMC_AWS_07,Britannia Storm Water Pumping Stn,E,18.9682,72.8485,3.2,Pumping Stn AWS
+BMC_AWS_08,Building Proposal Office Vikhroli,S,19.1112,72.9281,18.0,Tipping Bucket
+BMC_AWS_09,Byculla Fire Station (HQ),E,18.9733,72.8315,7.5,Full Automatic Weather Stn
+BMC_AWS_10,C Ward Office,C,18.9482,72.8285,6.0,Tipping Bucket
+BMC_AWS_11,Chembur Fire Station,M/W,19.0621,72.8985,11.0,Tipping Bucket
+BMC_AWS_12,City Institute DM - Parel,F/S,18.995,72.842,8.0,Full Automatic Weather Stn
+BMC_AWS_13,Chincholi Fire Station,P/N,19.1782,72.8431,10.0,Tipping Bucket
+BMC_AWS_14,Colaba Fire Station,A,18.9152,72.8258,4.5,Tipping Bucket
+BMC_AWS_15,Colaba Pumping Station,A,18.905,72.815,3.0,Pumping Stn AWS
+BMC_AWS_16,Cooper Hospital,K/W,19.1085,72.8361,9.0,Tipping Bucket
+BMC_AWS_17,D Ward Office (Nana Chowk),D,18.9615,72.8124,12.0,Tipping Bucket
+BMC_AWS_18,Dadar Fire Station,G/N,19.0182,72.8435,7.0,Tipping Bucket
+BMC_AWS_19,Dahisar Fire Station,R/N,19.2575,72.8592,15.0,Tipping Bucket
+BMC_AWS_20,Dharavi Fire Station,G/N,19.041,72.852,4.0,Tipping Bucket
+BMC_AWS_21,Dindoshi Fire Station,P/S,19.1725,72.8685,22.0,Tipping Bucket
+BMC_AWS_22,F North Ward Office (Matunga),F/N,19.0285,72.856,6.0,Tipping Bucket
+BMC_AWS_23,F South Ward Office (Parel),F/S,18.9985,72.8395,8.0,Tipping Bucket
+BMC_AWS_24,Frosberry Reserviour,E,18.965,72.838,25.0,Tipping Bucket
+BMC_AWS_25,G South Ward Office (Elphinstone),G/S,19.0065,72.831,6.0,Tipping Bucket
+BMC_AWS_26,Gawanpada Fire Station,T,19.1685,72.952,16.0,Tipping Bucket
+BMC_AWS_27,Grant Road Eye Hospital,D,18.962,72.818,9.0,Tipping Bucket
+BMC_AWS_28,H West Ward Office (Bandra),H/W,19.058,72.833,8.0,Tipping Bucket
+BMC_AWS_29,Haji Ali Pumping Station,D,18.9785,72.812,2.8,Pumping Stn AWS
+BMC_AWS_30,HBT Trauma Hospital (Jogeshwari),K/E,19.138,72.856,18.0,Tipping Bucket
+BMC_AWS_31,K East Ward Office (Andheri E),K/E,19.114,72.869,15.0,Tipping Bucket
+BMC_AWS_32,K West Ward Office (Andheri W),K/W,19.124,72.836,10.0,Tipping Bucket
+BMC_AWS_33,Kandivali Fire Station,R/S,19.205,72.852,12.0,Tipping Bucket
+BMC_AWS_34,Kandivali Workshop,R/S,19.212,72.845,11.0,Tipping Bucket
+BMC_AWS_35,Kurla Fire Station,L,19.068,72.879,5.0,Tipping Bucket
+BMC_AWS_36,L Ward Office (Kurla),L,19.072,72.885,6.0,Tipping Bucket
+BMC_AWS_37,M East Ward Office (Govandi),M/E,19.056,72.915,8.0,Tipping Bucket
+BMC_AWS_38,M West Ward Office (Chembur),M/W,19.061,72.895,10.0,Tipping Bucket
+BMC_AWS_39,Malabar Hill Reservoir,D,18.955,72.805,48.0,Tipping Bucket
+BMC_AWS_40,Malwani Fire Station,P/N,19.192,72.818,4.0,Tipping Bucket
+BMC_AWS_41,Mandavi Fire Station,B,18.951,72.842,5.0,Tipping Bucket
+BMC_AWS_42,Marol Fire Station,K/E,19.122,72.882,25.0,Tipping Bucket
+BMC_AWS_43,Memonwada Fire Station,C,18.952,72.832,6.0,Tipping Bucket
+BMC_AWS_44,Mulund Fire Station,T,19.174,72.955,15.0,Tipping Bucket
+BMC_AWS_45,Municipal Head Office (CST),A,18.941,72.835,7.0,Full Automatic Weather Stn
+BMC_AWS_46,N Ward Office (Ghatkopar),N,19.088,72.91,12.0,Tipping Bucket
+BMC_AWS_47,Nair Hospital,E,18.972,72.822,8.0,Tipping Bucket
+BMC_AWS_48,Nariman Point Fire Station,A,18.926,72.822,3.5,Tipping Bucket
+BMC_AWS_49,P North Ward Office (Malad),P/N,19.185,72.848,10.0,Tipping Bucket
+BMC_AWS_50,P South Ward Office (Goregaon),P/S,19.162,72.848,12.0,Tipping Bucket
+BMC_AWS_51,Prabodhankar Thackeray Natya Mandir,R/C,19.232,72.852,14.0,Tipping Bucket
+BMC_AWS_52,Rawali Camp Fire Station,F/N,19.035,72.865,5.0,Tipping Bucket
+BMC_AWS_53,S Ward Office (Bhandup),S,19.145,72.935,16.0,Tipping Bucket
+BMC_AWS_54,SWM Santacruz Workshop,H/E,19.082,72.845,8.0,Tipping Bucket
+BMC_AWS_55,SWD Workshop Dadar,G/N,19.022,72.841,7.0,Tipping Bucket
+BMC_AWS_56,Versova Pumping Station,K/W,19.135,72.818,2.5,Pumping Stn AWS
+BMC_AWS_57,Vikhroli Fire Station,S,19.108,72.925,14.0,Tipping Bucket
+BMC_AWS_58,Vile Parle Fire Station,K/E,19.098,72.845,12.0,Tipping Bucket
+BMC_AWS_59,Wadala Fire Station,F/N,19.022,72.862,5.5,Tipping Bucket
+BMC_AWS_60,Worli Fire Station,G/S,19.012,72.822,4.5,Full Automatic Weather Stn
