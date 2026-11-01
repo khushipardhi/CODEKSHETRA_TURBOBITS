@@ -491,11 +491,18 @@ export function SimulationReportStudio() {
       const res = await fetch(
         `/api/admin/reports/simulation-pdf?dossierId=${encodeURIComponent(dossier.dossierId)}&ward=${encodeURIComponent(selectedWardId)}&scope=${encodeURIComponent(reportScope)}`
       );
-      if (!res.ok) {
+      const contentType = res.headers.get("content-type") || "";
+
+      if (!res.ok || !contentType.includes("application/pdf")) {
         const errJson = await res.json().catch(() => ({}));
         throw new Error(errJson.error || `HTTP ${res.status}: Failed to generate simulation PDF`);
       }
+
       const blob = await res.blob();
+      if (blob.size < 400) {
+        throw new Error("Generated PDF file is empty or corrupted");
+      }
+
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
@@ -516,9 +523,12 @@ export function SimulationReportStudio() {
   };
 
   const handlePrint = () => {
-    if (typeof window !== "undefined") {
-      window.print();
-    }
+    if (!dossier) return;
+    // Open dedicated publication-grade HTML print preview with auto-print
+    window.open(
+      `/api/admin/reports/simulation-pdf?dossierId=${encodeURIComponent(dossier.dossierId)}&ward=${encodeURIComponent(selectedWardId)}&scope=${encodeURIComponent(reportScope)}&format=html&print=1`,
+      "_blank"
+    );
   };
 
   // Draft administrative advisory text
@@ -752,9 +762,20 @@ This document is a computer-assisted hydrodynamic screening advisory based on Co
 
         {/* PDF Generation Error Banner */}
         {pdfError && (
-          <div className="mt-3 p-2.5 rounded-xl border border-red-500/30 bg-red-500/10 text-red-600 dark:text-red-400 text-xs flex items-center justify-between">
+          <div className="mt-3 p-3 rounded-xl border border-red-500/30 bg-red-500/10 text-red-600 dark:text-red-400 text-xs flex flex-wrap items-center justify-between gap-2">
             <span>Failed to generate PDF: {pdfError}</span>
-            <button onClick={() => setPdfError(null)} className="font-bold hover:underline">Dismiss</button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={handlePrint}
+                className="px-2.5 py-1 rounded-lg bg-red-600 hover:bg-red-700 text-white font-bold transition-colors cursor-pointer"
+                title="Open browser print preview to Save as PDF"
+              >
+                Print / Save as PDF
+              </button>
+              <button onClick={() => setPdfError(null)} className="font-bold hover:underline cursor-pointer">
+                Dismiss
+              </button>
+            </div>
           </div>
         )}
 

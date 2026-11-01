@@ -127,7 +127,7 @@ export function SimulationDossierPanel({
   }, [simOutput.activeScenarioId]);
 
   // Handle export download
-  const handleExport = (format: "markdown" | "csv" | "json") => {
+  const handleExport = async (format: "markdown" | "csv" | "json" | "pdf") => {
     if (!dossier) return;
     setExportFormatOpen(false);
 
@@ -141,6 +141,38 @@ export function SimulationDossierPanel({
       a.download = `${dossier.dossierId}.json`;
       a.click();
       URL.revokeObjectURL(url);
+      return;
+    }
+
+    if (format === "pdf") {
+      try {
+        const res = await fetch(
+          `/api/admin/reports/simulation-pdf?dossierId=${encodeURIComponent(dossier.dossierId)}`
+        );
+        const contentType = res.headers.get("content-type") || "";
+        if (!res.ok || !contentType.includes("application/pdf")) {
+          // Fallback to print preview
+          window.open(
+            `/api/admin/reports/simulation-pdf?dossierId=${encodeURIComponent(dossier.dossierId)}&format=html&print=1`,
+            "_blank"
+          );
+          return;
+        }
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${dossier.dossierId}.pdf`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      } catch {
+        window.open(
+          `/api/admin/reports/simulation-pdf?dossierId=${encodeURIComponent(dossier.dossierId)}&format=html&print=1`,
+          "_blank"
+        );
+      }
       return;
     }
 
@@ -197,6 +229,13 @@ export function SimulationDossierPanel({
 
               {exportFormatOpen && (
                 <div className="absolute right-0 mt-1 w-44 rounded-xl border border-divider bg-surface shadow-xl py-1 z-30 text-xs">
+                  <button
+                    onClick={() => handleExport("pdf")}
+                    className="w-full px-3 py-2 text-left hover:bg-surface-elevated flex items-center justify-between font-semibold text-blue-500"
+                  >
+                    <span>Municipal PDF</span>
+                    <span className="text-[10px] font-mono text-blue-400">.pdf</span>
+                  </button>
                   <button
                     onClick={() => handleExport("markdown")}
                     className="w-full px-3 py-2 text-left hover:bg-surface-elevated flex items-center justify-between"

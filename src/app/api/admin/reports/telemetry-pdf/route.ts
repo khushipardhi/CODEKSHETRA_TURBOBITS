@@ -46,7 +46,14 @@ export async function GET(req: NextRequest) {
     // Generate publication-grade HTML
     const html = generateTelemetryReportHtml(reportDoc);
     if (searchParams.get("format") === "html") {
-      return new NextResponse(html, {
+      let finalHtml = html;
+      if (searchParams.get("print") === "1") {
+        finalHtml = html.replace(
+          "</body>",
+          `<script>window.addEventListener('DOMContentLoaded', function() { setTimeout(function() { window.print(); }, 400); });</script></body>`
+        );
+      }
+      return new NextResponse(finalHtml, {
         headers: { "Content-Type": "text/html; charset=utf-8" },
       });
     }
